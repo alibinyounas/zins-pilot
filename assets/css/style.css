@@ -736,11 +736,13 @@ section.open-account-sec {
   font-family: lato-m;
   margin-top: 30px;
 }
-.table_dt{
+
+.table_dt {
   background-color: #fff;
   padding: 40px;
   border-radius: 20px;
 }
+
 .centered-btn a button {
   width: 209px;
   height: 45px;
@@ -1609,13 +1611,16 @@ h1.ce-headline-center {
   width: 4px;
   background: #039244;
 }
-.ce-bank{
+
+.ce-bank {
   border-radius: 20px;
 }
-.ce-bank img{
-   border-top-right-radius: 20px;
-   border-top-left-radius: 20px;
+
+.ce-bank img {
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
 }
+
 @media only screen and (min-width: 1170px) {
   #cd-timeline {
     margin-top: 3em;
@@ -1958,7 +1963,7 @@ iframe {
 .tool-bar-items a button {
   background: transparent;
   padding: 10px;
-  color: #039244;
+  color: #5bcd3e;
   border-radius: 10px;
   border: none;
 }
@@ -1969,13 +1974,13 @@ iframe {
 }
 
 .tool-bar-items a button:hover {
-  background-color: #039244;
+  background-color: #5bcd3e;
   color: white;
   transition: background-color 0.2s ease;
 }
 
 .tool-bar-items a button.active {
-  background-color: #039244;
+  background-color: #5bcd3e;
   color: white;
   transition: background-color 0.2s ease;
 }

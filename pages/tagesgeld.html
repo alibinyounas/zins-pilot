@@ -2,173 +2,215 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-  <link rel="icon" href="../assets/images/favicon.ico">
-  <title>WOLSKE ZINS</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/brands.min.css" />
-  <link rel="stylesheet" href="../assets/bootstrap.min.css" />
-  <link rel="stylesheet" href="../assets/style.css" />
-  <link rel="stylesheet" href="../assets/responsive.css">
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <title>Tagesgeld</title>
+  <link rel="stylesheet" href="../assets/css/merged-table.css">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="stylesheet" href="../assets//cssresponsive.css">
   <style>
-    .about_us_card>.about_us_card_main>p {
-      border-radius: 20px 0px 20px 20px;
-      width: 100%;
-      font-size: 15px;
-      line-height: 23px;
+    body {
+      padding: 0;
     }
 
-    .about_us_card_main>h4 {
-      margin-bottom: 43px;
-      font-size: 43px;
-      line-height: 54px;
-      font-family: DMSans-bold;
+    video {
+      border-radius: 20px;
+    }
+
+    .frame-space-before-extra-large {
+      margin-top: 0;
+    }
+
+    .ft_privacy_content {
+      width: 90%;
+      /* height: 100%; */
+      background: #fff;
+      box-shadow: 0px 0px 32px #0000001a;
+      padding: 80px;
+      border-radius: 30px;
+      text-align: justify;
+      margin-bottom: 40px;
+    }
+
+    .ft_privacy_content h1 {
+      font-size: 30px;
+      /* font-family: "Lato-Bold";*/
+      font-weight: bold;
+      line-height: 1.3;
+      color: #00223e;
+      padding-bottom: 10px;
+    }
+
+    .ft_privacy_content h6 {
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .ft_privacy_content h5 {
+      font-size: 20px;
+    }
+
+    p span {
+      font-size: 16px;
     }
 
     .banner {
-      margin-bottom: 100px;
       height: 400px;
+      margin-bottom: 100px;
     }
 
-    .table-bordered {
-      border: 2px solid #039244;
+    .open-account {
+      width: 100%;
+      background: #fcfcfc;
     }
 
-    .table-bordered thead {
-      background-color: #039244;
-      color: white;
-      padding: 10px;
+    .open-account h1,
+    .open-account p {
+      color: var(--theme-color);
     }
 
-    td,
-    th {
-      padding: 1rem !important;
-    }
-
-    .heading-text {
-      font-size: 22px;
-    }
-
-    .link-text:hover {
-      color: #039244;
-    }
-
-    .link-text {
-      color: black;
-    }
-
-    .fa_button {
-      background-color: #039244 !important;
+    .open-account input {
+      border: 1px solid #005091 !important;
     }
   </style>
 </head>
 
 <body>
   <!-- SIDE MENU -->
+  <div class="animationload" style="display: none;">
+    <div class="loader" style="display: none;"></div>
+  </div>
   <div class="sidebar-backdrop"></div>
   <div class="sidebar-menu">
     <div class="d-flex justify-content-between align-items-center head">
       <a href="../index.html" style="color: #404040;">
-        <img src="../assets/images/logo.png" alt="">
+        <img src="../assets/images/logo_zinspilot_new.svg" alt="">
       </a>
       <img class="sidebar-close" src="../assets/images/close-dark.svg" alt="x" width="18px">
     </div>
     <div class="body">
       <div class="side_bar_main">
         <ul class="list-unstyled">
-          <li><a href="../index.html" class="sidebar-links">STARTSEITE</a></li>
-          <li class="sb_submenu"><a href="javascript:void(0);" class="sidebar-links sidebar_menu">ÜBER UNS<i
+          <li><a href="../index.html" class="sidebar-links">Startseite</a></li>
+          <li class="sb_submenu"><a href="javascript:void(0);" class="sidebar-links sidebar_menu">Anlageangebote<i
                 class="fas fa-angle-down"></i></a></li>
           <div class="sidebar_dropdown_1">
             <div class="side_bar_dropdown">
-              <a href="aboutUs.html">Unser Unternehmen</a>
+              <a href="../pages/aboutUs.html">Festgeld</a>
+              <a href="../pages/aboutUs.html">Tagesgeld</a>
             </div>
           </div>
-          <li class="sb_submenu"><a href="javascript:void(0);" class="sidebar-links sidebar_menu_1">FESTGELD
+          <li><a href="../index.html" class="sidebar-links">Banken</a></li>
+          <li><a href="../index.html" class="sidebar-links">So funktioniert's</a></li>
+          <li class="sb_submenu"><a href="javascript:void(0);" class="sidebar-links sidebar_menu_1">Informationen
               <i class="fas fa-angle-down"></i></a></li>
           <div class="sidebar_dropdown_2">
             <div class="side_bar_dropdown">
-              <a href="festgeld.html">Festgeld</a>
-              <a href="tagesgeld.html">Tagesgeld</a>
-              <a href="top-festzinsanlagen.html">Top Festzinsanlagen</a>
+              <a href="../pages/festgeld.html">Aktuelle Produktinfos</a>
+              <a href="../pages/tagesgeld.html">Zinserhöhungen</a>
+              <a href="../pages/top-festzinsanlagen.html">Häufige Fragen</a>
+              <a href="../pages/top-festzinsanlagen.html">Steuern</a>
+              <a href="../pages/top-festzinsanlagen.html">Steuerbescheinigung</a>
+              <a href="../pages/top-festzinsanlagen.html">Anlagevoraussetzung</a>
+              <a href="../pages/top-festzinsanlagen.html">Länderrating</a>
+              <a href="../pages/top-festzinsanlagen.html">Formularcenter</a>
             </div>
           </div>
-          <li class="sb_submenu"><a href="javascript:void(0);" class="sidebar-links sidebar_menu_3">GELDANLAGEN <i
+          <li class="sb_submenu"><a href="javascript:void(0);" class="sidebar-links sidebar_menu_3">Finanzwissen <i
                 class="fas fa-angle-down"></i></a></li>
           <div class="sidebar_dropdown_4">
             <div class="side_bar_dropdown">
-              <a href="aktien.html">Aktien</a>
-              <a href="gold-and-silber.html">Gold & Silber</a>
-              <a href="pelletanlagen.html">Pelletanlagen</a>
-              <a href="edelmetalle.html">Edelmetalle</a>
-              <a href="immobilien.html">Immobilien</a>
+              <a href="../pages/aktien.html">Geldanlage</a>
+              <a href="../pages/gold-and-silber.html">Magazin</a>
             </div>
           </div>
-          <li><a href="sparplan.html" class="sidebar-links">SPARPLÄNE </a></li>
-          <li><a href="contact-us.html" class="sidebar-links">KONTAKT</a></li>
+          <li><a href="../pages/sparplan.html" class="sidebar-links">SPARPLÄNE </a></li>
+          <li><a href="../pages/contact-us.html" class="sidebar-links">KONTAKT</a></li>
           <!-- <a href="#"><button></button></a> -->
         </ul>
-        <!-- <a href="#" class="sidebar-links">Signup</a> -->
+        <div class="side-bar-btns">
+          <a href="#" class="sidebar-links"><button>Login</button></a>
+          <a href="#" class="sidebar-links"><button>Registrieren</button></a>
+        </div>
       </div>
     </div>
   </div>
   <!-- /SIDE MENU -->
+
   <!-- banner start  -->
-  <div class="banner banner_1">
+  <div class="banner">
     <div class="theme-container">
       <nav>
-        <a href="../index.html"><img src="../assets/images/logo.png" alt="" /></a>
+        <a href="../index.html"><img src="../assets/images/logo_zinspilot_new.svg" alt="" /></a>
         <div class="menu">
           <img src="../assets/images/menu.svg" alt="MENU" id="nav_toggle">
         </div>
         <div class="links">
-          <a href="../index.html" class="link">STARTSEITE </a>
+          <a href="../../index.html" class="link active">Startseite</a>
           <div class="about_us_link">
-            <a href="javascript:void(0);" class="link">ÜBER UNS </a>
+            <a href="javascript:void(0);" class="link">Anlageangebote</a>
             <div class="drop_down">
-              <a href="aboutUs.html">
-                <p>Unser Unternehmen</p>
-              </a>
-            </div>
-          </div>
-          <div class="about_us_link">
-            <a href="#" class="link active">FESTGELD </a>
-            <div class="drop_down">
-              <a href="festgeld.html">
+              <a href="../pages/aboutUs.html">
                 <p>Festgeld</p>
               </a>
-              <a href="tagesgeld.html">
+              <a href="../pages/aboutUs.html">
                 <p>Tagesgeld</p>
-              </a>
-              <a href="top-festzinsanlagen.html">
-                <p>Top Festzinsanlagen</p>
               </a>
             </div>
           </div>
           <div class="about_us_link">
-            <a href="javascript:void(0);" class="link">GELDANLAGEN </a>
+            <a href="javascript:void(0);" class="link">Banken </a>
+          </div>
+          <div class="about_us_link">
+            <a href="javascript:void(0);" class="link">So funktioniert's </a>
+          </div>
+          <div class="about_us_link">
+            <a href="javascript:void(0);" class="link">Informationen</a>
             <div class="drop_down">
-              <a href="aktien.html">
-                <p>Aktien</p>
+              <a href="../pages/festgeld.html">
+                <p>Aktuelle Produktinfos</p>
               </a>
-              <a href="gold-and-silber.html">
-                <p>Gold & Silber</p>
+              <a href="../pages/festgeld.html">
+                <p>Zinserhöhungen</p>
               </a>
-              <a href="pelletanlagen.html">
-                <p>Pelletanlagen</p>
+              <a href="../pages/festgeld.html">
+                <p>Häufige Fragen</p>
               </a>
-              <a href="edelmetalle.html">
-                <p>Edelmetalle</p>
+              <a href="../pages/festgeld.html">
+                <p>Steuern</p>
               </a>
-              <a href="immobilien.html">
-                <p>Immobilien</p>
+              <a href="../pages/festgeld.html">
+                <p>Steuerbescheinigung</p>
+              </a>
+              <a href="../pages/tagesgeld.html">
+                <p>Anlagevoraussetzung</p>
+              </a>
+              <a href="../pages/top-festzinsanlagen.html">
+                <p>Länderrating</p>
+              </a>
+              <a href="../pages/top-festzinsanlagen.html">
+                <p>Formularcenter</p>
               </a>
             </div>
           </div>
-          <a href="sparplan.html" class="link">SPARPLÄNE</a>
-          <a href="contact-us.html" class="link">KONTAKT</a>
+          <div class="about_us_link">
+            <a href="javascript:void(0);" class="link">Finanzwissen</a>
+            <div class="drop_down">
+              <a href="../pages/festgeld.html">
+                <p>Geldanlage</p>
+              </a>
+              <a href="../pages/festgeld.html">
+                <p>Magazin</p>
+              </a>
+            </div>
+          </div>
+          <div class="header-btns">
+            <a href=""><button class="login-btn">Login</button></a>
+            <a href=""><button class="register-btn">Registrieren</button></a>
+          </div>
         </div>
       </nav>
       <div class="banner_heading">
@@ -177,29 +219,8 @@
         </h2>
       </div>
     </div>
-    <img src="../assets/images/banner_vecter.svg" alt="vector" class="banner-vector img-fluid" />
   </div>
   <!-- banner end  -->
-  <div class="theme-container my-5">
-    <div class="row justify-content-center">
-      <div class="tool-bar-main">
-        <div class="tool-bar my-3">
-          <div class="tool-bar-item">
-            <div class="tool-bar-items">
-              <a href="festgeld.html"><button>Festgeld</button> </a>
-              <a href="tagesgeld.html"><button class="active">Tagesgeld</button> </a>
-              <a href="top-festzinsanlagen.html"><button>Top Festzinsanlagen</button> </a>
-              <a href="immobilien.html"><button>Immobilien</button> </a>
-              <a href="aktien.html"><button>Aktien</button> </a>
-              <a href="gold-and-silber.html"><button>Gold & Silber</button> </a>
-              <a href="edelmetalle.html"><button>Edelmetalle</button> </a>
-              <a href="pelletanlagen.html"><button>Pelletanlagen</button> </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
   <!-- saving start  -->
   <section class="about_us">
     <!-- <div class="theme-container"> -->
@@ -208,448 +229,1144 @@
         <img style="
               position: absolute;
               top: 24%;
-              left: -8%;
+              width: 55%;
+              left: -7%;
               margin-top: 24px;
-              width: 60%;
-              border-radius: 10px;
-              height: 380px;" src="../assets/images/coins.jpg" alt="" />
+              border-radius: 20px;
+            " src="../assets/images/service-tested.png" alt="" />
         <div class="about_us_card_main">
           <h5>Tagesgeld</h5>
         </div>
         <div class="about_us_card_main">
-          <h4>Die Top-Tagesgeldkonten im Überblick</h4>
+          <h4>Tagesgeld-Vergleich mit <br> bis zu 0,27 % Zinsen</h4>
           <p>
-            Tagesgeld-Rechner mit sofortiger Ergebnisanzeige und
-            Online-Antrag. Geben Sie einfach Ihren gewünschten Anlagebetrag
-            ein und wählen eine gewünschte Anlagedauer aus. Dann noch ein
-            Klick und Sie erhalten die besten Tagesgeld Angebote.
+            ✔ Mit nur einem Konto Tagesgeld bei verschiedenen Banken anlegen
+            <br><br>
+            ✔ Keine Gebühren für die Kontoeröffnung und Kontoführung
+            <br><br>
+            ✔ Tagesgeld bis 100.000 Euro abgesichert durch gesetzliche Einlagensicherung
+            <br><br>
+            ✔ Mit Video-Ident einfach und bequem online legitimieren
           </p>
-          <div class="pdf d-flex justify-content-between">
-            <span>
-              <a href="../assets/pdf/broschuere.pdf">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
-                  <path
-                    d="M88 304H80V256H88C101.3 256 112 266.7 112 280C112 293.3 101.3 304 88 304zM192 256H200C208.8 256 216 263.2 216 272V336C216 344.8 208.8 352 200 352H192V256zM224 0V128C224 145.7 238.3 160 256 160H384V448C384 483.3 355.3 512 320 512H64C28.65 512 0 483.3 0 448V64C0 28.65 28.65 0 64 0H224zM64 224C55.16 224 48 231.2 48 240V368C48 376.8 55.16 384 64 384C72.84 384 80 376.8 80 368V336H88C118.9 336 144 310.9 144 280C144 249.1 118.9 224 88 224H64zM160 368C160 376.8 167.2 384 176 384H200C226.5 384 248 362.5 248 336V272C248 245.5 226.5 224 200 224H176C167.2 224 160 231.2 160 240V368zM288 224C279.2 224 272 231.2 272 240V368C272 376.8 279.2 384 288 384C296.8 384 304 376.8 304 368V320H336C344.8 320 352 312.8 352 304C352 295.2 344.8 288 336 288H304V256H336C344.8 256 352 248.8 352 240C352 231.2 344.8 224 336 224H288zM256 0L384 128H256V0z" />
-                </svg>
-                <span>Broschuere</span>
-              </a>
-            </span>
-            <span>
-              <a href="./../assets/pdf/freistellungsauftrag-kapitalertraege.pdf">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
-                  <path
-                    d="M88 304H80V256H88C101.3 256 112 266.7 112 280C112 293.3 101.3 304 88 304zM192 256H200C208.8 256 216 263.2 216 272V336C216 344.8 208.8 352 200 352H192V256zM224 0V128C224 145.7 238.3 160 256 160H384V448C384 483.3 355.3 512 320 512H64C28.65 512 0 483.3 0 448V64C0 28.65 28.65 0 64 0H224zM64 224C55.16 224 48 231.2 48 240V368C48 376.8 55.16 384 64 384C72.84 384 80 376.8 80 368V336H88C118.9 336 144 310.9 144 280C144 249.1 118.9 224 88 224H64zM160 368C160 376.8 167.2 384 176 384H200C226.5 384 248 362.5 248 336V272C248 245.5 226.5 224 200 224H176C167.2 224 160 231.2 160 240V368zM288 224C279.2 224 272 231.2 272 240V368C272 376.8 279.2 384 288 384C296.8 384 304 376.8 304 368V320H336C344.8 320 352 312.8 352 304C352 295.2 344.8 288 336 288H304V256H336C344.8 256 352 248.8 352 240C352 231.2 344.8 224 336 224H288zM256 0L384 128H256V0z" />
-                </svg>
-                <span>Freistellungsauftrag</span>
-              </a>
-            </span>
-          </div>
         </div>
       </div>
     </div>
     <!-- </div> -->
   </section>
   <!-- saving end -->
-  <div class="theme-container mb-5 mt-0 mt-lg-5 mt-xl-5">
-    <div class="row justify-content-center">
-      <div
-        class="fee-adv-text col-11 d-flex justify-content-between flex-column px-0 px-lg-0 px-sm-3 px-xl-0 col-md-12 col-lg-12 col-sm-11 col-xl-10">
-        <iframe class="my-5" src="https://tools.financeads.net/tagesgeldrechner.php?h=1&amp;wf=28900&amp;width=650"
-          scrolling="no" width="100%" height="1200" style="padding: 0px; margin: 0px; border-width: 0px"
-          frameborder="0"></iframe>
-      </div>
-    </div>
-  </div>
+
   <div class="theme-container">
-    <div class="row justify-content-center">
-      <div class="col-12 col-xl-10 col-md-12 mb-4 px-0 px-lg-3 px-xl-3">
-        <h3 class="heading-text mb-3">_1Festzinsanlagen das optimale Fundament für Ihren
-          Vermögensaufbau. Sie entscheiden, ob Sie Ihre Zinsauszahlungen
-          monatlich, vierteljährlich, jährlich oder endfällig erhalten
-          möchten.
-          </p>
+    <div id="c21619" class="frame frame-0 frame-type-list frame-space-before-medium table_dt">
+      <div class="center-heading text-center pt-0 pb-5">
+        <h1>Tagesgeld-Vergleich mit <br> bis zu 0,27 % Zinsen</h1>
       </div>
-      <div class="col-12 col-xl-10 col-md-12 festzinsanlage px-0 px-lg-3 px-xl-3">
-        <table class="table table-bordered table-striped">
-          <thead>
-            <tr>
-              <th>Festzinsanlage</th>
-              <th data-th="Driver details"><span>Top 1 </span></th>
-              <th>Top 2</th>
-              <th>Top 3</th>
-              <th>Top 4</th>
-              <th>Top Rendite</th>
-            </tr>
-          </thead>
-          <tr>
-            <td>Zinsen, jährlich</td>
-            <td>1,25 % – 2,50 %</td>
-            <td>3,00 % - 4,00 %</td>
-            <td>4,10 % bis 5,0 %</td>
-            <td>3,5 % – 4,0 %</td>
-            <td>4,0% - 5,0%</td>
-          </tr>
-
-          <tr>
-            <td>Anlagesumme ab</td>
-            <td>10.000,00 €</td>
-            <td>25.000,00 €</td>
-            <td>50.000,00 €</td>
-            <td>100.000,00 €</td>
-            <td>20.000,00 €</td>
-          </tr>
-
-          <tr>
-            <td>Laufzeit</td>
-            <td>ab 12 Monate</td>
-            <td>ab 2 Jahre</td>
-            <td>ab 2 Jahre</td>
-            <td>ab 2 Jahre</td>
-            <td>ab 12 Monate</td>
-          </tr>
-
-          <tr>
-            <td>Zinszahlung</td>
-            <td>nach Wunsch</td>
-            <td>nach Wunsch</td>
-            <td>nach Wunsch</td>
-            <td>nach Wunsch</td>
-            <td>endfällig</td>
-          </tr>
-
-          <tr>
-            <td>Sparplan möglich</td>
-            <td>nein</td>
-            <td>ab 200 €</td>
-            <td>nein</td>
-            <td>ab 100 €</td>
-            <td>nein</td>
-          </tr>
-
-          <tr>
-            <td>Besonderheiten</td>
-            <td>
-              Anbieter mit AAA Rating – über 45.000 zufriedene Anleger
-              Namhafter Anbieter mit über 30 Jahren Erfahrung
-            </td>
-            <td>
-              Bank- und Depotfähig Jederzeit verfügbar Vierteljährliche
-              Ausschüttung plus Kapitalzuwachs
-            </td>
-            <td>
-              100% besicherte Festzinsanlage Nachhaltig und ökologisch Anlage
-              direkt beim Anbieter
-            </td>
-            <td>
-              Durch Weltbank (IFC) gefördert 3,4 Mrd. verwaltetes Vermögen
-              Testierte Leistungsbilanz
-            </td>
-            <td>
-              Exklusive Rendite Chance Keine Kosten Deutscher Anbieter Keine
-              Festzinsanlage
-            </td>
-          </tr>
-
-          <tr>
-            <td>Sicherheit</td>
-            <td>
-              <img src="https://geldanlagen-kapitalanlagen.de/wp-content/uploads/2017/12/4-stars.png" />
-            </td>
-            <td>
-              <img src="https://geldanlagen-kapitalanlagen.de/wp-content/uploads/2017/12/4-stars.png" />
-            </td>
-            <td>
-              <img src="https://geldanlagen-kapitalanlagen.de/wp-content/uploads/2017/12/5-stars.png" />
-            </td>
-            <td>
-              <img src="https://geldanlagen-kapitalanlagen.de/wp-content/uploads/2017/12/4-stars.png" />
-            </td>
-            <td>
-              <img src="https://geldanlagen-kapitalanlagen.de/wp-content/uploads/2017/12/3-stars.png" />
-            </td>
-          </tr>
-
-          <tr>
-            <td>Verfügbarkeit</td>
-            <td>
-              <img src="https://geldanlagen-kapitalanlagen.de/wp-content/uploads/2017/12/5-stars.png" />
-            </td>
-            <td>
-              <img src="https://geldanlagen-kapitalanlagen.de/wp-content/uploads/2017/12/5-stars.png" />
-            </td>
-            <td>
-              <img src="https://geldanlagen-kapitalanlagen.de/wp-content/uploads/2017/12/4-stars.png" />
-            </td>
-            <td>
-              <img src="https://geldanlagen-kapitalanlagen.de/wp-content/uploads/2017/12/3-stars.png" />
-            </td>
-            <td>
-              <img src="https://geldanlagen-kapitalanlagen.de/wp-content/uploads/2017/12/5-stars.png" />
-            </td>
-          </tr>
-
-          <tr>
-            <td>Zins</td>
-            <td>
-              <img src="https://geldanlagen-kapitalanlagen.de/wp-content/uploads/2017/12/4-stars.png" />
-            </td>
-            <td>
-              <img src="https://geldanlagen-kapitalanlagen.de/wp-content/uploads/2017/12/3-stars.png" />
-            </td>
-            <td>
-              <img src="https://geldanlagen-kapitalanlagen.de/wp-content/uploads/2017/12/4-stars.png" />
-            </td>
-            <td>
-              <img src="https://geldanlagen-kapitalanlagen.de/wp-content/uploads/2017/12/5-stars.png" />
-            </td>
-            <td>
-              <img src="https://geldanlagen-kapitalanlagen.de/wp-content/uploads/2017/12/5-stars.png" />
-            </td>
-          </tr>
-        </table>
-        <a href="contact.html" class="link-text mb-4"
-          data-text="Fordern Sie jetzt Ihr persönliches Angebot an. Kostenlos und unverbindlich."
-          title="Fordern Sie jetzt Ihr persönliches Angebot an. Kostenlos und unverbindlich.">Fordern Sie jetzt Ihr
-          persönliches Angebot an. Kostenlos und
-          unverbindlich.</a>
-      </div>
-    </div>
-  </div>
-
-  <!-- ACCORDIONS section start  -->
-  <div class="theme-container">
-    <div class="row justify-content-center">
-      <div
-        class="col-11 px-1 px-lg-2 px-md-2 px-xl-3 mb-5 mb-lg-0 mb-xl-0 col-lg-12 col-xl-10 col-md-12 col-sm-11 px-sm-3">
-        <div class="accordion accordion-flush" id="accordionFlushExample">
-          <div class="accordion-item my-4">
-            <h2 class="accordion-header" id="flush-headingOne">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                Vorteile eines Tagesgeldkontos?
-              </button>
-            </h2>
-            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
-              data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body">
-                <p>
-                  Der offensichtliche Vorteil des Tagesgeldkontos ist die
-                  ständige Verfügbarkeit des Geldes. Kunden, die ein
-                  Tagesgeldkonto besitzen, können jeden Tag eine unbegrenzte
-                  Geldmenge von dort auf ihr Referenzkonto überweisen. Ein
-                  weiterer Vorteil ist die Online-Abwicklung. Die
-                  Einlagensicherheit; Seit 1997 greift eine Einlagesicherung,
-                  die ihr Kapital im Falle einer Insolvenz der Bank schützt.
-                  Setzen Sie sich mit Ihrer Bank in Verbindung, bis zu welcher
-                  Höhe Ihre Geldanlage staatlich abgesichert wird. Die
-                  Einlagensicherung betrifft alle Banken innerhalb der EU. Da
-                  viele Länder, wie zum Beispiel Deutschland, noch eine
-                  separate bzw. nationale Einlagesicherung bieten, ist ihr
-                  Kapital meist doppelt geschützt. Zinsausschüttung; Die
-                  Zinsausschüttung kann monatlich, quartalsweise, halbjährlich
-                  oder jährlich erfolgen. Je öfter die Zinsen ausgeschüttet
-                  werden, desto mehr profitieren Sie vom Zinseszinseffekt und
-                  desto höher fällt ihre Rendite aus. Keine Laufzeit;
-                  Tagesgeldkonten haben keine festgelegte Laufzeit und können
-                  jederzeit gekündigt werden.
-                </p>
+      <div id="c7819" class="frame frame-0 frame-type-list frame-space-before-medium   ">
+        <div class="products products-calc" data-filter="CALL">
+          <form action="index.php?type=1452982641&amp;no_cache=1" name="address" method="post" id="products-filter">
+            <input type="hidden" name="count" value="6">
+            <input type="hidden" name="amount" value="50000">
+            <input type="hidden" name="top" value="">
+            <input type="hidden" name="country" value="">
+            <div class="row my-3 product-actions">
+              <div class="col-auto mr-lg-auto mb-2 d-none d-md-flex">
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text">Betrag:&nbsp;&nbsp;</span>
+                  </div>
+                  <input type="text" value="50000" id="calc-amount" class="form-control">
+                  <div class="input-group-append">
+                    <span class="input-group-text">€</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-auto form-inline mx-lg-auto mb-2 d-none d-lg-flex">
+                <button type="button" class="btn btn-orange btn-small btn-orange-inactive" data-category=""
+                  data-amount="50000">Alle Angebote</button>&nbsp;
+                <button type="button" class="btn btn-orange btn-small" data-category="CALL"
+                  data-amount="50000">Tagesgeld</button>&nbsp;
+                <button type="button" class="btn btn-orange btn-small btn-orange-inactive" data-category="FIXED"
+                  data-amount="50000">Festgeld</button>&nbsp;
+              </div>
+              <div class="col col-md-auto ml-md-auto mb-2">
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text">Laufzeit:</span>
+                  </div>
+                  <select class="custom-select" data-amount="50000">
+                    <option value="">Alle Angebote</option>
+                    <option value="CALL" selected="">Tagesgeld</option>
+                    <option value="FIXED_1M">1 Monat</option>
+                    <option value="FIXED_3M">3 Monate</option>
+                    <option value="FIXED_6M">6 Monate</option>
+                    <option value="FIXED_9M">9 Monate</option>
+                    <option value="FIXED_1Y">12 Monate</option>
+                    <option value="FIXED_18M">18 Monate</option>
+                    <option value="FIXED_2Y">24 Monate</option>
+                    <option value="FIXED_3Y">36 Monate</option>
+                    <option value="FIXED_4Y">48 Monate</option>
+                    <option value="FIXED_5Y">60 Monate</option>
+                    <option value="FIXED_10Y">120 Monate</option>
+                  </select>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-headingTwo">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                Nachteile eines Tagesgeldkontos?
-              </button>
-            </h2>
-            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
-              data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body">
-                <p>
-                  Die Verzinsung eines Tagesgeldkontos ist sehr niedrig und
-                  aufgrund der schon seit Jahren andauernden Niedrigzinsphase
-                  liegt die Verzinsung bei den meisten Banken unter 1%. Und
-                  selbst diesen Zinssatz kann die Bank jederzeit ohne
-                  Ankündigung ändern. Trotz der viele Vorteile gibt es beim
-                  Tagesgeld auch auch Nachteile und einiges zu beachten. Die
-                  kleinen Nachteile des Tagesgeldes möchten wir Ihnen nicht
-                  vorenthalten. Variable Verzinsung; Die Verzinsung für das
-                  Tagesgeld ist grundsätzlich abhängig von dem Zinsniveau am
-                  Geldmarkt. Dies hat zur Folge, dass die Verzinsung über
-                  einen längeren Zeitraum schlechter kalkulierbar ist, da sich
-                  die Verzinsung von Tag zu Tag ändern kann. Sie können jedoch
-                  aufgrund der hohen Flexibilität von Tagesgeldkonten
-                  jederzeit zu einer anderen Bank mit höheren Zinsen wechseln.
-                  Referenzkonto; Das Tagesgeldkonto ist nicht für den
-                  allgemeinen Zahlungsverkehr geeignet, sprich Sie können
-                  keine Überweisungen oder Ein- und Auszahlungen vornehmen.
-                  Auch für die alltägliche Bargeldabhebung ist das
-                  Tagesgeldkonto nicht geeignet. Dazu benötigen Sie ein
-                  sogenanntes Referenzkonto, bei dem es sich zumeist um ihr
-                  Girokonto bei Ihrer Hausbank handelt. Maximaleinlage; Bei
-                  sehr hohen Anlagebeträgen begrenzen einige Banken den
-                  Tagesgeldzinssatz. Für den durchschnittlichen Sparer reichen
-                  diese Grenzen normalerweise vollkommen aus. Außerdem gibt es
-                  Anbieter, die Tagesgeldkonten ohne Maximaleinlagegrenzen
-                  anbieten. Zinsausschüttung; Werden die Zinsen nur jährlich
-                  ausgezahlt, fällt die Rendite meist gering aus. Man sollte
-                  also auf die Häufigkeit der Zinsausschüttung vor der
-                  Tagesgeldkontoeröffnung achten. Das Tagesgeldkonto hat sich
-                  in den letzten Jahren als flexible und etablierte Geldanlage
-                  etabliert. Um den passenden Anbieter zu finden, der Ihren
-                  individuellen Wünschen entspricht, nutzen Sie hier unseren
-                  tagesaktuellen Tagesgeld- Vergleich
-                </p>
+          </form>
+          <div class="text-center py-5 products-spinner" style="display: none;"><i
+              class="fas fa-spinner fa-pulse fa-3x text-blue"></i></div>
+          <div class="products-list">
+            <div class="product product-big  row align-items-center pt-3 pb-3 mr-0 ml-0 mb-3 " data-category="CALL">
+              <div class="product-interest col-6 col-md pb-3 pb-md-0">
+                0,27 %
+              </div>
+              <div class="product-period text-md-center col-6 col-md col-lg-3 col-xl-2">
+                Tagesgeld<span class="break">/</span>Flexgeld24
+                <label class="mb-0 d-block">Laufzeit</label>
+              </div>
+              <div class="product-bank text-md-center col-6 col-md col-lg-2">
+                <img class="img-fluid mt-2 mt-md-0" src="../assets/images/FIMB.svg" width="187" height="35"
+                  alt="FIM Bank">
+                <div class="align-items-center mx-0">
+                  <label class="mb-0">Malta</label>
+                </div>
+              </div>
+              <div class="product-period text-center col d-none d-md-block">
+                <span class="product-calc-amount" data-rate="0.27" data-duration="12">
+                  135,00
+                </span>
+                <span>€</span>
+                <div class="product-calc-note">Zinsertrag<sup>*</sup></div>
+              </div>
+              <div class="product-description col-xl-3 d-none d-xl-block">
+                <ul>
+                  <li>100.000 € Einlagensicherung</li>
+                  <li>Mindestanlage ab&nbsp;1&nbsp;€</li>
+                </ul>
+              </div>
+              <div class="product-link col-6 col-md text-md-center">
+                <a href="/banken/fim-bank/tagesgeld/" class="btn btn-orange btn-small">Weiter</a>
               </div>
             </div>
-          </div>
-          <div class="accordion-item my-4">
-            <h2 class="accordion-header" id="flush-headingThree">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                Ein Beispiel mit 150.000 Euro über 10 Jahre soll dies
-                verdeutlichen:
-              </button>
-            </h2>
-            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
-              data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body">
-                <p>
-                  Für 150.000 Euro könnten Sie heute zum Beispiel eine
-                  vermietete Immobilie (ETW, Pflegewohnung) kaufen. Sie
-                  entscheiden aber, das Geld auf ein Tagesgeldkonto anzulegen,
-                  um in 10 Jahren die Immobilie zu kaufen. Bei einer
-                  durchschnittlichen Tagesgeld-Verzinsung von 1% werden mit
-                  Zinseszins aus den 150.000 Euro in 10 Jahren 165.693 Euro.
-                  Bei einer durchschnittlichen Inflationsrate von nur 2,5% (=
-                  Wertsteigerung der Immobilie) kostet die Immobilie in 10
-                  Jahren allerdings 192.012 Euro. Das bedeutet, dass Ihnen in
-                  10 Jahren schon über 26.000 Euro fehlen, um die Immobilie zu
-                  kaufen. Ein gewaltiger Vermögensverlust! Der Verlust ist
-                  aber noch viel größer, da die Immobilie nicht nur im Wert
-                  gestiegen ist, sondern Ihnen auch eine monatliche
-                  Mieteinnahme in Höhe von 500 Euro zugeflossen wär, wenn ein
-                  realistischer Mietzins von 4% berücksichtigt wird. Würden
-                  Sie die 500 Euro monatlich Miete über 10 Jahre mit 4% Zins
-                  ansparen, entsteht ein weiteres Vermögen von 73.597 Euro.
-                  Rechnen Sie den Wert der Immobilie hinzu ergibt sich in 10
-                  Jahren ein Gesamtvermögen von 265.609 Euro!
-                </p>
+            <div class="product product-big  row align-items-center pt-3 pb-3 mr-0 ml-0 mb-3 " data-category="CALL">
+              <span class="product-badge">Finanztest Bestenliste</span>
+              <div class="product-interest col-6 col-md pb-3 pb-md-0">
+                0,25 %
+              </div>
+              <div class="product-period text-md-center col-6 col-md col-lg-3 col-xl-2">
+                Tagesgeld<span class="break">/</span>Flexgeld24
+                <label class="mb-0 d-block">Laufzeit</label>
+              </div>
+              <div class="product-bank text-md-center col-6 col-md col-lg-2">
+                <img class="img-fluid mt-2 mt-md-0" src="../assets/images/Avida_logo.svg" width="122" height="35"
+                  alt="Avida logo" title="Avida">
+                <div class="align-items-center mx-0">
+                  <label class="mb-0">Schweden</label>
+                </div>
+              </div>
+              <div class="product-period text-center col d-none d-md-block">
+                <span class="product-calc-amount" data-rate="0.25" data-duration="12">
+                  125,00
+                </span>
+                <span>€</span>
+                <div class="product-calc-note">Zinsertrag<sup>*</sup></div>
+              </div>
+              <div class="product-description col-xl-3 d-none d-xl-block">
+                <ul>
+                  <li>1.050.000&nbsp;SEK Einlagensicherung</li>
+                  <li>Mindestanlage ab&nbsp;1 €</li>
+                </ul>
+              </div>
+              <div class="product-link col-6 col-md text-md-center">
+                <a href="/banken/avida-finans/tagesgeld/" class="btn btn-orange btn-small">Weiter</a>
               </div>
             </div>
-          </div>
-          <div class="accordion-item my-4">
-            <h2 class="accordion-header" id="flush-headingFour">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-                Fazit
-              </button>
-            </h2>
-            <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
-              data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body">
-                <p>
-                  Fazit: Das Festgeld ist durch den festgelegten Zins planbar
-                  und sicher. Die Sicherheiten sprechen hier für sich (insbes.
-                  die Einlagensicherung). Die Laufzeitbindung schlägt sich
-                  hier nicht nachteilig aus, denn es besteht die Möglichkeit
-                  einer Vertragskündigung.
-                </p>
+            <div class="product product-big  row align-items-center pt-3 pb-3 mr-0 ml-0 mb-3 " data-category="CALL">
+              <div class="product-interest col-6 col-md pb-3 pb-md-0">
+                0,25 %
               </div>
+              <div class="product-period text-md-center col-6 col-md col-lg-3 col-xl-2">
+                Tagesgeld<span class="break">/</span>Flexgeld24
+                <label class="mb-0 d-block">Laufzeit</label>
+              </div>
+              <div class="product-bank text-md-center col-6 col-md col-lg-2">
+                <img class="img-fluid mt-2 mt-md-0" src="../assets/images/IIG-bank_logo.svg" width="64" height="35"
+                  alt="IIG Bank Logo" title="IIG Bank Logo">
+                <div class="align-items-center mx-0">
+                  <label class="mb-0">Malta</label>
+                </div>
+              </div>
+              <div class="product-period text-center col d-none d-md-block">
+                <span class="product-calc-amount" data-rate="0.25" data-duration="12">
+                  125,00
+                </span>
+                <span>€</span>
+                <div class="product-calc-note">Zinsertrag<sup>*</sup></div>
+              </div>
+              <div class="product-description col-xl-3 d-none d-xl-block">
+                <ul>
+                  <li>100.000 € Einlagensicherung</li>
+                  <li>Mindestanlage ab&nbsp;1&nbsp;€</li>
+                </ul>
+              </div>
+              <div class="product-link col-6 col-md text-md-center">
+                <a href="/banken/iig-bank/tagesgeld/" class="btn btn-orange btn-small">Weiter</a>
+              </div>
+            </div>
+            <div class="product product-big  row align-items-center pt-3 pb-3 mr-0 ml-0 mb-3 " data-category="CALL">
+              <div class="product-interest col-6 col-md pb-3 pb-md-0">
+                0,24 %
+              </div>
+              <div class="product-period text-md-center col-6 col-md col-lg-3 col-xl-2">
+                Tagesgeld<span class="break">/</span>Flexgeld24
+                <label class="mb-0 d-block">Laufzeit</label>
+              </div>
+              <div class="product-bank text-md-center col-6 col-md col-lg-2">
+                <img class="img-fluid mt-2 mt-md-0" src="../assets/images/MMBA.svg" width="139" height="35"
+                  alt="My Money Bank" title="My Money Bank Logo">
+                <div class="align-items-center mx-0">
+                  <label class="mb-0">Frankreich</label>
+                </div>
+              </div>
+              <div class="product-period text-center col d-none d-md-block">
+                <span class="product-calc-amount" data-rate="0.24" data-duration="12">
+                  120,00
+                </span>
+                <span>€</span>
+                <div class="product-calc-note">Zinsertrag<sup>*</sup></div>
+              </div>
+              <div class="product-description col-xl-3 d-none d-xl-block">
+                <ul>
+                  <li>100.000 € Einlagensicherung</li>
+                  <li>Mindestanlage ab&nbsp;1&nbsp;€</li>
+                </ul>
+              </div>
+              <div class="product-link col-6 col-md text-md-center">
+                <a href="/banken/my-money-bank/tagesgeld/" class="btn btn-orange btn-small">Weiter</a>
+              </div>
+            </div>
+            <div class="product product-big  row align-items-center pt-3 pb-3 mr-0 ml-0 mb-3 " data-category="CALL">
+              <div class="product-interest col-6 col-md pb-3 pb-md-0">
+                0,23 %
+              </div>
+              <div class="product-period text-md-center col-6 col-md col-lg-3 col-xl-2">
+                Tagesgeld<span class="break">/</span>Flexgeld24
+                <label class="mb-0 d-block">Laufzeit</label>
+              </div>
+              <div class="product-bank text-md-center col-6 col-md col-lg-2">
+                <img class="img-fluid mt-2 mt-md-0" src="../assets/images/bancodebrasil-logo.svg" width="63" height="35"
+                  alt="Baco do Brasil Logo" title="Baco do Brasil Logo">
+                <div class="align-items-center mx-0">
+                  <label class="mb-0">Österreich</label>
+                </div>
+              </div>
+              <div class="product-period text-center col d-none d-md-block">
+                <span class="product-calc-amount" data-rate="0.23" data-duration="12">
+                  115,00
+                </span>
+                <span>€</span>
+                <div class="product-calc-note">Zinsertrag<sup>*</sup></div>
+              </div>
+              <div class="product-description col-xl-3 d-none d-xl-block">
+                <ul>
+                  <li>100.000 € Einlagensicherung</li>
+                  <li>Mindestanlage nur 1 €</li>
+                </ul>
+              </div>
+              <div class="product-link col-6 col-md text-md-center">
+                <a href="/banken/banco-do-brasil/tagesgeld/" class="btn btn-orange btn-small">Weiter</a>
+              </div>
+            </div>
+            <div class="product product-big  row align-items-center pt-3 pb-3 mr-0 ml-0 mb-3 " data-category="CALL">
+              <div class="product-interest col-6 col-md pb-3 pb-md-0">
+                0,21 %
+              </div>
+              <div class="product-period text-md-center col-6 col-md col-lg-3 col-xl-2">
+                Tagesgeld<span class="break">/</span>Flexgeld24
+                <label class="mb-0 d-block">Laufzeit</label>
+              </div>
+              <div class="product-bank text-md-center col-6 col-md col-lg-2">
+                <img class="img-fluid mt-2 mt-md-0" src="../assets/images/cacf-logo.svg" width="299" height="35"
+                  alt="Crédit Agricole Consumer Finance " title="Crédit Agricole Consumer Finance Logo">
+                <div class="align-items-center mx-0">
+                  <label class="mb-0">Frankreich</label>
+                </div>
+              </div>
+              <div class="product-period text-center col d-none d-md-block">
+                <span class="product-calc-amount" data-rate="0.21" data-duration="12">
+                  105,00
+                </span>
+                <span>€</span>
+                <div class="product-calc-note">Zinsertrag<sup>*</sup></div>
+              </div>
+              <div class="product-description col-xl-3 d-none d-xl-block">
+                <ul>
+                  <li>100.000 € Einlagensicherung</li>
+                  <li>Mindestanlage nur 1 €</li>
+                </ul>
+              </div>
+              <div class="product-link col-6 col-md text-md-center">
+                <a href="/banken/credit-agricole-consumer-finance/tagesgeld/"
+                  class="btn btn-orange btn-small">Weiter</a>
+              </div>
+            </div>
+            <div class="product product-big  row align-items-center pt-3 pb-3 mr-0 ml-0 mb-3 d-none"
+              data-category="CALL">
+              <div class="product-interest col-6 col-md pb-3 pb-md-0">
+                0,16 %
+              </div>
+              <div class="product-period text-md-center col-6 col-md col-lg-3 col-xl-2">
+                Tagesgeld<span class="break">/</span>Flexgeld24
+                <label class="mb-0 d-block">Laufzeit</label>
+              </div>
+              <div class="product-bank text-md-center col-6 col-md col-lg-2">
+                <img class="img-fluid mt-2 mt-md-0" src="../assets/images/Qliro_Logo.svg" width="144" height="35"
+                  alt="Qliro Logo" title="Qliro Logo">
+                <div class="align-items-center mx-0">
+                  <label class="mb-0">Schweden</label>
+                </div>
+              </div>
+              <div class="product-period text-center col d-none d-md-block">
+                <span class="product-calc-amount" data-rate="0.16" data-duration="12">
+                  80,00
+                </span>
+                <span>€</span>
+                <div class="product-calc-note">Zinsertrag<sup>*</sup></div>
+              </div>
+              <div class="product-description col-xl-3 d-none d-xl-block">
+                <ul>
+                  <li>1.050.000&nbsp;SEK&nbsp;Einlagensicherung</li>
+                  <li>Mindestanlage nur 1 €</li>
+                </ul>
+              </div>
+              <div class="product-link col-6 col-md text-md-center">
+                <a href="/banken/qliro/tagesgeld/" class="btn btn-orange btn-small">Weiter</a>
+              </div>
+            </div>
+            <div class="product product-big  row align-items-center pt-3 pb-3 mr-0 ml-0 mb-3 d-none"
+              data-category="CALL">
+              <div class="product-interest col-6 col-md pb-3 pb-md-0">
+                0,15 %
+              </div>
+              <div class="product-period text-md-center col-6 col-md col-lg-3 col-xl-2">
+                Tagesgeld
+                <label class="mb-0 d-block">Laufzeit</label>
+              </div>
+              <div class="product-bank text-md-center col-6 col-md col-lg-2">
+                <img class="img-fluid mt-2 mt-md-0" src="../assets/images/BUCU.svg" width="170" height="35"
+                  alt="Alpha Bank Romania">
+                <div class="align-items-center mx-0">
+                  <label class="mb-0">Rumänien</label>
+                </div>
+              </div>
+              <div class="product-period text-center col d-none d-md-block">
+                <span class="product-calc-amount" data-rate="0.15" data-duration="12">
+                  75,00
+                </span>
+                <span>€</span>
+                <div class="product-calc-note">Zinsertrag p.a.<sup>*</sup></div>
+              </div>
+              <div class="product-description col-xl-3 d-none d-xl-block">
+                <ul>
+                  <li>100.000 € Einlagensicherung</li>
+                  <li>Mindestanlage ab&nbsp;1&nbsp;€</li>
+                </ul>
+              </div>
+              <div class="product-link col-6 col-md text-md-center">
+                <a href="/banken/alpha-bank-romania/tagesgeld/" class="btn btn-orange btn-small">Weiter</a>
+              </div>
+            </div>
+            <div class="product product-big  row align-items-center pt-3 pb-3 mr-0 ml-0 mb-3 d-none"
+              data-category="CALL">
+              <div class="product-interest col-6 col-md pb-3 pb-md-0">
+                0,10 %
+              </div>
+              <div class="product-period text-md-center col-6 col-md col-lg-3 col-xl-2">
+                Tagesgeld<span class="break">/</span>Flexgeld24
+                <label class="mb-0 d-block">Laufzeit</label>
+              </div>
+              <div class="product-bank text-md-center col-6 col-md col-lg-2">
+                <img class="img-fluid mt-2 mt-md-0" src="../assets/images/MeDirect.svg" width="154" height="35"
+                  alt="MeDirect" title="MeDirect Logo">
+                <div class="align-items-center mx-0">
+                  <label class="mb-0">Malta</label>
+                </div>
+              </div>
+              <div class="product-period text-center col d-none d-md-block">
+                <span class="product-calc-amount" data-rate="0.10" data-duration="12">
+                  50,00
+                </span>
+                <span>€</span>
+                <div class="product-calc-note">Zinsertrag<sup>*</sup></div>
+              </div>
+              <div class="product-description col-xl-3 d-none d-xl-block">
+                <ul>
+                  <li>100.000 € Einlagensicherung</li>
+                  <li>Mindestanlage ab&nbsp;1 €</li>
+                </ul>
+              </div>
+              <div class="product-link col-6 col-md text-md-center">
+                <a href="/banken/medirect/tagesgeld/" class="btn btn-orange btn-small">Weiter</a>
+              </div>
+            </div>
+            <div class="product product-big  row align-items-center pt-3 pb-3 mr-0 ml-0 mb-3 d-none"
+              data-category="CALL">
+              <div class="product-interest col-6 col-md pb-3 pb-md-0">
+                0,07 %
+              </div>
+              <div class="product-period text-md-center col-6 col-md col-lg-3 col-xl-2">
+                Tagesgeld<span class="break">/</span>Flexgeld24
+                <label class="mb-0 d-block">Laufzeit</label>
+              </div>
+              <div class="product-bank text-md-center col-6 col-md col-lg-2">
+                <img class="img-fluid mt-2 mt-md-0" src="../assets/images/BNFB.svg" width="186" height="35"
+                  alt="BNF BANK" title="BNF BANK Logo">
+                <div class="align-items-center mx-0">
+                  <label class="mb-0">Malta</label>
+                </div>
+              </div>
+              <div class="product-period text-center col d-none d-md-block">
+                <span class="product-calc-amount" data-rate="0.07" data-duration="12">
+                  35,00
+                </span>
+                <span>€</span>
+                <div class="product-calc-note">Zinsertrag<sup>*</sup></div>
+              </div>
+              <div class="product-description col-xl-3 d-none d-xl-block">
+                <ul>
+                  <li>100.000 € Einlagensicherung</li>
+                  <li>Mindestanlage ab&nbsp;1&nbsp;€</li>
+                </ul>
+              </div>
+              <div class="product-link col-6 col-md text-md-center">
+                <a href="/banken/bnf-bank/tagesgeld/" class="btn btn-orange btn-small">Weiter</a>
+              </div>
+            </div>
+            <div class="product product-big  row align-items-center pt-3 pb-3 mr-0 ml-0 mb-3 d-none"
+              data-category="CALL">
+              <div class="product-interest col-6 col-md pb-3 pb-md-0">
+                0,06 %
+              </div>
+              <div class="product-period text-md-center col-6 col-md col-lg-3 col-xl-2">
+                Tagesgeld<span class="break">/</span>Flexgeld24
+                <label class="mb-0 d-block">Laufzeit</label>
+              </div>
+              <div class="product-bank text-md-center col-6 col-md col-lg-2">
+                <img class="img-fluid mt-2 mt-md-0" src="../assets/images/Aion-logo.svg" width="35" height="35"
+                  alt="Aion Logo" title="Aion">
+                <div class="align-items-center mx-0">
+                  <label class="mb-0">Belgien</label>
+                </div>
+              </div>
+              <div class="product-period text-center col d-none d-md-block">
+                <span class="product-calc-amount" data-rate="0.06" data-duration="12">
+                  30,00
+                </span>
+                <span>€</span>
+                <div class="product-calc-note">Zinsertrag<sup>*</sup></div>
+              </div>
+              <div class="product-description col-xl-3 d-none d-xl-block">
+                <ul>
+                  <li>100.000 € Einlagensicherung</li>
+                  <li>Mindestanlage ab&nbsp;1 €</li>
+                </ul>
+              </div>
+              <div class="product-link col-6 col-md text-md-center">
+                <a href="/banken/aion/tagesgeld/" class="btn btn-orange btn-small">Weiter</a>
+              </div>
+            </div>
+            <div class="product product-big  row align-items-center pt-3 pb-3 mr-0 ml-0 mb-3 d-none"
+              data-category="CALL">
+              <div class="product-interest col-6 col-md pb-3 pb-md-0">
+                0,05 %
+              </div>
+              <div class="product-period text-md-center col-6 col-md col-lg-3 col-xl-2">
+                Tagesgeld<span class="break">/</span>Flexgeld24
+                <label class="mb-0 d-block">Laufzeit</label>
+              </div>
+              <div class="product-bank text-md-center col-6 col-md col-lg-2">
+                <img class="img-fluid mt-2 mt-md-0" src="../assets/images/FCM-Bank.svg" width="270" height="35"
+                  alt="FCM Bank Logo" title="FCM Bank Logo">
+                <div class="align-items-center mx-0">
+                  <label class="mb-0">Malta</label>
+                </div>
+              </div>
+              <div class="product-period text-center col d-none d-md-block">
+                <span class="product-calc-amount" data-rate="0.05" data-duration="12">
+                  25,00
+                </span>
+                <span>€</span>
+                <div class="product-calc-note">Zinsertrag<sup>*</sup></div>
+              </div>
+              <div class="product-description col-xl-3 d-none d-xl-block">
+                <ul>
+                  <li>100.000 € Einlagensicherung</li>
+                  <li>Mindestanlage nur 1 €</li>
+                </ul>
+              </div>
+              <div class="product-link col-6 col-md text-md-center">
+                <a href="/banken/fcm-bank/tagesgeld/" class="btn btn-orange btn-small">Weiter</a>
+              </div>
+            </div>
+            <div class="text-center">
+              <div class="text-small my-2">Zeigt <span id="products-count-text">6</span> von <span>12</span></div>
+              <button type="button" class="btn btn-orange btn-reload btn-small" data-count="6">Mehr Angebote
+                laden</button>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <!-- Don't hesitate start   -->
-  <section class="hesitate">
+  <div class="container">
+    <div id="c21618" class="frame frame-0 frame-type-text frame-space-before-extra-small   ">
+      <p><span class="text-small">* Bitte beachten Sie, dass es sich bei dem dargestellten Zinsertrag um einen
+          Schätzwert zu Ihrer Orientierung handelt. Der tatsächliche Zinsertrag ist abhängig von der Berechnungsmethode
+          der Anlagebank, sowie ggf. nationalen Steuern des Anlagelandes. Die spezifischen Angaben hierzu finden sich in
+          den Angebotsdetails des Produktes.</span></p>
+    </div>
+  </div>
+
+  <div class="center-heading text-center">
+    <h1>Weitere Angebote beim <br> Partner WeltSparen sichern</h1>
+  </div>
+  <section class="services">
     <div class="theme-container">
-      <div class="row justify-content-center">
-        <div class="hesitate_main">
-          <h4>Zögern Sie nicht, uns jederzeit zu kontaktieren.</h4>
-          <a href="contact-us.html"><button class="more_on_btn more_on_btn_1">
-              ANGEBOT ANFORDERN
-            </button></a>
+      <div class="services_card_main">
+        <div class="services_card">
+          <img src="../assets/images/WS-by-raisin_logo.png" alt="">
+          <h6>Geldanlage in <br> Festgeld</h6>
+          <p>
+            Bis zu 2,00 % Zinsen
+          </p>
+          <a href="pages/festgeld.html"><button class="more_on_btn">Jetzt informieren </button></a>
         </div>
-        <div class="hesitate_card">
-          <img src="../assets/images/call.svg" alt="" />
-          <p>Haben Sie Eine Frage? Rufen Sie uns jetzt an</p>
-          <h6>+46/ 843 737 988</h6>
+        <div class="services_card">
+          <img src="../assets/images/WS-by-raisin_logo.png" alt="">
+          <h6>Geldanlage in <br> Tagesgeld</h6>
+          <p>
+            Bis zu 0,20 % Zinsen
+          </p>
+          <a href="pages/tagesgeld.html"><button class="more_on_btn">Jetzt informieren </button></a>
         </div>
-        <div class="hesitate_card">
-          <img src="../assets/images/msg.svg" alt="" />
-          <p>Sie brauchen Hilfe? Senden Sie uns eine Mail</p>
-          <h6>hello@wolske-zins.com</h6>
+        <div class="services_card">
+          <img src="../assets/images/Raisin_invest-logo.png" alt="">
+          <h6>Investments <br> mit ETFs</h6>
+          <p>
+            Individuelle Portfolios entwickelt von <br> Experten
+          </p>
+          <a href="pages/gold-and-silber.html"><button class="more_on_btn">Jetzt informieren </button></a>
         </div>
-        <div class="hesitate_card">
-          <img src="../assets/images/time.svg" alt="" />
-          <p>Sprechzeiten</p>
-          <h6>Mo - Fr 10:00 - 18:00</h6>
+        <div class="services_card">
+          <img src="../assets/images/Raisin_invest-logo.png" alt="">
+          <h6>Altersvorsorge <br> mit ETFs</h6>
+          <p>
+            Steuervorteile und freie <br> Fondsauswahl
+          </p>
+          <a href="pages/gold-and-silber.html"><button class="more_on_btn">Jetzt informieren </button></a>
         </div>
       </div>
     </div>
   </section>
-  <!-- Don't hesitate end   -->
-
-        <!-- footer starts -->
-    <footer class="footer">
+  <section class="my-0 my-md-4 my-lg-4 my-xl-4 mt-5">
+    <div class="ft_imprint">
       <div class="theme-container">
-          <div class="row">
-              <div class="footer_heading col-12 col-lg-4 col-xl-4">
-                  <img src="../assets/images/logo.png" alt="" class="footer-logo" />
-                  <p>Ringvägen 100</p>
-                  <p style="margin-bottom: 30px">SE- 118 60 Stockholm</p>
-                  <p>hello@wolske-zins.com Haben Sie Fragen</p>
-                  <p>Tel: +44 20 3286 6410</p>
-                  <p>Fax: +44 20 45712120</p>
-              </div>
-              <div class="footer_heading footer_heading_1 col-6 col-lg-2 col-xl-2 my-5 my-lg-0 my-xl-0">
-                  <h2>FESTGELD</h2>
-                  <a href="festgeld.html">FESTGELD</a>
-                  <a href="tagesgeld.html">Tagesgeld</a>
-                  <a href="top-festzinsanlagen.html">Top-Festzinsanlagen</a>
-                  <a href="aboutUs.html">Über das Unternehmen</a>
-                  <a href="contact-us.html">Kontakt</a>
-              </div>
-              <div class="footer_heading footer_heading_2 col-6 col-lg-2 col-xl-2 my-5 my-lg-0 my-xl-0">
-                  <h2>
-                      GELDANLAGEN
-                  </h2>
-                  <a href="edelmetalle.html">Edelmetalle</a>
-                  <a href="gold-and-silber.html">Gold & Silber</a>
-                  <a href="pelletanlagen.html">Pelletanlagen</a>
-                  <a href="aktien.html">Aktien</a>
-                  <a href="immobilien.html">Immobilien</a>
-              </div>
-              <div class="footer_heading footer_heading_3 col-12 col-lg-3 col-xl-3">
-                  <h2>NEWSLETTER ANMELDUNG</h2>
-                  <p>Melden Sie sich bei unserem Newsletter an um immer neue Angebote zu erhalten</p>
-                  <div class="input_div">
-                      <input type="email" placeholder="Enter Your Email" />
-                      <a href="contact-us.html"><button class="more_on_btn more_on_btn_2">
-                              <img src="../assets/images/input_msg.svg" alt="" /></button></a>
+        <div class="row justify-content-center">
+          <div class="col-12 px-0 px-sm-3 px-md-3 px-lg-3 px-xl-3">
+            <div class="row justify-content-center">
+              <div class="ft_privacy_content col-11 col-sm-11 col-md-12 col-lg-12 col-xl-10">
+                <div class="col-sm-12 col-md-12 px-0 px-lg-3 px-xl-3">
+                  <div class="container">
+                    <div id="c7816" class="frame frame-0 frame-type-menu_section frame-space-before-extra-large   ">
+                      <header>
+                        <h2 class="">
+                          Seitenübersicht
+                        </h2>
+                      </header>
+                      <div class="mt-1"><a href="#c7815" title="Was ist Tagesgeld?" class="scroll"> Was ist Tagesgeld?
+                        </a></div>
+                      <div class="mt-1"><a href="#c17220"
+                          title="Ist Tagesgeld eine sichere Anlage während der Corona-Pandemie?" class="scroll"> Ist
+                          Tagesgeld eine sichere Anlage während der
+                          Corona-Pandemie?
+                        </a></div>
+                      <div class="mt-1"><a href="#c18909" title="Wie hoch sind die Zinsen beim Tagesgeld?"
+                          class="scroll"> Wie hoch sind die Zinsen beim Tagesgeld?
+                        </a></div>
+                      <div class="mt-1"><a href="#c17338" title=" Für wen lohnt sich ein Tagesgeldkonto?"
+                          class="scroll"> Für wen lohnt sich ein Tagesgeldkonto?
+                        </a></div>
+                      <div class="mt-1"><a href="#c17223" title="Wie eröffne ich ein Tagesgeldkonto bei Zinspilot?"
+                          class="scroll"> Wie eröffne ich ein Tagesgeldkonto bei Zinspilot?
+                        </a></div>
+                      <div class="mt-1"><a href="#c17339" title="Die Vorteile bei einem Tagesgeldkonto" class="scroll">
+                          Die Vorteile bei einem Tagesgeldkonto
+                        </a></div>
+                      <div class="mt-1"><a href="#c17242" title="Wie sicher ist Tagesgeld?" class="scroll"> Wie sicher
+                          ist Tagesgeld?
+                        </a></div>
+                      <div class="mt-1"><a href="#c17251" title="ZINSPILOT auf einen Blick" class="scroll"> ZINSPILOT
+                          auf einen Blick
+                        </a></div>
+                      <div class="mt-1"><a href="#c17252"
+                          title="Was ist der Unterschied zwischen Tagesgeld und Festgeld?" class="scroll"> Was ist der
+                          Unterschied zwischen Tagesgeld und Festgeld?
+                        </a></div>
+                    </div>
                   </div>
-                  <p>Holen Sie sich die aktuellen Angebote rein.</p>
+                  <div class="container">
+                    <div id="c7815" class="frame frame-0 frame-type-textpic frame-space-before-medium   ">
+                      <header>
+                        <h2 class="">
+                          Was ist Tagesgeld?
+                        </h2>
+                      </header>
+                      <div class="ce-textpic ce-center ce-above">
+                        <div class="ce-bodytext">
+                          <p><strong>Geld sicher sparen und&nbsp;kurzfristig über das Ersparte verfügen</strong>: Das
+                            gelingt mit Tagesgeld. Möchten Sie Ihr Erspartes in Form von Tagesgeld anlegen, benötigen
+                            Sie dafür ein Tagesgeldkonto. Hierbei handelt es sich um ein variabel verzinstes Konto, das
+                            bei einer Bank geführt wird und ohne Kündigungsfrist funktioniert. Auf einem Tagesgeldkonto
+                            zahlen Sparer eine beliebige Summe ein und bekommen von der Bank <strong>Zinsen auf den
+                              Anlagebetrag</strong>. Da keine bestimmte Laufzeit vorab festgelegt wird, können Anleger
+                            nach Bedarf kurzfristig über ihr Tagesgeld entscheiden. Diese Flexibilität, gepaart mit der
+                            hohen Sicherheit der Ersparnisse, macht Tagesgeld zu einer beliebten Geldanlage in
+                            Deutschland.</p>
+                          <p>Tagesgeld unterscheidet sich von anderen Anlageformen: Anders als beim Girokonto ist ein
+                            Tagesgeldkonto nicht für den allgemeinen Zahlungsverkehr vorgesehen und kann somit nicht für
+                            Überweisungen oder Daueraufträge genutzt werden. Wenn Geld auf ein Tagesgeldkonto eingezahlt
+                            oder über das angelegte Geld verfügt werden soll, erfolgt dies ähnlich wie beim Sparbuch
+                            durch eine Überweisung auf das Verrechnungskonto. Allerdings müssen beim Tagesgeld
+                            <strong>keine Kündigungsfristen</strong> beachtet werden. Und auch im Vergleich zu
+                            Wertpapieren schneidet Tagesgeld positiv ab: Zu keinem Zeitpunkt wird eine negative Rendite
+                            generiert.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="container">
+                    <div id="c17340" class="frame frame-0 frame-type-image frame-space-before-extra-small   ">
+                      <div class="ce-image ce-center ce-above">
+                        <div class="ce-gallery" data-ce-columns="1" data-ce-images="1">
+                          <div class="ce-outer">
+                            <div class="ce-inner">
+                              <div class="ce-row">
+                                <div class="ce-column">
+                                  <figure class="image"><img src="../assets/images/Was_ist_Tagesgeld.svg"
+                                      class="image-embed-item img-fluid mb-2" width="850" height="244"
+                                      alt="Was ist Tagesgeld" title="Was ist Tagesgeld" loading="lazy"></figure>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="container">
+                    <div id="c17220" class="frame frame-0 frame-type-text frame-space-before-medium   ">
+                      <header>
+                        <h2 class="">
+                          Ist Tagesgeld eine sichere Anlage während der Corona-Pandemie?
+                        </h2>
+                      </header>
+                      <p>Tagesgeld gehört in unsicheren Zeiten zu den sichersten Geldanlageformen. Es unterliegt der <a
+                          href="/wissen/einlagensicherung/">EU-weit harmonisierten Einlagensicherung</a>, die Gelder bis
+                        zu einer Höhe von 100.000 Euro pro Kunde und Bank absichert. Zudem bietet ein Tagesgeldkonto
+                        eine hohe Flexibilität, bei der Anleger täglich über ihre Einlagen verfügen können und Zinsen,
+                        die über denen der meisten Hausbanken liegen. Dementsprechend lohnen sich gut verzinste
+                        Tagesgeldkonten auch während der Corona-Pandemie für Sparer, die ihr Geld kurzfristig anlegen
+                        und zusätzlich von guten Zinsen profitieren möchten.</p>
+                    </div>
+                  </div>
+                  <div class="container">
+                    <div id="c18909" class="frame frame-0 frame-type-text frame-space-before-medium   ">
+                      <header>
+                        <h2 class="">
+                          Wie hoch sind die Zinsen beim Tagesgeld?
+                        </h2>
+                      </header>
+                      <p>Die Zinsen für Tagesgeld werden bei deutschen Banken immer geringer. Derzeit befinden sie sich
+                        hierzulande durchschnittlich nahe 0 Prozent. Ursache hierfür ist, dass sich Banken bei der
+                        Verzinsung am Kapitalmarktzinsniveau und am Leitzins der Europäischen Zentralbank (EZB)
+                        orientieren. Passt die EZB den Zinssatz nach oben oder unten an, ändern die Finanzinstitute in
+                        der Regel kurzfristig den Zins beim Tagesgeld.</p>
+                      <p>Vergleicht man jedoch die Konditionen der einzelnen Banken europaweit, stellt man deutliche
+                        Unterschiede bei der Höhe der Zinsen fest. Ein Tagesgeld Vergleich bei Zinsportalen wie
+                        ZINSPILOT bietet Anlegern, die auf der Suche nach dem besten Zinssatz sind, einen guten
+                        Überblick über die aktuellen Tagesgeldzinsen von europäischen Banken. Bei ZINSPILOT profitieren
+                        Sie von Tagesgeldzinsen mit bis zu&nbsp;0,27 %.</p>
+                    </div>
+                  </div>
+                  <section class="open-account-sec mb-5">
+                    <div class="open-account">
+                      <h1>Jetzt Ihr kostenloses <br> ZINSPILOT-Konto eröffnen!</h1>
+                      <p>Sie sind schon ZINSPILOT-Kunde? <a href="">Hier anmelden.</a></p>
+                      <a href=""><button>Kostenloses Konto eröffnen</button></a>
+                    </div>
+                  </section>
+                  <div class="container">
+                    <div id="c17338" class="frame frame-0 frame-type-text frame-space-before-extra-large   ">
+                      <header>
+                        <h2 class="">
+                          Für wen lohnt sich ein Tagesgeldkonto?
+                        </h2>
+                      </header>
+                      <p>Grundlegend eignet sich Tagesgeld für alle,&nbsp;<strong>die täglich auf ihr angelegtes Kapital
+                          zugreifen&nbsp;möchten </strong>und für die Sicherheit eine große Rolle spielt. Zudem lohnt
+                        sich ein kostenloses Tagesgeldkonto für Sparer, die ihr Geld weder auf unverzinsten Girokonten
+                        noch auf Sparkonten parken möchten. Denn vergleicht man die Zinsen mit einem Tagesgeld, stellt
+                        man schnell fest, dass Tagesgeldzinsen gerade bei&nbsp;<a href="/banken/">Banken aus dem
+                          europäischen Ausland</a> sehr&nbsp;lukrativ sind.</p>
+                    </div>
+                  </div>
+                  <div class="container">
+                    <div id="c17222" class="frame frame-0 frame-type-html frame-space-before-small   ">
+                      <div id="video"></div>
+                      <div style="margin: 0 auto; max-width: 700px">
+                        <div class="embed-responsive embed-responsive-16by9">
+                          <div class="embed-responsive-item">
+                            <video src="../assets/images/zins-pilot.mp4" controls></video>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="container">
+                    <div id="c18910" class="frame frame-0 frame-type-text frame-space-before-medium   ">
+                      <header>
+                        <h3 class="">
+                          Was tun, wenn Tagesgeld ausgezahlt werden soll?
+                        </h3>
+                      </header>
+                      <p>Auf ZINSPILOT können Sparer bei einem&nbsp;Tagesgeldkonto zwischen einer&nbsp;Teil- oder
+                        Gesamtauszahlung&nbsp;frei entscheiden. Sie können diese jederzeit&nbsp;im Anlage-Cockpit
+                        anweisen.&nbsp;Ihre Einlagen samt Zinsen werden&nbsp;dann&nbsp;zum nächstmöglichen Geschäftstag
+                        auf das hinterlegte <a href="/finanzlexikon/referenzkonto/">Referenzkonto </a>überwiesen.</p>
+                    </div>
+                  </div>
+                  <div class="container">
+                    <div id="c17233" class="frame frame-0 frame-type-gridelements_pi1 frame-space-before-medium   ">
+                      <header>
+                        <h3 class="">
+                          Auszeichnungen
+                        </h3>
+                      </header>
+                      <div class="row row-space">
+                        <div class="col-md-3">
+                          <div id="c17231" class="frame frame-0 frame-type-image   ">
+                            <div class="ce-image ce-center ce-above">
+                              <div class="ce-gallery" data-ce-columns="1" data-ce-images="1">
+                                <div class="ce-outer">
+                                  <div class="ce-inner">
+                                    <div class="ce-row">
+                                      <div class="ce-column">
+                                        <figure class="image"><img
+                                            src="../assets/images/csm_testsieger-zinsbroker-2021-zinsen-tagesgeld_e74bd4a6e1.png"
+                                            class="image-embed-item img-fluid mb-2" width="200" height="138"
+                                            alt=" Beste Zinsen Tagesgeld Kritische Anleger "
+                                            title=" Beste Zinsen Tagesgeld Kritische Anleger" loading="lazy"></figure>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-9">
+                          <div id="c17232" class="frame frame-0 frame-type-text frame-space-before-small   ">
+                            <p><span class="text-big"><span class="text-blue">Tagesgeldvergleich.net "Beste Zinsen
+                                  Tagesgeld"</span></span><br> Unser Tagesgeld überzeugt: ZINSPILOT erhält die
+                              Auszeichnung „Beste Zinsen Tagesgeld" von Tagesgeldvergleich.net im Zinsbroker-Test 2021.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="container">
+                    <div id="c17236"
+                      class="frame frame-0 frame-type-gridelements_pi1 frame-space-before-extra-small   ">
+                      <div class="row row-space">
+                        <div class="col-md-3">
+                          <div class="container">
+                            <div id="c17235" class="frame frame-0 frame-type-image frame-space-after-small   ">
+                              <div class="ce-image ce-center ce-above">
+                                <div class="ce-gallery" data-ce-columns="1" data-ce-images="1">
+                                  <div class="ce-outer">
+                                    <div class="ce-inner">
+                                      <div class="ce-row">
+                                        <div class="ce-column">
+                                          <figure class="image"><img src="../assets/images/Icon_Auszeichnung-01.png"
+                                              class="image-embed-item img-fluid mb-2" width="200" height="200"
+                                              alt="Auszeichnung ZINSPILOT" title="Auszeichnung ZINSPILOT"
+                                              loading="lazy"></figure>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-9">
+                          <div id="c17234"
+                            class="frame frame-0 frame-type-text frame-space-before-extra-small frame-space-after-small   ">
+                            <p><span class="text-big"><span class="text-blue">„Deutschlands beste Finanzdienstleister
+                                  2021"</span></span><br> Ausgezeichnet vom: Handelsblatt im Juli 2021</p>
+                            <p><span class="text-big"><span class="text-blue">„Digital-Champions in der
+                                  Kundenbegeisterung"</span></span><br> Ausgezeichnet von: Die Welt im Juli 2021</p>
+                            <p><span class="text-big"><span class="text-blue">„Bester Vermittler EU
+                                  Tagesgeld"</span></span><br> Ausgezeichnet vom: FMH/n-tv/DISQ im Juli 2021</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="container">
+                    <div id="c17237" class="frame frame-0 frame-type-text frame-space-before-extra-small   ">
+                      <p>Das von <strong>Stiftung Warentest veröffentlichte Magazin „Finanztest“</strong> untersucht
+                        regelmäßig die verschiedensten Tagesgeldangebote im Markt und <strong>empfiehlt die Top-Produkte
+                          in ihrer Fachzeitschrift.</strong> Tagesgeldangebote von ZINSPILOT befinden sich dabei fast
+                        immer unter den Top 20 der besten Tagesgeldkonten des Finanztestmagazins.</p>
+                    </div>
+                  </div>
+                  <div class="container">
+                    <div id="c17339" class="frame frame-0 frame-type-text frame-space-before-extra-large   ">
+                      <header>
+                        <h2 class="">
+                          Die Vorteile bei einem Tagesgeldkonto
+                        </h2>
+                      </header>
+                      <p>Der größte Vorteil bei einem Tagesgeld ist die damit verbundene Flexibilität. Sie können
+                        kurzfristig und in vollem Umfang über den Anlagebetrag verfügen, die Bank wechseln, Ihre
+                        Einlagen auf ein Referenzkonto transferieren oder weitere einzahlen. Tagesgeld zählt dabei zu
+                        den einfachen Geldanlagen, das zudem durch die EU-weit-harmonisierte Einlagensicherung bis zu
+                        einer Höhe von 100.000 Euro pro Kunde und Bank abgesichert ist.</p>
+                    </div>
+                  </div>
+                  <div class="container">
+                    <div id="c17242" class="frame frame-0 frame-type-textpic frame-space-before-medium   ">
+                      <header>
+                        <h2 class="">
+                          Wie sicher ist Tagesgeld?
+                        </h2>
+                      </header>
+                      <div class="ce-textpic ce-center ce-above">
+                        <div class="ce-bodytext">
+                          <p>Gleich mehrere Mechanismen sichern Kapitalanlagen in Tagesgeld ab. Einerseits sind Einlagen
+                            auf dem Tagesgeldkonto durch das Kapital der anbietenden Bank abgesichert. Zum anderen
+                            ergreifen einige Banken weitere freiwillige Maßnahmen, um Anlegern im Entschädigungsfall den
+                            Anlagebetrag schnell und vollständig zurückzuerstatten.</p>
+                          <p>Zuletzt sind in allen EU-Ländern Anlagesummen inklusive aufgelaufener Zinsen bis zu 100.000
+                            Euro (England: 85.000 GBP, Schweden: SEK 1.050.000) pro Kunde und Bank <strong>durch die
+                              gesetzliche Einlagensicherung des Nationalstaats abgesichert</strong>. Das heißt, sollte
+                            eine Bank nicht in der Lage sein, eine Anlage zurückzuzahlen, springt der Sicherungsfonds
+                            des jeweiligen Landes ein.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="container">
+                    <div id="c17243" class="frame frame-0 frame-type-textpic frame-space-before-small   ">
+                      <header>
+                        <h3 class="ce-headline-center">
+                          So funktioniert die Einlagensicherung
+                        </h3>
+                      </header>
+                      <div class="ce-textpic ce-center ce-above">
+                        <div class="ce-gallery" data-ce-columns="1" data-ce-images="1">
+                          <div class="ce-outer">
+                            <div class="ce-inner">
+                              <div class="ce-row">
+                                <div class="ce-column">
+                                  <figure class="image"><img src="../assets/images/Einlagensicherung.svg"
+                                      class="image-embed-item img-fluid mb-2" width="850" height="209"
+                                      alt="Einlagensicherung" title="Einlagensicherung" loading="lazy"></figure>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="container">
+                    <div id="c18911" class="frame frame-0 frame-type-text   ">
+                      <p>Im Vergleich zu anderen Geldanlagen sind beim Tagesgeld zudem keine Kursverluste möglich, wie
+                        es beispielsweise bei Wertpapieren der Fall ist. Und auch die Gefahr von versteckten Kosten sind
+                        für Anleger bei den Produkten im ZINSPILOT Tagesgeld-Vergleich ausgeschlossen.</p>
+                    </div>
+                  </div>
+                  <div class="container">
+                    <div id="c17244" class="frame frame-0 frame-type-text frame-space-before-medium   ">
+                      <header>
+                        <h3 class="">
+                          Doppelte Absicherung durch freiwillige Einlagensicherung
+                        </h3>
+                      </header>
+                      <p>Neben der gesetzlichen Einlagensicherung gibt es in einigen Ländern zusätzliche freiwillige
+                        Absicherungssysteme. Das größte hiervon, über das einige deutsche Banken abgesichert sind, ist
+                        der Einlagensicherungsfonds des Bundesverbandes deutscher Banken (BdB). Dieser wird von über 130
+                        Privatbanken finanziert.</p>
+                    </div>
+                  </div>
+                  <div class="container">
+                    <div id="c17251" class="frame frame-0 frame-type-gridelements_pi1 frame-space-before-medium   ">
+                      <header>
+                        <h2 class="">
+                          ZINSPILOT auf einen Blick
+                        </h2>
+                      </header>
+                      <div class="row row-space">
+                        <div class="col-md-3">
+                          <div class="container">
+                            <div id="c17246" class="frame frame-0 frame-type-image   ">
+                              <div class="ce-image ce-center ce-above">
+                                <div class="ce-gallery" data-ce-columns="1" data-ce-images="1">
+                                  <div class="ce-outer">
+                                    <div class="ce-inner">
+                                      <div class="ce-row">
+                                        <div class="ce-column">
+                                          <figure class="image"><img
+                                              src="../assets/images/Icon_Geld_anlegen_ab_1_Euro.png"
+                                              class="image-embed-item img-fluid mb-2" width="110" height="110"
+                                              alt="Geld anlegen ab 1 Euro" title="Geld anlegen ab 1 Euro"
+                                              loading="lazy"></figure>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div id="c17247" class="frame frame-0 frame-type-image   ">
+                            <div class="ce-image ce-center ce-above">
+                              <div class="ce-gallery" data-ce-columns="1" data-ce-images="1">
+                                <div class="ce-outer">
+                                  <div class="ce-inner">
+                                    <div class="ce-row">
+                                      <div class="ce-column">
+                                        <figure class="image"><img src="../assets/images/Icon_Spareinlagen.png"
+                                            class="image-embed-item img-fluid mb-2" width="110" height="110"
+                                            alt="Sparanlagen" title="Icon Sparanlagen" loading="lazy"></figure>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="container">
+                            <div id="c17248" class="frame frame-0 frame-type-image   ">
+                              <div class="ce-image ce-center ce-above">
+                                <div class="ce-gallery" data-ce-columns="1" data-ce-images="1">
+                                  <div class="ce-outer">
+                                    <div class="ce-inner">
+                                      <div class="ce-row">
+                                        <div class="ce-column">
+                                          <figure class="image"><img src="../assets/images/Icon_Auszeichnung.png"
+                                              class="image-embed-item img-fluid mb-2" width="110" height="110"
+                                              alt="Auszeichnungen Zinspilot" title="Auszeichnungen Zinspilot"
+                                              loading="lazy"></figure>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-9">
+                          <div id="c17245" class="frame frame-0 frame-type-text frame-space-after-small   ">
+                            <p><span class="text-big"><span class="text-blue">Ab 1 Euro Geld anlegen</span></span><br>
+                              Mit nur einem Konto können registrierte Nutzer bei ZINSPILOT&nbsp;auf eine Vielzahl an
+                              attraktiven Tagesgeld- und Festgeldangeboten&nbsp;zugreifen. Und das bereits ab einer
+                              Mindestanlage von 1 Euro.</p>
+                          </div>
+                          <div id="c17249" class="frame frame-0 frame-type-text frame-space-after-small   ">
+                            <p><span class="text-big"><span class="text-blue">30 Milliarden Euro vermittelte
+                                  Spareinlagen</span></span><br> ZINSPILOT ist eine Marke der Raisin DS GmbH. Über die
+                              Zinsplattformen des Unternehmens wurden bislang über 30 Milliarden Euro an Spareinlagen
+                              vermittelt. 200.000 Kunden vertrauen unserem marktführenden Anlageservice.</p>
+                          </div>
+                          <div id="c17250" class="frame frame-0 frame-type-text   ">
+                            <p><span class="text-big"><span class="text-blue">Ein ausgezeichneter
+                                  Anlageservice</span></span><br> Unser Service wurde bereits mehrfach
+                              von&nbsp;renommierten und&nbsp;unabhängigen&nbsp;Medien&nbsp;sowie Onlineportalen
+                              bewertet&nbsp;- darunter die Auszeichnung&nbsp;für die "Höchste Kundenzufriedenheit" in
+                              der Kategorie Digitale Finanzexperten durch Focus Money und das vom TÜV verliehene Siegel
+                              mit der Note 1,8.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="container">
+                    <div id="c17252" class="frame frame-0 frame-type-text frame-space-before-medium   ">
+                      <header>
+                        <h2 class="">
+                          Was ist der Unterschied zwischen Tagesgeld und Festgeld?
+                        </h2>
+                      </header>
+                      <p>Möchten Sie lieber höhere Zinsen erhalten und Ihr Geld fest anlegen? Dann sollten Sie die
+                        folgenden Unterschiede kennen. Denn beim Vergleich von Tagesgeld- und <a
+                          href="/festgeld/">Festgeld</a> gibt es ein paar Besonderheiten.</p>
+                      <p><strong>Tagesgeld ist an keine feste Laufzeit gebunden</strong>. Daher können Anleger zu jeder
+                        Zeit in voller Höhe auf die Einlagen zugreifen. Beim Festgeld legen Sparer einen Betrag über
+                        eine vorher festgelegte Laufzeit zu einem bestimmten Zins bei der Bank an. Während der
+                        Anlagedauer kann nicht auf das Geld zugegriffen werden. In Ausnahmefällen ist dies bei manchen
+                        Banken möglich - der Zinsverlust muss dann in Kauf genommen werden. Im Unterschied zum Festgeld
+                        kann der Zinssatz beim Tagesgeld täglich neu festgelegt werden.</p>
+                    </div>
+                  </div>
+                  <section class="open-account-sec mb-5">
+                    <div class="open-account">
+                      <h1>Abonnieren Sie unseren <br> ZINSPILOT Newsletter</h1>
+                      <p><strong>– und verpassen Sie keine Top-Zinsen!
+                        </strong></p>
+                      <input type="text" placeholder="E-Mail"> <br>
+                      <a href=""><button>Newsletter abonnieren</button></a>
+                    </div>
+                  </section>
+                  <div class="container">
+                    <div id="c17389"
+                      class="frame frame-0 frame-type-gridelements_pi1 frame-space-before-extra-large   ">
+                      <header>
+                        <h2 class="">
+                          Weitere Informationen rund um Tagesgeld
+                        </h2>
+                      </header>
+                      <div class="row row-space">
+                        <div class="col-md-4">
+                          <div class="container">
+                            <div id="c17388" class="frame frame-0 frame-type-text   ">
+                              <p><a href="/tagesgeld/tagesgeld-sparplan/">Tagesgeld Sparplan</a><br><a
+                                  href="/tagesgeld/zinsentwicklung/">Tagesgeld Zinsentwicklung</a><br><a
+                                  href="/tagesgeld/finanztest/">Tagesgeld Stiftung Warentest</a><br> ​​​​​​​</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4">
+                          <div class="container">
+                            <div id="c17387" class="frame frame-0 frame-type-text   ">
+                              <p><a href="/tagesgeld/mehrere-tagesgeldkonten/">Mehrere Tagesgeldkonten</a><br><a
+                                  href="/tagesgeld/tagesgeldkonto-steuern/">Tagesgeldkonto Steuern</a><br><a
+                                  href="/tagesgeld/tagesgeldkonto-wechseln/">Tagesgeldkonto wechseln</a><br><a
+                                  href="/tagesgeld/tagesgeldkonto-kuendigen/">Tagesgeldkonto kündigen</a></p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4">
+                          <div class="container">
+                            <div id="c17386" class="frame frame-0 frame-type-text   ">
+                              <p><a href="/tagesgeld/geldmarktkonto/">Geldmarktkonto</a></p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="container">
+                    <div id="c10827" class="frame frame-0 frame-type-html   ">
+                      <script type="application/ld+json">{
+                      "@context":"https://schema.org",
+                      "@type":"FAQPage","mainEntity":[{
+                      "@type":"Question","name":"Was ist Tagesgeld?",
+                      "acceptedAnswer":{
+                      "@type":"Answer",
+                      "text":"<p>Als Tagesgeld bezeichnet man eine flexible und sichere Form der Geldanlage, bei der Sparer über einen angelegten Betrag einschließlich der Zinserträge kurzfristig verfügen können. Die angebotenen Tagesgeldzinsen sind dabei variabel und werden je nach Marktlage von der Bank gesenkt oder erhöht. </p><p><a href='https://www.zinspilot.de/tagesgeld/'>Klicken Sie hier, um mehr über Tagesgeld zu erfahren.</a></p>"
+                      }
+                      },
+                      {
+                      "@type":"Question",
+                      "name":"Wie hoch sind die Zinsen beim Tagesgeld?","acceptedAnswer":{
+                      "@type":"Answer",
+                      "text":"<p>Die Zinsen für Tagesgeld werden bei deutschen Banken immer geringer. Derzeit befinden sie sich hierzulande durchschnittlich nahe 0 Prozent. Ursache hierfür ist, dass sich Banken bei der Verzinsung am Kapitalmarktzinsniveau und am Leitzins der Europäischen Zentralbank (EZB) orientieren. Vergleicht man jedoch die Konditionen der einzelnen Banken europaweit, stellt man deutliche Unterschiede bei der Höhe der Zinsen fest. Ein Tagesgeld Vergleich bei Zinsportalen wie ZINSPILOT bietet Anlegern, die auf der Suche nach dem besten Zinssatz sind, einen guten Überblick über die aktuellen Tagesgeldzinsen von europäischen Banken. Bei ZINSPILOT profitieren Sie von Tagesgeldzinsen mit bis zu 0,27 %. </a></p>"
+                      }
+                      }
+                      ]
+                      }
+                      </script>
+                    </div>
+                  </div>
+                </div>
               </div>
+            </div>
           </div>
+        </div>
       </div>
+    </div>
+  </section>
+
+
+  <!-- footer start  -->
+  <footer class="footer">
+    <div class="theme-container">
+      <div class="row">
+        <div class="footer_heading col-12 col-lg-3 col-xl-3">
+          <img src="../assets/images/logo_zinspilot_footer.svg" alt="" class="footer-logo" />
+          <p>Ringvägen 100</p>
+          <p style="margin-bottom: 30px">SE- 118 60 Stockholm</p>
+          <p> hello@zin-pilot.com Haben <br> Sie Fragen</p>
+          <p>+46/ 843 737 988</p>
+        </div>
+        <div class="footer_heading footer_heading_1 col-6 col-lg-2 col-xl-2 my-5 my-lg-0 my-xl-0">
+          <h2>Unternehmen</h2>
+          <a href="../pages/festgeld.html">Über uns</a>
+          <a href="../pages/tagesgeld.html">Karriere</a>
+          <a href="../pages/top-festzinsanlagen.html">Presse</a>
+          <a href="../pages/aboutUs.html">Auszeichnungen</a>
+          <a href="../pages/contact-us.html">Kontakt</a>
+          <a href="../pages/contact-us.html">Partner werden</a>
+        </div>
+        <div class="footer_heading footer_heading_2 col-6 col-lg-2 col-xl-2 my-5 my-lg-0 my-xl-0">
+          <h2>
+            Wissen
+          </h2>
+          <a href="../pages/edelmetalle.html">Finanzlexikon</a>
+          <a href="../pages/gold-and-silber.html">Einlagensicherung</a>
+          <a href="../pages/pelletanlagen.html">Ratingindex bei ZINSPILOT</a>
+          <a href="../pages/aktien.html">Bankenrating</a>
+        </div>
+        <div class="footer_heading footer_heading_2 col-6 col-lg-2 col-xl-2 my-5 my-lg-0 my-xl-0">
+          <h2>
+            Service
+          </h2>
+          <a href="../pages/edelmetalle.html">Zufriedenheitsmanagement</a>
+          <a href="../pages/gold-and-silber.html">ZINSPILOT Erfahrungen</a>
+          <a href="../pages/pelletanlagen.html">Newsletter</a>
+          <a href="../pages/pelletanlagen.html">Sparpläne</a>
+        </div>
+        <div class="footer_heading footer_heading_3 col-12 col-lg-3 col-xl-3">
+          <h2>NEWSLETTER ANMELDUNG</h2>
+          <p>Melden Sie sich bei unserem Newsletter an um immer neue Angebote zu erhalten</p>
+          <div class="input_div">
+            <input type="email" placeholder="Enter Your Email" />
+            <a href="../pages/contact-us.html"><button class="more_on_btn more_on_btn_2">
+                <img src="../assets/images/input_msg.svg" alt="" /></button></a>
+          </div>
+          <p>Holen Sie sich die aktuellen Angebote rein.</p>
+        </div>
+      </div>
+    </div>
   </footer>
   <!-- footer end -->
   <!-- footer_bottom start  -->
   <div class="footer_bottom">
     <p>
-      © 2020 Wolske Zins - All Rights Reserved | <a href="agbs.html">AGBs</a> | <a href="impressum.html">Impressum</a> |
-      <a href="datenschutz.html">Datenschutzerklärung</a>
+      © 2022 ins Pilot - All Rights Reserved | <a href="../pages/agbs.html">AGBs</a> | <a
+        href="../pages/impressum.html">Impressum</a> | <a href="../pages/datenschutz.html">Datenschutzerklärung</a>
     </p>
-    <!-- footer_bottom end -->
-    <script src="../assets/jquery-3.6.0.min.js"></script>
-    <script src="../assets/core.js"></script>
-    <!-- ACCORDIONS section end  -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"></script>
+  </div>
+  <!-- footer_bottom end -->
+  <script src="../assets/jquery-3.6.0.min.js"></script>
+  <script type="text/javascript" src="../assets/slick.min.js"></script>
+  <script src="../assets/core.js"></script>
+
 </body>
 
 </html>
