@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <title>Einlagensicherung</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets//cssresponsive.css">
+    <style>
+        body {
+            padding: 0;
+        }
+
+        .ft_privacy_content {
+            width: 90%;
+            /* height: 100%; */
+            background: #fff;
+            box-shadow: 0px 0px 32px #0000001a;
+            padding: 80px;
+            border-radius: 30px;
+            text-align: justify;
+            margin-bottom: 40px;
+        }
+
+        .ft_privacy_content h6 {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .ft_privacy_content h5 {
+            font-size: 20px;
+        }
+
+        p span {
+            font-size: 16px;
+        }
+
+        .banner {
+            height: 400px;
+            margin-bottom: 100px;
+        }
+
+        .open-account {
+            width: 100%;
+            background: #fcfcfc;
+        }
+
+        .open-account h1,
+        .open-account p {
+            color: var(--theme-color);
+        }
+
+        .open-account input {
+            border: 1px solid #005091 !important;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- SIDE MENU -->
+    <div class="animationload" style="display: none;">
+        <div class="loader" style="display: none;"></div>
+    </div>
+    <div class="sidebar-backdrop"></div>
+    <div class="sidebar-menu">
+        <div class="d-flex justify-content-between align-items-center head">
+            <a href="../index.html" style="color: #404040;">
+                <img src="../assets/images/logo_zinspilot_new.svg" alt="">
+            </a>
+            <img class="sidebar-close" src="../assets/images/close-dark.svg" alt="x" width="18px">
+        </div>
+        <div class="body">
+            <div class="side_bar_main">
+                <ul class="list-unstyled">
+                    <li><a href="../index.html" class="sidebar-links">Startseite</a></li>
+                    <li class="sb_submenu"><a href="javascript:void(0);"
+                            class="sidebar-links sidebar_menu">Anlageangebote<i class="fas fa-angle-down"></i></a></li>
+                    <div class="sidebar_dropdown_1">
+                        <div class="side_bar_dropdown">
+                            <a href="../pages/aboutUs.html">Festgeld</a>
+                            <a href="../pages/aboutUs.html">Tagesgeld</a>
+                        </div>
+                    </div>
+                    <li><a href="../index.html" class="sidebar-links">Banken</a></li>
+                    <li><a href="../index.html" class="sidebar-links">So funktioniert's</a></li>
+                    <li class="sb_submenu"><a href="javascript:void(0);"
+                            class="sidebar-links sidebar_menu_1">Informationen
+                            <i class="fas fa-angle-down"></i></a></li>
+                    <div class="sidebar_dropdown_2">
+                        <div class="side_bar_dropdown">
+                            <a href="../pages/festgeld.html">Aktuelle Produktinfos</a>
+                            <a href="../pages/tagesgeld.html">Zinserhöhungen</a>
+                            <a href="../pages/top-festzinsanlagen.html">Häufige Fragen</a>
+                            <a href="../pages/top-festzinsanlagen.html">Steuern</a>
+                            <a href="../pages/top-festzinsanlagen.html">Steuerbescheinigung</a>
+                            <a href="../pages/top-festzinsanlagen.html">Anlagevoraussetzung</a>
+                            <a href="../pages/top-festzinsanlagen.html">Länderrating</a>
+                            <a href="../pages/top-festzinsanlagen.html">Formularcenter</a>
+                        </div>
+                    </div>
+                    <li class="sb_submenu"><a href="javascript:void(0);"
+                            class="sidebar-links sidebar_menu_3">Finanzwissen <i class="fas fa-angle-down"></i></a></li>
+                    <div class="sidebar_dropdown_4">
+                        <div class="side_bar_dropdown">
+                            <a href="../pages/aktien.html">Geldanlage</a>
+                            <a href="../pages/gold-and-silber.html">Magazin</a>
+                        </div>
+                    </div>
+                    <li><a href="../pages/sparplan.html" class="sidebar-links">SPARPLÄNE </a></li>
+                    <li><a href="../pages/contact-us.html" class="sidebar-links">KONTAKT</a></li>
+                    <!-- <a href="#"><button></button></a> -->
+                </ul>
+                <div class="side-bar-btns">
+                    <a href="#" class="sidebar-links"><button>Login</button></a>
+                    <a href="#" class="sidebar-links"><button>Registrieren</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /SIDE MENU -->
+
+    <!-- banner start  -->
+    <div class="banner">
+        <div class="theme-container">
+            <nav>
+                <a href="../index.html"><img src="../assets/images/logo_zinspilot_new.svg" alt="" /></a>
+                <div class="menu">
+                    <img src="../assets/images/menu.svg" alt="MENU" id="nav_toggle">
+                </div>
+                <div class="links">
+                    <a href="../../index.html" class="link active">Startseite</a>
+                    <div class="about_us_link">
+                        <a href="javascript:void(0);" class="link">Anlageangebote</a>
+                        <div class="drop_down">
+                            <a href="../pages/aboutUs.html">
+                                <p>Festgeld</p>
+                            </a>
+                            <a href="../pages/aboutUs.html">
+                                <p>Tagesgeld</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="about_us_link">
+                        <a href="javascript:void(0);" class="link">Banken </a>
+                    </div>
+                    <div class="about_us_link">
+                        <a href="javascript:void(0);" class="link">So funktioniert's </a>
+                    </div>
+                    <div class="about_us_link">
+                        <a href="javascript:void(0);" class="link">Informationen</a>
+                        <div class="drop_down">
+                            <a href="../pages/festgeld.html">
+                                <p>Aktuelle Produktinfos</p>
+                            </a>
+                            <a href="../pages/festgeld.html">
+                                <p>Zinserhöhungen</p>
+                            </a>
+                            <a href="../pages/festgeld.html">
+                                <p>Häufige Fragen</p>
+                            </a>
+                            <a href="../pages/festgeld.html">
+                                <p>Steuern</p>
+                            </a>
+                            <a href="../pages/festgeld.html">
+                                <p>Steuerbescheinigung</p>
+                            </a>
+                            <a href="../pages/tagesgeld.html">
+                                <p>Anlagevoraussetzung</p>
+                            </a>
+                            <a href="../pages/top-festzinsanlagen.html">
+                                <p>Länderrating</p>
+                            </a>
+                            <a href="../pages/top-festzinsanlagen.html">
+                                <p>Formularcenter</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="about_us_link">
+                        <a href="javascript:void(0);" class="link">Finanzwissen</a>
+                        <div class="drop_down">
+                            <a href="../pages/festgeld.html">
+                                <p>Geldanlage</p>
+                            </a>
+                            <a href="../pages/festgeld.html">
+                                <p>Magazin</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="header-btns">
+                        <a href=""><button class="login-btn">Login</button></a>
+                        <a href=""><button class="register-btn">Registrieren</button></a>
+                    </div>
+                </div>
+            </nav>
+            <div class="banner_heading">
+                <h2>
+                    Einlagensicherung
+                </h2>
+            </div>
+        </div>
+    </div>
+    <!-- banner end  -->
+
+    <section class="my-0 my-md-4 my-lg-4 my-xl-4 mt-5">
+        <div class="ft_imprint">
+            <div class="">
+                <div class="row justify-content-center w-100 mx-0">
+                    <div class="col-12">
+                        <div class="row justify-content-center">
+                            <div class="ft_privacy_content col-11 col-sm-11 col-md-12 col-lg-12 col-xl-10">
+                                <div class="col-sm-12 col-md-12 px-0 px-lg-3 px-xl-3">
+                                    <div id="content" class="content-default">
+
+                                        <div class="center-heading text-center p-0">
+                                            <h1>Einlagensicherung: Sicherheit für Ihre Spareinlagen</h1>
+                                        </div>
+                                        <div class="container">
+                                            <div id="c20894"
+                                                class="frame frame-0 frame-type-text frame-space-before-extra-small   ">
+                                                <p>Das Sparbuch, <a href="/tagesgeld/">Tagesgeld</a> und <a
+                                                        href="/festgeld/">Festgeld</a> gehören zu den beliebtesten
+                                                    Geldanlagen, denn sie bieten ein hohes Maß an Sicherheit. Grund
+                                                    dafür ist die Einlagensicherung, die eine <strong>Rückzahlung der
+                                                    </strong><strong>Einlagen</strong> bei einer Bank oder einem anderen
+                                                    Kreditinstitut, beispielsweise einer Sparkasse, <strong>im Falle
+                                                        einer </strong><strong>Insolvenz </strong>ermöglicht. Die Höhe
+                                                    der Einlagensicherung hängt vom Kreditinstitut ab, denn neben der
+                                                    gesetzlichen Einlagensicherung von 100.000 Euro gibt es oftmals noch
+                                                    eine freiwillige Einlagensicherung. Was Einlagensicherung genau
+                                                    bedeutet, wie hoch sie ausfällt und welche Länder der gesetzlichen
+                                                    Einlagensicherung unterliegen, erfahren Sie auf dieser Seite.</p>
+                                            </div>
+                                        </div>
+                                        <div class="container">
+                                            <div id="c8624"
+                                                class="frame frame-0 frame-type-menu_section frame-space-before-medium   ">
+                                                <header>
+                                                    <h2 class="">
+                                                        Seitenübersicht
+                                                    </h2>
+                                                </header>
+                                                <div class="mt-1"><a href="#c8529"
+                                                        title="Was ist eine Einlagensicherung bei der Bank?"
+                                                        class="scroll"> Was ist eine
+                                                        Einlagensicherung bei der Bank?
+                                                    </a></div>
+                                                <div class="mt-1"><a href="#c20904"
+                                                        title="Wie hoch ist die Einlagensicherung?" class="scroll">Wie
+                                                        hoch ist die
+                                                        Einlagensicherung?
+                                                    </a></div>
+                                                <div class="mt-1"><a href="#c20907"
+                                                        title="Was bedeutet die freiwillige Einlagensicherung?"
+                                                        class="scroll"> Was bedeutet
+                                                        die freiwillige Einlagensicherung?
+                                                    </a></div>
+                                                <div class="mt-1"><a href="#c20921"
+                                                        title="So funktioniert die Einlagensicherung in Deutschland"
+                                                        class="scroll"> So
+                                                        funktioniert die Einlagensicherung in Deutschland
+                                                    </a></div>
+                                                <div class="mt-1"><a href="#c20908"
+                                                        title="Bezieht sich die deutsche Einlagensicherung auch auf Wertpapiere?"
+                                                        class="scroll"> Bezieht sich
+                                                        die deutsche Einlagensicherung auch auf Wertpapiere?
+                                                    </a></div>
+                                                <div class="mt-1"><a href="#c20909"
+                                                        title="Die Einlagensicherung in Europa" class="scroll"> Die
+                                                        Einlagensicherung in
+                                                        Europa
+                                                    </a></div>
+                                                <div class="mt-1"><a href="#c5106"
+                                                        title="Mit ZINSPILOT EU-weit Geld anlegen" class="scroll"> Mit
+                                                        ZINSPILOT EU-weit Geld
+                                                        anlegen
+                                                    </a></div>
+                                            </div>
+                                        </div>
+                                        <div class="container">
+                                            <div id="c8529"
+                                                class="frame frame-0 frame-type-text frame-space-before-medium   ">
+                                                <header>
+                                                    <h2 class="">
+                                                        Was ist eine Einlagensicherung bei der Bank?
+                                                    </h2>
+                                                </header>
+                                                <p>Mit der Einlagensicherung soll sichergestellt werden, dass
+                                                    <strong>Kundeneinlagen inklusive Zinserträge</strong> bei Banken und
+                                                    Kreditinstituten <strong>im Falle einer
+                                                        Zahlungsunfähigkeit</strong>&nbsp;<strong>bis zu einer
+                                                        bestimmten </strong><strong>Höhe </strong><strong>zurückgezahlt
+                                                        werden können</strong>. Die Einlagensicherung sichert
+                                                    dementsprechend sämtliche Einlagenarten wie Sparbriefe, Sicht-,
+                                                    Termin- und Spareinlagen ab. Dazu zählen unter anderem das
+                                                    Girokonto, Sparbuch, Festgeld und Tagesgeld. Gesetzlich geregelt
+                                                    wird die Einlagensicherung im Einlagensicherungsgesetz (EinSiG).
+                                                    Dort ist auch die Höhe der gesetzlichen Einlagensicherung
+                                                    festgelegt. <strong>Einlagen </strong><strong>bis zu
+                                                    </strong><strong>100.000 </strong><strong>Euro je
+                                                    </strong><strong>Kunde </strong><strong>und
+                                                    </strong><strong>Bank</strong> sind durch die Einlagensicherung
+                                                    abgesichert.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="container">
+                                            <div id="c20897"
+                                                class="frame frame-0 frame-type-image frame-space-before-medium   ">
+                                                <div class="ce-image ce-center ce-above">
+                                                    <div class="ce-gallery" data-ce-columns="1" data-ce-images="1">
+                                                        <div class="ce-outer">
+                                                            <div class="ce-inner">
+                                                                <div class="ce-row">
+                                                                    <div class="ce-column">
+                                                                        <figure class="image"><img
+                                                                                src="../assets/images/Einlagensicherung.svg"
+                                                                                class="image-embed-item img-fluid mb-2"
+                                                                                width="850" height="209"
+                                                                                alt="Einlagensicherung"
+                                                                                title="Einlagensicherung"
+                                                                                loading="lazy"></figure>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="container">
+                                            <div id="c8530"
+                                                class="frame frame-0 frame-type-text frame-space-before-medium   ">
+                                                <p>Es gibt allerdings auch Ausnahmeregelungen. Denn<strong> für
+                                                        bestimmte Gegenwerte </strong>kann sich die
+                                                    <strong>Sicherungsgrenze </strong><strong>in
+                                                    </strong><strong>Deutschland </strong><strong>für 6 Monate nach
+                                                        Einzahlung auf 500.000 Euro erhöhen</strong>.&nbsp;
+                                                </p>
+                                                <p>Das gilt zum Beispiel für Beträge aus dem Verkauf einer privat
+                                                    genutzten Wohnimmobilie, Auszahlungen aus Versicherungen oder
+                                                    erhaltene Beträge aufgrund einer Scheidung, dem Renteneintritt oder
+                                                    anderen Lebensereignissen. Liegt der Eingang dieser Zahlungen auf
+                                                    dem Konto länger als 6 Monate zurück, besteht kein Anspruch auf die
+                                                    Entschädigung von 500.000 Euro, sondern lediglich von 100.000
+                                                    Euro.&nbsp;</p>
+                                                <p>Die Sonderfälle, bei der eine Entschädigung von bis zu 500.000 Euro
+                                                    möglich ist, können im Entschädigungsgesetz unter § 8 genau
+                                                    nachgelesen werden. Alle Banken, Kreditinstitute und
+                                                    Einlagensicherungssysteme sowie Entschädigungen im Falle einer
+                                                    Insolvenz werden unter anderem von der Bundesanstalt für
+                                                    Finanzdienstleistungsaufsicht (BaFin) beaufsichtigt.</p>
+                                            </div>
+                                        </div>
+                                        <div class="container">
+                                            <div id="c8531"
+                                                class="frame frame-0 frame-type-text frame-space-before-medium   ">
+                                                <header>
+                                                    <h3 class="">
+                                                        Wann greift die Einlagensicherung?
+                                                    </h3>
+                                                </header>
+                                                <p>Geht eine Bank oder ein Kreditinstitut, wie beispielsweise eine
+                                                    Sparkasse, insolvent und <strong>kann</strong>&nbsp;<strong>so die
+                                                    </strong><strong>Einlagen </strong><strong>der
+                                                    </strong><strong>Kunden </strong><strong>nicht mehr
+                                                        zurückzahlen</strong>, greift die Einlagensicherung. Sie stellt
+                                                    sicher, dass alle Einleger ihr Geld und mögliche Zinserträge
+                                                    mindestens in Höhe der gesetzlichen Einlagensicherung erhalten. Zu
+                                                    den Einlegern zählen nicht nur Privatpersonen, sondern auch:</p>
+                                                <ul>
+                                                    <li>Gesellschaften des bürgerlichen Rechts</li>
+                                                    <li>Eingetragene Vereine</li>
+                                                    <li>Stiftungen</li>
+                                                    <li>Kleinere Unternehmen</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <section class="open-account-sec mb-5">
+                                            <div class="open-account">
+                                                <h1 class="pt-0">Abonnieren Sie unseren <br> ZINSPILOT Newsletter</h1>
+                                                <p><strong>– und verpassen Sie keine Top-Zinsen!
+                                                    </strong></p>
+                                                <input type="text" placeholder="E-Mail"> <br>
+                                                <a href=""><button>Newsletter abonnieren</button></a>
+                                            </div>
+                                        </section>
+                                        <div class="container">
+                                            <div id="c20902"
+                                                class="frame frame-0 frame-type-text frame-space-before-extra-large   ">
+                                                <header>
+                                                    <h3 class="">
+                                                        Welche Einlagensicherungssysteme gibt es bei der gesetzlichen
+                                                        Einlagensicherung?
+                                                    </h3>
+                                                </header>
+                                                <p>Um die gesetzliche Einlagensicherung umzusetzen, gibt es in
+                                                    Deutschland <strong>vier </strong><strong>gesetzliche
+                                                        Einlagensicherungssysteme</strong><strong>:</strong>&nbsp;</p>
+                                                <ul>
+                                                    <li>Entschädigungseinrichtung deutscher Banken GmbH (EdB) - sie
+                                                        dient der Absicherung von Privatbanken</li>
+                                                    <li>Entschädigungseinrichtung des Bundesverbandes Öffentlicher
+                                                        Banken Deutschlands GmbH (EdÖ)</li>
+                                                </ul>
+                                                <p>Zudem gibt es die als Einlagensicherungssystem anerkannten
+                                                    Institutssicherungssysteme:</p>
+                                                <ul>
+                                                    <li>der Sparkassen-Finanzgruppe</li>
+                                                    <li>und des Bundesverbandes der Deutschen Volksbanken und
+                                                        Raiffeisenbanken e.V.</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="container">
+                                            <div id="c20903"
+                                                class="frame frame-0 frame-type-text frame-space-before-medium   ">
+                                                <header>
+                                                    <h3 class="">
+                                                        Ist die Institutssicherung auch eine Einlagensicherung?
+                                                    </h3>
+                                                </header>
+                                                <p>In Verbindung mit Sparkassen, Landesbanken, Landesbausparkassen sowie
+                                                    Genossenschaftsbanken taucht der Begriff Institutssicherung statt
+                                                    Einlagensicherung auf. Die Institutssicherung ist ein
+                                                    Sicherungssystem, das alle Mitglieder vor der Insolvenz bewahren und
+                                                    die Einlagen der Kunden absichern kann. Die institutsbezogenen
+                                                    Sicherungssysteme des Deutschen Sparkassen- und Giroverbandes (DSGV)
+                                                    und des Bundesverbandes Deutscher Volksbanken und Raiffeisenbanken
+                                                    sind von der BaFin als Einlagensicherungssysteme anerkannt. Das
+                                                    bedeutet, dass sie Sicherungseinrichtungen im Sinne des
+                                                    Einlagensicherungsgesetzes sind. Somit kann die
+                                                    <strong>Institutssicherung </strong><strong>auch als
+                                                    </strong><strong>Einlagensicherung
+                                                    </strong><strong>angesehen</strong> werden.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="container">
+                                            <div id="c20904"
+                                                class="frame frame-0 frame-type-text frame-space-before-medium   ">
+                                                <header>
+                                                    <h2 class="">
+                                                        Wie hoch ist die Einlagensicherung?
+                                                    </h2>
+                                                </header>
+                                                <p>In Deutschland und den Ländern der Eurozone beträgt die Höhe der
+                                                    <strong>gesetzlichen
+                                                        Einlagensicherung</strong>&nbsp;<strong>100.000</strong>&nbsp;<strong>Euro
+                                                        je </strong><strong>Kunde </strong><strong>und
+                                                    </strong><strong>Bank</strong>. Schweden sichert dagegen Einlagen in
+                                                    eigener Währung ab. Dort sind Einlagen bis zu 1.050.000 Schwedische
+                                                    Kronen (SEK) abgesichert. Norwegen ist kein Mitglied der EU, bietet
+                                                    aber dennoch eine Einlagensicherung von 2 Millionen Norwegischen
+                                                    Kronen. Je nach Wechselkurs kann die tatsächliche Absicherung in
+                                                    Euro variieren. Aktuell (April 2022) liegt die Einlagensicherung in
+                                                    Schweden bei ca. 101.603 Euro und in Norwegen bei ca. 206.148 Euro.
+                                                    Das ist aktuell das doppelte der EU-weit harmonisierten
+                                                    Einlagensicherung.
+                                                </p>
+                                                <p>Einige Banken und Kreditinstitute sichern insbesondere in Deutschland
+                                                    die Einlagen ihrer Kunden über die gesetzliche Einlagensicherung
+                                                    hinaus ab. Dazu werden sie Mitglied von freiwilligen
+                                                    Einlagensicherungssystemen. Wie hoch die Einlagensicherung für
+                                                    Einleger dann ist, hängt von der Bank selbst ab. Informationen zur
+                                                    Höhe der Einlagensicherung können jederzeit bei der Bank erfragt
+                                                    oder in den AGBs nachgelesen werden.</p>
+                                            </div>
+                                        </div>
+                                        <div class="container">
+                                            <div id="c20905"
+                                                class="frame frame-0 frame-type-text frame-space-before-medium   ">
+                                                <header>
+                                                    <h3 class="">
+                                                        Gilt die Einlagensicherung pro Konto oder pro Person?
+                                                    </h3>
+                                                </header>
+                                                <p>Die Einlagensicherung gilt <strong>nicht pro
+                                                    </strong><strong>Konto</strong>, sondern pro Person und Bank. Haben
+                                                    Einleger mehrere Konten bei einer Bank, wird das Guthaben aller
+                                                    Konten zusammengezählt und bis maximal zur Höhe der
+                                                    Einlagensicherung entschädigt. Besitzen sie Spareinlagen bei
+                                                    mehreren Banken, profitieren sie von der Einlagensicherung pro Bank.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="container">
+                                            <div id="c20907"
+                                                class="frame frame-0 frame-type-text frame-space-before-medium   ">
+                                                <header>
+                                                    <h2 class="">
+                                                        Was bedeutet die freiwillige Einlagensicherung?
+                                                    </h2>
+                                                </header>
+                                                <p>Banken und Kreditinstitute können die <strong>Einlagen
+                                                    </strong><strong>ihrer </strong><strong>Kunden
+                                                    </strong><strong>zusätzlich zur </strong><strong>gesetzlichen
+                                                    </strong><strong>Einlagensicherung </strong><strong>über
+                                                    </strong><strong>Einlagensicherungsfonds</strong> der Bankenverbände
+                                                    freiwillig <strong>absichern</strong>. Dadurch erhöht sich die Summe
+                                                    der Entschädigung, die Einleger im Falle einer Insolvenz ihrer Bank
+                                                    bekommen können. Wie hoch die Einlagensicherung durch die
+                                                    freiwillige Zusatzabsicherung ist, kann jedes Kreditinstitut selbst
+                                                    entscheiden. Es gibt jedoch eine Grenze: Die freiwillige
+                                                    Einlagensicherung sichert maximal 15 Prozent des Eigenkapitals der
+                                                    Bank ab. Bis zum Jahr 2025 soll diese Grenze weiter auf 8,75 Prozent
+                                                    gesenkt werden. Einen Rechtsanspruch auf eine Entschädigung gibt es
+                                                    bei der freiwilligen Einlagensicherung jedoch nicht. Die
+                                                    Einlagensicherungseinrichtungen werden auch nicht von der BaFin
+                                                    beaufsichtigt.</p>
+                                                <p>In Deutschland gibt es zwei freiwillige Sicherungseinrichtungen:</p>
+                                                <ul>
+                                                    <li>Über den Einlagensicherungsfonds des Bundesverbandes deutscher
+                                                        Banken e. V. (BdB) können Privatbanken die Einlagen ihrer Kunden
+                                                        zusätzlich absichern</li>
+                                                    <li>Für Öffentliche Banken steht der Einlagensicherungsfonds des
+                                                        Bundesverbandes Öffentlicher Banken Deutschlands (VÖB) zur
+                                                        freiwilligen Einlagensicherung zur Verfügung.</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="container">
+                                            <div id="c20921"
+                                                class="frame frame-0 frame-type-textpic frame-space-before-medium   ">
+                                                <header>
+                                                    <h2 class="">
+                                                        So funktioniert die Einlagensicherung in Deutschland
+                                                    </h2>
+                                                </header>
+                                                <div class="ce-textpic ce-center ce-above">
+                                                    <div class="ce-bodytext">
+                                                        <p>Die Einlagensicherung in Deutschland ist durch verschiedene
+                                                            Entschädigungseinrichtungen geregelt. Die freiwillige
+                                                            Einlagensicherung greift allerdings erst, wenn der maximale
+                                                            Betrag der gesetzlichen ausgeschöpft wurde. Das heißt,
+                                                            Entschädigungen werden erst aus dem „Topf“ der gesetzlichen
+                                                            Einlagensicherungseinrichtungen getätigt und danach wird auf
+                                                            die freiwilligen Sicherungseinrichtungen zurückgegriffen.
+                                                            Die durchschnittliche Sicherungsgrenze liegt laut Angaben
+                                                            des Bundesverbands deutscher Banken bei 190 Millionen Euro
+                                                            pro Kunde und Bank. In welcher Höhe Ihre Bank eine
+                                                            Absicherung bietet, kann in der Regel über das Internet oder
+                                                            die AGBs der Bank herausgefunden werden.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="container">
+                                            <div id="c20948" class="frame frame-0 frame-type-image   ">
+                                                <div class="ce-image ce-center ce-above">
+                                                    <div class="ce-gallery" data-ce-columns="1" data-ce-images="1">
+                                                        <div class="ce-outer">
+                                                            <div class="ce-inner">
+                                                                <div class="ce-row">
+                                                                    <div class="ce-column">
+                                                                        <figure class="image"><img
+                                                                                src="../assets/images/csm_Ablauf_der_Einlagensicherung_5131175e3a.png"
+                                                                                class="image-embed-item img-fluid mb-2"
+                                                                                width="850" height="1250"
+                                                                                alt="Ablauf der Einlagensicherung"
+                                                                                title="Ablauf der Einlagensicherung"
+                                                                                loading="lazy"></figure>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="container">
+                                            <div id="c8532" class="frame frame-0 frame-type-textpic   ">
+                                                <div class="ce-textpic ce-center ce-above">
+                                                    <div class="ce-bodytext">
+                                                        <p>Um die Entschädigung zu erhalten ist es als Einleger in der
+                                                            Regel nicht notwendig, selbst aktiv zu werden. Kommt es zu
+                                                            einer Insolvenz einer Bank, werden alle Einleger informiert
+                                                            und die zuständige Entschädigungseinrichtung übernimmt die
+                                                            Auszahlung der Entschädigung. Diese hat Innerhalb von 7
+                                                            Arbeitstagen nach der Feststellung des Entschädigungsfalls
+                                                            zu erfolgen. Der <strong>Anspruch auf
+                                                            </strong><strong>Entschädigung </strong><strong>verjährt
+                                                                erst 5 Jahre</strong> nachdem Einleger von der Insolvenz
+                                                            erfahren haben. Die Verjährung ist in § 9 des
+                                                            Einlagensicherungsgesetzes festgelegt.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="container">
+                                            <div id="c20908"
+                                                class="frame frame-0 frame-type-text frame-space-before-medium   ">
+                                                <header>
+                                                    <h2 class="">
+                                                        Bezieht sich die deutsche Einlagensicherung auch auf
+                                                        Wertpapiere?
+                                                    </h2>
+                                                </header>
+                                                <p>Wertpapiere, wie Aktien oder Anleihen, und auch Anteile an Fonds und
+                                                    ETFs sind keine Einlagen, daher sind sie <strong>nicht über die
+                                                    </strong><strong>Einlagensicherung
+                                                    </strong><strong>abgesichert</strong>. Das ist allerdings auch
+                                                    <strong>nicht unbedingt notwendig</strong>, da sich die Wertpapiere
+                                                    und Fondsanteile im Besitz der Anleger befinden und die Banken diese
+                                                    nur verwahren. Kommt es zu einer Insolvenz der Bank, bei dem das
+                                                    Wertpapierdepot eingerichtet ist, können die Wertpapiere und Anteile
+                                                    in der Regel ohne Verluste auf ein anderes Kreditinstitut übertragen
+                                                    werden.
+                                                </p>
+                                                <p>Sie möchten Ihr Geld in Wertpapiere anlegen und attraktive
+                                                    Renditechancen nutzen? Neben Angeboten für Tagesgeld und Festgeld
+                                                    bei ZINSPILOT können Sie mit WeltSparen zusätzlich in global
+                                                    diversifizierte und kosteneffiziente ETF-Portfolios investieren.</p>
+                                            </div>
+                                        </div>
+                                        <div class="container">
+                                            <div id="c20909"
+                                                class="frame frame-0 frame-type-text frame-space-before-large   ">
+                                                <header>
+                                                    <h2 class="">
+                                                        Die Einlagensicherung in Europa
+                                                    </h2>
+                                                </header>
+                                                <p>Die Europäische Union hat einheitliche Regeln etabliert, wodurch
+                                                    Spareinlagen durch die <strong>EU-weit harmonisierte
+                                                    </strong><strong>Einlagensicherung</strong> abgesichert sind. In der
+                                                    Eurozone gilt eine Einlagensicherung von bis zu 100.000 Euro je
+                                                    Kunde und Bank, in Schweden von bis zu 1.050.000 Schwedische Kronen.
+                                                    Auch Länder, die keine Mitglieder der Eurozone sind, bieten
+                                                    Einlagensicherungen an. Beispielsweise beträgt diese in Norwegen 2
+                                                    Millionen Norwegische Kronen und auch in der Schweiz sind Einlagen
+                                                    bis zu 100.000 Schweizer Franken abgesichert.</p>
+                                                <p><strong>Jeder EU-Mitgliedsstaat ist </strong>dazu<strong>
+                                                        verpflichtet</strong>, ein <strong>nationales
+                                                    </strong><strong>Einlagensicherungssystem
+                                                    </strong><strong>einzurichten</strong>. Die Einlagensicherung ist
+                                                    ein in Recht verankertes Bekenntnis zur EU-weiten Absicherung der
+                                                    Sparer und zur Wahrung der Stabilität innerhalb der Europäischen
+                                                    Union. Kommt es zu einem Insolvenzfall einer im EU-Ausland
+                                                    ansässigen Bank, bei der deutsche Kunden Einlagen haben, ist eine
+                                                    komplizierte Abwicklung über die ausländische
+                                                    Einlagensicherungseinrichtung nicht notwendig. Die Entschädigungen
+                                                    werden automatisch über das deutsche Sicherungssystem vorgenommen.
+                                                    Dabei werden jedoch nicht die Finanzen der in Deutschland ansässigen
+                                                    Einlagensicherungseinrichtungen belastet, sondern die Entschädigung
+                                                    erfolgt im Auftrag der ausländischen Entschädigungseinrichtung.</p>
+                                                <p>Dadurch kann sich für Sparer der <strong>Blick ins EU-Ausland
+                                                        lohnen</strong>, wenn sie Geld in Tagesgeld oder Festgeld
+                                                    anlegen möchten. Denn auch dort unterliegen die Einlagen der
+                                                    gesetzlichen Einlagensicherung. Sparer können so von <strong>höheren
+                                                        Zinsen als bei deutschen </strong><strong>Banken</strong>
+                                                    profitieren.</p>
+                                            </div>
+                                        </div>
+                                        <div class="container">
+                                            <div id="c5106"
+                                                class="frame frame-0 frame-type-text frame-space-before-medium   ">
+                                                <header>
+                                                    <h2 class="">
+                                                        Mit ZINSPILOT EU-weit Geld anlegen
+                                                    </h2>
+                                                </header>
+                                                <p><a href="/tagesgeld/">Tagesgeld</a> und <a
+                                                        href="/festgeld/">Festgeld</a> gelten nicht nur in Deutschland
+                                                    als sichere Anlageformen, sondern EU-weit. Das hat große Vorteile,
+                                                    denn die Verzinsung der Geldanlagen ist dort meist höher als in
+                                                    Deutschland. <strong>Auch bei ZINSPILOT unterliegen alle gelisteten
+                                                        Anlageangebote der EU-weit harmonisierten
+                                                    </strong><strong>Einlagensicherung</strong><strong>.</strong> Dabei
+                                                    gilt die Einlagensicherung der jeweiligen Anlagebank. Diese können
+                                                    Kunden im Informationsbogen für Einleger der jeweiligen Anlagebank
+                                                    jederzeit nachlesen. Zusätzlich veröffentlicht ZINSPILOT zur
+                                                    besseren Orientierung für Kunden das <a
+                                                        href="/informationen/laenderrating-zinspilot-banken/">Länderrating
+                                                        der EU-Länder</a>.</p>
+                                            </div>
+                                        </div>
+                                        <section class="open-account-sec mb-5">
+                                            <div class="open-account">
+                                                <h1>Jetzt Ihr kostenloses <br> ZINSPILOT-Konto eröffnen!</h1>
+                                                <p>Sie sind schon ZINSPILOT-Kunde? <a href="">Hier anmelden.</a></p>
+                                                <a href=""><button>Kostenloses Konto eröffnen</button></a>
+                                            </div>
+                                        </section>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer start  -->
+    <footer class="footer">
+        <div class="theme-container">
+            <div class="row">
+                <div class="footer_heading col-12 col-lg-3 col-xl-3">
+                    <img src="../assets/images/logo_zinspilot_footer.svg" alt="" class="footer-logo" />
+                    <p>Ringvägen 100</p>
+                    <p style="margin-bottom: 30px">SE- 118 60 Stockholm</p>
+                    <p> hello@zin-pilot.com Haben <br> Sie Fragen</p>
+                    <p>+46/ 843 737 988</p>
+                </div>
+                <div class="footer_heading footer_heading_1 col-6 col-lg-2 col-xl-2 my-5 my-lg-0 my-xl-0">
+                    <h2>Unternehmen</h2>
+                    <a href="../pages/festgeld.html">Über uns</a>
+                    <a href="../pages/tagesgeld.html">Karriere</a>
+                    <a href="../pages/top-festzinsanlagen.html">Presse</a>
+                    <a href="../pages/aboutUs.html">Auszeichnungen</a>
+                    <a href="../pages/contact-us.html">Kontakt</a>
+                    <a href="../pages/contact-us.html">Partner werden</a>
+                </div>
+                <div class="footer_heading footer_heading_2 col-6 col-lg-2 col-xl-2 my-5 my-lg-0 my-xl-0">
+                    <h2>
+                        Wissen
+                    </h2>
+                    <a href="../pages/edelmetalle.html">Finanzlexikon</a>
+                    <a href="../pages/gold-and-silber.html">Einlagensicherung</a>
+                    <a href="../pages/pelletanlagen.html">Ratingindex bei ZINSPILOT</a>
+                    <a href="../pages/aktien.html">Bankenrating</a>
+                </div>
+                <div class="footer_heading footer_heading_2 col-6 col-lg-2 col-xl-2 my-5 my-lg-0 my-xl-0">
+                    <h2>
+                        Service
+                    </h2>
+                    <a href="../pages/edelmetalle.html">Zufriedenheitsmanagement</a>
+                    <a href="../pages/gold-and-silber.html">ZINSPILOT Erfahrungen</a>
+                    <a href="../pages/pelletanlagen.html">Newsletter</a>
+                    <a href="../pages/pelletanlagen.html">Sparpläne</a>
+                </div>
+                <div class="footer_heading footer_heading_3 col-12 col-lg-3 col-xl-3">
+                    <h2>NEWSLETTER ANMELDUNG</h2>
+                    <p>Melden Sie sich bei unserem Newsletter an um immer neue Angebote zu erhalten</p>
+                    <div class="input_div">
+                        <input type="email" placeholder="Enter Your Email" />
+                        <a href="../pages/contact-us.html"><button class="more_on_btn more_on_btn_2">
+                                <img src="../assets/images/input_msg.svg" alt="" /></button></a>
+                    </div>
+                    <p>Holen Sie sich die aktuellen Angebote rein.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+    <!-- footer_bottom start  -->
+    <div class="footer_bottom">
+        <p>
+            © 2022 ins Pilot - All Rights Reserved | <a href="../pages/agbs.html">AGBs</a> | <a
+                href="../pages/impressum.html">Impressum</a> | <a
+                href="../pages/datenschutz.html">Datenschutzerklärung</a>
+        </p>
+    </div>
+    <!-- footer_bottom end -->
+    <script src="../assets/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="../assets/slick.min.js"></script>
+    <script src="../assets/core.js"></script>
+
+</body>
+
+</html>

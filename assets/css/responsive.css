@@ -1,0 +1,1354 @@
+@media (max-width: 1200px) {
+  .links {
+    display: none !important;
+  }
+
+  .menu {
+    display: block;
+  }
+
+  .hesitate_main {
+    padding: 52px 35px 29px 35px;
+  }
+
+  .hesitate_card {
+    width: 31%;
+  }
+
+  .hesitate_card:nth-child(3) {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
+  .hesitate_main > h4 {
+    font-size: 2.4rem;
+    width: 100%;
+  }
+
+  .notfound .notfound-404 h1 {
+    font-size: 120px !important;
+  }
+
+  .banner_1 {
+    margin-bottom: 70px;
+    height: 400px;
+  }
+
+  .footer > .theme-container > .row {
+    justify-content: space-between;
+  }
+
+  .footer_heading_3 {
+    width: 30%;
+  }
+
+  .about_us > .row {
+    justify-content: center;
+  }
+
+  .single-page {
+    padding: 0px !important;
+  }
+
+  .fee-adv-text_1 > iframe {
+    width: 99% !important;
+  }
+
+  .tradingview-widget-container > iframe {
+    width: 99% !important;
+  }
+
+  .about_us_card > img {
+    position: initial;
+    margin-bottom: 40px;
+  }
+
+  .about_us_card_main:first-of-type {
+    margin-bottom: 40px;
+  }
+
+  .about_us_card_main > h4 {
+    margin-bottom: 20px;
+  }
+
+  .about_us_card_main:last-of-type {
+    width: 100%;
+  }
+
+  .about_us_card > .about_us_card_main > p {
+    text-align: justify;
+  }
+
+  .all_of_our {
+    width: 75%;
+    margin-left: 0px;
+  }
+  .theme-container_2 {
+    padding: 0 53px;
+  }
+
+  .great_successes_card_1 {
+    margin-top: 25px;
+  }
+
+  .great_successes {
+    margin-bottom: 0px;
+  }
+
+  .tool-bar-items {
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+
+  .tool-bar-items a {
+    margin-bottom: 15px;
+  }
+  .tool-bar-items a:last-of-type {
+    margin-bottom: 0px;
+    margin-right: 0px;
+  }
+
+  .about_us_card > img {
+    position: initial !important;
+    width: 100% !important;
+  }
+
+  .about_us_card {
+    border-radius: 20px 20px 20px 20px;
+    padding: 25px 25px 25px 25px;
+    width: 89% !important;
+    flex-flow: column;
+  }
+
+  .festzinsanlage {
+    overflow: auto;
+  }
+
+  .great_successes {
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 992px) {
+  .theme-container {
+    padding: 0 50px;
+  }
+
+  .about_us_card_main > div > input {
+    width: 48%;
+    margin-right: 0px;
+  }
+
+  .about_us_card_main_1 > h5::before {
+    left: 62%;
+  }
+
+  .about_us_card_main_1 {
+    width: 100% !important;
+  }
+
+  .about_us_card_1 {
+    padding: 64px 67px 35px 67px !important;
+  }
+
+  .about_us_card_main > div {
+    justify-content: space-between;
+  }
+
+  .about_us_card_main > div > textarea {
+    width: 100%;
+  }
+
+  .about_us_card_1 > .about_us_card_main:first-of-type {
+    width: 100% !important;
+  }
+
+  .banner .fixed-div {
+    left: 9px;
+  }
+
+  .services_card {
+    width: 31%;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .services_card:nth-child(2) {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .services {
+    padding: 50px 0px;
+  }
+
+  .moody_card {
+    width: 30%;
+  }
+
+  .theme-container_1 {
+    padding: 0 16px;
+  }
+
+  .hesitate_main {
+    padding: 15px 35px 29px 35px;
+  }
+
+  .hesitate_card {
+    width: 31%;
+  }
+
+  .hesitate_card:nth-child(3) {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .hesitate_main > h4 {
+    font-size: 1.938rem;
+    width: 100%;
+  }
+
+  .about_us_card {
+    border-radius: 20px 20px 20px 20px;
+    padding: 25px 25px 25px 25px;
+    width: 90% !important;
+    flex-flow: column;
+  }
+
+  .about_us_card > img {
+    position: initial;
+  }
+
+  .about_us_card_main:last-of-type {
+    width: 100%;
+    margin-top: 40px;
+  }
+
+  .about_us > .row {
+    justify-content: center;
+  }
+
+  .about_us_card_main > h4 {
+    margin-bottom: 20px;
+  }
+
+  .all_of_our {
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  .theme-container_2 {
+    padding: 0 40px;
+  }
+
+  .banner_1 {
+    margin-bottom: 70px;
+    height: 350px;
+  }
+
+  .contact-us-form {
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  .form-textarea {
+    width: 100%;
+  }
+
+  .contact-us-form input {
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  .send-message button {
+    width: 30%;
+  }
+
+  .contact-us-form {
+    width: 96.3% !important;
+    margin-left: 0px !important;
+  }
+
+  .single-page {
+    padding: 0px;
+  }
+
+  .banner-fixed-cards {
+    width: 30%;
+  }
+
+  .banner-fixed-cards:last-of-type {
+    margin-right: 0px;
+  }
+
+  .banner-vector {
+    width: 0px;
+  }
+
+  .top-title {
+    margin-bottom: 20px;
+  }
+
+  .top-title h1 {
+    font-size: 60px;
+    line-height: 70px;
+    width: 100%;
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .notfound .notfound-404 {
+    height: 142px;
+  }
+
+  .banner-fixed-cards {
+    width: 89%;
+    margin-right: 0px;
+  }
+
+  .theme-container {
+    padding: 0 15px;
+  }
+
+  .banner_1 {
+    margin-bottom: 60px !important;
+    height: 300px !important;
+  }
+
+  .notfound .notfound-404 h1 {
+    font-size: 112px;
+  }
+
+  .row {
+    width: 100%;
+    margin: 0px;
+  }
+  .hesitate_card {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    margin-bottom: 30px;
+  }
+
+  .moody_card {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    margin-bottom: 30px;
+  }
+
+  .about_us_card {
+    width: 100% !important;
+  }
+
+  .services_card {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    margin-bottom: 30px !important;
+    width: 89%;
+  }
+
+  .section-descp {
+    width: 89%;
+    text-align: justify;
+  }
+
+  .services {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+  }
+
+  .about_us_card > img {
+    width: 100%;
+    left: 0%;
+  }
+
+  .top-title h1 {
+    font-size: 40px;
+    line-height: 43px;
+    text-align: center;
+    margin-left: 0px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .about_us_card_1 {
+    padding: 30px 30px 40px 30px !important;
+    flex-flow: column-reverse;
+  }
+
+  .about_us_card_main > h4 {
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  .interest_calculator {
+    flex-flow: column;
+    width: 89%;
+    padding: 25px 20px 30px 20px;
+    display: block;
+    margin-bottom: 30px;
+  }
+
+  .footer > .theme-container > .row {
+    flex-flow: row wrap;
+  }
+
+  .banner_heading h2 {
+    font-size: 45px;
+  }
+
+  .all_of_our {
+    width: 89%;
+    margin-left: 0px;
+  }
+
+  .heading_with {
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  .interest_rate {
+    padding: 0px;
+    flex-flow: column;
+    margin-bottom: 20px;
+  }
+
+  .interest_rate > input {
+    width: 100%;
+  }
+
+  .hesitate_main {
+    padding: 35px 0px 29px 0px;
+  }
+
+  .latest_news {
+    padding: 35px 0px 35px 0px;
+  }
+
+  .about_us_card > img {
+    position: initial !important;
+    top: 0%;
+    margin-bottom: 25px;
+    width: 100% !important;
+  }
+
+  .about_us_card_main_1 {
+    width: 100% !important;
+  }
+
+  .about_us_card_main_1 > h5::before {
+    left: 7%;
+  }
+
+  .about_us_card_1 > .about_us_card_main:first-of-type {
+    width: 100% !important;
+  }
+
+  .about_us_card_main > div > input {
+    width: 100%;
+    margin-right: 0px;
+  }
+
+  .about_us_card_main > div > textarea {
+    width: 100%;
+  }
+
+  .about_us_card_main > div > a {
+    width: 100%;
+  }
+
+  .great_suc_haeding > h3 {
+    text-align: center;
+  }
+
+  .great_successes_card,
+  .great_successes_card_1 {
+    flex-flow: column;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    height: 120px;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .great_successes_card::before {
+    width: 0px;
+  }
+
+  .great_successes_card > img,
+  .great_successes_card_1 > img {
+    margin-right: 0px;
+  }
+
+  .about_us_card_main:first-of-type {
+    width: 100%;
+  }
+
+  .about_us > .row {
+    padding: 0px 15px;
+    justify-content: center;
+  }
+
+  .about_us_card_main:last-of-type {
+    width: 100%;
+  }
+
+  .about_us_card_main > h4 {
+    margin-bottom: 30px;
+  }
+
+  .top-title {
+    margin-bottom: 20px;
+  }
+
+  .top-title-vector {
+    margin-bottom: 40px;
+  }
+
+  .banner {
+    margin-bottom: 540px;
+  }
+
+  .banner .fixed-div {
+    bottom: -505px;
+  }
+
+  .more_on_btn_1 {
+    width: 100%;
+  }
+
+  .latest_news_img {
+    width: 130px;
+    margin-bottom: 20px;
+  }
+  .latest_news_img > img {
+    width: 100%;
+  }
+
+  .hesitate > .theme-container > .row > .hesitate_main {
+    text-align: center !important;
+    padding: 35px 15px 15px 15px;
+    background-size: 100% 100%;
+    width: 89%;
+  }
+
+  .hesitate_card {
+    width: 88%;
+  }
+
+  .hesitate_main > h4 {
+    font-size: 20px;
+    line-height: 27px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .hesitate_main > a > button {
+    margin-bottom: 20px;
+    width: 80%;
+    height: 30px;
+    font-size: 12px;
+  }
+
+  .moody_card:last-of-type {
+    margin-bottom: 0px;
+  }
+
+  .hesitate_card:last-of-type {
+    margin-bottom: 0px;
+  }
+
+  .interest_calculator {
+    margin-bottom: 0px;
+  }
+
+  .about_us {
+    padding-top: 80px;
+  }
+
+  .great_successes_card_1 {
+    margin-bottom: 0px;
+  }
+
+  .great_successes {
+    margin-bottom: 60px;
+  }
+
+  .banner-vector {
+    display: none;
+  }
+  .top-title-vector {
+    width: 45%;
+  }
+
+  .top-title {
+    justify-content: end;
+  }
+
+  .about_us_card {
+    border-radius: 20px 20px 20px 20px;
+    padding: 25px 25px 25px 25px;
+    width: 89% !important;
+    flex-flow: column;
+  }
+
+  .banner > .theme-container > nav > a > img {
+    width: 152px;
+  }
+
+  .about_us_card_main > h5 {
+    text-align: center;
+  }
+
+  .input_div {
+    width: 100%;
+  }
+
+  .input_div > a {
+    right: 60px;
+  }
+
+  .footer > .theme-container > .row {
+    justify-content: space-between;
+  }
+
+  .notfound .notfound-404 h1 {
+    font-size: 90px !important;
+  }
+
+  .notfound h2 {
+    font-size: 20px !important;
+  }
+
+  .notfound p {
+    font-size: 12px !important;
+  }
+
+  .notfound a {
+    font-size: 12px !important;
+  }
+
+  .side_bar_dropdown {
+    margin-bottom: 10px;
+  }
+
+  .side_bar_dropdown a {
+    margin: 5px 0px;
+  }
+
+  #notfound {
+    margin-bottom: 40px;
+  }
+
+  .about_us {
+    padding-top: 40px;
+  }
+
+  .cd-timeline-img {
+    top: 4px;
+  }
+
+  .cd-timeline-content::before {
+    top: 22px;
+  }
+
+  .ft_privacy_content {
+    width: 88% !important;
+    padding: 40px 15px !important;
+  }
+
+  .tool-bar-items {
+    flex-flow: column;
+    align-content: center;
+    align-items: center;
+  }
+  .tool-bar-items > a {
+    margin: 0px 0px;
+    margin-bottom: 5px !important;
+  }
+
+  .accordion-button {
+    font-size: 16px;
+  }
+
+  .accordion-body {
+    font-size: 14px;
+  }
+
+  .about_us_card_main > h4 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .about_us_card_2 {
+    padding: 25px 15px 25px 15px !important;
+  }
+
+  .contact-us-form {
+    margin-left: 0px !important;
+    width: 90% !important;
+    padding: 40px 0px !important;
+  }
+
+  .send-message button {
+    width: 60% !important;
+  }
+
+  .ft_privacy_content h1 {
+    font-size: 20px !important;
+  }
+
+  .ft_privacy_content p span {
+    word-break: break-all;
+  }
+
+  .about_us_card_main > h4 {
+    font-size: 20px !important;
+    line-height: 35px !important;
+  }
+
+  .about_us_card > .about_us_card_main > p {
+    font-size: 14px !important;
+  }
+
+  .pdf span a span {
+    margin-right: 0px !important;
+  }
+
+  .single-page {
+    padding: 0px !important;
+  }
+
+  .pdf span {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .festzinsanlage {
+    overflow: auto !important;
+  }
+
+  .sustain_main h1 {
+    font-size: 30px !important;
+  }
+
+  .sustain {
+    margin: 20px 0px !important;
+  }
+
+  .ft_imprint_content {
+    width: 100% !important;
+    padding: 30px 25px !important;
+  }
+
+  .hesitate {
+    padding: 0px 0px 80px 0px;
+  }
+
+  .hesitate_main {
+    margin-bottom: 40px;
+  }
+
+  .festzinsanlage_1 {
+    overflow: auto !important;
+  }
+
+  .fee-adv-text h5 {
+    word-break: break-all !important;
+  }
+
+  .about_us_card > .about_us_card_main > p,
+  .fee-adv-text p,
+  .timeline-heading p,
+  .cd-timeline-content p,
+  .heading-text_1 {
+    text-align: justify;
+  }
+
+  .about_us_card > img {
+    height: 100% !important;
+  }
+
+  .tool-bar-main {
+    padding: 0px !important;
+  }
+
+  .timeline-heading p {
+    width: 89% !important;
+    padding: 0px 15px;
+  }
+
+  .footer_heading_3,
+  .footer_heading {
+    width: 100%;
+    padding: 0 2rem;
+  }
+
+  .footer_heading_1,
+  .footer_heading_2 {
+    width: 50%;
+    padding: 0 2rem;
+  }
+
+  .fee-adv-text {
+    align-items: center;
+  }
+
+  .tradingview-widget-container {
+    width: 90% !important;
+    margin: 0 auto;
+  }
+
+  .fee-adv-text p,
+  .heading-text {
+    width: 100% !important;
+  }
+
+  .moody_card {
+    width: 87%;
+  }
+}
+
+@media (max-width: 576px) {
+  .hesitate_card {
+    width: 89%;
+  }
+
+  .banner .fixed-div {
+    left: 0px;
+  }
+
+  .moody_card {
+    width: 87%;
+  }
+
+  .fee-adv-text > iframe {
+    width: 100% !important;
+  }
+
+  .theme-container {
+    padding: 0 15px;
+  }
+
+  .contact-us-form {
+    width: 88% !important;
+  }
+
+  .hesitate > .theme-container > .row > .hesitate_main {
+    width: 90%;
+  }
+
+  .footer_heading_3,
+  .footer_heading {
+    width: 100%;
+    padding: 0 1.7rem;
+  }
+
+  .ft_privacy_content {
+    width: 89% !important;
+    padding: 40px 15px !important;
+  }
+
+  .fee-adv-text {
+    align-items: center;
+  }
+
+  .tradingview-widget-container {
+    width: 90% !important;
+  }
+
+  .fee-adv-text p,
+  .heading-text,
+  .fee-adv-text > iframe {
+    width: 100% !important;
+  }
+
+  .about_us_card {
+    width: 90% !important;
+  }
+}
+
+@media (max-width: 440px) {
+  .row {
+    width: 100%;
+    margin: 0px;
+  }
+  .hesitate_card {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    margin-bottom: 30px;
+  }
+
+  .moody_card {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    margin-bottom: 30px;
+  }
+
+  .about_us_card {
+    width: 100% !important;
+  }
+
+  .services_card {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    margin-bottom: 30px !important;
+    width: 100%;
+  }
+
+  .services {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+  }
+
+  .about_us_card {
+    flex-flow: column;
+  }
+
+  .about_us_card > img {
+    width: 100%;
+    left: 0%;
+  }
+
+  .top-title h1 {
+    font-size: 40px;
+    line-height: 43px;
+    text-align: center;
+    margin-left: 0px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .about_us_card_1 {
+    padding: 30px 30px 40px 30px !important;
+    flex-flow: column-reverse;
+  }
+
+  .about_us_card_main > h4 {
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  .interest_calculator {
+    flex-flow: column;
+    width: 100%;
+    padding: 25px 20px 30px 20px;
+    display: block;
+    margin-bottom: 30px;
+  }
+
+  .footer > .theme-container > .row {
+    flex-flow: row wrap;
+  }
+
+  .banner_heading h2 {
+    font-size: 30px;
+  }
+
+  .all_of_our {
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  .heading_with {
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  .interest_rate {
+    padding: 0px;
+    flex-flow: column;
+    margin-bottom: 20px;
+  }
+
+  .interest_rate > input {
+    width: 100%;
+  }
+
+  .hesitate_main {
+    padding: 35px 0px 29px 0px;
+  }
+
+  .latest_news {
+    padding: 35px 0px 35px 0px;
+  }
+
+  .about_us_card > img {
+    position: initial !important;
+    top: 0%;
+    margin-bottom: 25px;
+    width: 100% !important;
+  }
+
+  .about_us_card_main_1 {
+    width: 100% !important;
+  }
+
+  .about_us_card_main_1 > h5::before {
+    left: 7%;
+  }
+
+  .about_us_card_1 > .about_us_card_main:first-of-type {
+    width: 100% !important;
+  }
+
+  .about_us_card_main > div > input {
+    width: 100%;
+    margin-right: 0px;
+  }
+
+  .about_us_card_main > div > textarea {
+    width: 100%;
+  }
+
+  .about_us_card_main > div > a {
+    width: 100%;
+  }
+
+  .great_suc_haeding > h3 {
+    text-align: center;
+  }
+
+  .great_successes_card,
+  .great_successes_card_1 {
+    flex-flow: column;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    height: 120px;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .great_successes_card::before {
+    width: 0px;
+  }
+
+  .great_successes_card > img,
+  .great_successes_card_1 > img {
+    margin-right: 0px;
+  }
+
+  .about_us_card_main:first-of-type {
+    width: 100%;
+  }
+
+  .about_us > .row {
+    padding: 0px 15px;
+  }
+
+  .about_us_card {
+    padding: 25px 25px 25px 25px;
+  }
+
+  .about_us_card_main:last-of-type {
+    width: 100%;
+  }
+
+  .about_us_card_main > h4 {
+    margin-bottom: 30px;
+  }
+
+  .top-title {
+    margin-bottom: 20px;
+  }
+
+  .top-title-vector {
+    margin-bottom: 40px;
+  }
+
+  .banner {
+    margin-bottom: 540px;
+  }
+
+  .banner .fixed-div {
+    bottom: -505px;
+  }
+
+  .more_on_btn_1 {
+    width: 100%;
+  }
+
+  .latest_news_img {
+    width: 130px;
+    margin-bottom: 20px;
+  }
+  .latest_news_img > img {
+    width: 100%;
+  }
+
+  .hesitate > .theme-container > .row > .hesitate_main {
+    text-align: center !important;
+    padding: 10px 15px 0px 15px;
+    background-size: 100% 100%;
+  }
+
+  .hesitate_main > h4 {
+    font-size: 20px;
+    line-height: 27px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .hesitate_main > a > button {
+    margin-bottom: 20px;
+    width: 80%;
+    height: 30px;
+    font-size: 12px;
+  }
+
+  .moody_card:last-of-type {
+    margin-bottom: 0px;
+  }
+
+  .hesitate_card:last-of-type {
+    margin-bottom: 0px;
+  }
+
+  .interest_calculator {
+    margin-bottom: 0px;
+  }
+
+  .about_us {
+    padding-top: 80px;
+  }
+
+  .great_successes_card_1 {
+    margin-bottom: 0px;
+  }
+
+  .great_successes {
+    margin-bottom: 60px;
+  }
+
+  .banner-vector {
+    display: none;
+  }
+  .top-title-vector {
+    width: 45%;
+  }
+
+  .top-title {
+    justify-content: end;
+  }
+
+  .about_us_card {
+    border-radius: 20px 20px 20px 20px;
+  }
+
+  .banner > .theme-container > nav > a > img {
+    width: 152px;
+  }
+
+  .about_us_card_main > h5 {
+    text-align: center;
+  }
+
+  .input_div {
+    width: 100%;
+  }
+
+  .input_div > a {
+    right: 60px;
+  }
+
+  .footer > .theme-container > .row {
+    justify-content: space-between;
+  }
+
+  .notfound .notfound-404 h1 {
+    font-size: 90px !important;
+  }
+
+  .notfound h2 {
+    font-size: 20px !important;
+  }
+
+  .notfound p {
+    font-size: 12px !important;
+  }
+
+  .notfound a {
+    font-size: 12px !important;
+  }
+
+  .banner_1 {
+    margin-bottom: 0px !important;
+    height: 300px !important;
+  }
+
+  .side_bar_dropdown {
+    margin-bottom: 10px;
+  }
+
+  .side_bar_dropdown a {
+    margin: 5px 0px;
+  }
+
+  #notfound {
+    margin-bottom: 40px;
+  }
+
+  .about_us {
+    padding-top: 40px;
+  }
+
+  .cd-timeline-img {
+    top: 4px;
+  }
+
+  .cd-timeline-content::before {
+    top: 22px;
+  }
+
+  .ft_privacy_content {
+    width: 100% !important;
+    padding: 40px 15px !important;
+  }
+
+  .tool-bar-items {
+    flex-flow: column;
+    align-content: center;
+    align-items: center;
+  }
+  .tool-bar-items > a {
+    margin: 0px 0px;
+    margin-bottom: 5px !important;
+  }
+
+  .accordion-button {
+    font-size: 16px;
+  }
+
+  .accordion-body {
+    font-size: 14px;
+  }
+
+  .about_us_card_main > h4 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .about_us_card_2 {
+    padding: 25px 15px 25px 15px !important;
+  }
+
+  .contact-us-form {
+    margin-left: 0px !important;
+    width: 100% !important;
+    padding: 40px 0px !important;
+  }
+
+  .send-message button {
+    width: 60% !important;
+  }
+
+  .ft_privacy_content h1 {
+    font-size: 20px !important;
+  }
+
+  .ft_privacy_content p span {
+    word-break: break-all;
+  }
+
+  .about_us_card_main > h4 {
+    font-size: 20px !important;
+    line-height: 35px !important;
+  }
+
+  .about_us_card > .about_us_card_main > p {
+    font-size: 14px !important;
+  }
+
+  .pdf span a span {
+    margin-right: 0px !important;
+  }
+
+  .single-page {
+    padding: 0px !important;
+  }
+
+  .pdf span {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .festzinsanlage {
+    overflow: auto !important;
+  }
+
+  .sustain_main h1 {
+    font-size: 30px !important;
+  }
+
+  .sustain {
+    margin: 20px 0px !important;
+  }
+
+  .ft_imprint_content {
+    width: 100% !important;
+    padding: 30px 25px !important;
+  }
+
+  .hesitate {
+    padding: 0px 0px 80px 0px;
+  }
+
+  .hesitate_main {
+    margin-bottom: 40px;
+  }
+
+  .festzinsanlage_1 {
+    overflow: auto !important;
+  }
+
+  .fee-adv-text h5 {
+    word-break: break-all !important;
+  }
+
+  .about_us_card > .about_us_card_main > p,
+  .fee-adv-text p,
+  .timeline-heading p,
+  .cd-timeline-content p,
+  .heading-text_1 {
+    text-align: justify;
+  }
+
+  .about_us_card > img {
+    height: 100% !important;
+  }
+
+  .tool-bar-main {
+    padding: 0px !important;
+  }
+
+  .timeline-heading p {
+    width: 100% !important;
+    padding: 0px 15px;
+  }
+
+  .footer_heading_3 {
+    width: 100%;
+  }
+
+  .footer_heading_3,
+  .footer_heading {
+    width: 100%;
+    padding: 0 0.3rem;
+  }
+
+  .hesitate_card {
+    width: 100%;
+  }
+
+  .hesitate > .theme-container > .row > .hesitate_main {
+    width: 100%;
+  }
+
+  .tradingview-widget-container {
+    width: 100% !important;
+  }
+
+  .moody_card {
+    width: 100%;
+  }
+}

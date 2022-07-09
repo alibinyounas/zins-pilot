@@ -1,0 +1,2278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <title>Banken</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets//cssresponsive.css">
+    <style>
+        .banner {
+            height: 400px;
+            margin-bottom: 100px;
+        }
+        
+        .ft_privacy_content {
+            width: 90%;
+            height: 100%;
+            background: #fff;
+            box-shadow: 0px 0px 32px #0000001a;
+            padding: 80px;
+            border-radius: 30px;
+            text-align: justify;
+            margin-bottom: 40px;
+        }
+
+        .ft_privacy_content h6 {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .ft_privacy_content h5 {
+            font-size: 20px;
+        }
+
+        .ft_privacy_content p span span {
+            font-size: 16px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- SIDE MENU -->
+    <div class="animationload" style="display: none;">
+        <div class="loader" style="display: none;"></div>
+    </div>
+    <!-- SIDE MENU -->
+    <div class="sidebar-backdrop"></div>
+    <div class="sidebar-menu">
+        <div class="d-flex justify-content-between align-items-center head">
+            <a href="../index.html" style="color: #404040;">
+                <img src="../assets/images/logo_zinspilot_new.svg" alt="">
+            </a>
+            <img class="sidebar-close" src="../assets/images/close-dark.svg" alt="x" width="18px">
+        </div>
+        <div class="body">
+            <div class="side_bar_main">
+                <ul class="list-unstyled">
+                    <li><a href="../index.html" class="sidebar-links">Startseite</a></li>
+                    <li class="sb_submenu"><a href="javascript:void(0);"
+                            class="sidebar-links sidebar_menu">Anlageangebote<i class="fas fa-angle-down"></i></a></li>
+                    <div class="sidebar_dropdown_1">
+                        <div class="side_bar_dropdown">
+                            <a href="../pages/aboutUs.html">Festgeld</a>
+                            <a href="../pages/aboutUs.html">Tagesgeld</a>
+                        </div>
+                    </div>
+                    <li><a href="../index.html" class="sidebar-links">Banken</a></li>
+                    <li><a href="../index.html" class="sidebar-links">So funktioniert's</a></li>
+                    <li class="sb_submenu"><a href="javascript:void(0);"
+                            class="sidebar-links sidebar_menu_1">Informationen
+                            <i class="fas fa-angle-down"></i></a></li>
+                    <div class="sidebar_dropdown_2">
+                        <div class="side_bar_dropdown">
+                            <a href="../pages/festgeld.html">Aktuelle Produktinfos</a>
+                            <a href="../pages/tagesgeld.html">Zinserhöhungen</a>
+                            <a href="../pages/top-festzinsanlagen.html">Häufige Fragen</a>
+                            <a href="../pages/top-festzinsanlagen.html">Steuern</a>
+                            <a href="../pages/top-festzinsanlagen.html">Steuerbescheinigung</a>
+                            <a href="../pages/top-festzinsanlagen.html">Anlagevoraussetzung</a>
+                            <a href="../pages/top-festzinsanlagen.html">Länderrating</a>
+                            <a href="../pages/top-festzinsanlagen.html">Formularcenter</a>
+                        </div>
+                    </div>
+                    <li class="sb_submenu"><a href="javascript:void(0);"
+                            class="sidebar-links sidebar_menu_3">Finanzwissen <i class="fas fa-angle-down"></i></a></li>
+                    <div class="sidebar_dropdown_4">
+                        <div class="side_bar_dropdown">
+                            <a href="../pages/aktien.html">Geldanlage</a>
+                            <a href="../pages/gold-and-silber.html">Magazin</a>
+                        </div>
+                    </div>
+                    <li><a href="../pages/sparplan.html" class="sidebar-links">SPARPLÄNE </a></li>
+                    <li><a href="../pages/contact-us.html" class="sidebar-links">KONTAKT</a></li>
+                    <!-- <a href="#"><button></button></a> -->
+                </ul>
+                <div class="side-bar-btns">
+                    <a href="#" class="sidebar-links"><button>Login</button></a>
+                    <a href="#" class="sidebar-links"><button>Registrieren</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /SIDE MENU -->
+
+    <!-- banner start  -->
+    <div class="banner">
+        <div class="theme-container">
+            <nav>
+                <a href="../index.html"><img src="../assets/images/logo_zinspilot_new.svg" alt="" /></a>
+                <div class="menu">
+                    <img src="../assets/images/menu.svg" alt="MENU" id="nav_toggle">
+                </div>
+                <div class="links">
+                    <a href="../../index.html" class="link active">Startseite</a>
+                    <div class="about_us_link">
+                        <a href="javascript:void(0);" class="link">Anlageangebote</a>
+                        <div class="drop_down">
+                            <a href="../pages/aboutUs.html">
+                                <p>Festgeld</p>
+                            </a>
+                            <a href="../pages/aboutUs.html">
+                                <p>Tagesgeld</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="about_us_link">
+                        <a href="javascript:void(0);" class="link">Banken </a>
+                    </div>
+                    <div class="about_us_link">
+                        <a href="javascript:void(0);" class="link">So funktioniert's </a>
+                    </div>
+                    <div class="about_us_link">
+                        <a href="javascript:void(0);" class="link">Informationen</a>
+                        <div class="drop_down">
+                            <a href="../pages/festgeld.html">
+                                <p>Aktuelle Produktinfos</p>
+                            </a>
+                            <a href="../pages/festgeld.html">
+                                <p>Zinserhöhungen</p>
+                            </a>
+                            <a href="../pages/festgeld.html">
+                                <p>Häufige Fragen</p>
+                            </a>
+                            <a href="../pages/festgeld.html">
+                                <p>Steuern</p>
+                            </a>
+                            <a href="../pages/festgeld.html">
+                                <p>Steuerbescheinigung</p>
+                            </a>
+                            <a href="../pages/tagesgeld.html">
+                                <p>Anlagevoraussetzung</p>
+                            </a>
+                            <a href="../pages/top-festzinsanlagen.html">
+                                <p>Länderrating</p>
+                            </a>
+                            <a href="../pages/top-festzinsanlagen.html">
+                                <p>Formularcenter</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="about_us_link">
+                        <a href="javascript:void(0);" class="link">Finanzwissen</a>
+                        <div class="drop_down">
+                            <a href="../pages/festgeld.html">
+                                <p>Geldanlage</p>
+                            </a>
+                            <a href="../pages/festgeld.html">
+                                <p>Magazin</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="header-btns">
+                        <a href=""><button class="login-btn">Login</button></a>
+                        <a href=""><button class="register-btn">Registrieren</button></a>
+                    </div>
+                </div>
+            </nav>
+            <div class="banner_heading">
+                <h2>
+                    Banken
+                </h2>
+            </div>
+        </div>
+    </div>
+    <!-- banner end  -->
+    <!-- terms and condition section starts -->
+    <section class="my-0 my-md-4 my-lg-4 my-xl-4 mt-5">
+        <div class="ft_imprint">
+            <div class="ft_privacy_content mx-auto">
+                <div class="col-sm-12 col-md-12">
+                    <div id="content" class="content-default">
+
+                        <div class="center-heading text-center pt-0">
+                            <h1>Anlagebanken</h1>
+                        </div>
+                        <div class="container">
+                            <div id="c18150"
+                                class="frame frame-container frame-type-sd_bank frame-layout-0 frame-space-before-medium mt-0">
+                                <div class="ce-bank"><a href="/banken/365bank/"><img class="img-fluid"
+                                            src="../assets/images/Bankenuebersicht_Postova_Banka.jpg" width="1140"
+                                            height="166" alt="365.bank" title="365.bank"></a>
+                                    <div class="row">
+                                        <div class="col text-center align-self-center pt-3"><img class="img-fluid"
+                                                src="../assets/images/365.bank_logo.svg" width="200" height="102"
+                                                alt="365.bank logo" title="365.bank logo">
+                                            <div class="text-small mt-3 mb-2">Slowakei</div>
+                                        </div>
+                                        <div class="col-xl-4 pt-3 d-none d-md-block">
+                                            <h3><a href="/banken/365bank/">365.bank</a></h3>
+                                            <p>Die 365.bank&nbsp;wurde 1992 unter dem Namen Poštová banka gegründet
+                                                und ist eine der führenden Kreditinstitute auf dem slowakischen
+                                                Finanzmarkt.</p>
+                                        </div>
+                                        <div class="col-xl-3 col-lg-4 ce-bank-offer mt-xl-5 pb-3">
+                                            Keine Angebote verfügbar
+                                        </div>
+                                        <div class="col text-center align-self-center py-3"><a href="/banken/365bank/"
+                                                class="btn btn-orange">Mehr erfahren</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div id="c8720"
+                                class="frame frame-container frame-type-sd_bank frame-layout-0 frame-space-before-medium">
+                                <div class="ce-bank"><a href="/banken/abbank/"><img class="img-fluid"
+                                            src="../assets/images/aeb.jpg" width="1140" height="166" alt="ABBank"
+                                            title="ABBank"></a>
+                                    <div class="row">
+                                        <div class="col text-center align-self-center pt-3"><img class="img-fluid"
+                                                src="../assets/images/aeba.svg" width="154" height="150" alt="ABBank"
+                                                title="ABBank">
+                                            <div class="text-small mt-3 mb-2">Griechenland</div>
+                                        </div>
+                                        <div class="col-xl-4 pt-3 d-none d-md-block">
+                                            <h3><a href="/banken/abbank/">ABBank</a></h3>
+                                            <p>Die ABBank ist seit 2002 mit Hauptsitz in Athen, Griechenland tätig.
+                                                Die Bank bietet neben einem Portfolio an Bankprodukten für
+                                                Privatkunden, auch speziell die Vergabe für Kredite an ortsansässige
+                                                Unternehmen an.</p>
+                                        </div>
+                                        <div class="col-xl-3 col-lg-4 ce-bank-offer mt-xl-5 pb-3">
+                                            Keine Angebote verfügbar
+                                        </div>
+                                        <div class="col text-center align-self-center py-3"><a href="/banken/abbank/"
+                                                class="btn btn-orange">Mehr erfahren</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div id="c10680"
+                                class="frame frame-container frame-type-sd_bank frame-layout-0 frame-space-before-medium">
+                                <div class="ce-bank"><a href="/banken/aion/"><img class="img-fluid"
+                                            src="../assets/images/csm_banner-bankuebersicht_9f1c002a17.jpg" width="1140"
+                                            height="166" alt="Aion" title="Aion"></a>
+                                    <div class="row">
+                                        <div class="col text-center align-self-center pt-3"><img class="img-fluid"
+                                                src="../assets/images/Aion-logo.svg" width="150" height="150"
+                                                alt="Aion Logo" title="Aion">
+                                            <div class="text-small mt-3 mb-2">Belgien</div>
+                                        </div>
+                                        <div class="col-xl-4 pt-3 d-none d-md-block">
+                                            <h3><a href="/banken/aion/">Aion</a></h3>
+                                            <p>Aion ist eine moderne, digitale Bank, die ein&nbsp;breites Portfolio
+                                                an&nbsp;Dienstleistungen für Privat- und
+                                                Geschäftskunden&nbsp;bietet. Der Hauptsitz der Bank ist in Brüssel.
+                                            </p>
+                                        </div>
+                                        <div class="col-xl-3 col-lg-4 ce-bank-offer mt-xl-5 pb-3"><a
+                                                href="/banken/aion/tagesgeld/"><strong class="pr-2">0,06 %</strong>
+                                                Tagesgeld/Flexgeld24
+                                                <br></a><a href="/banken/aion/festgeld/3-monate/"><strong
+                                                    class="pr-2">0,05 %</strong>
+                                                Festgeld 3 Monate
+                                                <br></a><a href="/banken/aion/festgeld/6-monate/"><strong
+                                                    class="pr-2">0,10 %</strong>
+                                                Festgeld 6 Monate
+                                                <br></a><a href="/banken/aion/festgeld/12-monate/"><strong
+                                                    class="pr-2">0,20 %</strong>
+                                                Festgeld 12 Monate
+                                                <br></a></div>
+                                        <div class="col text-center align-self-center py-3"><a href="/banken/aion/"
+                                                class="btn btn-orange">Mehr erfahren</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div id="c15346"
+                                class="frame frame-container frame-type-sd_bank frame-layout-0 frame-space-before-medium">
+                                <div class="ce-bank"><a href="/banken/akbank-ag/"><img class="img-fluid"
+                                            src="../assets/images/Teaser_Bankenuebersicht_AKBank.jpg" width="1140"
+                                            height="166" alt="AKBANK AG" title="AKBANK AG"></a>
+                                    <div class="row">
+                                        <div class="col text-center align-self-center pt-3"><img class="img-fluid"
+                                                src="../assets/images/AkbankAG_LOGO.svg" width="200" height="17"
+                                                alt="AKBANK AG LOGO" title="AKBANK AG Logo">
+                                            <div class="text-small mt-3 mb-2">Deutschland</div>
+                                        </div>
+                                        <div class="col-xl-4 pt-3 d-none d-md-block">
+                                            <h3><a href="/banken/akbank-ag/">AKBANK AG</a></h3>
+                                            <p>Die AKBANK AG ist ein deutsches Kreditinstitut mit Sitz in Eschborn
+                                                und bietet Dienstleistungen für Privat- und Geschäftskunden an.</p>
+                                        </div>
+                                        <div class="col-xl-3 col-lg-4 ce-bank-offer mt-xl-5 pb-3">
+                                            Keine Angebote verfügbar
+                                        </div>
+                                        <div class="col text-center align-self-center py-3"><a href="/banken/akbank-ag/"
+                                                class="btn btn-orange">Mehr erfahren</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div id="c68"
+                                class="frame frame-container frame-type-sd_bank frame-layout-0 frame-space-before-medium">
+                                <div class="ce-bank"><a href="/banken/alpha-bank-romania/"><img class="img-fluid"
+                                            src="../assets/images/csm_alpha_5a8c734123.jpg" width="1140" height="166"
+                                            alt="Alpha Bank" title="Alpha Bank Romania"></a>
+                                    <div class="row">
+                                        <div class="col text-center align-self-center pt-3"><img class="img-fluid"
+                                                src="../assets/images/BUCU.svg" width="200" height="41"
+                                                alt="Alpha Bank Romania">
+                                            <div class="text-small mt-3 mb-2">Rumänien</div>
+                                        </div>
+                                        <div class="col-xl-4 pt-3 d-none d-md-block">
+                                            <h3><a href="/banken/alpha-bank-romania/">Alpha Bank Romania</a></h3>
+                                            <p>Die&nbsp;Alpha Bank Romania&nbsp;wurde 1993 in
+                                                Rumänien&nbsp;gegründet und bietet eine breite Palette von
+                                                Dienstleistungen und Produkten für Privatpersonen und Unternehmen
+                                                an.</p>
+                                        </div>
+                                        <div class="col-xl-3 col-lg-4 ce-bank-offer mt-xl-5 pb-3"><a
+                                                href="/banken/alpha-bank-romania/tagesgeld/"><strong class="pr-2">0,15
+                                                    %</strong>
+                                                Tagesgeld
+                                                <br></a><a href="/banken/alpha-bank-romania/festgeld/6-monate/"><strong
+                                                    class="pr-2">0,60 %</strong>
+                                                Festgeld 6 Monate
+                                                <br></a><a href="/banken/alpha-bank-romania/festgeld/12-monate/"><strong
+                                                    class="pr-2">0,75 %</strong>
+                                                Festgeld 12 Monate
+                                                <br></a></div>
+                                        <div class="col text-center align-self-center py-3"><a
+                                                href="/banken/alpha-bank-romania/" class="btn btn-orange">Mehr
+                                                erfahren</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div id="c5113"
+                                class="frame frame-container frame-type-sd_bank frame-layout-0 frame-space-before-medium">
+                                <div class="ce-bank"><a href="/banken/aps-bank/"><img class="img-fluid"
+                                            src="../assets/images/aps.jpg" width="1140" height="166" alt="APS Bank"
+                                            title="APS Bank"></a>
+                                    <div class="row">
+                                        <div class="col text-center align-self-center pt-3"><img class="img-fluid"
+                                                src="../assets/images/APSB.svg" width="200" height="52" alt="APS Bank"
+                                                title="APS Bank">
+                                            <div class="text-small mt-3 mb-2">Malta</div>
+                                        </div>
+                                        <div class="col-xl-4 pt-3 d-none d-md-block">
+                                            <h3><a href="/banken/aps-bank/">APS Bank</a></h3>
+                                            <p>Die APS Bank wurde im Jahr 1910 gegründet, die Anteilsmehrheit an der
+                                                Bank befindet sich im Besitz der Erzdiözese Malta.</p>
+                                        </div>
+                                        <div class="col-xl-3 col-lg-4 ce-bank-offer mt-xl-5 pb-3"><a
+                                                href="/banken/aps-bank/festgeld/12-monate/"><strong class="pr-2">0,30
+                                                    %</strong>
+                                                Festgeld 12 Monate
+                                                <br></a><a href="/banken/aps-bank/festgeld/24-monate/"><strong
+                                                    class="pr-2">0,40 %</strong>
+                                                Festgeld 24 Monate
+                                                <br></a><a href="/banken/aps-bank/festgeld/36-monate/"><strong
+                                                    class="pr-2">0,50 %</strong>
+                                                Festgeld 36 Monate
+                                                <br></a><a href="/banken/aps-bank/festgeld/48-monate/"><strong
+                                                    class="pr-2">0,60 %</strong>
+                                                Festgeld 48 Monate
+                                                <br></a><a href="/banken/aps-bank/festgeld/60-monate/"><strong
+                                                    class="pr-2">0,70 %</strong>
+                                                Festgeld 60 Monate
+                                                <br></a></div>
+                                        <div class="col text-center align-self-center py-3"><a href="/banken/aps-bank/"
+                                                class="btn btn-orange">Mehr erfahren</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div id="c67"
+                                class="frame frame-container frame-type-sd_bank frame-layout-0 frame-space-before-medium">
+                                <div class="ce-bank"><a href="/banken/atom-bank/"><img class="img-fluid"
+                                            src="../assets/images/csm_atom_c46bb579fd.jpg" width="1140" height="166"
+                                            alt=""></a>
+                                    <div class="row">
+                                        <div class="col text-center align-self-center pt-3"><img class="img-fluid"
+                                                src="../assets/images/ATMB.svg" width="200" height="78" alt="Atom bank">
+                                            <div class="text-small mt-3 mb-2">Großbritannien</div>
+                                        </div>
+                                        <div class="col-xl-4 pt-3 d-none d-md-block">
+                                            <h3><a href="/banken/atom-bank/">Atom Bank </a></h3>
+                                            <p>Die Atom Bank wurde 2014 in Durham gegründet und&nbsp;richtet den
+                                                Fokus auf Girokonten und Sparangeboten für Privatkunden.</p>
+                                        </div>
+                                        <div class="col-xl-3 col-lg-4 ce-bank-offer mt-xl-5 pb-3">
+                                            Keine Angebote verfügbar
+                                        </div>
+                                        <div class="col text-center align-self-center py-3"><a href="/banken/atom-bank/"
+                                                class="btn btn-orange">Mehr erfahren</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div id="c2121"
+                                class="frame frame-container frame-type-sd_bank frame-layout-0 frame-space-before-medium">
+                                <div class="ce-bank"><a href="/banken/austrian-anadi-bank/"><img class="img-fluid"
+                                            src="../assets/images/csm_aab_4836e62c5c.jpg" width="1140" height="166"
+                                            alt=""></a>
+                                    <div class="row">
+                                        <div class="col text-center align-self-center pt-3"><img class="img-fluid"
+                                                src="../assets/images/HAAB.svg" width="200" height="40"
+                                                alt="Austrian Anadi Bank">
+                                            <div class="text-small mt-3 mb-2">Österreich</div>
+                                        </div>
+                                        <div class="col-xl-4 pt-3 d-none d-md-block">
+                                            <h3><a href="/banken/austrian-anadi-bank/">Austrian Anadi Bank</a></h3>
+                                            <p>Die Austrian Anadi Bank wurde 1896 in Kärnten gegründet und ist in
+                                                den Geschäftssegmenten Privat- und&nbsp;Firmenkundengeschäft tätig.
+                                            </p>
+                                        </div>
+                                        <div class="col-xl-3 col-lg-4 ce-bank-offer mt-xl-5 pb-3"><a
+                                                href="/banken/austrian-anadi-bank/festgeld/6-monate/"><strong
+                                                    class="pr-2">0,04 %</strong>
+                                                Festgeld 6 Monate
+                                                <br></a><a
+                                                href="/banken/austrian-anadi-bank/festgeld/12-monate/"><strong
+                                                    class="pr-2">0,08 %</strong>
+                                                Festgeld 12 Monate
+                                                <br></a><a
+                                                href="/banken/austrian-anadi-bank/festgeld/24-monate/"><strong
+                                                    class="pr-2">0,12 %</strong>
+                                                Festgeld 24 Monate
+                                                <br></a><a
+                                                href="/banken/austrian-anadi-bank/festgeld/36-monate/"><strong
+                                                    class="pr-2">0,15 %</strong>
+                                                Festgeld 36 Monate
+
+                                                <br></a></div>
+                                        <div class="col text-center align-self-center py-3"><a
+                                                href="/banken/austrian-anadi-bank/" class="btn btn-orange">Mehr
+                                                erfahren</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div id="c14794"
+                                class="frame frame-container frame-type-sd_bank frame-layout-0 frame-space-before-medium">
+                                <div class="ce-bank"><a href="/banken/avida-finans/"><img class="img-fluid"
+                                            src="../assets/images/Teaser_Bankenuebersicht_Avida.jpg" width="1140"
+                                            height="166" alt="Bankenuebersicht_Avida" title="Avida Finans"></a>
+                                    <div class="row">
+                                        <div class="col text-center align-self-center pt-3"><img class="img-fluid"
+                                                src="../assets/images/Avida_logo.svg" width="200" height="58"
+                                                alt="Avida logo" title="Avida">
+                                            <div class="text-small mt-3 mb-2">Schweden</div>
+                                        </div>
+                                        <div class="col-xl-4 pt-3 d-none d-md-block">
+                                            <h3><a href="/banken/avida-finans/">Avida Finans</a></h3>
+                                            <p>Avida Finans ist ein schwedisches Kreditinstitut, das&nbsp;seit 1983
+                                                Finanzlösungen für Privat- und Geschäftskunden anbietet.</p>
+                                        </div>
+                                        <div class="col-xl-3 col-lg-4 ce-bank-offer mt-xl-5 pb-3"><a
+                                                href="/banken/avida-finans/tagesgeld/"><strong class="pr-2">0,25
+                                                    %</strong>
+                                                Tagesgeld/Flexgeld24
+                                                <br></a><a href="/banken/avida-finans/festgeld/3-monate/"><strong
+                                                    class="pr-2">0,30 %</strong>
+                                                Festgeld 3 Monate
+                                                <br></a><a href="/banken/avida-finans/festgeld/6-monate/"><strong
+                                                    class="pr-2">0,60 %</strong>
+                                                Festgeld 6 Monate
+                                                <br></a><a href="/banken/avida-finans/festgeld/12-monate/"><strong
+                                                    class="pr-2">1,00 %</strong>
+                                                Festgeld 12 Monate
+                                                <br></a></div>
+                                        <div class="col text-center align-self-center py-3"><a
+                                                href="/banken/avida-finans/" class="btn btn-orange">Mehr
+                                                erfahren</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div id="c13200"
+                                class="frame frame-container frame-type-sd_bank frame-layout-0 frame-space-before-medium">
+                                <div class="ce-bank"><a href="/banken/baltic-international-bank/"><img class="img-fluid"
+                                            src="../assets/images/csm_baltic-international-bank_d8097cd947.jpg"
+                                            width="1140" height="166" alt="Baltic Internatinal Bank"
+                                            title="Baltic Internatinal Bank"></a>
+                                    <div class="row">
+                                        <div class="col text-center align-self-center pt-3"><img class="img-fluid"
+                                                src="../assets/images/Baltic-international-bank.svg" width="200"
+                                                height="89" alt="Baltic International Bank"
+                                                title="Baltic International Bank Logo">
+                                            <div class="text-small mt-3 mb-2">Lettland</div>
+                                        </div>
+                                        <div class="col-xl-4 pt-3 d-none d-md-block">
+                                            <h3><a href="/banken/baltic-international-bank/">Baltic International
+                                                    Bank</a></h3>
+                                            <p>Die Baltic International Bank wurde 1993 in Riga gegründet und zählt
+                                                zu den erfahrensten Banken Lettlands im Bereich Private
+                                                Banking-Dienstleistungen.</p>
+                                        </div>
+                                        <div class="col-xl-3 col-lg-4 ce-bank-offer mt-xl-5 pb-3">
+                                            Keine Angebote verfügbar
+                                        </div>
+                                        <div class="col text-center align-self-center py-3"><a
+                                                href="/banken/baltic-international-bank/" class="btn btn-orange">Mehr
+                                                erfahren</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div id="c21079"
+                                class="frame frame-container frame-type-sd_bank frame-layout-0 frame-space-before-medium">
+                                <div class="ce-bank"><a href="/banken/banca-cf/"><img class="img-fluid"
+                                            src="../assets/images/csm_Banca_CF_Bankenuebersicht_84f0a5f76f.jpg"
+                                            width="1140" height="166" alt="Banca CF+" title="Banca CF+"></a>
+                                    <div class="row">
+                                        <div class="col text-center align-self-center pt-3"><img class="img-fluid"
+                                                src="../assets/images/CFplus-Logo.svg" width="200" height="58"
+                                                alt="Banca CF+ Logo" title="Banca CF+ Logo">
+                                            <div class="text-small mt-3 mb-2">Italien</div>
+                                        </div>
+                                        <div class="col-xl-4 pt-3 d-none d-md-block">
+                                            <h3><a href="/banken/banca-cf/">Banca CF+</a></h3>
+                                            <p>Die Banca CF+ ist eine Challenger-Bank, die sich auf
+                                                Finanzierungslösungen für Unternehmen spezialisiert hat, die sich in
+                                                einer leistungsstarken Phase oder einer Phase der Umstrukturierung
+                                                befinden.</p>
+                                        </div>
+                                        <div class="col-xl-3 col-lg-4 ce-bank-offer mt-xl-5 pb-3"><a
+                                                href="/banken/banca-cf/festgeld/12-monate/"><strong class="pr-2">0,95
+                                                    %</strong>
+                                                Festgeld 12 Monate
+                                                <br></a><a href="/banken/banca-cf/festgeld/24-monate/"><strong
+                                                    class="pr-2">1,40 %</strong>
+                                                Festgeld 24 Monate
+                                                <br></a></div>
+                                        <div class="col text-center align-self-center py-3"><a href="/banken/banca-cf/"
+                                                class="btn btn-orange">Mehr erfahren</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div id="c15208"
+                                class="frame frame-container frame-type-sd_bank frame-layout-0 frame-space-before-medium">
+                                <div class="ce-bank"><a href="/banken/banca-progetto/"><img class="img-fluid"
+                                            src="../assets/images/Bankenuebersicht_Banca_Progetto.jpg" width="1140"
+                                            height="166" alt="Bankenuebersicht Banca Progetto"
+                                            title="Bankenuebersicht Banca Progetto"></a>
+                                    <div class="row">
+                                        <div class="col text-center align-self-center pt-3"><img class="img-fluid"
+                                                src="../assets/images/Logo_Banca_Progetto.svg" width="200" height="63"
+                                                alt="Logo Banca Progetto" title="Logo Banca Progetto">
+                                            <div class="text-small mt-3 mb-2">Italien</div>
+                                        </div>
+                                        <div class="col-xl-4 pt-3 d-none d-md-block">
+                                            <h3><a href="/banken/banca-progetto/">Banca Progetto</a></h3>
+                                            <p>Die Banca Progetto ist ein italienisches Kreditinstitut, das seit
+                                                1994 Finanzlösungen für Privat- und Geschäftskunden anbietet.</p>
+                                        </div>
+                                        <div class="col-xl-3 col-lg-4 ce-bank-offer mt-xl-5 pb-3"><a
+                                                href="/banken/banca-progetto/festgeld/6-monate/"><strong
+                                                    class="pr-2">0,90 %</strong>
+                                                Festgeld 6 Monate
+                                                <br></a><a href="/banken/banca-progetto/festgeld/12-monate/"><strong
+                                                    class="pr-2">1,35 %</strong>
+                                                Festgeld 12 Monate
+                                                <br></a><a href="/banken/banca-progetto/festgeld/24-monate/"><strong
+                                                    class="pr-2">1,65 %</strong>
+                                                Festgeld 24 Monate
+                                                <br></a><a href="/banken/banca-progetto/festgeld/36-monate/"><strong
+                                                    class="pr-2">1,85 %</strong>
+                                                Festgeld 36 Monate
+                                                <br></a></div>
+                                        <div class="col text-center align-self-center py-3"><a
+                                                href="/banken/banca-progetto/" class="btn btn-orange">Mehr
+                                                erfahren</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div id="c11773"
+                                class="frame frame-container frame-type-sd_bank frame-layout-0 frame-space-before-medium">
+                                <div class="ce-bank"><a href="/banken/banca-sistema/"><img class="img-fluid"
+                                            src="../assets/images/banca-sistema.jpg" width="1140" height="166"
+                                            alt="Banca Sistema" title="Banca Sistema"></a>
+                                    <div class="row">
+                                        <div class="col text-center align-self-center pt-3"><img class="img-fluid"
+                                                src="../assets/images/banca-sistema.svg" width="200" height="16"
+                                                alt="Banca Sistema" title="Banca Sistema Logo">
+                                            <div class="text-small mt-3 mb-2">Italien</div>
+                                        </div>
+                                        <div class="col-xl-4 pt-3 d-none d-md-block">
+                                            <h3><a href="/banken/banca-sistema/">Banca Sistema</a></h3>
+                                            <p>Die Banca Sistema&nbsp;wurde 2011 in Mailand gegründet und ist seit
+                                                2015 an&nbsp;der Borsa Italiana notiert.&nbsp;Sie hat sich auf den
+                                                Ankauf von Handelsforderungen der italienischen öffentlichen
+                                                Verwaltungen und Steuerforderungen spezialisiert.&nbsp;</p>
+                                        </div>
+                                        <div class="col-xl-3 col-lg-4 ce-bank-offer mt-xl-5 pb-3"><a
+                                                href="/banken/banca-sistema/festgeld/9-monate/"><strong
+                                                    class="pr-2">0,20 %</strong>
+                                                Festgeld 9 Monate
+                                                <br></a><a href="/banken/banca-sistema/festgeld/12-monate/"><strong
+                                                    class="pr-2">0,45 %</strong>
+                                                Festgeld 12 Monate
+                                                <br></a><a href="/banken/banca-sistema/festgeld/18-monate/"><strong
+                                                    class="pr-2">0,50 %</strong>
+                                                Festgeld 18 Monate
+                                                <br></a><a href="/banken/banca-sistema/festgeld/24-monate/"><strong
+                                                    class="pr-2">0,55 %</strong>
+                                                Festgeld 24 Monate
+                                                <br></a><a href="/banken/banca-sistema/festgeld/36-monate/"><strong
+                                                    class="pr-2">0,80 %</strong>
+                                                Festgeld 36 Monate
+                                                <br></a></div>
+                                        <div class="col text-center align-self-center py-3"><a
+                                                href="/banken/banca-sistema/" class="btn btn-orange">Mehr
+                                                erfahren</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div id="c5570"
+                                class="frame frame-container frame-type-sd_bank frame-layout-0 frame-space-before-medium">
+                                <div class="ce-bank"><a href="/banken/banca-ubae/"><img class="img-fluid"
+                                            src="../assets/images/ubae.jpg" width="1140" height="166" alt="UBAE Bank"
+                                            title="UBAE Bank"></a>
+                                    <div class="row">
+                                        <div class="col text-center align-self-center pt-3"><img class="img-fluid"
+                                                src="../assets/images/UBAE.svg" width="110" height="150"
+                                                alt="Banca UBAE" title="UBAE Bank Logo">
+                                            <div class="text-small mt-3 mb-2">Italien</div>
+                                        </div>
+                                        <div class="col-xl-4 pt-3 d-none d-md-block">
+                                            <h3><a href="/banken/banca-ubae/">Banca UBAE</a></h3>
+                                            <p>Die Banca UBAE ist eine italienische Bank mit Hauptsitz in Rom. Sie
+                                                wurde 1972 gegründet und wird von der Bank of Italy reguliert.</p>
+                                        </div>
+                                        <div class="col-xl-3 col-lg-4 ce-bank-offer mt-xl-5 pb-3"><a
+                                                href="/banken/banca-ubae/festgeld/12-monate/"><strong class="pr-2">0,30
+                                                    %</strong>
+                                                Festgeld 12 Monate
+                                                <br></a><a href="/banken/banca-ubae/festgeld/18-monate/"><strong
+                                                    class="pr-2">0,35 %</strong>
+                                                Festgeld 18 Monate
+                                                <br></a><a href="/banken/banca-ubae/festgeld/24-monate/"><strong
+                                                    class="pr-2">0,50 %</strong>
+                                                Festgeld 24 Monate
+                                                <br></a></div>
+                                        <div class="col text-center align-self-center py-3"><a
+                                                href="/banken/banca-ubae/" class="btn btn-orange">Mehr erfahren</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div id="c11096"
+                                class="frame frame-container frame-type-sd_bank frame-layout-0 frame-space-before-medium">
+                                <div class="ce-bank"><a href="/banken/banco-do-brasil/"><img class="img-fluid"
+                                            src="../assets/images/csm_Banco-do-Brasil_3c2b6b0908.jpg" width="1140"
+                                            height="166" alt="Banco do Brasil" title="Banco do Brasil"></a>
+                                    <div class="row">
+                                        <div class="col text-center align-self-center pt-3"><img class="img-fluid"
+                                                src="../assets/images/bancodebrasil-logo.svg" width="200" height="111"
+                                                alt="Baco do Brasil Logo" title="Baco do Brasil Logo">
+                                            <div class="text-small mt-3 mb-2">Österreich</div>
+                                        </div>
+                                        <div class="col-xl-4 pt-3 d-none d-md-block">
+                                            <h3><a href="/banken/banco-do-brasil/">Banco do Brasil AG (Wien)</a>
+                                            </h3>
+                                            <p>Die Banco do Brasil AG ist eine in Österreich registrierte Bank. Sie
+                                                wurde 1980 gegründet und verfügt über vier weitere Niederlassungen
+                                                in Portugal, Spanien, Frankreich und Italien.</p>
+                                        </div>
+                                        <div class="col-xl-3 col-lg-4 ce-bank-offer mt-xl-5 pb-3"><a
+                                                href="/banken/banco-do-brasil/tagesgeld/"><strong class="pr-2">0,23
+                                                    %</strong>
+                                                Tagesgeld/Flexgeld24
+                                                <br></a><a href="/banken/banco-do-brasil/festgeld/12-monate/"><strong
+                                                    class="pr-2">0,00 %</strong>
+                                                Festgeld 12 Monate
+                                                <br></a><a href="/banken/banco-do-brasil/festgeld/24-monate/"><strong
+                                                    class="pr-2">0,00 %</strong>
+                                                Festgeld 24 Monate
+                                                <br></a></div>
+                                        <div class="col text-center align-self-center py-3"><a
+                                                href="/banken/banco-do-brasil/" class="btn btn-orange">Mehr
+                                                erfahren</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div id="c14235"
+                                class="frame frame-container frame-type-sd_bank frame-layout-0 frame-space-before-medium">
+                                <div class="ce-bank"><a href="/banken/banco-finantia/"><img class="img-fluid"
+                                            src="../assets/images/csm_banco-finantia_5c4e99dfd5.jpg" width="1140"
+                                            height="166" alt="Banco Finantia" title="Banco Finantia"></a>
+                                    <div class="row">
+                                        <div class="col text-center align-self-center pt-3"><img class="img-fluid"
+                                                src="../assets/images/logo-finantia.svg" width="200" height="31"
+                                                alt="Banco Finantia" title="Banco Finantia Logo">
+                                            <div class="text-small mt-3 mb-2">Portugal</div>
+                                        </div>
+                                        <div class="col-xl-4 pt-3 d-none d-md-block">
+                                            <h3><a href="/banken/banco-finantia/">Banco Finantia</a></h3>
+                                            <p>Banco&nbsp;Finantia&nbsp;ist eine unabhängige Privatbank mit
+                                                Hauptsitz in Lissabon. Die Bank ist im Privatkundengeschäft und
+                                                international&nbsp;im&nbsp;Corporate-&nbsp;und Investment Banking
+                                                tätig.&nbsp;</p>
+                                        </div>
+                                        <div class="col-xl-3 col-lg-4 ce-bank-offer mt-xl-5 pb-3"><a
+                                                href="/banken/banco-finantia/festgeld/6-monate/"><strong
+                                                    class="pr-2">0,50 %</strong>
+                                                Festgeld 6 Monate
+                                                <br></a><a href="/banken/banco-finantia/festgeld/12-monate/"><strong
+                                                    class="pr-2">0,80 %</strong>
+                                                Festgeld 12 Monate
+                                                <br></a></div>
+                                        <div class="col text-center align-self-center py-3"><a
+                                                href="/banken/banco-finantia/" class="btn btn-orange">Mehr
+                                                erfahren</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div id="c12059"
+                                class="frame frame-container frame-type-sd_bank frame-layout-0 frame-space-before-medium">
+                                <div class="ce-bank"><a href="/banken/banka-kovanica/"><img class="img-fluid"
+                                            src="../assets/images/Teaser_Bankenuebersicht_Banka_Kovanica.jpg"
+                                            width="1140" height="166" alt="Bankenuebersicht Banka Kovanic"
+                                            title="Banka Kovanica"></a>
+                                    <div class="row">
+                                        <div class="col text-center align-self-center pt-3"><img class="img-fluid"
+                                                src="../assets/images/banka-kovanica-logo.svg" width="200" height="30"
+                                                alt="Banca Kovanica Logo" title="Banca Kovanica Logo">
+                                            <div class="text-small mt-3 mb-2">Kroatien</div>
+                                        </div>
+                                        <div class="col-xl-4 pt-3 d-none d-md-block">
+                                            <h3><a href="/banken/banka-kovanica/">Banka Kovanica</a></h3>
+                                            <p>Die Banka Kovanica wurde 1997 in Varaždin gegründet und ist auf
+                                                Verbraucherkredite und auf die Finanzierung von betriebsnotwendigem
+                                                Vermögen spezialisiert.</p>
+                                        </div>
+                                        <div class="col-xl-3 col-lg-4 ce-bank-offer mt-xl-5 pb-3"><a
+                                                href="/banken/banka-kovanica/festgeld/6-monate/"><strong
+                                                    class="pr-2">1,00 %</strong>
+                                                Festgeld 6 Monate
+                                                <br></a><a href="/banken/banka-kovanica/festgeld/12-monate/"><strong
+                                                    class="pr-2">1,45 %</strong>
+                                                Festgeld 12 Monate
+                                                <br></a><a href="/banken/banka-kovanica/festgeld/24-monate/"><strong
+                                                    class="pr-2">1,60 %</strong>
+                                                Festgeld 24 Monate
+                                                <br></a><a href="/banken/banka-kovanica/festgeld/36-monate/"><strong
+                                                    class="pr-2">1,80 %</strong>
+                                                Festgeld 36 Monate
+                                                <br></a><a href="/banken/banka-kovanica/festgeld/48-monate/"><strong
+                                                    class="pr-2">1,85 %</strong>
+                                                Festgeld 48 Monate
+                                                <br></a></div>
+                                        <div class="col text-center align-self-center py-3"><a
+                                                href="/banken/banka-kovanica/" class="btn btn-orange">Mehr
+                                                erfahren</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div id="c12346"
+                                class="frame frame-container frame-type-sd_bank frame-layout-0 frame-space-before-medium">
+                                <div class="ce-bank"><a href="/banken/bgfibank-europe/"><img class="img-fluid"
+                                            src="../assets/images/BGFI.jpg" width="1140" height="166"
+                                            alt="BGFIBank Europe" title="BGFIBank Europe"></a>
+                                    <div class="row">
+                                        <div class="col text-center align-self-center pt-3"><img class="img-fluid"
+                                                src="../assets/images/bgfi.svg" width="200" height="24"
+                                                alt="BGFIBank Europe Logo" title="BGFIBank Europe Logo">
+                                            <div class="text-small mt-3 mb-2">Frankreich</div>
+                                        </div>
+                                        <div class="col-xl-4 pt-3 d-none d-md-block">
+                                            <h3><a href="/banken/bgfibank-europe/">BGFIBank Europe</a></h3>
+                                            <p>Die BGFIBank Europe wurde 2009 mit Sitz in Paris gegründet. Sie
+                                                unterstützt Unternehmen aus Europa bei Import- und Exportgeschäften
+                                                nach Afrika.</p>
+                                        </div>
+                                        <div class="col-xl-3 col-lg-4 ce-bank-offer mt-xl-5 pb-3"><a
+                                                href="/banken/bgfibank-europe/festgeld/6-monate/"><strong
+                                                    class="pr-2">0,10 %</strong>
+                                                Festgeld 6 Monate
+                                                <br></a><a href="/banken/bgfibank-europe/festgeld/12-monate/"><strong
+                                                    class="pr-2">0,30 %</strong>
+                                                Festgeld 12 Monate
+                                                <br></a><a href="/banken/bgfibank-europe/festgeld/18-monate/"><strong
+                                                    class="pr-2">0,50 %</strong>
+                                                Festgeld 18 Monate
+                                                <br></a><a href="/banken/bgfibank-europe/festgeld/24-monate/"><strong
+                                                    class="pr-2">0,75 %</strong>
+                                                Festgeld 24 Monate
+                                                <br></a></div>
+                                        <div class="col text-center align-self-center py-3"><a
+                                                href="/banken/bgfibank-europe/" class="btn btn-orange">Mehr
+                                                erfahren</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div id="c7027"
+                                class="frame frame-container frame-type-sd_bank frame-layout-0 frame-space-before-medium">
+                                <div class="ce-bank"><a href="/banken/bluor-bank/"><img class="img-fluid"
+                                            src="../assets/images/blueorange-bank.jpg" width="1140" height="166"
+                                            alt="BlueOrange Bank" title="BlueOrange Bank"></a>
+                                    <div class="row">
+                                        <div class="col text-center align-self-center pt-3"><img class="img-fluid"
+                                                src="../assets/images/BluOr-Bank_logo.svg" width="200" height="40"
+                                                alt="BluOr-Bank Logo" title="BluOr-Bank Logo">
+                                            <div class="text-small mt-3 mb-2">Lettland</div>
+                                        </div>
+                                        <div class="col-xl-4 pt-3 d-none d-md-block">
+                                            <h3><a href="/banken/bluor-bank/">BluOr Bank</a></h3>
+                                            <p>Die&nbsp;BluOr Bank ist eine Bank aus Lettland mit Hauptsitz in Riga
+                                                und wurde 2001 gegründet. Sie bietet Produkte und Dienstleistungen
+                                                für Unternehmen und Privatkunden.</p>
+                                        </div>
+                                        <div class="col-xl-3 col-lg-4 ce-bank-offer mt-xl-5 pb-3"><a
+                                                href="/banken/bluor-bank/festgeld/3-monate/"><strong class="pr-2">0,01
+                                                    %</strong>
+                                                Festgeld 3 Monate
+                                                <br></a><a href="/banken/bluor-bank/festgeld/6-monate/"><strong
+                                                    class="pr-2">0,15 %</strong>
+                                                Festgeld 6 Monate
+                                                <br></a><a href="/banken/bluor-bank/festgeld/12-monate/"><strong
+                                                    class="pr-2">0,31 %</strong>
+                                                Festgeld 12 Monate
+                                                <br></a><a href="/banken/bluor-bank/festgeld/24-monate/"><strong
+                                                    class="pr-2">1,01 %</strong>
+                                                Festgeld 24 Monate
+                                                <br></a><a href="/banken/bluor-bank/festgeld/36-monate/"><strong
+                                                    class="pr-2">1,11 %</strong>
+                                                Festgeld 36 Monate
+                                                <br></a></div>
+                                        <div class="col text-center align-self-center py-3"><a
+                                                href="/banken/bluor-bank/" class="btn btn-orange">Mehr erfahren</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div id="c3875"
+                                class="frame frame-container frame-type-sd_bank frame-layout-0 frame-space-before-medium">
+                                <div class="ce-bank"><a href="/banken/bnf-bank/"><img class="img-fluid"
+                                            src="../assets/images/bnfbank.jpg" width="1140" height="166" alt="BNF Bank"
+                                            title="BNF Bank"></a>
+                                    <div class="row">
+                                        <div class="col text-center align-self-center pt-3"><img class="img-fluid"
+                                                src="../assets/images/BNFB.svg" width="200" height="38" alt="BNF BANK"
+                                                title="BNF BANK Logo">
+                                            <div class="text-small mt-3 mb-2">Malta</div>
+                                        </div>
+                                        <div class="col-xl-4 pt-3 d-none d-md-block">
+                                            <h3><a href="/banken/bnf-bank/">BNF Bank</a></h3>
+                                            <p>Die BNF Bank ist seit 2007 in Malta tätig und richtet ihr
+                                                Kerngeschäft vor allem auf Spar- und Termingeldkonten sowie Privat-
+                                                und Geschäftskredite aus.</p>
+                                        </div>
+                                        <div class="col-xl-3 col-lg-4 ce-bank-offer mt-xl-5 pb-3"><a
+                                                href="/banken/bnf-bank/tagesgeld/"><strong class="pr-2">0,07
+                                                    %</strong>
+                                                Tagesgeld/Flexgeld24
+                                                <br></a><a href="/banken/bnf-bank/festgeld/3-monate/"><strong
+                                                    class="pr-2">0,15 %</strong>
+                                                Festgeld 3 Monate
+                                                <br></a><a href="/banken/bnf-bank/festgeld/12-monate/"><strong
+                                                    class="pr-2">0,60 %</strong>
+                                                Festgeld 12 Monate
+                                                <br></a><a href="/banken/bnf-bank/festgeld/24-monate/"><strong
+                                                    class="pr-2">0,70 %</strong>
+                                                Festgeld 24 Monate
+                                                <br></a><a href="/banken/bnf-bank/festgeld/36-monate/"><strong
+                                                    class="pr-2">0,80 %</strong>
+                                                Festgeld 36 Monate
+                                                <br></a></div>
+                                        <div class="col text-center align-self-center py-3"><a href="/banken/bnf-bank/"
+                                                class="btn btn-orange">Mehr erfahren</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div id="c6226"
+                                class="frame frame-container frame-type-sd_bank frame-layout-0 frame-space-before-medium">
+                                <div class="ce-bank"><a href="/banken/bpf-bank/"><img class="img-fluid"
+                                            src="../assets/images/csm_BPDF_10c0d78eb4.jpg" width="1140" height="166"
+                                            alt="bpf Bank" title="bpf Bank"></a>
+                                    <div class="row">
+                                        <div class="col text-center align-self-center pt-3"><img class="img-fluid"
+                                                src="../assets/images/BPDF.svg" width="200" height="114" alt="bpf Bank"
+                                                title="bpf Bank Logo">
+                                            <div class="text-small mt-3 mb-2">Italien</div>
+                                        </div>
+                                        <div class="col-xl-4 pt-3 d-none d-md-block">
+                                            <h3><a href="/banken/bpf-bank/">BPF Bank</a></h3>
+                                            <p>Die BPF Bank ist seit 1891 im italienischen Fondi tätig und bietet
+                                                umfassende Bank- und Finanzdienstleistungen für&nbsp;Privat- und
+                                                Geschäftskunden an.</p>
+                                        </div>
+                                        <div class="col-xl-3 col-lg-4 ce-bank-offer mt-xl-5 pb-3"><a
+                                                href="/banken/bpf-bank/festgeld/3-monate/"><strong class="pr-2">0,05
+                                                    %</strong>
+                                                Festgeld 3 Monate
+                                                <br></a><a href="/banken/bpf-bank/festgeld/12-monate/"><strong
+                                                    class="pr-2">0,35 %</strong>
+                                                Festgeld 12 Monate
+                                                <br></a><a href="/banken/bpf-bank/festgeld/18-monate/"><strong
+                                                    class="pr-2">0,40 %</strong>
+                                                Festgeld 18 Monate
+                                                <br></a><a href="/banken/bpf-bank/festgeld/24-monate/"><strong
+                                                    class="pr-2">0,45 %</strong>
+                                                Festgeld 24 Monate
+                                                <br></a></div>
+                                        <div class="col text-center align-self-center py-3"><a href="/banken/bpf-bank/"
+                                                class="btn btn-orange">Mehr erfahren</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div id="c10555"
+                                class="frame frame-container frame-type-sd_bank frame-layout-0 frame-space-before-medium">
+                                <div class="ce-bank"><a href="/banken/brci/"><img class="img-fluid"
+                                            src="../assets/images/brci.jpg" width="1140" height="166" alt="BRCI Bank"
+                                            title="BRCI"></a>
+                                    <div class="row">
+                                        <div class="col text-center align-self-center pt-3"><img class="img-fluid"
+                                                src="../assets/images/brci.svg" width="200" height="86" alt="BRCI"
+                                                title="BRCI logo">
+                                            <div class="text-small mt-3 mb-2">Rumänien</div>
+                                        </div>
+                                        <div class="col-xl-4 pt-3 d-none d-md-block">
+                                            <h3><a href="/banken/brci/">BRCI</a></h3>
+                                            <p>Die BRCI ist eine Universalbank, die ein breites Portfolio an
+                                                Dienstleistungen und Produkten hauptsächlich für Firmenkunden,
+                                                kleine und mittlere Unternehmen sowie für Einzelhandelskunden
+                                                anbietet.</p>
+                                        </div>
+                                        <div class="col-xl-3 col-lg-4 ce-bank-offer mt-xl-5 pb-3">
+                                            Keine Angebote verfügbar
+                                        </div>
+                                        <div class="col text-center align-self-center py-3"><a href="/banken/brci/"
+                                                class="btn btn-orange">Mehr erfahren</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div id="c2119"
+                                class="frame frame-container frame-type-sd_bank frame-layout-0 frame-space-before-medium">
+                                <div class="ce-bank"><a href="/banken/cbl-bank/"><img class="img-fluid"
+                                            src="../assets/images/csm_cbl_39c4ac0e30.jpg" width="1140" height="166"
+                                            alt=""></a>
+                                    <div class="row">
+                                        <div class="col text-center align-self-center pt-3"><img class="img-fluid"
+                                                src="../assets/images/PARX.svg" width="199" height="150" alt="CBL Bank">
+                                            <div class="text-small mt-3 mb-2">Lettland</div>
+                                        </div>
+                                        <div class="col-xl-4 pt-3 d-none d-md-block">
+                                            <h3><a href="/banken/cbl-bank/">CBL Bank</a></h3>
+                                            <p>Die CBL Bank wurde 2010 in Lettland gegründet und&nbsp;bietet
+                                                Finanzdienstleistungen für Privatkunden, kleine und mittelständische
+                                                Unternehmen sowie Kapitalgesellschaften an.</p>
+                                        </div>
+                                        <div class="col-xl-3 col-lg-4 ce-bank-offer mt-xl-5 pb-3"><a
+                                                href="/banken/cbl-bank/festgeld/18-monate/"><strong class="pr-2">0,02
+                                                    %</strong>
+                                                Festgeld 18 Monate
+                                                <br></a><a href="/banken/cbl-bank/festgeld/24-monate/"><strong
+                                                    class="pr-2">0,02 %</strong>
+                                                Festgeld 24 Monate
+                                                <br></a><a href="/banken/cbl-bank/festgeld/36-monate/"><strong
+                                                    class="pr-2">0,02 %</strong>
+                                                Festgeld 36 Monate
+                                                <br></a><a href="/banken/cbl-bank/festgeld/60-monate/"><strong
+                                                    class="pr-2">0,02 %</strong>
+                                                Festgeld 60 Monate
+                                                <br></a></div>
+                                        <div class="col text-center align-self-center py-3"><a href="/banken/cbl-bank/"
+                                                class="btn btn-orange">Mehr erfahren</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div id="c9223"
+                                class="frame frame-container frame-type-sd_bank frame-layout-0 frame-space-before-medium">
+                                <div class="ce-bank"><a href="/banken/ckv-bank/"><img class="img-fluid"
+                                            src="../assets/images/csm_ckv-bank_e92cd602b9.jpg" width="1140" height="166"
+                                            alt="CKV Bank" title="CKV Bank"></a>
+                                    <div class="row">
+                                        <div class="col text-center align-self-center pt-3"><img class="img-fluid"
+                                                src="../assets/images/cekv-logo.svg" width="193" height="150"
+                                                alt="CKV Logo" title="CKV Bank Logo">
+                                            <div class="text-small mt-3 mb-2">Belgien</div>
+                                        </div>
+                                        <div class="col-xl-4 pt-3 d-none d-md-block">
+                                            <h3><a href="/banken/ckv-bank/">CKV Bank</a></h3>
+                                            <p>Die CKV Spaarbank ist eine unabhängige belgische Sparkasse, die eine
+                                                Vielzahl&nbsp;traditioneller Sparprodukte sowie maßgeschneiderte
+                                                Kreditlösungen für Privat- und Geschäftskunden anbietet.</p>
+                                        </div>
+                                        <div class="col-xl-3 col-lg-4 ce-bank-offer mt-xl-5 pb-3">
+                                            Keine Angebote verfügbar
+                                        </div>
+                                        <div class="col text-center align-self-center py-3"><a href="/banken/ckv-bank/"
+                                                class="btn btn-orange">Mehr erfahren</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div id="c2118"
+                                class="frame frame-container frame-type-sd_bank frame-layout-0 frame-space-before-medium">
+                                <div class="ce-bank"><a href="/banken/close-brothers-limited/"><img class="img-fluid"
+                                            src="../assets/images/csm_closebrothers_f947cc075a.jpg" width="1140"
+                                            height="166" alt=""></a>
+                                    <div class="row">
+                                        <div class="col text-center align-self-center pt-3"><img class="img-fluid"
+                                                src="../assets/images/CBRL.svg" width="200" height="42"
+                                                alt="Close Brothers Savings">
+                                            <div class="text-small mt-3 mb-2">Großbritannien</div>
+                                        </div>
+                                        <div class="col-xl-4 pt-3 d-none d-md-block">
+                                            <h3><a href="/banken/close-brothers-limited/">Close Brothers</a></h3>
+                                            <p>Die Close Brothers Limited wurde 1924 in London gegründet und ist
+                                                Spezialist für Finanzierungslösungen von kleinen und
+                                                mittelständischen Unternehmen.</p>
+                                        </div>
+                                        <div class="col-xl-3 col-lg-4 ce-bank-offer mt-xl-5 pb-3">
+                                            Keine Angebote verfügbar
+                                        </div>
+                                        <div class="col text-center align-self-center py-3"><a
+                                                href="/banken/close-brothers-limited/" class="btn btn-orange">Mehr
+                                                erfahren</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div id="c14819"
+                                class="frame frame-container frame-type-sd_bank frame-layout-0 frame-space-before-medium">
+                                <div class="ce-bank"><a href="/banken/credit-agricole-consumer-finance/"><img
+                                            class="img-fluid" src="../assets/images/Teaser_CACF_Bankenuebersicht.jpg"
+                                            width="1140" height="166" alt="CACF Bankenuebersicht"
+                                            title="Crédit Agricole Consumer Finance"></a>
+                                    <div class="row">
+                                        <div class="col text-center align-self-center pt-3"><img class="img-fluid"
+                                                src="../assets/images/cacf-logo.svg" width="200" height="23"
+                                                alt="Crédit Agricole Consumer Finance "
+                                                title="Crédit Agricole Consumer Finance Logo">
+                                            <div class="text-small mt-3 mb-2">Frankreich</div>
+                                        </div>
+                                        <div class="col-xl-4 pt-3 d-none d-md-block">
+                                            <h3><a href="/banken/credit-agricole-consumer-finance/">Crédit Agricole
+                                                    Consumer Finance </a></h3>
+                                            <p>Crédit Agricole Consumer Finance ist einer der Marktführer für
+                                                Konsumentenkredite in Frankreich und Europa und bietet in 23 Ländern
+                                                ein breites Spektrum an Finanzprodukten und -dienstleistungen an.
+                                            </p>
+                                        </div>
+                                        <div class="col-xl-3 col-lg-4 ce-bank-offer mt-xl-5 pb-3"><a
+                                                href="/banken/credit-agricole-consumer-finance/tagesgeld/"><strong
+                                                    class="pr-2">0,21 %</strong>
+                                                Tagesgeld/Flexgeld24
+                                                <br></a><a
+                                                href="/banken/credit-agricole-consumer-finance/festgeld/3-monate/"><strong
+                                                    class="pr-2">0,26 %</strong>
+                                                Festgeld 3 Monate
+                                                <br></a><a
+                                                href="/banken/credit-agricole-consumer-finance/festgeld/6-monate/"><strong
+                                                    class="pr-2">0,31 %</strong>
+                                                Festgeld 6 Monate
+                                                <br></a><a
+                                                href="/banken/credit-agricole-consumer-finance/festgeld/9-monate/"><strong
+                                                    class="pr-2">0,36 %</strong>
+                                                Festgeld 9 Monate
+                                                <br></a><a
+                                                href="/banken/credit-agricole-consumer-finance/festgeld/12-monate/"><strong
+                                                    class="pr-2">0,51 %</strong>
+                                                Festgeld 12 Monate
+                                                <br></a></div>
+                                        <div class="col text-center align-self-center py-3"><a
+                                                href="/banken/credit-agricole-consumer-finance/"
+                                                class="btn btn-orange">Mehr erfahren</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div id="c2117"
+                                class="frame frame-container frame-type-sd_bank frame-layout-0 frame-space-before-medium">
+                                <div class="ce-bank"><a href="/banken/creditplus-bank/"><img class="img-fluid"
+                                            src="../assets/images/csm_creditplus_b0153675a8.jpg" width="1140"
+                                            height="166" alt="Creditplus" title="Creditplus"></a>
+                                    <div class="row">
+                                        <div class="col text-center align-self-center pt-3"><img class="img-fluid"
+                                                src="../assets/images/CPLU.svg" width="200" height="34"
+                                                alt="CreditPlus">
+                                            <div class="text-small mt-3 mb-2">Deutschland</div>
+                                        </div>
+                                        <div class="col-xl-4 pt-3 d-none d-md-block">
+                                            <h3><a href="/banken/creditplus-bank/">Creditplus Bank</a></h3>
+                                            <p>Die Creditplus Bank wurde 1960 in Stuttgart gegründet und
+                                                konzentriert sich ausschließlich auf das
+                                                Konsumentenkreditgeschäft.&nbsp;</p>
+                                        </div>
+                                        <div class="col-xl-3 col-lg-4 ce-bank-offer mt-xl-5 pb-3"><a
+                                                href="/banken/creditplus-bank/festgeld/12-monate/"><strong
+                                                    class="pr-2">0,70 %</strong>
+                                                Festgeld 12 Monate
+                                                <br></a><a href="/banken/creditplus-bank/festgeld/18-monate/"><strong
+                                                    class="pr-2">0,80 %</strong>
+                                                Festgeld 18 Monate
+                                                <br></a><a href="/banken/creditplus-bank/festgeld/24-monate/"><strong
+                                                    class="pr-2">1,20 %</strong>
+                                                Festgeld 24 Monate
+                                                <br></a><a href="/banken/creditplus-bank/festgeld/36-monate/"><strong
+                                                    class="pr-2">1,20 %</strong>
+                                                Festgeld 36 Monate
+                                                <br></a><a href="/banken/creditplus-bank/festgeld/48-monate/"><strong
+                                                    class="pr-2">1,20 %</strong>
+                                                Festgeld 48 Monate
+                                                <br></a></div>
+                                        <div class="col text-center align-self-center py-3"><a
+                                                href="/banken/creditplus-bank/" class="btn btn-orange">Mehr
+                                                erfahren</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div id="c11203"
+                                class="frame frame-container frame-type-sd_bank frame-layout-0 frame-space-before-medium">
+                                <div class="ce-bank"><a href="/banken/ebi-groupe-ecobank/"><img class="img-fluid"
+                                            src="../assets/images/csm_ebi-groupe-ecobank_57e104634d.jpg" width="1140"
+                                            height="166" alt="Ebi Groupe Ecobank" title="Ebi Groupe Ecobank"></a>
+                                    <div class="row">
+                                        <div class="col text-center align-self-center pt-3"><img class="img-fluid"
+                                                src="../assets/images/EBI-Logo.svg" width="155" height="150"
+                                                alt="Ebi Groupe Ecobank Logo" title="Ebi Groupe Ecobank Logo">
+                                            <div class="text-small mt-3 mb-2">Frankreich</div>
+                                        </div>
+                                        <div class="col-xl-4 pt-3 d-none d-md-block">
+                                            <h3><a href="/banken/ebi-groupe-ecobank/">EBI Groupe Ecobank&nbsp;</a>
+                                            </h3>
+                                            <p>EBI Groupe Ecobank wurde 2008 in
+                                                Frankreich&nbsp;&nbsp;gegründet.&nbsp;Sie bildet die Schnittstelle
+                                                zur Finanzierung des internationalen Handels und die Steuerung der
+                                                Finanzströme zwischen Afrika und dem Rest der Welt.</p>
+                                        </div>
+                                        <div class="col-xl-3 col-lg-4 ce-bank-offer mt-xl-5 pb-3"><a
+                                                href="/banken/ebi-groupe-ecobank/festgeld/3-monate/"><strong
+                                                    class="pr-2">0,30 %</strong>
+                                                Festgeld 3 Monate
+                                                <br></a><a href="/banken/ebi-groupe-ecobank/festgeld/6-monate/"><strong
+                                                    class="pr-2">0,50 %</strong>
+                                                Festgeld 6 Monate
+                                                <br></a><a href="/banken/ebi-groupe-ecobank/festgeld/12-monate/"><strong
+                                                    class="pr-2">0,90 %</strong>
+                                                Festgeld 12 Monate
+                                                <br></a></div>
+                                        <div class="col text-center align-self-center py-3"><a
+                                                href="/banken/ebi-groupe-ecobank/" class="btn btn-orange">Mehr
+                                                erfahren</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div id="c15306"
+                                class="frame frame-container frame-type-sd_bank frame-layout-0 frame-space-before-medium">
+                                <div class="ce-bank"><a href="/banken/erik-penser-bank/"><img class="img-fluid"
+                                            src="../assets/images/Teaser_Bankenuebersicht_EricPenser.jpg" width="1140"
+                                            height="166" alt="Eric Penser Bank" title="Eric Penser Bank"></a>
+                                    <div class="row">
+                                        <div class="col text-center align-self-center pt-3"><img class="img-fluid"
+                                                src="../assets/images/ErikPenserBank-Logo.svg" width="200" height="56"
+                                                alt="Erik Penser Bank Logo" title="Erik Penser Bank Logo">
+                                            <div class="text-small mt-3 mb-2">Schweden</div>
+                                        </div>
+                                        <div class="col-xl-4 pt-3 d-none d-md-block">
+                                            <h3><a href="/banken/erik-penser-bank/">Erik Penser Bank AB</a></h3>
+                                            <p>Die Erik Penser Bank&nbsp;AB&nbsp;wurde 1994 in Schweden gegründet
+                                                und hat sich auf die
+                                                Vermögensverwaltung,&nbsp;Kapitalmarkttransaktionen sowie die
+                                                Vergabe von Krediten spezialisiert.&nbsp;</p>
+                                        </div>
+                                        <div class="col-xl-3 col-lg-4 ce-bank-offer mt-xl-5 pb-3"><a
+                                                href="/banken/erik-penser-bank/festgeld/3-monate/"><strong
+                                                    class="pr-2">0,30 %</strong>
+                                                Festgeld 3 Monate
+                                                <br></a><a href="/banken/erik-penser-bank/festgeld/6-monate/"><strong
+                                                    class="pr-2">0,50 %</strong>
+                                                Festgeld 6 Monate
+                                                <br></a></div>
+                                        <div class="col text-center align-self-center py-3"><a
+                                                href="/banken/erik-penser-bank/" class="btn btn-orange">Mehr
+                                                erfahren</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div id="c10442"
+                                class="frame frame-container frame-type-sd_bank frame-layout-0 frame-space-before-medium">
+                                <div class="ce-bank"><a href="/banken/european-merchant-bank/"><img class="img-fluid"
+                                            src="../assets/images/csm_Teaser_bankenuebersicht_EM_43425e4a4d.jpg"
+                                            width="1140" height="166" alt="Teaser bankenuebersicht EM"
+                                            title="EM Bank"></a>
+                                    <div class="row">
+                                        <div class="col text-center align-self-center pt-3"><img class="img-fluid"
+                                                src="../assets/images/embank.svg" width="200" height="50" alt="embank"
+                                                title="EM Bank Logo">
+                                            <div class="text-small mt-3 mb-2">Litauen</div>
+                                        </div>
+                                        <div class="col-xl-4 pt-3 d-none d-md-block">
+                                            <h3><a href="/banken/european-merchant-bank/">European Merchant Bank</a>
+                                            </h3>
+                                            <p>Die European Merchant Bank hat ihren Sitz in der litauischen
+                                                Hauptstadt Vilnius und&nbsp;zeichnet sich vor allem durch ihre
+                                                langjährige Erfahrung und Kompetenz im europäischen Bankengeschäft
+                                                aus.</p>
+                                        </div>
+                                        <div class="col-xl-3 col-lg-4 ce-bank-offer mt-xl-5 pb-3"><a
+                                                href="/banken/european-merchant-bank/festgeld/3-monate/"><strong
+                                                    class="pr-2">0,02 %</strong>
+                                                Festgeld 3 Monate
+                                                <br></a><a
+                                                href="/banken/european-merchant-bank/festgeld/6-monate/"><strong
+                                                    class="pr-2">0,85 %</strong>
+                                                Festgeld 6 Monate
+                                                <br></a><a
+                                                href="/banken/european-merchant-bank/festgeld/9-monate/"><strong
+                                                    class="pr-2">1,01 %</strong>
+                                                Festgeld 9 Monate
+                                                <br></a><a
+                                                href="/banken/european-merchant-bank/festgeld/12-monate/"><strong
+                                                    class="pr-2">1,19 %</strong>
+                                                Festgeld 12 Monate
+                                                <br></a><a
+                                                href="/banken/european-merchant-bank/festgeld/18-monate/"><strong
+                                                    class="pr-2">1,24 %</strong>
+                                                Festgeld 18 Monate
+                                                <br></a></div>
+                                        <div class="col text-center align-self-center py-3"><a
+                                                href="/banken/european-merchant-bank/" class="btn btn-orange">Mehr
+                                                erfahren</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div id="c10046"
+                                class="frame frame-container frame-type-sd_bank frame-layout-0 frame-space-before-medium">
+                                <div class="ce-bank"><a href="/banken/expobank/"><img class="img-fluid"
+                                            src="../assets/images/csm_banner_bankenuebersicht_neues-CMS_EXPOBANK_c8b6be0545.jpg"
+                                            width="1140" height="166" alt="Expobank " title="Expobank "></a>
+                                    <div class="row">
+                                        <div class="col text-center align-self-center pt-3"><img class="img-fluid"
+                                                src="../assets/images/Expobank_Logo.svg" width="200" height="85"
+                                                alt="Expobank Logo" title="Expobank Logo">
+                                            <div class="text-small mt-3 mb-2">Lettland</div>
+                                        </div>
+                                        <div class="col-xl-4 pt-3 d-none d-md-block">
+                                            <h3><a href="/banken/expobank/">Expobank</a></h3>
+                                            <p>Die Expobank&nbsp;wurde 1991 unter dem Namen AS LTB
+                                                Bank&nbsp;gegründet.&nbsp;Die Bank besitzt eine vollwertige
+                                                Banklizenz, die von der Finanz- und Kapitalmarktkommission der
+                                                Republik Lettland (FCMC) vergeben wurde.</p>
+                                        </div>
+                                        <div class="col-xl-3 col-lg-4 ce-bank-offer mt-xl-5 pb-3">
+                                            Keine Angebote verfügbar
+                                        </div>
+                                        <div class="col text-center align-self-center py-3"><a href="/banken/expobank/"
+                                                class="btn btn-orange">Mehr erfahren</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div id="c9197"
+                                class="frame frame-container frame-type-sd_bank frame-layout-0 frame-space-before-medium">
+                                <div class="ce-bank"><a href="/banken/fcm-bank/"><img class="img-fluid"
+                                            src="../assets/images/FCM-Bank.jpg" width="1140" height="166" alt="FCM Bank"
+                                            title="FCM Bank"></a>
+                                    <div class="row">
+                                        <div class="col text-center align-self-center pt-3"><img class="img-fluid"
+                                                src="../assets/images/FCM-Bank.svg" width="200" height="26"
+                                                alt="FCM Bank Logo" title="FCM Bank Logo">
+                                            <div class="text-small mt-3 mb-2">Malta</div>
+                                        </div>
+                                        <div class="col-xl-4 pt-3 d-none d-md-block">
+                                            <h3><a href="/banken/fcm-bank/">FCM Bank</a></h3>
+                                            <p>Die FCM Bank wurde 2010 unter dem Namen FCM Bank Ltd. gegründet
+                                                und&nbsp;hat sich auf Lösungen zur Unternehmensfinanzierung sowie
+                                                auf Firmen- und Privatkundeneinlagen spezialisiert</p>
+                                        </div>
+                                        <div class="col-xl-3 col-lg-4 ce-bank-offer mt-xl-5 pb-3"><a
+                                                href="/banken/fcm-bank/tagesgeld/"><strong class="pr-2">0,05
+                                                    %</strong>
+                                                Tagesgeld/Flexgeld24
+                                                <br></a><a href="/banken/fcm-bank/festgeld/3-monate/"><strong
+                                                    class="pr-2">0,31 %</strong>
+                                                Festgeld 3 Monate
+                                                <br></a><a href="/banken/fcm-bank/festgeld/6-monate/"><strong
+                                                    class="pr-2">0,86 %</strong>
+                                                Festgeld 6 Monate
+                                                <br></a><a href="/banken/fcm-bank/festgeld/9-monate/"><strong
+                                                    class="pr-2">0,86 %</strong>
+                                                Festgeld 9 Monate
+                                                <br></a><a href="/banken/fcm-bank/festgeld/12-monate/"><strong
+                                                    class="pr-2">1,11 %</strong>
+                                                Festgeld 12 Monate
+                                                <br></a></div>
+                                        <div class="col text-center align-self-center py-3"><a href="/banken/fcm-bank/"
+                                                class="btn btn-orange">Mehr erfahren</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div id="c2116"
+                                class="frame frame-container frame-type-sd_bank frame-layout-0 frame-space-before-medium">
+                                <div class="ce-bank"><a href="/banken/fim-bank/"><img class="img-fluid"
+                                            src="../assets/images/csm_fim_7fecff9282.jpg" width="1140" height="166"
+                                            alt=""></a>
+                                    <div class="row">
+                                        <div class="col text-center align-self-center pt-3"><img class="img-fluid"
+                                                src="../assets/images/FIMB.svg" width="200" height="38" alt="FIM Bank">
+                                            <div class="text-small mt-3 mb-2">Malta</div>
+                                        </div>
+                                        <div class="col-xl-4 pt-3 d-none d-md-block">
+                                            <h3><a href="/banken/fim-bank/">FIMBank</a></h3>
+                                            <p>Die FIMBank&nbsp;wurde 1994 in Malta gegründet und richtet ihre
+                                                Aufmerksamkeit auf die Finanzierung von Handelsaktivitäten, aber
+                                                auch auf klassische Einlagenprodukte.</p>
+                                        </div>
+                                        <div class="col-xl-3 col-lg-4 ce-bank-offer mt-xl-5 pb-3"><a
+                                                href="/banken/fim-bank/tagesgeld/"><strong class="pr-2">0,27
+                                                    %</strong>
+                                                Tagesgeld/Flexgeld24
+                                                <br></a><a href="/banken/fim-bank/festgeld/3-monate/"><strong
+                                                    class="pr-2">0,45 %</strong>
+                                                Festgeld 3 Monate
+                                                <br></a><a href="/banken/fim-bank/festgeld/6-monate/"><strong
+                                                    class="pr-2">0,95 %</strong>
+                                                Festgeld 6 Monate
+                                                <br></a><a href="/banken/fim-bank/festgeld/12-monate/"><strong
+                                                    class="pr-2">1,30 %</strong>
+                                                Festgeld 12 Monate
+
+                                                <br></a><a href="/banken/fim-bank/festgeld/24-monate/"><strong
+                                                    class="pr-2">1,50 %</strong>
+                                                Festgeld 24 Monate
+                                                <br></a></div>
+                                        <div class="col text-center align-self-center py-3"><a href="/banken/fim-bank/"
+                                                class="btn btn-orange">Mehr erfahren</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div id="c2115"
+                                class="frame frame-container frame-type-sd_bank frame-layout-0 frame-space-before-medium">
+                                <div class="ce-bank"><a href="/banken/first-bank/"><img class="img-fluid"
+                                            src="../assets/images/firstbank.jpg" width="1140" height="166"
+                                            alt="Firstbank" title="Firstbank"></a>
+                                    <div class="row">
+                                        <div class="col text-center align-self-center pt-3"><img class="img-fluid"
+                                                src="../assets/images/PIRB.svg" width="200" height="27" alt="FirstBank"
+                                                title="Firstbank Logo">
+                                            <div class="text-small mt-3 mb-2">Rumänien</div>
+                                        </div>
+                                        <div class="col-xl-4 pt-3 d-none d-md-block">
+                                            <h3><a href="/banken/first-bank/">First Bank</a></h3>
+                                            <p>Die First Bank wurde 1995 in Rumänien unter dem Namen Pater Bank
+                                                gegründet und bietet Privatkunden, KMU und Firmenkunden eine breite
+                                                Palette von Produkten und Dienstleistungen an.</p>
+                                        </div>
+                                        <div class="col-xl-3 col-lg-4 ce-bank-offer mt-xl-5 pb-3">
+                                            Keine Angebote verfügbar
+                                        </div>
+                                        <div class="col text-center align-self-center py-3"><a
+                                                href="/banken/first-bank/" class="btn btn-orange">Mehr erfahren</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div id="c17556"
+                                class="frame frame-container frame-type-sd_bank frame-layout-0 frame-space-before-medium">
+                                <div class="ce-bank"><a href="/banken/haitong-bank/"><img class="img-fluid"
+                                            src="../assets/images/haitong-banner_bankuebersicht.jpg" width="1140"
+                                            height="166" alt="Haitong Bank" title="Haitong Bank"></a>
+                                    <div class="row">
+                                        <div class="col text-center align-self-center pt-3"><img class="img-fluid"
+                                                src="../assets/images/haitong_logo.svg" width="200" height="40"
+                                                alt="Haitong Bank Logo" title="Haitong Bank Logo">
+                                            <div class="text-small mt-3 mb-2">Portugal</div>
+                                        </div>
+                                        <div class="col-xl-4 pt-3 d-none d-md-block">
+                                            <h3><a href="/banken/haitong-bank/">Haitong Bank Sucursal en España</a>
+                                            </h3>
+                                            <p>Die Haitong Bank S.A. Sucursal en España wurde 2001 in Madrid
+                                                eröffnet. Sie ist die spanische Niederlassung der portugiesischen
+                                                Haitong Bank S.A., die 1983 in Lissabon gegründet wurde.</p>
+                                        </div>
+                                        <div class="col-xl-3 col-lg-4 ce-bank-offer mt-xl-5 pb-3"><a
+                                                href="/banken/haitong-bank/festgeld/3-monate/"><strong class="pr-2">0,38
+                                                    %</strong>
+                                                Festgeld 3 Monate
+                                                <br></a><a href="/banken/haitong-bank/festgeld/6-monate/"><strong
+                                                    class="pr-2">0,55 %</strong>
+                                                Festgeld 6 Monate
+                                                <br></a><a href="/banken/haitong-bank/festgeld/9-monate/"><strong
+                                                    class="pr-2">0,80 %</strong>
+                                                Festgeld 9 Monate
+                                                <br></a><a href="/banken/haitong-bank/festgeld/12-monate/"><strong
+                                                    class="pr-2">1,10 %</strong>
+                                                Festgeld 12 Monate
+                                                <br></a><a href="/banken/haitong-bank/festgeld/24-monate/"><strong
+                                                    class="pr-2">1,40 %</strong>
+                                                Festgeld 24 Monate
+                                                <br></a></div>
+                                        <div class="col text-center align-self-center py-3"><a
+                                                href="/banken/haitong-bank/" class="btn btn-orange">Mehr
+                                                erfahren</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div id="c12805"
+                                class="frame frame-container frame-type-sd_bank frame-layout-0 frame-space-before-medium">
+                                <div class="ce-bank"><a href="/banken/iig-bank/"><img class="img-fluid"
+                                            src="../assets/images/csm_Teaser_bankenuebersicht_iig_Bank_810826a473.jpg"
+                                            width="1140" height="166" alt="IIG Bank" title="IIG Bank"></a>
+                                    <div class="row">
+                                        <div class="col text-center align-self-center pt-3"><img class="img-fluid"
+                                                src="../assets/images/IIG-bank_logo.svg" width="200" height="110"
+                                                alt="IIG Bank Logo" title="IIG Bank Logo">
+                                            <div class="text-small mt-3 mb-2">Malta</div>
+                                        </div>
+                                        <div class="col-xl-4 pt-3 d-none d-md-block">
+                                            <h3><a href="/banken/iig-bank/">IIG Bank</a></h3>
+                                            <p>Die IIG Bank wurde 2010 auf Malta gegründet und hat sich auf
+                                                internationale Handelsfinanzierungen mit Schwerpunkt auf die
+                                                Kreditvergabe im Rohstoffhandel spezialisiert.</p>
+                                        </div>
+                                        <div class="col-xl-3 col-lg-4 ce-bank-offer mt-xl-5 pb-3"><a
+                                                href="/banken/iig-bank/tagesgeld/"><strong class="pr-2">0,25
+                                                    %</strong>
+                                                Tagesgeld/Flexgeld24
+                                                <br></a><a href="/banken/iig-bank/festgeld/3-monate/"><strong
+                                                    class="pr-2">0,35 %</strong>
+                                                Festgeld 3 Monate
+                                                <br></a><a href="/banken/iig-bank/festgeld/6-monate/"><strong
+                                                    class="pr-2">0,55 %</strong>
+                                                Festgeld 6 Monate
+                                                <br></a><a href="/banken/iig-bank/festgeld/12-monate/"><strong
+                                                    class="pr-2">0,85 %</strong>
+                                                Festgeld 12 Monate
+                                                <br></a><a href="/banken/iig-bank/festgeld/18-monate/"><strong
+                                                    class="pr-2">0,95 %</strong>
+                                                Festgeld 18 Monate
+                                                <br></a></div>
+                                        <div class="col text-center align-self-center py-3"><a href="/banken/iig-bank/"
+                                                class="btn btn-orange">Mehr erfahren</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div id="c10918"
+                                class="frame frame-container frame-type-sd_bank frame-layout-0 frame-space-before-medium">
+                                <div class="ce-bank"><a href="/banken/imprebanca/"><img class="img-fluid"
+                                            src="../assets/images/csm_imprebanca_2025e3c770.jpg" width="1140"
+                                            height="166" alt="Imprebanca" title="Imprebanca"></a>
+                                    <div class="row">
+                                        <div class="col text-center align-self-center pt-3"><img class="img-fluid"
+                                                src="../assets/images/imprebanca_logo.svg" width="200" height="43"
+                                                alt="Imprebanca" title="Imprebanca Logo">
+                                            <div class="text-small mt-3 mb-2">Italien</div>
+                                        </div>
+                                        <div class="col-xl-4 pt-3 d-none d-md-block">
+                                            <h3><a href="/banken/imprebanca/">imprebanca</a></h3>
+                                            <p>Die imprebanca wurde 2008 aus einer Initiative von Unternehmen heraus
+                                                in Rom gegründet und bietet Produkte und Dienstleistungen für
+                                                Privat- und Geschäftskunden an.</p>
+                                        </div>
+                                        <div class="col-xl-3 col-lg-4 ce-bank-offer mt-xl-5 pb-3"><a
+                                                href="/banken/imprebanca/festgeld/6-monate/"><strong class="pr-2">0,10
+                                                    %</strong>
+                                                Festgeld 6 Monate
+                                                <br></a><a href="/banken/imprebanca/festgeld/12-monate/"><strong
+                                                    class="pr-2">0,15 %</strong>
+                                                Festgeld 12 Monate
+                                                <br></a><a href="/banken/imprebanca/festgeld/24-monate/"><strong
+                                                    class="pr-2">0,20 %</strong>
+                                                Festgeld 24 Monate
+                                                <br></a><a href="/banken/imprebanca/festgeld/36-monate/"><strong
+                                                    class="pr-2">0,30 %</strong>
+                                                Festgeld 36 Monate
+                                                <br></a><a href="/banken/imprebanca/festgeld/48-monate/"><strong
+                                                    class="pr-2">0,40 %</strong>
+                                                Festgeld 48 Monate
+                                                <br></a></div>
+                                        <div class="col text-center align-self-center py-3"><a
+                                                href="/banken/imprebanca/" class="btn btn-orange">Mehr erfahren</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div id="c17703"
+                                class="frame frame-container frame-type-sd_bank frame-layout-0 frame-space-before-medium">
+                                <div class="ce-bank"><a href="/banken/inbank/"><img class="img-fluid"
+                                            src="../assets/images/inbank-bankuebersicht.jpg" width="1140" height="166"
+                                            alt="Inbank" title="Inbank"></a>
+                                    <div class="row">
+                                        <div class="col text-center align-self-center pt-3"><img class="img-fluid"
+                                                src="../assets/images/inbank_logo.svg" width="200" height="77"
+                                                alt="Inbank Logo" title="Inbank Logo">
+                                            <div class="text-small mt-3 mb-2">Estland</div>
+                                        </div>
+                                        <div class="col-xl-4 pt-3 d-none d-md-block">
+                                            <h3><a href="/banken/inbank/">Inbank</a></h3>
+                                            <p>Die Inbank&nbsp;ist eine estnische Aktiengesellschaft mit Hauptsitz
+                                                in Tallin und hat sich auf Finanzierungslösungen für Privatkunden
+                                                spezialisiert.&nbsp;</p>
+                                        </div>
+                                        <div class="col-xl-3 col-lg-4 ce-bank-offer mt-xl-5 pb-3"><a
+                                                href="/banken/inbank/festgeld/12-monate/"><strong class="pr-2">0,52
+                                                    %</strong>
+                                                Festgeld 12 Monate
+                                                <br></a><a href="/banken/inbank/festgeld/24-monate/"><strong
+                                                    class="pr-2">1,22 %</strong>
+                                                Festgeld 24 Monate
+                                                <br></a><a href="/banken/inbank/festgeld/36-monate/"><strong
+                                                    class="pr-2">1,60 %</strong>
+                                                Festgeld 36 Monate
+                                                <br></a><a href="/banken/inbank/festgeld/48-monate/"><strong
+                                                    class="pr-2">1,62 %</strong>
+                                                Festgeld 48 Monate
+                                                <br></a><a href="/banken/inbank/festgeld/60-monate/"><strong
+                                                    class="pr-2">1,65 %</strong>
+                                                Festgeld 60 Monate
+                                                <br></a></div>
+                                        <div class="col text-center align-self-center py-3"><a href="/banken/inbank/"
+                                                class="btn btn-orange">Mehr erfahren</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div id="c6885"
+                                class="frame frame-container frame-type-sd_bank frame-layout-0 frame-space-before-medium">
+                                <div class="ce-bank"><a href="/banken/izola-bank/"><img class="img-fluid"
+                                            src="../assets/images/csm_izola_b31d10de5d.jpg" width="1140" height="166"
+                                            alt="Izola Bank" title="Izola Bank"></a>
+                                    <div class="row">
+                                        <div class="col text-center align-self-center pt-3"><img class="img-fluid"
+                                                src="../assets/images/izol.svg" width="200" height="54" alt="Izola Bank"
+                                                title="Izola Bank Logo">
+                                            <div class="text-small mt-3 mb-2">Malta</div>
+                                        </div>
+                                        <div class="col-xl-4 pt-3 d-none d-md-block">
+                                            <h3><a href="/banken/izola-bank/">Izola Bank</a></h3>
+                                            <p>Die 1994 gegründete Izola Bank ist eine Online-Bank mit Sitz in
+                                                Valletta, Malta. Sie bietet wettbewerbsfähige, einfache und
+                                                benutzerfreundliche Finanzprodukte für Privat- und Firmenkunden in
+                                                Belgien, Frankreich und Malta an.</p>
+                                        </div>
+                                        <div class="col-xl-3 col-lg-4 ce-bank-offer mt-xl-5 pb-3"><a
+                                                href="/banken/izola-bank/festgeld/6-monate/"><strong class="pr-2">0,05
+                                                    %</strong>
+                                                Festgeld 6 Monate
+                                                <br></a><a href="/banken/izola-bank/festgeld/12-monate/"><strong
+                                                    class="pr-2">0,15 %</strong>
+                                                Festgeld 12 Monate
+                                                <br></a><a href="/banken/izola-bank/festgeld/36-monate/"><strong
+                                                    class="pr-2">0,75 %</strong>
+                                                Festgeld 36 Monate
+                                                <br></a><a href="/banken/izola-bank/festgeld/60-monate/"><strong
+                                                    class="pr-2">1,20 %</strong>
+                                                Festgeld 60 Monate
+                                                <br></a></div>
+                                        <div class="col text-center align-self-center py-3"><a
+                                                href="/banken/izola-bank/" class="btn btn-orange">Mehr erfahren</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div id="c12213"
+                                class="frame frame-container frame-type-sd_bank frame-layout-0 frame-space-before-medium">
+                                <div class="ce-bank"><a href="/banken/kentbank/"><img class="img-fluid"
+                                            src="../assets/images/Teaser_Bankenuebersicht_Kentbank.jpg" width="1140"
+                                            height="166" alt="Bankenuebersicht Kentbank" title="Kentbank"></a>
+                                    <div class="row">
+                                        <div class="col text-center align-self-center pt-3"><img class="img-fluid"
+                                                src="../assets/images/Kent_Bank_Logo.svg" width="200" height="30"
+                                                alt="">
+                                            <div class="text-small mt-3 mb-2">Kroatien</div>
+                                        </div>
+                                        <div class="col-xl-4 pt-3 d-none d-md-block">
+                                            <h3><a href="/banken/kentbank/">KentBank</a></h3>
+                                            <p>Die 1998 gegründete KentBank ist eine kroatische Universalbank mit
+                                                Hauptsitz in Zagreb und mit insgesamt 15 Filialen in allen größeren
+                                                Städten Kroatiens vertreten.</p>
+                                        </div>
+                                        <div class="col-xl-3 col-lg-4 ce-bank-offer mt-xl-5 pb-3"><a
+                                                href="/banken/kentbank/festgeld/1-monat/"><strong class="pr-2">0,03
+                                                    %</strong>
+                                                Festgeld 1 Monat
+                                                <br></a><a href="/banken/kentbank/festgeld/3-monate/"><strong
+                                                    class="pr-2">0,03 %</strong>
+                                                Festgeld 3 Monate
+                                                <br></a><a href="/banken/kentbank/festgeld/6-monate/"><strong
+                                                    class="pr-2">0,95 %</strong>
+                                                Festgeld 6 Monate
+                                                <br></a><a href="/banken/kentbank/festgeld/12-monate/"><strong
+                                                    class="pr-2">1,10 %</strong>
+                                                Festgeld 12 Monate
+                                                <br></a><a href="/banken/kentbank/festgeld/24-monate/"><strong
+                                                    class="pr-2">1,30 %</strong>
+                                                Festgeld 24 Monate
+                                                <br></a></div>
+                                        <div class="col text-center align-self-center py-3"><a href="/banken/kentbank/"
+                                                class="btn btn-orange">Mehr erfahren</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div id="c6646"
+                                class="frame frame-container frame-type-sd_bank frame-layout-0 frame-space-before-medium">
+                                <div class="ce-bank"><a href="/banken/lhv/"><img class="img-fluid"
+                                            src="../assets/images/csm_LHV_d2f4b998b0.jpg" width="1140" height="166"
+                                            alt="LHV Bank" title="LHV Bank"></a>
+                                    <div class="row">
+                                        <div class="col text-center align-self-center pt-3"><img class="img-fluid"
+                                                src="../assets/images/LHVB.svg" width="200" height="86" alt="LHV Bank"
+                                                title="LHV Bank Logo">
+                                            <div class="text-small mt-3 mb-2">Estland</div>
+                                        </div>
+                                        <div class="col-xl-4 pt-3 d-none d-md-block">
+                                            <h3><a href="/banken/lhv/">LHV </a></h3>
+                                            <p>LHV ist eine estnische Bank mit Hauptsitz in Tallinn, die im
+                                                Jahr&nbsp;1999 als Investmentunion der LHV Group gegründet
+                                                wurde.&nbsp;</p>
+                                        </div>
+                                        <div class="col-xl-3 col-lg-4 ce-bank-offer mt-xl-5 pb-3"><a
+                                                href="/banken/lhv/festgeld/6-monate/"><strong class="pr-2">0,01
+                                                    %</strong>
+                                                Festgeld 6 Monate
+                                                <br></a></div>
+                                        <div class="col text-center align-self-center py-3"><a href="/banken/lhv/"
+                                                class="btn btn-orange">Mehr erfahren</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div id="c12921"
+                                class="frame frame-container frame-type-sd_bank frame-layout-0 frame-space-before-medium">
+                                <div class="ce-bank"><a href="/banken/medirect/"><img class="img-fluid"
+                                            src="../assets/images/csm_bankenuebersicht_MeDirect_3c2b0a0470.jpg"
+                                            width="1140" height="166" alt="Bankenübersicht MeDirect"
+                                            title="Bankenübersicht MeDirect"></a>
+                                    <div class="row">
+                                        <div class="col text-center align-self-center pt-3"><img class="img-fluid"
+                                                src="../assets/images/MeDirect.svg" width="200" height="46"
+                                                alt="MeDirect" title="MeDirect Logo">
+                                            <div class="text-small mt-3 mb-2">Malta</div>
+                                        </div>
+                                        <div class="col-xl-4 pt-3 d-none d-md-block">
+                                            <h3><a href="/banken/medirect/">MeDirect</a></h3>
+                                            <p>Die MeDirect ist seit 2004 auf Malta tätig und richtet ihren Fokus
+                                                auf internationale Firmenkredite und das Privatkundengeschäft.</p>
+                                        </div>
+                                        <div class="col-xl-3 col-lg-4 ce-bank-offer mt-xl-5 pb-3"><a
+                                                href="/banken/medirect/tagesgeld/"><strong class="pr-2">0,10
+                                                    %</strong>
+                                                Tagesgeld/Flexgeld24
+                                                <br></a><a href="/banken/medirect/festgeld/3-monate/"><strong
+                                                    class="pr-2">0,20 %</strong>
+                                                Festgeld 3 Monate
+                                                <br></a><a href="/banken/medirect/festgeld/6-monate/"><strong
+                                                    class="pr-2">0,27 %</strong>
+                                                Festgeld 6 Monate
+                                                <br></a><a href="/banken/medirect/festgeld/9-monate/"><strong
+                                                    class="pr-2">0,30 %</strong>
+                                                Festgeld 9 Monate
+                                                <br></a><a href="/banken/medirect/festgeld/12-monate/"><strong
+                                                    class="pr-2">0,65 %</strong>
+                                                Festgeld 12 Monate
+                                                <br></a></div>
+                                        <div class="col text-center align-self-center py-3"><a href="/banken/medirect/"
+                                                class="btn btn-orange">Mehr erfahren</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div id="c14484"
+                                class="frame frame-container frame-type-sd_bank frame-layout-0 frame-space-before-medium">
+                                <div class="ce-bank"><a href="/banken/memo-bank/"><img class="img-fluid"
+                                            src="../assets/images/Teaser_Bankenuebersicht_Memo_Bank.jpg" width="1140"
+                                            height="166" alt="Bankenuebersicht MemoBank" title="MemoBank"></a>
+                                    <div class="row">
+                                        <div class="col text-center align-self-center pt-3"><img class="img-fluid"
+                                                src="../assets/images/Logo__MemoBank.svg" width="200" height="35"
+                                                alt="MemoBank Logo" title="MemoBank Logo">
+                                            <div class="text-small mt-3 mb-2">Frankreich</div>
+                                        </div>
+                                        <div class="col-xl-4 pt-3 d-none d-md-block">
+                                            <h3><a href="/banken/memo-bank/">Memo Bank</a></h3>
+                                            <p>Die Memo Bank ist die erste unabhängige Geschäftsbank, die von
+                                                Unternehmern gegründet und finanziert wurde.</p>
+                                        </div>
+                                        <div class="col-xl-3 col-lg-4 ce-bank-offer mt-xl-5 pb-3">
+                                            Keine Angebote verfügbar
+                                        </div>
+                                        <div class="col text-center align-self-center py-3"><a href="/banken/memo-bank/"
+                                                class="btn btn-orange">Mehr erfahren</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div id="c18590"
+                                class="frame frame-container frame-type-sd_bank frame-layout-0 frame-space-before-medium">
+                                <div class="ce-bank"><a href="/banken/merkanti-bank/"><img class="img-fluid"
+                                            src="../assets/images/Bankenuebersicht_Merkanti.jpg" width="1140"
+                                            height="166" alt="Merkanti Bank" title="Merkanti Bank"></a>
+                                    <div class="row">
+                                        <div class="col text-center align-self-center pt-3"><img class="img-fluid"
+                                                src="../assets/images/merkanti.svg" width="200" height="148"
+                                                alt="Merkanti Bank">
+                                            <div class="text-small mt-3 mb-2">Malta</div>
+                                        </div>
+                                        <div class="col-xl-4 pt-3 d-none d-md-block">
+                                            <h3><a href="/banken/merkanti-bank/">Merkanti Bank</a></h3>
+                                            <p>Die Merkanti Bank ist auf Malta tätig. Sie richtet sich an
+                                                Unternehmen und umfasst spezielle Handelsfinanzierungen sowie
+                                                Merchant Banking-Lösungen.</p>
+                                        </div>
+                                        <div class="col-xl-3 col-lg-4 ce-bank-offer mt-xl-5 pb-3">
+                                            Keine Angebote verfügbar
+                                        </div>
+                                        <div class="col text-center align-self-center py-3"><a
+                                                href="/banken/merkanti-bank/" class="btn btn-orange">Mehr
+                                                erfahren</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div id="c3874"
+                                class="frame frame-container frame-type-sd_bank frame-layout-0 frame-space-before-medium">
+                                <div class="ce-bank"><a href="/banken/my-money-bank/"><img class="img-fluid"
+                                            src="../assets/images/mymoneybank.jpg" width="1140" height="166"
+                                            alt="My Money Bank" title="My Money Bank"></a>
+                                    <div class="row">
+                                        <div class="col text-center align-self-center pt-3"><img class="img-fluid"
+                                                src="../assets/images/MMBA.svg" width="200" height="50"
+                                                alt="My Money Bank" title="My Money Bank Logo">
+                                            <div class="text-small mt-3 mb-2">Frankreich</div>
+                                        </div>
+                                        <div class="col-xl-4 pt-3 d-none d-md-block">
+                                            <h3><a href="/banken/my-money-bank/">My Money Bank</a></h3>
+                                            <p>My Money Bank (vormals GE Money Bank France) ist eine unabhängige
+                                                französische Bank, die einem der weltweit größten Investmentfonds
+                                                gehört.</p>
+                                        </div>
+                                        <div class="col-xl-3 col-lg-4 ce-bank-offer mt-xl-5 pb-3"><a
+                                                href="/banken/my-money-bank/tagesgeld/"><strong class="pr-2">0,24
+                                                    %</strong>
+                                                Tagesgeld/Flexgeld24
+                                                <br></a><a href="/banken/my-money-bank/festgeld/9-monate/"><strong
+                                                    class="pr-2">0,40 %</strong>
+                                                Festgeld 9 Monate
+                                                <br></a><a href="/banken/my-money-bank/festgeld/12-monate/"><strong
+                                                    class="pr-2">0,75 %</strong>
+                                                Festgeld 12 Monate
+                                                <br></a><a href="/banken/my-money-bank/festgeld/18-monate/"><strong
+                                                    class="pr-2">0,90 %</strong>
+                                                Festgeld 18 Monate
+                                                <br></a><a href="/banken/my-money-bank/festgeld/24-monate/"><strong
+                                                    class="pr-2">1,30 %</strong>
+                                                Festgeld 24 Monate
+                                                <br></a></div>
+                                        <div class="col text-center align-self-center py-3"><a
+                                                href="/banken/my-money-bank/" class="btn btn-orange">Mehr
+                                                erfahren</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div id="c5620"
+                                class="frame frame-container frame-type-sd_bank frame-layout-0 frame-space-before-medium">
+                                <div class="ce-bank"><a href="/banken/novum-bank/"><img class="img-fluid"
+                                            src="../assets/images/novum_bank.jpg" width="1140" height="166"
+                                            alt="Novum Bank" title="Novum Bank"></a>
+                                    <div class="row">
+                                        <div class="col text-center align-self-center pt-3"><img class="img-fluid"
+                                                src="../assets/images/novum.svg" width="200" height="119"
+                                                alt="Novum Bank" title="Novum Bank Logo">
+                                            <div class="text-small mt-3 mb-2">Malta</div>
+                                        </div>
+                                        <div class="col-xl-4 pt-3 d-none d-md-block">
+                                            <h3><a href="/banken/novum-bank/">Novum Bank</a></h3>
+                                            <p>Die Novum Bank, die früher unter dem Namen VoiceCash Bank Limited
+                                                firmierte, wurde im Juni 2009 gegründet und ist ein privates
+                                                Kreditinstitut, mit Hauptsitz auf der Insel Malta.</p>
+                                        </div>
+                                        <div class="col-xl-3 col-lg-4 ce-bank-offer mt-xl-5 pb-3"><a
+                                                href="/banken/novum-bank/festgeld/3-monate/"><strong class="pr-2">0,01
+                                                    %</strong>
+                                                Festgeld 3 Monate
+                                                <br></a><a href="/banken/novum-bank/festgeld/6-monate/"><strong
+                                                    class="pr-2">0,01 %</strong>
+                                                Festgeld 6 Monate
+                                                <br></a><a href="/banken/novum-bank/festgeld/9-monate/"><strong
+                                                    class="pr-2">0,01 %</strong>
+                                                Festgeld 9 Monate
+                                                <br></a><a href="/banken/novum-bank/festgeld/12-monate/"><strong
+                                                    class="pr-2">0,40 %</strong>
+                                                Festgeld 12 Monate
+                                                <br></a></div>
+                                        <div class="col text-center align-self-center py-3"><a
+                                                href="/banken/novum-bank/" class="btn btn-orange">Mehr erfahren</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div id="c16036"
+                                class="frame frame-container frame-type-sd_bank frame-layout-0 frame-space-before-medium">
+                                <div class="ce-bank"><a href="/banken/privatbanka/"><img class="img-fluid"
+                                            src="../assets/images/Teaser_Bankenuebersicht_neues_CMS_Privatbanka_1140x166.jpg"
+                                            width="1140" height="166" alt="Teaser Bankenuebersicht Privatbanka"
+                                            title="Privatbanka"></a>
+                                    <div class="row">
+                                        <div class="col text-center align-self-center pt-3"><img class="img-fluid"
+                                                src="../assets/images/privatbanka-logo.svg" width="200" height="47"
+                                                alt="Privatbanka Logo" title="Privatbanka ">
+                                            <div class="text-small mt-3 mb-2">Slowakei</div>
+                                        </div>
+                                        <div class="col-xl-4 pt-3 d-none d-md-block">
+                                            <h3><a href="/banken/privatbanka/">Privatbanka</a></h3>
+                                            <p>Die&nbsp;Privatbanka wurde 2005 in der Slowakei gegründet. Als erste
+                                                slowakische Bank konzentriert sie sich auf Private Banking.</p>
+                                        </div>
+                                        <div class="col-xl-3 col-lg-4 ce-bank-offer mt-xl-5 pb-3"><a
+                                                href="/banken/privatbanka/festgeld/12-monate/"><strong class="pr-2">0,65
+                                                    %</strong>
+                                                Festgeld 12 Monate
+                                                <br></a></div>
+                                        <div class="col text-center align-self-center py-3"><a
+                                                href="/banken/privatbanka/" class="btn btn-orange">Mehr erfahren</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div id="c10245"
+                                class="frame frame-container frame-type-sd_bank frame-layout-0 frame-space-before-medium">
+                                <div class="ce-bank"><a href="/banken/qliro/"><img class="img-fluid"
+                                            src="../assets/images/csm_Teaser_Bankenuebersicht_Qliro_c62c633a83.jpg"
+                                            width="1140" height="166" alt="Bankenuebersicht Qliro" title="Qliro"></a>
+                                    <div class="row">
+                                        <div class="col text-center align-self-center pt-3"><img class="img-fluid"
+                                                src="../assets/images/Qliro_Logo.svg" width="200" height="49"
+                                                alt="Qliro Logo" title="Qliro Logo">
+                                            <div class="text-small mt-3 mb-2">Schweden</div>
+                                        </div>
+                                        <div class="col-xl-4 pt-3 d-none d-md-block">
+                                            <h3><a href="/banken/qliro/">Qliro</a></h3>
+                                            <p>Qliro ist ein Finanztechnologieunternehmen mit Hauptsitz in
+                                                Stockholm, das Online-Zahlungslösungen, einschließlich einer
+                                                kompletten Checkout-Lösung, in den nordischen Ländern anbietet.</p>
+                                        </div>
+                                        <div class="col-xl-3 col-lg-4 ce-bank-offer mt-xl-5 pb-3"><a
+                                                href="/banken/qliro/tagesgeld/"><strong class="pr-2">0,16 %</strong>
+                                                Tagesgeld/Flexgeld24
+                                                <br></a><a href="/banken/qliro/festgeld/6-monate/"><strong
+                                                    class="pr-2">0,70 %</strong>
+                                                Festgeld 6 Monate
+                                                <br></a><a href="/banken/qliro/festgeld/12-monate/"><strong
+                                                    class="pr-2">1,05 %</strong>
+                                                Festgeld 12 Monate
+                                                <br></a></div>
+                                        <div class="col text-center align-self-center py-3"><a href="/banken/qliro/"
+                                                class="btn btn-orange">Mehr erfahren</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div id="c18112"
+                                class="frame frame-container frame-type-sd_bank frame-layout-0 frame-space-before-medium">
+                                <div class="ce-bank"><a href="/banken/rib/"><img class="img-fluid"
+                                            src="../assets/images/RIB-Bank.jpg" width="1140" height="166" alt="RIB Bank"
+                                            title="RIB Bank"></a>
+                                    <div class="row">
+                                        <div class="col text-center align-self-center pt-3"><img class="img-fluid"
+                                                src="../assets/images/RIBR.svg" width="200" height="41"
+                                                alt="RIB Bank logo" title="RIB Bank logo">
+                                            <div class="text-small mt-3 mb-2">Lettland</div>
+                                        </div>
+                                        <div class="col-xl-4 pt-3 d-none d-md-block">
+                                            <h3><a href="/banken/rib/">RIB</a></h3>
+                                            <p>Die RIB hat ihren Hauptsitz in Lettland, Riga und wurde im Jahr 2001
+                                                gegründet. Hauptaktionär der RIB ist die Pivdenny Bank, die wiederum
+                                                zu einer der größten und stabilsten Banken im Süden der Ukraine
+                                                gehört und mehr als 351.000 Kunden betreut.</p>
+                                        </div>
+                                        <div class="col-xl-3 col-lg-4 ce-bank-offer mt-xl-5 pb-3">
+                                            Keine Angebote verfügbar
+                                        </div>
+                                        <div class="col text-center align-self-center py-3"><a href="/banken/rib/"
+                                                class="btn btn-orange">Mehr erfahren</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div id="c2122"
+                                class="frame frame-container frame-type-sd_bank frame-layout-0 frame-space-before-medium">
+                                <div class="ce-bank"><a href="/banken/rietumu-bank/"><img class="img-fluid"
+                                            src="../assets/images/csm_rietumu_06c00e8337.jpg" width="1140" height="166"
+                                            alt=""></a>
+                                    <div class="row">
+                                        <div class="col text-center align-self-center pt-3"><img class="img-fluid"
+                                                src="../assets/images/RTMB.svg" width="150" height="150"
+                                                alt="Rietumo Bank">
+                                            <div class="text-small mt-3 mb-2">Lettland</div>
+                                        </div>
+                                        <div class="col-xl-4 pt-3 d-none d-md-block">
+                                            <h3><a href="/banken/rietumu-bank/">Rietumu Bank</a></h3>
+                                            <p>Die Rietumu Bank wurde 1992&nbsp;in Lettland gegründet und bietet
+                                                umfassende Angebote für Privatkunden, den Handel und&nbsp;an Spar-
+                                                und Kapitalzuwachsprogrammen an.</p>
+                                        </div>
+                                        <div class="col-xl-3 col-lg-4 ce-bank-offer mt-xl-5 pb-3"><a
+                                                href="/banken/rietumu-bank/festgeld/6-monate/"><strong class="pr-2">0,20
+                                                    %</strong>
+                                                Festgeld 6 Monate
+                                                <br></a><a href="/banken/rietumu-bank/festgeld/12-monate/"><strong
+                                                    class="pr-2">0,40 %</strong>
+                                                Festgeld 12 Monate
+                                                <br></a><a href="/banken/rietumu-bank/festgeld/18-monate/"><strong
+                                                    class="pr-2">0,40 %</strong>
+                                                Festgeld 18 Monate
+                                                <br></a><a href="/banken/rietumu-bank/festgeld/24-monate/"><strong
+                                                    class="pr-2">0,60 %</strong>
+                                                Festgeld 24 Monate
+                                                <br></a><a href="/banken/rietumu-bank/festgeld/36-monate/"><strong
+                                                    class="pr-2">0,70 %</strong>
+                                                Festgeld 36 Monate
+                                                <br></a></div>
+                                        <div class="col text-center align-self-center py-3"><a
+                                                href="/banken/rietumu-bank/" class="btn btn-orange">Mehr
+                                                erfahren</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div id="c11536"
+                                class="frame frame-container frame-type-sd_bank frame-layout-0 frame-space-before-medium">
+                                <div class="ce-bank"><a href="/banken/rsb-bank/"><img class="img-fluid"
+                                            src="../assets/images/csm_rsb-bank_ba98e9ae65.jpg" width="1140" height="166"
+                                            alt="RSB Bank" title="RSB Bank"></a>
+                                    <div class="row">
+                                        <div class="col text-center align-self-center pt-3"><img class="img-fluid"
+                                                src="../assets/images/RSB-Bank-Logo.svg" width="200" height="64"
+                                                alt="RSB Bank Logo" title="RSB Bank logo">
+                                            <div class="text-small mt-3 mb-2">Deutschland</div>
+                                        </div>
+                                        <div class="col-xl-4 pt-3 d-none d-md-block">
+                                            <h3><a href="/banken/rsb-bank/">RSB Bank</a></h3>
+                                            <p>Die RSB Bank ist eine deutsche Bank mit Sitz in Kornwestheim. Ihr
+                                                Kerngeschäft sind Dienstleistungen für mittelständische Unternehmen.
+                                            </p>
+                                        </div>
+                                        <div class="col-xl-3 col-lg-4 ce-bank-offer mt-xl-5 pb-3">
+                                            Keine Angebote verfügbar
+                                        </div>
+                                        <div class="col text-center align-self-center py-3"><a href="/banken/rsb-bank/"
+                                                class="btn btn-orange">Mehr erfahren</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div id="c9002"
+                                class="frame frame-container frame-type-sd_bank frame-layout-0 frame-space-before-medium">
+                                <div class="ce-bank"><a href="/banken/signet-bank/"><img class="img-fluid"
+                                            src="../assets/images/csm_SignetBank_89429e8f10.jpg" width="1140"
+                                            height="147" alt="Signet Bank" title="Signet Bank"></a>
+                                    <div class="row">
+                                        <div class="col text-center align-self-center pt-3"><img class="img-fluid"
+                                                src="../assets/images/Signet_Bank.svg" width="200" height="142"
+                                                alt="Signet Bank" title="Signet Bank Logo">
+                                            <div class="text-small mt-3 mb-2">Lettland</div>
+                                        </div>
+                                        <div class="col-xl-4 pt-3 d-none d-md-block">
+                                            <h3><a href="/banken/signet-bank/">Signet Bank</a></h3>
+                                            <p>Die Signet Bank wurde 1992 unter dem Namen Latvian Business Bank
+                                                gegründet. Seit 2013 konzentriert sich die Strategie der Signet Bank
+                                                auf die Betreuung vermögender Privatpersonen und ihrer Unternehmen.
+                                            </p>
+                                        </div>
+                                        <div class="col-xl-3 col-lg-4 ce-bank-offer mt-xl-5 pb-3"><a
+                                                href="/banken/signet-bank/festgeld/12-monate/"><strong class="pr-2">0,10
+                                                    %</strong>
+                                                Festgeld 12 Monate
+                                                <br></a></div>
+                                        <div class="col text-center align-self-center py-3"><a
+                                                href="/banken/signet-bank/" class="btn btn-orange">Mehr erfahren</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div id="c17434"
+                                class="frame frame-container frame-type-sd_bank frame-layout-0 frame-space-before-medium">
+                                <div class="ce-bank"><a href="/banken/sme-bank/"><img class="img-fluid"
+                                            src="../assets/images/Bankenuebersicht_smeBank.jpg" width="1140"
+                                            height="166" alt="smeBank" title="smeBank"></a>
+                                    <div class="row">
+                                        <div class="col text-center align-self-center pt-3"><img class="img-fluid"
+                                                src="../assets/images/smeBank_logo.svg" width="200" height="29"
+                                                alt="smeBank logo" title="smeBank logo">
+                                            <div class="text-small mt-3 mb-2">Litauen</div>
+                                        </div>
+                                        <div class="col-xl-4 pt-3 d-none d-md-block">
+                                            <h3><a href="/banken/sme-bank/">SME Bank</a></h3>
+                                            <p>Die litauische SME Bank&nbsp;ist eine digitale Bank der neuen
+                                                Generation, die auf maßgeschneiderte Unternehmenskredite, Leasing-
+                                                und Factoring-Lösungen spezialisiert ist.</p>
+                                        </div>
+                                        <div class="col-xl-3 col-lg-4 ce-bank-offer mt-xl-5 pb-3"><a
+                                                href="/banken/sme-bank/festgeld/3-monate/"><strong class="pr-2">0,25
+                                                    %</strong>
+                                                Festgeld 3 Monate
+                                                <br></a><a href="/banken/sme-bank/festgeld/6-monate/"><strong
+                                                    class="pr-2">0,85 %</strong>
+                                                Festgeld 6 Monate
+                                                <br></a><a href="/banken/sme-bank/festgeld/12-monate/"><strong
+                                                    class="pr-2">1,10 %</strong>
+                                                Festgeld 12 Monate
+                                                <br></a><a href="/banken/sme-bank/festgeld/18-monate/"><strong
+                                                    class="pr-2">0,60 %</strong>
+                                                Festgeld 18 Monate
+                                                <br></a></div>
+                                        <div class="col text-center align-self-center py-3"><a href="/banken/sme-bank/"
+                                                class="btn btn-orange">Mehr erfahren</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div id="c8892"
+                                class="frame frame-container frame-type-sd_bank frame-layout-0 frame-space-before-medium">
+                                <div class="ce-bank"><a href="/banken/ubaf/"><img class="img-fluid"
+                                            src="../assets/images/csm_UBAF_b0a964f7d1.jpg" width="1140" height="166"
+                                            alt="UBAF Bank" title="UBAF Bank"></a>
+                                    <div class="row">
+                                        <div class="col text-center align-self-center pt-3"><img class="img-fluid"
+                                                src="../assets/images/UBAF.svg" width="200" height="129" alt="UBAF Bank"
+                                                title="UBAF Bank Logo">
+                                            <div class="text-small mt-3 mb-2">Frankreich</div>
+                                        </div>
+                                        <div class="col-xl-4 pt-3 d-none d-md-block">
+                                            <h3><a href="/banken/ubaf/">UBAF</a></h3>
+                                            <p>Die UBAF ist eine kommerzielle Bankengruppe, die sich zu einem
+                                                wichtigen Akteur in der Handelsfinanzierung zwischen Europa, Asien
+                                                und der arabischen Welt entwickelt hat.&nbsp;</p>
+                                        </div>
+                                        <div class="col-xl-3 col-lg-4 ce-bank-offer mt-xl-5 pb-3">
+                                            Keine Angebote verfügbar
+                                        </div>
+                                        <div class="col text-center align-self-center py-3"><a href="/banken/ubaf/"
+                                                class="btn btn-orange">Mehr erfahren</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div id="c12027"
+                                class="frame frame-container frame-type-sd_bank frame-layout-0 frame-space-before-medium">
+                                <div class="ce-bank"><a href="/banken/wiener-privatbank/"><img class="img-fluid"
+                                            src="../assets/images/csm_wiener-privatbank_c05fbc6c91.jpg" width="1140"
+                                            height="166" alt="Wiener Privatbank" title="Wiener Privatbank"></a>
+                                    <div class="row">
+                                        <div class="col text-center align-self-center pt-3"><img class="img-fluid"
+                                                src="../assets/images/wienerprivatbank.svg" width="200" height="102"
+                                                alt="Logo Wiener Privatbank" title="Wiener Privatbank Logo">
+                                            <div class="text-small mt-3 mb-2">Österreich</div>
+                                        </div>
+                                        <div class="col-xl-4 pt-3 d-none d-md-block">
+                                            <h3><a href="/banken/wiener-privatbank/">Wiener Privatbank</a></h3>
+                                            <p>Die Wiener Privatbank ist eine dynamische Spezialbank mit&nbsp;Fokus
+                                                auf Sachwert- und Kapitalmarktkompetenz. Die Bank wurde 1981 in Wien
+                                                gegründet und ist die einzige börsennotierte Privatbank
+                                                Österreichs.&nbsp;</p>
+                                        </div>
+                                        <div class="col-xl-3 col-lg-4 ce-bank-offer mt-xl-5 pb-3"><a
+                                                href="/banken/wiener-privatbank/festgeld/6-monate/"><strong
+                                                    class="pr-2">0,03 %</strong>
+                                                Festgeld 6 Monate
+                                                <br></a><a href="/banken/wiener-privatbank/festgeld/12-monate/"><strong
+                                                    class="pr-2">0,05 %</strong>
+                                                Festgeld 12 Monate
+                                                <br></a><a href="/banken/wiener-privatbank/festgeld/24-monate/"><strong
+                                                    class="pr-2">0,10 %</strong>
+                                                Festgeld 24 Monate
+                                                <br></a><a href="/banken/wiener-privatbank/festgeld/36-monate/"><strong
+                                                    class="pr-2">0,12 %</strong>
+                                                Festgeld 36 Monate
+                                                <br></a><a href="/banken/wiener-privatbank/festgeld/48-monate/"><strong
+                                                    class="pr-2">0,15 %</strong>
+                                                Festgeld 48 Monate
+                                                <br></a></div>
+                                        <div class="col text-center align-self-center py-3"><a
+                                                href="/banken/wiener-privatbank/" class="btn btn-orange">Mehr
+                                                erfahren</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- terms and condition section ends -->
+
+    <!-- footer start  -->
+    <footer class="footer">
+        <div class="theme-container">
+            <div class="row">
+                <div class="footer_heading col-12 col-lg-3 col-xl-3">
+                    <img src="../assets/images/logo_zinspilot_footer.svg" alt="" class="footer-logo" />
+                    <p>Ringvägen 100</p>
+                    <p style="margin-bottom: 30px">SE- 118 60 Stockholm</p>
+                    <p> hello@zin-pilot.com Haben <br> Sie Fragen</p>
+                    <p>+46/ 843 737 988</p>
+                </div>
+                <div class="footer_heading footer_heading_1 col-6 col-lg-2 col-xl-2 my-5 my-lg-0 my-xl-0">
+                    <h2>Unternehmen</h2>
+                    <a href="../pages/festgeld.html">Über uns</a>
+                    <a href="../pages/tagesgeld.html">Karriere</a>
+                    <a href="../pages/top-festzinsanlagen.html">Presse</a>
+                    <a href="../pages/aboutUs.html">Auszeichnungen</a>
+                    <a href="../pages/contact-us.html">Kontakt</a>
+                    <a href="../pages/contact-us.html">Partner werden</a>
+                </div>
+                <div class="footer_heading footer_heading_2 col-6 col-lg-2 col-xl-2 my-5 my-lg-0 my-xl-0">
+                    <h2>
+                        Wissen
+                    </h2>
+                    <a href="../pages/edelmetalle.html">Finanzlexikon</a>
+                    <a href="../pages/gold-and-silber.html">Einlagensicherung</a>
+                    <a href="../pages/pelletanlagen.html">Ratingindex bei ZINSPILOT</a>
+                    <a href="../pages/aktien.html">Bankenrating</a>
+                </div>
+                <div class="footer_heading footer_heading_2 col-6 col-lg-2 col-xl-2 my-5 my-lg-0 my-xl-0">
+                    <h2>
+                        Service
+                    </h2>
+                    <a href="../pages/edelmetalle.html">Zufriedenheitsmanagement</a>
+                    <a href="../pages/gold-and-silber.html">ZINSPILOT Erfahrungen</a>
+                    <a href="../pages/pelletanlagen.html">Newsletter</a>
+                    <a href="../pages/pelletanlagen.html">Sparpläne</a>
+                </div>
+                <div class="footer_heading footer_heading_3 col-12 col-lg-3 col-xl-3">
+                    <h2>NEWSLETTER ANMELDUNG</h2>
+                    <p>Melden Sie sich bei unserem Newsletter an um immer neue Angebote zu erhalten</p>
+                    <div class="input_div">
+                        <input type="email" placeholder="Enter Your Email" />
+                        <a href="../pages/contact-us.html"><button class="more_on_btn more_on_btn_2">
+                                <img src="../assets/images/input_msg.svg" alt="" /></button></a>
+                    </div>
+                    <p>Holen Sie sich die aktuellen Angebote rein.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+    <!-- footer_bottom start  -->
+    <div class="footer_bottom">
+        <p>
+            © 2022 ins Pilot - All Rights Reserved | <a href="../pages/agbs.html">AGBs</a> | <a
+                href="../pages/impressum.html">Impressum</a> | <a
+                href="../pages/datenschutz.html">Datenschutzerklärung</a>
+        </p>
+    </div>
+    <!-- footer_bottom end -->
+    <script src="../assets/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="../assets/slick.min.js"></script>
+    <script src="../assets/core.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="37.417" height="41.16" viewBox="0 0 37.417 41.16">
+  <g id="Group_42" data-name="Group 42" transform="translate(-95.446 0.131)">
+    <g id="Group_37" data-name="Group 37" transform="translate(99.307 16.817)">
+      <path id="Path_749" data-name="Path 749" d="M153.154,244.975h-5.605a.835.835,0,0,1-.835-.835V231.064a.835.835,0,0,1,.835-.835h5.605a.835.835,0,0,1,.835.835V244.14A.835.835,0,0,1,153.154,244.975Zm-4.771-1.669h3.936V231.9h-3.936Z" transform="translate(-146.714 -230.229)" fill="#039244" stroke="#f5f8f9" stroke-width="0.25"/>
+    </g>
+    <g id="Group_38" data-name="Group 38" transform="translate(110.517 16.817)">
+      <path id="Path_750" data-name="Path 750" d="M306.64,244.975h-5.605a.835.835,0,0,1-.835-.835V231.064a.835.835,0,0,1,.835-.835h5.605a.835.835,0,0,1,.835.835V244.14A.835.835,0,0,1,306.64,244.975Zm-4.771-1.669h3.936V231.9H301.87Z" transform="translate(-300.2 -230.229)" fill="#039244" stroke="#f5f8f9" stroke-width="0.25"/>
+    </g>
+    <g id="Group_39" data-name="Group 39" transform="translate(95.571 33.629)">
+      <path id="Path_751" data-name="Path 751" d="M131.9,467.676h-35.5a.835.835,0,0,1-.835-.835v-5.605a.835.835,0,0,1,.835-.835h35.5a.835.835,0,0,1,.835.835v5.605A.835.835,0,0,1,131.9,467.676ZM97.24,466.006h33.828V462.07H97.24Z" transform="translate(-95.571 -460.401)" fill="#039244" stroke="#f5f8f9" stroke-width="0.25"/>
+    </g>
+    <g id="Group_40" data-name="Group 40" transform="translate(121.728 16.817)">
+      <path id="Path_752" data-name="Path 752" d="M460.127,244.975h-5.605a.835.835,0,0,1-.835-.835V231.064a.835.835,0,0,1,.835-.835h5.605a.835.835,0,0,1,.835.835V244.14A.835.835,0,0,1,460.127,244.975Zm-4.771-1.669h3.936V231.9h-3.936Z" transform="translate(-453.687 -230.229)" fill="#039244" stroke="#f5f8f9" stroke-width="0.25"/>
+    </g>
+    <g id="Group_41" data-name="Group 41" transform="translate(95.571 0.001)">
+      <path id="Path_753" data-name="Path 753" d="M131.9,14.747h-35.5a.835.835,0,0,1-.835-.835V10.176a.835.835,0,0,1,.446-.739L113.764.1a.835.835,0,0,1,.778,0l17.751,9.34a.835.835,0,0,1,.446.739v3.736A.835.835,0,0,1,131.9,14.747ZM97.24,13.077h33.828v-2.4l-16.916-8.9L97.24,10.68Z" transform="translate(-95.571 -0.001)" fill="#039244" stroke="#f5f8f9" stroke-width="0.25"/>
+    </g>
+  </g>
+</svg>

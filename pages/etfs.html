@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>WOLSKE ZINS</title>
+    <link rel="icon" href="../assets/images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/brands.min.css"
+        integrity="sha512-OivR4OdSsE1onDm/i3J3Hpsm5GmOVvr9r49K3jJ0dnsxVzZgaOJ5MfxEAxCyGrzWozL9uJGKz6un3A7L+redIQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../assets/bootstrap.min.css" />
+    <link rel="stylesheet" href="../assets/style.css" />
+    <link rel="stylesheet" href="../assets/responsive.css">
+    <style>
+        .banner {
+            height: 400px;
+            margin-bottom: 100px;
+        }
+
+        .about_us_card_main>h4 {
+            margin-bottom: 35px;
+            font-size: 50px;
+            line-height: 60px;
+            font-family: DMSans-bold;
+        }
+
+        table {
+            border-collapse: separate;
+            border-spacing: 0;
+            border-width: 1px 0 0 1px;
+            margin: 0 0 1.75em;
+            table-layout: fixed;
+            width: 100%;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid #d1d1d1;
+        }
+
+        th,
+        td {
+            padding: 0.4375em;
+        }
+
+        th {
+            border-width: 0 1px 1px 0;
+            font-weight: 700;
+        }
+
+        strong,
+        b {
+            font-weight: 700;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- SIDE MENU -->
+    <div class="sidebar-backdrop"></div>
+    <div class="sidebar-menu">
+        <div class="d-flex justify-content-between align-items-center head">
+            <a href="../index.html" style="color: #404040;">
+                <img src="../assets/images/logo.png" alt="">
+            </a>
+            <img class="sidebar-close" src="../assets/images/close-dark.svg" alt="x" width="18px">
+        </div>
+        <div class="body">
+            <div class="side_bar_main">
+                <ul class="list-unstyled">
+                    <li><a href="../index.html" class="sidebar-links">STARTSEITE</a></li>
+                    <li class="sb_submenu"><a href="javascript:void(0);" class="sidebar-links sidebar_menu">ÜBER UNS<i
+                                class="fas fa-angle-down"></i></a></li>
+                    <div class="sidebar_dropdown_1">
+                        <div class="side_bar_dropdown">
+                            <a href="aboutUs.html">Unser Unternehmen</a>
+                        </div>
+                    </div>
+                    <li class="sb_submenu"><a href="javascript:void(0);" class="sidebar-links sidebar_menu_1">FESTGELD
+                            <i class="fas fa-angle-down"></i></a></li>
+                    <div class="sidebar_dropdown_2">
+                        <div class="side_bar_dropdown">
+                            <a href="festgeld.html">Festgeld</a>
+                            <a href="tagesgeld.html">Tagesgeld</a>
+                            <a href="top-festzinsanlagen.html">Top Festzinsanlagen</a>
+                        </div>
+                    </div>
+                    <li class="sb_submenu"><a href="javascript:void(0);"
+                            class="sidebar-links sidebar_menu_3">GELDANLAGEN <i class="fas fa-angle-down"></i></a></li>
+                    <div class="sidebar_dropdown_4">
+                        <div class="side_bar_dropdown">
+                            <a href="aktien.html">Aktien</a>
+                            <a href="gold-and-silber.html">Gold & Silber</a>
+                            <a href="pelletanlagen.html">Pelletanlagen</a>
+                            <a href="edelmetalle.html">Edelmetalle</a>
+                            <a href="immobilien.html">Immobilien</a>
+                        </div>
+                    </div>
+                    <li><a href="sparplan.html" class="sidebar-links">SPARPLÄNE </a></li>
+                    <li><a href="contact-us.html" class="sidebar-links">KONTAKT</a></li>
+                    <!-- <a href="#"><button></button></a> -->
+                </ul>
+                <!-- <a href="#" class="sidebar-links">Signup</a> -->
+            </div>
+        </div>
+    </div>
+    <!-- /SIDE MENU -->
+    <!-- banner start  -->
+    <div class="banner banner_1">
+        <div class="theme-container">
+            <nav>
+                <a href="../index.html"><img src="../assets/images/logo.png" alt="" /></a>
+                <div class="menu">
+                    <img src="../assets/images/menu.svg" alt="MENU" id="nav_toggle">
+                </div>
+                <div class="links">
+                    <a href="../index.html" class="link">STARTSEITE </a>
+                    <div class="about_us_link">
+                        <a href="javascript:void(0);" class="link">ÜBER UNS </a>
+                        <div class="drop_down">
+                            <a href="aboutUs.html">
+                                <p>Unser Unternehmen</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="about_us_link">
+                        <a href="#" class="link">FESTGELD </a>
+                        <div class="drop_down">
+                            <a href="festgeld.html">
+                                <p>Festgeld</p>
+                            </a>
+                            <a href="tagesgeld.html">
+                                <p>Tagesgeld</p>
+                            </a>
+                            <a href="top-festzinsanlagen.html">
+                                <p>Top Festzinsanlagen</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="about_us_link">
+                        <a href="javascript:void(0);" class="link active">GELDANLAGEN </a>
+                        <div class="drop_down">
+                            <a href="aktien.html">
+                                <p>Aktien</p>
+                            </a>
+                            <a href="gold-and-silber.html">
+                                <p>Gold & Silber</p>
+                            </a>
+                            <a href="pelletanlagen.html">
+                                <p>Pelletanlagen</p>
+                            </a>
+                            <a href="edelmetalle.html">
+                                <p>Edelmetalle</p>
+                            </a>
+                            <a href="immobilien.html">
+                                <p>Immobilien</p>
+                            </a>
+                        </div>
+                    </div>
+                    <a href="sparplan.html" class="link">SPARPLÄNE</a>
+                    <a href="contact-us.html" class="link">KONTAKT</a>
+                </div>
+            </nav>
+            <div class="banner_heading">
+                <h2>
+                    ETFs
+                </h2>
+            </div>
+        </div>
+        <img src="../assets/images/banner_vecter.svg" alt="vector" class="banner-vector img-fluid" />
+    </div>
+    <!-- banner end  -->
+    <div class="theme-container my-5">
+        <div class="row justify-content-center">
+            <div class="tool-bar-main">
+                <div class="tool-bar my-3">
+                    <div class="tool-bar-item">
+                        <div class="tool-bar-items">
+                            <a href="festgeld.html"><button>Festgeld</button> </a>
+                            <a href="tagesgeld.html"><button>Tagesgeld</button> </a>
+                            <a href="top-festzinsanlagen.html"><button>Top Festzinsanlagen</button> </a>
+                            <a href="immobilien.html"><button>Immobilien</button> </a>
+                            <a href="aktien.html"><button class="active">Aktien</button> </a>
+                            <a href="gold-and-silber.html"><button>Gold & Silber</button> </a>
+                            <a href="edelmetalle.html"><button>Edelmetalle</button> </a>
+                            <a href="pelletanlagen.html"><button>Pelletanlagen</button> </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- saving start  -->
+    <section class="about_us">
+        <!-- <div class="theme-container"> -->
+        <div class="row">
+            <div class="about_us_card about_us_card_2">
+                <img style="
+              position: absolute;
+              top: 24%;
+              width: 61%;
+              height: 500px;
+              left: -10%;
+              margin-top: 24px;
+              border-radius: 20px;
+            " src="../assets/images/exchanges-card.jpg" alt="" />
+                <div class="about_us_card_main">
+                    <h5>ETFs</h5>
+                </div>
+                <div class="about_us_card_main">
+                    <h4>
+                        Vier Gründe warum Sie mit Euro Zins ETFs traden sollten!
+                    </h4>
+                    <p>
+                        Exchange Traded Funds (ETFs) sind aufgrund ihrer zahlreichen Vorteile, wie niedrigen
+                        Kostenquoten, reichlich vorhandener Liquidität, vielfältiger Anlageentscheidungen,
+                        Diversifikation, niedriger Anlageschwelle usw., ideal für Anfänger. Diese Eigenschaften machen
+                        ETFs auch zu perfekten Instrumenten für verschiedene Handels- und Anlagestrategien, die von
+                        neuen Händlern und Investoren verwendet werden.
+
+                        Extrem wettbewerbsfähige Preise: Sehen Sie, wie Sie mit den Preisen von Euro Zins ETFs auf einem
+                        sehr wettbewerbsfähigen Niveau handeln können.
+
+                        Wenn Sie sich in einer Gruppe von Märkten mit einer einzigen Position engagieren möchten.
+
+                        Wenn Sie mehr Transparenz über den Vermögenswert wünschen, den Sie handeln
+
+                        Wenn Sie auf einzigartige Märkte wie Smart-Beta oder inverse ETFs zugreifen möchten
+                    </p>
+                    <div class="pdf d-flex justify-content-between">
+                        <span>
+                            <a href="../assets/pdf/broschuere.pdf">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                                    <path
+                                        d="M88 304H80V256H88C101.3 256 112 266.7 112 280C112 293.3 101.3 304 88 304zM192 256H200C208.8 256 216 263.2 216 272V336C216 344.8 208.8 352 200 352H192V256zM224 0V128C224 145.7 238.3 160 256 160H384V448C384 483.3 355.3 512 320 512H64C28.65 512 0 483.3 0 448V64C0 28.65 28.65 0 64 0H224zM64 224C55.16 224 48 231.2 48 240V368C48 376.8 55.16 384 64 384C72.84 384 80 376.8 80 368V336H88C118.9 336 144 310.9 144 280C144 249.1 118.9 224 88 224H64zM160 368C160 376.8 167.2 384 176 384H200C226.5 384 248 362.5 248 336V272C248 245.5 226.5 224 200 224H176C167.2 224 160 231.2 160 240V368zM288 224C279.2 224 272 231.2 272 240V368C272 376.8 279.2 384 288 384C296.8 384 304 376.8 304 368V320H336C344.8 320 352 312.8 352 304C352 295.2 344.8 288 336 288H304V256H336C344.8 256 352 248.8 352 240C352 231.2 344.8 224 336 224H288zM256 0L384 128H256V0z" />
+                                </svg>
+                                <span>Broschuere</span>
+                            </a>
+                        </span>
+                        <span>
+                            <a href="../assets/pdf/freistellungsauftrag-kapitalertraege.pdf">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                                    <path
+                                        d="M88 304H80V256H88C101.3 256 112 266.7 112 280C112 293.3 101.3 304 88 304zM192 256H200C208.8 256 216 263.2 216 272V336C216 344.8 208.8 352 200 352H192V256zM224 0V128C224 145.7 238.3 160 256 160H384V448C384 483.3 355.3 512 320 512H64C28.65 512 0 483.3 0 448V64C0 28.65 28.65 0 64 0H224zM64 224C55.16 224 48 231.2 48 240V368C48 376.8 55.16 384 64 384C72.84 384 80 376.8 80 368V336H88C118.9 336 144 310.9 144 280C144 249.1 118.9 224 88 224H64zM160 368C160 376.8 167.2 384 176 384H200C226.5 384 248 362.5 248 336V272C248 245.5 226.5 224 200 224H176C167.2 224 160 231.2 160 240V368zM288 224C279.2 224 272 231.2 272 240V368C272 376.8 279.2 384 288 384C296.8 384 304 376.8 304 368V320H336C344.8 320 352 312.8 352 304C352 295.2 344.8 288 336 288H304V256H336C344.8 256 352 248.8 352 240C352 231.2 344.8 224 336 224H288zM256 0L384 128H256V0z" />
+                                </svg>
+                                <span>Freistellungsauftrag</span>
+                            </a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- </div> -->
+    </section>
+    <!-- saving end -->
+
+    <div class="theme-container">
+        <div class="row justify-content-center">
+            <div
+                class="col-11 px-1 px-lg-2 px-md-2 px-xl-3 mb-5 mb-lg-0 mb-xl-0 col-lg-12 col-xl-10 col-md-12 col-sm-11 px-sm-3">
+                <div class="v2-wrapper v2-sm-max-mab20">
+                    <div class="v2-detailed-tab" data-styles="detailed-tab-component">
+                        <h1 class="v2-detailed-tab__header v2-hide-empty"></h1>
+                        <div class="v2-detailed-tab__content" data-ref="tab__content">
+                            <div id="tab69dcd355-fd70-44d1-9c05-7670df019316">
+                                <div class="v2-panel v2-borderless" data-styles="panel">
+                                    <div class="v2-panel__header v2-hide-empty"></div>
+                                    <div class="v2-panel__content">
+                                        <div class="v2" data-styles="tables">
+                                            <div class="">
+                                                <div class="v2-responsive-table" data-behavior="table-swipe"
+                                                    data-instance="table-swipe__BGG4YM">
+                                                    <div
+                                                        class="swipe-indicator v2-hide-md v2-flexbox v2-align--center v2-align--middle v2-hidden">
+                                                        <span> <svg width="8" height="15" viewBox="0 0 8 15" fill="none"
+                                                                xmlns="http://www.w3.org/2000/svg"
+                                                                data-di-res-id="fa9842f3-6776a046"
+                                                                data-di-rand="1605465569614">
+                                                                <path
+                                                                    d="M0.287829 8.24258L6.3223 14.6921C6.70617 15.1026 7.32854 15.1026 7.71222 14.6921C8.09593 14.282 8.09593 13.6169 7.71222 13.2068L2.37264 7.49989L7.71206 1.79321C8.09577 1.38293 8.09577 0.717829 7.71206 0.307712C7.32835 -0.102571 6.70601 -0.102571 6.32215 0.307712L0.287674 6.75737C0.095819 6.96253 0 7.23113 0 7.49986C0 7.76872 0.0960054 8.03752 0.287829 8.24258Z"
+                                                                    fill="#313131"></path>
+                                                            </svg> </span> <span> <svg width="8" height="15"
+                                                                viewBox="0 0 8 15" fill="none"
+                                                                xmlns="http://www.w3.org/2000/svg"
+                                                                data-di-res-id="42242596-3910d800"
+                                                                data-di-rand="1605465569615">
+                                                                <path
+                                                                    d="M7.71217 6.75742L1.6777 0.307863C1.29383 -0.102619 0.671461 -0.102619 0.287783 0.307863C-0.0959275 0.717979 -0.0959275 1.38315 0.287783 1.79323L5.62736 7.50011L0.287938 13.2068C-0.0957723 13.6171 -0.0957723 14.2822 0.287938 14.6923C0.671648 15.1026 1.29399 15.1026 1.67785 14.6923L7.71233 8.24263C7.90418 8.03747 8 7.76887 8 7.50014C8 7.23128 7.90399 6.96248 7.71217 6.75742Z"
+                                                                    fill="#313131"></path>
+                                                            </svg> </span>
+                                                    </div>
+                                                    <div class="v2-responsive-table__content v2-pav10">
+                                                        <table cellpadding="0" cellspacing="0"
+                                                            class="v2-table v2-table--th-hc v2-table--td-hc v2-table--flip v2-table--padded v2-table--equal-width-cells">
+                                                            <thead class="v2-bg--white">
+                                                                <tr>
+                                                                    <th><strong>Exchange</strong></th>
+                                                                    <th><strong>Classic</strong></th>
+                                                                    <th><strong>Platinum</strong></th>
+                                                                    <th><strong>VIP</strong></th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td>
+                                                                        <div class="v2-table__icon-cell"><img
+                                                                                class="v2-flag v2-table__icon v2-flag--no-shadow"
+                                                                                src="/content/assets/flags/usa.svg"
+                                                                                alt=""><span>
+                                                                                NASDAQ </span></div>
+                                                                    </td>
+                                                                    <td><strong>0.02 USD</strong>/share (min. 10 USD)
+                                                                    </td>
+                                                                    <td><strong>0.015 USD</strong>/share (min. 7 USD)
+                                                                    </td>
+                                                                    <td><strong>0.01 USD</strong>/share (min. 3 USD)
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>
+                                                                        <div class="v2-table__icon-cell"><img
+                                                                                class="v2-flag v2-table__icon v2-flag--no-shadow"
+                                                                                src="/content/assets/flags/usa.svg"
+                                                                                alt=""><span>
+                                                                                NYSE MKT </span></div>
+                                                                    </td>
+                                                                    <td><strong>0.02 USD</strong>/share (min. 10 USD)
+                                                                    </td>
+                                                                    <td><strong>0.015 USD</strong>/share (min. 7 USD)
+                                                                    </td>
+                                                                    <td><strong>0.01 USD</strong>/share (min. 3 USD)
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>
+                                                                        <div class="v2-table__icon-cell"><img
+                                                                                class="v2-flag v2-table__icon v2-flag--no-shadow"
+                                                                                src="/content/assets/flags/usa.svg"
+                                                                                alt=""><span>
+                                                                                New York Stock Exchange </span></div>
+                                                                    </td>
+                                                                    <td><strong>0.02 USD</strong>/share (min. 10 USD)
+                                                                    </td>
+                                                                    <td><strong>0.015 USD</strong>/share (min. 7 USD)
+                                                                    </td>
+                                                                    <td><strong>0.01 USD</strong>/share (min. 3 USD)
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>
+                                                                        <div class="v2-table__icon-cell"><img
+                                                                                class="v2-flag v2-table__icon v2-flag--no-shadow"
+                                                                                src="/content/assets/flags/singapore.svg"
+                                                                                alt=""><span>Singapore Exchange </span>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td><strong>0.15%</strong> (min. 25 SGD)</td>
+                                                                    <td><strong>0.12%</strong> (min. 20 SGD)</td>
+                                                                    <td><strong>0.10%</strong> (min. 15 SGD)</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>
+                                                                        <div class="v2-table__icon-cell"><img
+                                                                                class="v2-flag v2-table__icon v2-flag--no-shadow"
+                                                                                src="/content/assets/flags/hongkong.svg"
+                                                                                alt=""><span>Hong Kong Exchange </span>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td><strong>0.15%</strong> (min. 100 HKD)</td>
+                                                                    <td><strong>0.12%</strong> (min. 80 HKD)</td>
+                                                                    <td><strong>0.10%</strong> (min. 60 HKD)</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>
+                                                                        <div class="v2-table__icon-cell"><img
+                                                                                class="v2-flag v2-table__icon v2-flag--no-shadow"
+                                                                                src="/content/assets/flags/australia.svg"
+                                                                                alt=""><span>Australian Securities
+                                                                                Exchange </span>
+                                                                        </div>
+                                                                    </td>
+                                                                    <td><strong>0.10%</strong> (min. 8 AUD)</td>
+                                                                    <td><strong>0.07%</strong> (min. 8 AUD)</td>
+                                                                    <td><strong>0.05%</strong> (min. 8 AUD)</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>
+                                                                        <div class="v2-table__icon-cell"><img
+                                                                                class="v2-flag v2-table__icon v2-flag--no-shadow"
+                                                                                src="/content/assets/flags/japan.svg"
+                                                                                alt=""><span>Tokyo Stock Exchange
+                                                                            </span></div>
+                                                                    </td>
+                                                                    <td><strong>0.15%</strong> (min. 1,500 JPY)</td>
+                                                                    <td><strong>0.12%</strong> (min. 1,000 JPY)</td>
+                                                                    <td><strong>0.10%</strong> (min. 1,000 JPY)</td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="v2-mat20 v2-hide-empty">
+                                    <div class="rte--output"><br>
+                                        <p class="text--body" style="text-align:center"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ACCORDIONS section start  -->
+    <div class="theme-container">
+        <div class="row justify-content-center">
+            <div
+                class="col-11 px-1 px-lg-2 px-md-2 px-xl-3 mb-5 mb-lg-0 mb-xl-0 col-lg-12 col-xl-10 col-md-12 col-sm-11 px-sm-3">
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item my-4">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                aria-controls="flush-collapseOne">
+                                Top Rendite – Das können Sie erwarten:
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <ul>
+                                    <li>Rendite über 10 % jährlich und mehr möglich</li>
+                                    <li>Schon ab 10.000 Euro Anlagesumme</li>
+                                    <li>Exklusive Investments</li>
+                                    <li>Keine Kosten und keine Gebühren</li>
+                                    <li>Deutsche und internationale Anbieter</li>
+                                    <li>Direktkontakt zum Anbieter</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                aria-controls="flush-collapseTwo">
+                                Einzigartige Erfolgsgeschichten
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <p>Neben Amazon, deren Aktien in nur 20 Jahren eine Rekord-Performance von 61.600%
+                                    erzielt haben gibt es unzählige Unternehmen, die in nur wenigen Monaten zwei – und
+                                    dreistellige Ergebnisse erzielt haben. Und diese Unternehmen gibt es immer wieder.
+                                </p>
+                                <p>
+                                    So sind zum Beispiel durch die Legalisierung und den Einsatz in der Medizin die
+                                    Aktien von Cannabis produzierenden Unternehmen in den letzten Jahren förmlich
+                                    explodiert. Die Aktien des kanadischen Unternehmens Aurora stiegen in nur 3 Jahren
+                                    um 49.200%! Noch unglaublicher ist die Rendite des ebenfalls in Kanada ansässigen
+                                    Unternehmens Canopy Growth. Hier konnten Anleger der ersten Stunde in nur 3 Jahren
+                                    eine schier unglaubliche Rendite von 297.700% erzielen!
+                                </p>
+                                <p>
+                                    Historisch kann der Weltmarktführer Coca-Cola nicht nur auf eine bemerkenswerte
+                                    Unternehmensentwicklung blicken, sondern auch auf eine massive Rendite. Seit dem
+                                    Börsengang 1919 wurde bis heute (99 Jahre) eine Wertsteigerung von 1.062.000%
+                                    erzielt!
+                                </p>
+                                <p>
+                                    Wär ich mal dabei gewesen</p>
+                                <p>
+                                    Bei einer neuen oder unbekannten Geldanlage (Unternehmen) glauben die meisten
+                                    Anleger nicht an einen Erfolg oder dass das überhaupt funktionieren kann. Gibt es
+                                    diese Geldanlage dann schon länger, meinen sie, dass das ja nicht mehr lange gut
+                                    gehen kann. Hat sich die Geldanlage / das Unternehmen aber über Jahre etabliert,
+                                    dann bedauern sie, nicht von Beginn an dabei gewesen zu sein.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Don't hesitate start   -->
+    <section class="hesitate">
+        <div class="theme-container">
+            <div class="row justify-content-center">
+                <div class="hesitate_main">
+                    <h4>Zögern Sie nicht, uns jederzeit zu kontaktieren.</h4>
+                    <a href="contact-us.html"><button class="more_on_btn more_on_btn_1">
+                            ANGEBOT ANFORDERN
+                        </button></a>
+                </div>
+                <div class="hesitate_card">
+                    <img src="../assets/images/call.svg" alt="" />
+                    <p>Haben Sie Eine Frage? Rufen Sie uns jetzt an</p>
+                    <h6>+46/ 843 737 988</h6>
+                </div>
+                <div class="hesitate_card">
+                    <img src="../assets/images/msg.svg" alt="" />
+                    <p>Sie brauchen Hilfe? Senden Sie uns eine Mail</p>
+                    <h6>hello@wolske-zins.com</h6>
+                </div>
+                <div class="hesitate_card">
+                    <img src="../assets/images/time.svg" alt="" />
+                    <p>Sprechzeiten</p>
+                    <h6>Mo - Fr 10:00 - 18:00</h6>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Don't hesitate end   -->
+    <!-- footer starts -->
+    <footer class="footer">
+        <div class="theme-container">
+            <div class="row">
+                <div class="footer_heading col-12 col-lg-4 col-xl-4">
+                    <img src="../assets/images/logo.png" alt="" class="footer-logo" />
+                    <p>Ringvägen 100</p>
+                    <p style="margin-bottom: 30px">SE- 118 60 Stockholm</p>
+                    <p>hello@wolske-zins.com Haben Sie Fragen</p>
+                    <p>Tel: +44 20 3286 6410</p>
+                    <p>Fax: +44 20 45712120</p>
+                </div>
+                <div class="footer_heading footer_heading_1 col-6 col-lg-2 col-xl-2 my-5 my-lg-0 my-xl-0">
+                    <h2>FESTGELD</h2>
+                    <a href="festgeld.html">FESTGELD</a>
+                    <a href="tagesgeld.html">Tagesgeld</a>
+                    <a href="top-festzinsanlagen.html">Top-Festzinsanlagen</a>
+                    <a href="aboutUs.html">Über das Unternehmen</a>
+                    <a href="contact-us.html">Kontakt</a>
+                </div>
+                <div class="footer_heading footer_heading_2 col-6 col-lg-2 col-xl-2 my-5 my-lg-0 my-xl-0">
+                    <h2>
+                        GELDANLAGEN
+                    </h2>
+                    <a href="edelmetalle.html">Edelmetalle</a>
+                    <a href="gold-and-silber.html">Gold & Silber</a>
+                    <a href="pelletanlagen.html">Pelletanlagen</a>
+                    <a href="aktien.html">Aktien</a>
+                    <a href="immobilien.html">Immobilien</a>
+                </div>
+                <div class="footer_heading footer_heading_3 col-12 col-lg-3 col-xl-3">
+                    <h2>NEWSLETTER ANMELDUNG</h2>
+                    <p>Melden Sie sich bei unserem Newsletter an um immer neue Angebote zu erhalten</p>
+                    <div class="input_div">
+                        <input type="email" placeholder="Enter Your Email" />
+                        <a href="contact-us.html"><button class="more_on_btn more_on_btn_2">
+                                <img src="../assets/images/input_msg.svg" alt="" /></button></a>
+                    </div>
+                    <p>Holen Sie sich die aktuellen Angebote rein.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+    <!-- footer_bottom start  -->
+    <div class="footer_bottom">
+        <p>
+            © 2020 Wolske Zins - All Rights Reserved | <a href="agbs.html">AGBs</a> | <a
+                href="impressum.html">Impressum</a>
+            | <a href="datenschutz.html">Datenschutzerklärung</a>
+        </p>
+        <!-- footer_bottom end -->
+        <script src="../assets/jquery-3.6.0.min.js"></script>
+        <script src="../assets/core.js"></script>
+        <!-- ACCORDIONS section end  -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>

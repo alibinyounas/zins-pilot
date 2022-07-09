@@ -1,0 +1,1328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <title>Finanzlexikon</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets//cssresponsive.css">
+    <style>
+        .banner {
+            height: 400px;
+            margin-bottom: 100px;
+        }
+
+        .ft_privacy_content {
+            width: 90%;
+            height: 100%;
+            background: #fff;
+            box-shadow: 0px 0px 32px #0000001a;
+            padding: 80px;
+            border-radius: 30px;
+            text-align: justify;
+            margin-bottom: 40px;
+        }
+
+        .ft_privacy_content h1 {
+            font-size: 30px;
+            /* font-family: "Lato-Bold";*/
+            font-weight: bold;
+            line-height: 1.3;
+            color: #00223e;
+            padding-bottom: 10px;
+        }
+
+        .ft_privacy_content h6 {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .ft_privacy_content h5 {
+            font-size: 20px;
+        }
+
+        .ft_privacy_content p span span {
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .ce-bodytext p {
+            color: var(--theme-clr) !important;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- SIDE MENU -->
+    <div class="animationload" style="display: none;">
+        <div class="loader" style="display: none;"></div>
+    </div>
+    <!-- SIDE MENU -->
+    <div class="sidebar-backdrop"></div>
+    <div class="sidebar-menu">
+        <div class="d-flex justify-content-between align-items-center head">
+            <a href="../index.html" style="color: #404040;">
+                <img src="../assets/images/logo_zinspilot_new.svg" alt="">
+            </a>
+            <img class="sidebar-close" src="../assets/images/close-dark.svg" alt="x" width="18px">
+        </div>
+        <div class="body">
+            <div class="side_bar_main">
+                <ul class="list-unstyled">
+                    <li><a href="../index.html" class="sidebar-links">Startseite</a></li>
+                    <li class="sb_submenu"><a href="javascript:void(0);"
+                            class="sidebar-links sidebar_menu">Anlageangebote<i class="fas fa-angle-down"></i></a></li>
+                    <div class="sidebar_dropdown_1">
+                        <div class="side_bar_dropdown">
+                            <a href="../pages/aboutUs.html">Festgeld</a>
+                            <a href="../pages/aboutUs.html">Tagesgeld</a>
+                        </div>
+                    </div>
+                    <li><a href="../index.html" class="sidebar-links">Banken</a></li>
+                    <li><a href="../index.html" class="sidebar-links">So funktioniert's</a></li>
+                    <li class="sb_submenu"><a href="javascript:void(0);"
+                            class="sidebar-links sidebar_menu_1">Informationen
+                            <i class="fas fa-angle-down"></i></a></li>
+                    <div class="sidebar_dropdown_2">
+                        <div class="side_bar_dropdown">
+                            <a href="../pages/festgeld.html">Aktuelle Produktinfos</a>
+                            <a href="../pages/tagesgeld.html">Zinserhöhungen</a>
+                            <a href="../pages/top-festzinsanlagen.html">Häufige Fragen</a>
+                            <a href="../pages/top-festzinsanlagen.html">Steuern</a>
+                            <a href="../pages/top-festzinsanlagen.html">Steuerbescheinigung</a>
+                            <a href="../pages/top-festzinsanlagen.html">Anlagevoraussetzung</a>
+                            <a href="../pages/top-festzinsanlagen.html">Länderrating</a>
+                            <a href="../pages/top-festzinsanlagen.html">Formularcenter</a>
+                        </div>
+                    </div>
+                    <li class="sb_submenu"><a href="javascript:void(0);"
+                            class="sidebar-links sidebar_menu_3">Finanzwissen <i class="fas fa-angle-down"></i></a></li>
+                    <div class="sidebar_dropdown_4">
+                        <div class="side_bar_dropdown">
+                            <a href="../pages/aktien.html">Geldanlage</a>
+                            <a href="../pages/gold-and-silber.html">Magazin</a>
+                        </div>
+                    </div>
+                    <li><a href="../pages/sparplan.html" class="sidebar-links">SPARPLÄNE </a></li>
+                    <li><a href="../pages/contact-us.html" class="sidebar-links">KONTAKT</a></li>
+                    <!-- <a href="#"><button></button></a> -->
+                </ul>
+                <div class="side-bar-btns">
+                    <a href="#" class="sidebar-links"><button>Login</button></a>
+                    <a href="#" class="sidebar-links"><button>Registrieren</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /SIDE MENU -->
+
+    <!-- banner start  -->
+    <div class="banner">
+        <div class="theme-container">
+            <nav>
+                <a href="../index.html"><img src="../assets/images/logo_zinspilot_new.svg" alt="" /></a>
+                <div class="menu">
+                    <img src="../assets/images/menu.svg" alt="MENU" id="nav_toggle">
+                </div>
+                <div class="links">
+                    <a href="../../index.html" class="link active">Startseite</a>
+                    <div class="about_us_link">
+                        <a href="javascript:void(0);" class="link">Anlageangebote</a>
+                        <div class="drop_down">
+                            <a href="../pages/aboutUs.html">
+                                <p>Festgeld</p>
+                            </a>
+                            <a href="../pages/aboutUs.html">
+                                <p>Tagesgeld</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="about_us_link">
+                        <a href="javascript:void(0);" class="link">Banken </a>
+                    </div>
+                    <div class="about_us_link">
+                        <a href="javascript:void(0);" class="link">So funktioniert's </a>
+                    </div>
+                    <div class="about_us_link">
+                        <a href="javascript:void(0);" class="link">Informationen</a>
+                        <div class="drop_down">
+                            <a href="../pages/festgeld.html">
+                                <p>Aktuelle Produktinfos</p>
+                            </a>
+                            <a href="../pages/festgeld.html">
+                                <p>Zinserhöhungen</p>
+                            </a>
+                            <a href="../pages/festgeld.html">
+                                <p>Häufige Fragen</p>
+                            </a>
+                            <a href="../pages/festgeld.html">
+                                <p>Steuern</p>
+                            </a>
+                            <a href="../pages/festgeld.html">
+                                <p>Steuerbescheinigung</p>
+                            </a>
+                            <a href="../pages/tagesgeld.html">
+                                <p>Anlagevoraussetzung</p>
+                            </a>
+                            <a href="../pages/top-festzinsanlagen.html">
+                                <p>Länderrating</p>
+                            </a>
+                            <a href="../pages/top-festzinsanlagen.html">
+                                <p>Formularcenter</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="about_us_link">
+                        <a href="javascript:void(0);" class="link">Finanzwissen</a>
+                        <div class="drop_down">
+                            <a href="../pages/festgeld.html">
+                                <p>Geldanlage</p>
+                            </a>
+                            <a href="../pages/festgeld.html">
+                                <p>Magazin</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="header-btns">
+                        <a href=""><button class="login-btn">Login</button></a>
+                        <a href=""><button class="register-btn">Registrieren</button></a>
+                    </div>
+                </div>
+            </nav>
+            <div class="banner_heading">
+                <h2>
+                    Finanzlexikon
+                </h2>
+            </div>
+        </div>
+    </div>
+    <!-- banner end  -->
+    <!-- terms and condition section starts -->
+    <section class="my-0 my-md-4 my-lg-4 my-xl-4 mt-5">
+        <div class="ft_imprint">
+            <div class="theme-container">
+                <div class="ft_privacy_content mx-auto">
+                    <div class="col-sm-12 col-md-12">
+                        <div id="content" class="content-default">
+
+                            <div class="container">
+                                <div id="c9385" class="frame frame-0 frame-type-text   ">
+                                        <h1 class="ce-headline-left text-center">
+                                            Finanzlexikon
+                                        </h1>
+                                    <p>Das Finanzlexikon von ZINSPILOT bietet Ihnen einen schnellen Überblick über
+                                        wichtige Finanzbegriffe - von A wie Abgeltungssteuer bis Z wie Zinsen:&nbsp;</p>
+                                    <p class="text-center"><a
+                                            href="#c9395">A</a>&nbsp;B&nbsp;C&nbsp;D&nbsp;<a
+                                            href="#c9401">E</a>&nbsp;<a
+                                            href="#c9407">F</a>&nbsp;<a
+                                            href="#c9413">G</a>&nbsp;H&nbsp;<a
+                                            href="#c9418">I</a>&nbsp;J&nbsp;<a
+                                            href="#c9420">K</a>&nbsp;<a
+                                            href="#c9422">L</a>&nbsp;<a
+                                            href="#c9457">M</a>&nbsp;<a
+                                            href="#c9460">N</a>&nbsp;O&nbsp;<a
+                                            href="#c9507">P</a>&nbsp;<a
+                                            href="#c9510">Q</a>&nbsp;<a
+                                            href="#c9512">R</a>&nbsp;<a
+                                            href="#c9515">S</a>&nbsp;<a
+                                            href="#c9523">T</a>&nbsp;U&nbsp;<a
+                                            href="#c9529">V</a>&nbsp;W&nbsp;X&nbsp;Y&nbsp;<a
+                                            href="#c9542">Z</a></p>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div id="c9395" class="frame frame-0 frame-type-header   ">
+                                    <header>
+                                        <h2 class="">
+                                            A
+                                        </h2>
+                                    </header>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div id="c9398" class="frame frame-0 frame-type-text   ">
+                                    <header>
+                                        <h3 class=""><a href="/finanzlexikon/abgeltungssteuer/">Abgeltungssteuer</a>
+                                        </h3>
+                                    </header>
+                                    <p>Auf ihre Kapitalerträge müssen Anleger und Sparer seit 2009 die Abgeltungssteuer
+                                        bezahlen. Diese Kapitalertragsteuer beträgt 25 Prozent und wird auf Dividenden
+                                        oder Zinserträge erhoben. Dazu gehören die Zinsen auf einem Sparbuch oder
+                                        Girokonto und für Tagesgeld&nbsp;und Festgeld.</p>
+                                    <p><a href="/finanzlexikon/abgeltungssteuer/">Weiterlesen</a></p>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div id="c9394" class="frame frame-0 frame-type-text   ">
+                                    <header>
+                                        <h3 class=""><a href="/finanzlexikon/aktuelle-zinsen/">Aktuelle Zinsen </a></h3>
+                                    </header>
+                                    <p>Unter dem Begriff&nbsp;Zinsen&nbsp;versteht man im Allgemeinen das Entgelt, das
+                                        Sparer für ihre Kapitalanlage von einer Bank erhalten. Der aktuelle Zinssatz
+                                        orientiert sich am Zinsniveau des Geld- und Kapitalmarktes und ist damit
+                                        abhängig von Angebot und Nachfrage. &nbsp;&nbsp;</p>
+                                    <p><a href="/finanzlexikon/aktuelle-zinsen/">Weiterlesen</a></p>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div id="c9396" class="frame frame-0 frame-type-text   ">
+                                    <header>
+                                        <h3 class=""><a href="/finanzlexikon/anlagebetrag/">Anlagebetrag</a></h3>
+                                    </header>
+                                    <p>Unter dem Anlagebetrag versteht man die Geldsumme, die Sparer in eine bestimmte
+                                        Anlage investieren. Zumeist gibt es bei Festgeldanlagen eine Mindestanlagesumme,
+                                        die aufgebracht werden muss, um von den hohen Zinsen zu profitieren. Bis maximal
+                                        100.000 Euro müssen Sparguthaben gemäß den EU-Richtlinien zur Einlagensicherung
+                                        durch nationale Einlagensicherungsfonds abgesichert werden. &nbsp;</p>
+                                    <p><a href="/finanzlexikon/anlagebetrag/">Weiterlesen</a></p>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div id="c9397" class="frame frame-0 frame-type-text   ">
+                                    <header>
+                                        <h3 class=""><a href="/finanzlexikon/anlagedauer/">Anlagedauer</a></h3>
+                                    </header>
+                                    <p>In der Regel als Laufzeit bezeichnet, versteht man unter der Anlagedauer den
+                                        Zeitraum, über den beispielsweise eine Festgeldanlage abgeschlossen wird. Die
+                                        Dauer einer Anlage wird vor der Eröffnung eines Festgeldkontos verbindlich
+                                        festgelegt.&nbsp;Sparer sollten sich vor Abschluss eines Festgeldkontos daher
+                                        genau überlegen, über welchen Zeitraum sie ihre Ersparnisse anlegen wollen, denn
+                                        zumeist ist bei Festgeldanlagen über die gesamte Laufzeit kein Zugriff auf den
+                                        angelegten Geldbetrag möglich.&nbsp;</p>
+                                    <p><a href="/finanzlexikon/anlagedauer/">Weiterlesen</a></p>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div id="c9399" class="frame frame-0 frame-type-text   ">
+                                    <header>
+                                        <h3 class=""><a href="/finanzlexikon/anlagevolumen/">Anlagevolumen</a></h3>
+                                    </header>
+                                    <p>Als Anlagevolumen oder Fondsvolumen wird das aktuelle Kapital eines Fonds
+                                        bezeichnet. Die Berechnung erfolgt aufgrund des Kurswertes und der Anzahl der an
+                                        die Anleger ausgegebenen Fonds-Anteile.</p>
+                                    <p><a href="/finanzlexikon/anlagevolumen/">Weiterlesen</a></p>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div id="c17999" class="frame frame-0 frame-type-text   ">
+                                    <header>
+                                        <h3 class=""><a
+                                                href="/steuer/ansaessigkeitsbescheinigung/">Ansässigkeitsbescheinigung</a>
+                                        </h3>
+                                    </header>
+                                    <p>Bei der Ansässigkeitsbescheinigung handelt es sich um eine schriftliche
+                                        Bescheinigung des zuständigen Finanzamtes. Diese bestätigt, dass natürliche und
+                                        juristische Personen ihren Wohnsitz&nbsp;oder gewöhnlichen
+                                        Aufenthaltsort&nbsp;in Deutschland haben und hier&nbsp;steuerpflichtig sind.</p>
+                                    <p><a href="/steuer/ansaessigkeitsbescheinigung/">Weiterlesen</a></p>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div id="c9400" class="frame frame-0 frame-type-text   ">
+                                    <header>
+                                        <h3 class=""><a href="/finanzlexikon/awv-meldepflicht/">AWV-Meldepflicht</a>
+                                        </h3>
+                                    </header>
+                                    <p>Grundsätzlich unterliegen alle Zahlungen, die von Inländern an Empfänger im
+                                        Ausland getätigt werden sowie Zahlungen, die von Inländern aus dem Ausland
+                                        empfangen werden, ab einer Höhe von 12.500 Euro einer Meldepflicht an die
+                                        Bundesbank.</p>
+                                    <p><a href="/finanzlexikon/awv-meldepflicht/">Weiterlesen</a></p>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div id="c9401" class="frame frame-0 frame-type-header   ">
+                                    <header>
+                                        <h2 class="">
+                                            E
+                                        </h2>
+                                    </header>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div id="c9402" class="frame frame-0 frame-type-text   ">
+                                    <header>
+                                        <h3 class=""><a href="/finanzlexikon/effektivzins/">Effektivzins</a></h3>
+                                    </header>
+                                    <p>Der Effektivzins spiegelt die tatsächliche Rentabilität einer Anlage wider, also
+                                        die tatsächliche Rendite, die eine Anlage einbringt. Zur Berechnung des
+                                        effektiven Zinssatzes einer Anlage werden Faktoren
+                                        wie&nbsp;Nominalzins,&nbsp;Laufzeit, Kontoführungsgebühren etc. miteinander
+                                        kombiniert. Der Effektivzins kann vom Nominalzins teils deutlich abweichen. Dies
+                                        ist zum Beispiel oft bei Festgeldanlagen mit mehrjähriger Laufzeit der Fall, da
+                                        hier die Sparer vom sogenannten&nbsp;Zinseszins-Effekt profitieren können und
+                                        damit der Effektivzins über dem Nominalzins liegt.</p>
+                                    <p><a href="/finanzlexikon/effektivzins/">Weiterlesen</a></p>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div id="c9403" class="frame frame-0 frame-type-text   ">
+                                    <header>
+                                        <h3 class=""><a href="/wissen/einlagensicherung/">Einlagensicherung</a></h3>
+                                    </header>
+                                    <p>Durch das System der EU-weit harmonisierten Europäischen Einlagensicherung sind
+                                        Sparguthaben privater Anleger bis zu einem Betrag von 100.000 Euro pro Kunde und
+                                        Bank durch nationale&nbsp;Einlagensicherungsfonds&nbsp;zu schützen. Neben dieser
+                                        gesetzlichen Einlagensicherung sind manche Banken zusätzlich Mitglied in
+                                        freiwilligen Einlagensicherungssystemen.&nbsp;</p>
+                                    <p><a href="/wissen/einlagensicherung/">Weiterlesen</a></p>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div id="c9404" class="frame frame-0 frame-type-text frame-space-after-small   ">
+                                    <header>
+                                        <h3 class="">
+                                            Einlagensicherung Deutschland
+                                        </h3>
+                                    </header>
+                                    <p>Nach den EU-Richtlinien zur gesetzlichen Einlagensicherung sind alle EU-Staaten
+                                        dazu verpflichtet, nationale Einlagensicherungsfonds zu unterhalten, die im
+                                        Falle von Finanzkrisen oder Bankinsolvenzen die Sparguthaben privater Sparer auf
+                                        Einlagenkonten bis zur Höhe von 100.000 Euro pro Kunde und Bank abzusichern
+                                        haben.&nbsp;Der gesetzliche Einlagensicherungsfonds der Bundesrepublik
+                                        Deutschland wird von der&nbsp;Entschädigungseinrichtung deutscher Banken GmbH
+                                        mit Sitz in Berlin verwaltet.</p>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div id="c22111" class="frame frame-0 frame-type-text   ">
+                                    <header>
+                                        <h3 class=""><a href="/steuer/erbschaftssteuer/">Erbschaftssteuer</a></h3>
+                                    </header>
+                                    <p>Bei der Erbschaftssteuer wird die Vergabe von Vermögenswerten einer verstorbenen
+                                        Person an einen Erben besteuert. Die Besteuerung der Erbschaft erfolgt dabei
+                                        grundsätzlich erst nach Abzug eventueller Schulden, Freibeträge und Aufwendungen
+                                        für die Bestattung. Die rechtlichen Grundlagen bilden das Erbschaftsteuer- und
+                                        Schenkungsteuergesetz (ErbStG) sowie
+                                        die&nbsp;Erbschaftsteuer-Durchführungsverordnung (ErbStDV).</p>
+                                    <p><a href="/steuer/erbschaftssteuer/">Weiterlesen</a></p>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div id="c9406" class="frame frame-0 frame-type-text   ">
+                                    <header>
+                                        <h3 class=""><a href="/finanzlexikon/europaeische-zentralbank-ezb/">Europäische
+                                                Zentralbank (EZB)</a></h3>
+                                    </header>
+                                    <p>Die Europäische Zentralbank (EZB) ist die Zentralbank für alle 19 Mitgliedstaaten
+                                        der Europäischen Union, die den Euro als nationale Währung eingeführt haben.
+                                        Vorrangiges Ziel der EZB ist es, für Preisstabilität im Euro-Raum zu sorgen und
+                                        damit die Kaufkraft der gemeinsamen Währung zu erhalten.&nbsp;</p>
+                                    <p><a href="/finanzlexikon/europaeische-zentralbank-ezb/">Weiterlesen</a></p>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div id="c9405" class="frame frame-0 frame-type-text   ">
+                                    <header>
+                                        <h3 class=""><a href="/finanzlexikon/ezb-leitzins/">EZB Leitzins</a></h3>
+                                    </header>
+                                    <p>Unter dem Leitzins versteht man den Zinssatz, zu dem sich einzelne
+                                        Geschäftsbanken bei nationalen Zentralbanken oder der Zentralbank einer
+                                        Währungsunion refinanzieren können. Die Höhe des Leitzinses ist von
+                                        verschiedenen Faktoren abhängig, die von den jeweiligen Noten- und Zentralbanken
+                                        in ihren Leitlinien festgelegt sind.&nbsp;</p>
+                                    <p><a href="/finanzlexikon/ezb-leitzins/">Weiterlesen</a></p>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div id="c9407" class="frame frame-0 frame-type-header   ">
+                                    <header>
+                                        <h2 class="">
+                                            F
+                                        </h2>
+                                    </header>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div id="c9384" class="frame frame-0 frame-type-text   ">
+                                    <header>
+                                        <h3 class=""><a href="/festgeld/">Festgeld </a></h3>
+                                    </header>
+                                    <p>Als Festgeld, oft auch Termingeld genannt, werden kurz- bis mittelfristige
+                                        Geldanlagen bezeichnet, bei denen ein vereinbarter Geldbetrag über eine feste
+                                        Laufzeit zu einem garantierten Zinssatz bei einer Bank angelegt wird.</p>
+                                    <p><a href="/festgeld/">Weiterlesen</a></p>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div id="c9383" class="frame frame-0 frame-type-text   ">
+                                    <header>
+                                        <h3 class=""><a href="/festgeld/anlage/">Festgeldanlage</a></h3>
+                                    </header>
+                                    <p>Wird Geld über einen längeren Zeitraum zu einem vertraglich fest vereinbarten
+                                        Zinssatz angelegt, spricht man von einer Festgeldanlage, auch Termingeldanlage
+                                        genannt. Festgeldanlagen gehören zu den sicheren Formen der Geldanlage, da durch
+                                        den fixen Zins über die gesamte Laufzeit das Risiko von Zinsschwankungen
+                                        entfällt.&nbsp;</p>
+                                    <p><a href="/festgeld/anlage/">Weiterlesen</a></p>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div id="c9381" class="frame frame-0 frame-type-text frame-space-after-small   ">
+                                    <header>
+                                        <h3 class="">
+                                            Festgeld Konditionen
+                                        </h3>
+                                    </header>
+                                    <p>Um die Rendite auf eine Festgeldanlage ausrechnen zu können, reicht in der Regel
+                                        ein Blick auf die Festgeld Konditionen. Hierbei handelt es sich insbesondere um
+                                        den Anlagebetrag, die Laufzeit und den fest vereinbarten Zinssatz.&nbsp;</p>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div id="c17871" class="frame frame-0 frame-type-text frame-space-after-small   ">
+                                    <header>
+                                        <h3 class="">
+                                            Festgeldkonto
+                                        </h3>
+                                    </header>
+                                    <p>Bei einem Festgeldkonto handelt es sich um ein Konto, das ausschließlich zur
+                                        Führung einer Festgeldanlage eröffnet wird. Anders als ein Girokonto ist es
+                                        nicht für den üblichen Zahlungsverkehr vorgesehen. Der gewünschte Anlagebetrag
+                                        wird von einem Referenzkonto auf das Festgeldkonto eingezahlt und verbleibt dort
+                                        für eine vorher vereinbarte Laufzeit. In der Regel liegt diese zwischen wenigen
+                                        Wochen und 10 Jahren.</p>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div id="c9409" class="frame frame-0 frame-type-text frame-space-after-small   ">
+                                    <header>
+                                        <h3 class="">
+                                            Festgeld Laufzeit
+                                        </h3>
+                                    </header>
+                                    <p>Die Laufzeit gibt den Zeitraum an, über den Geld in eine Festgeldanlage
+                                        investiert wird. Beim Festgeld sind Laufzeiten zwischen sechs Monaten und zehn
+                                        Jahren üblich, wobei die Zinsen bei längeren Laufzeiten in der Regel höher
+                                        sind.&nbsp;</p>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div id="c9410" class="frame frame-0 frame-type-text frame-space-after-small   ">
+                                    <header>
+                                        <h3 class="">
+                                            Festgeldzinsen
+                                        </h3>
+                                    </header>
+                                    <p>Hierunter werden die Zinsen verstanden, die Anlegern für die Verleihung ihres
+                                        Geldes an eine Bank im Rahmen einer Festgeldanlage gutgeschrieben werden. In der
+                                        Regel werden die Zinsen zusammen mit dem Anlagebetrag am Ende der Laufzeit einer
+                                        Festgeldanlage ausbezahlt. Der Vorteil von Festgeldzinsen liegt darin, dass der
+                                        Zinssatz über die gesamte Laufzeit einer Anlage fix ist und damit keinen
+                                        Zinsschwankungen unterliegt.</p>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div id="c17998" class="frame frame-0 frame-type-text   ">
+                                    <header>
+                                        <h3 class=""><a href="/steuer/freistellungsauftrag/">Freistellungsauftrag</a>
+                                        </h3>
+                                    </header>
+                                    <p>Bei einem Freistellungsauftrag handelt es sich um einen Antrag, den Sparer bei
+                                        ihrer Bank in Deutschland stellen können, damit anfallende Kapitalerträge bis zu
+                                        einer gesetzlich festgelegten Höhe nicht besteuert werden. Dieser Freibetrag,
+                                        auch Sparerpauschbetrag genannt, kann jährlich für maximal 801 Euro pro
+                                        Einzelperson und 1.602 Euro pro Ehepaar gewährt werden.</p>
+                                    <p><a href="/steuer/freistellungsauftrag/">Weiterlesen</a></p>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div id="c9411" class="frame frame-0 frame-type-text   ">
+                                    <header>
+                                        <h3 class=""><a
+                                                href="/finanzlexikon/fremdwaehrungskonto/">Fremdwährungskonto</a></h3>
+                                    </header>
+                                    <p>Ein Fremdwährungskonto oder Devisenkonto ist ein Konto, das in einer
+                                        ausländischen Währung geführt wird. Zu den beliebtesten Fremdwährungen gehören
+                                        der US-Dollar, der Schweizer Franken und der Japanische Yen. Ein
+                                        Fremdwährungskonto bietet Anlegern die Möglichkeit, auf Wechselkurse zu
+                                        spekulieren. Wer etwa damit rechnet, dass der Euro in den nächsten Monaten oder
+                                        Jahren im Vergleich zum Dollar an Wert verliert, der kann sich ein
+                                        Fremdwährungskonto in Dollar zulegen. Beim Umtausch in die Landeswährung besteht
+                                        natürlich immer ein gewisses Wechselkursrisiko.&nbsp;</p>
+                                    <p><a href="/finanzlexikon/fremdwaehrungskonto/">Weiterlesen</a></p>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div id="c9412" class="frame frame-0 frame-type-text   ">
+                                    <header>
+                                        <h3 class=""><a href="/finanzlexikon/faelligkeit/">Fälligkeit</a></h3>
+                                    </header>
+                                    <p>Als Fälligkeit wird ein Termin bezeichnet, zu dem eine bestimmte Leistung
+                                        erbracht werden muss. Bei Spareinlagen werden Zinszahlungen zum Ende der
+                                        Laufzeit oder in einem vorher vereinbarten Intervall fällig.</p>
+                                    <p><a href="/finanzlexikon/faelligkeit/">Weiterlesen</a></p>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div id="c9413" class="frame frame-0 frame-type-header   ">
+                                    <header>
+                                        <h2 class="">
+                                            G
+                                        </h2>
+                                    </header>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div id="c9414" class="frame frame-0 frame-type-text   ">
+                                    <header>
+                                        <h3 class=""><a href="/geldanlage/">Geldanlage</a></h3>
+                                    </header>
+                                    <p>Bei einer Geldanlage wird über einen bestimmten Zeitraum ein Geldbetrag mit dem
+                                        Ziel angelegt, Gewinn zu erwirtschaften. Die Möglichkeiten der Geldanlage sind
+                                        vielfältig: Investitionen in Unternehmen oder Immobilien gehören ebenso dazu wie
+                                        der Erwerb von Aktien oder die Eröffnung eines Tagesgeld- oder Festgeldkontos.
+                                        Auch hinsichtlich des mit einer Geldanlage verbundenen Risikos können sich die
+                                        einzelnen Anlageformen stark unterscheiden. Festgeldanlagen und Tagesgeldanlagen
+                                        gehören zu den sicheren Geldanlagen.&nbsp;</p>
+                                    <p><a href="/geldanlage/">Weiterlesen</a></p>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div id="c9415" class="frame frame-0 frame-type-text   ">
+                                    <header>
+                                        <h3 class=""><a href="/finanzlexikon/geldanlage-im-ausland/">Geldanlage im
+                                                Ausland</a></h3>
+                                    </header>
+                                    <p>Anlagen in Finanzprodukte bei Banken mit Sitz außerhalb Deutschlands oder
+                                        Österreichs können im derzeitigen Niedrigzinsumfeld äußerst lukrativ sein.
+                                        Gerade beim Festgeld und beim Tagesgeld bieten viele Banken aus dem EU-Ausland
+                                        wesentlich bessere Verzinsungen als dies in Deutschland oder Österreich der Fall
+                                        ist. Sparer dürfen zudem bei Anlagen im Ausland mit den gleichen Sicherheiten
+                                        für ihre Ersparnisse rechnen wie bei einheimischen Banken. Denn gemäß den
+                                        EU-Richtlinien zur Einlagensicherung müssen alle EU-Staaten dafür Sorge tragen,
+                                        dass die Sparguthaben der Geldanlage im Ausland von privaten Sparern bis zur
+                                        Grenze von 100.000 Euro pro Kunde und Auslands-Bank abgesichert sind. &nbsp;</p>
+                                    <p><a href="/finanzlexikon/geldanlage-im-ausland/">Weiterlesen</a></p>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div id="c9416" class="frame frame-0 frame-type-text   ">
+                                    <header>
+                                        <h3 class=""><a href="/finanzlexikon/geldanlage-zinsen/">Geldanlage Zinsen</a>
+                                        </h3>
+                                    </header>
+                                    <p>Wer sein Geld für einen bestimmten Zeitraum einer Bank zur Verfügung stellt, wird
+                                        hierfür in Form von Zinsen durch die Bank bezahlt. Die Höhe des Zinssatzes ist
+                                        dabei von verschiedenen Faktoren abhängig. Hierzu zählen etwa die Laufzeit einer
+                                        Geldanlage und ob während dieser Zeit durch den Anleger frei über das Geld
+                                        verfügt werden kann. Daneben können auch die Höhe des Anlagebetrags sowie die
+                                        gesamtwirtschaftliche Situation im Land der Partnerbank eine Rolle spielen.</p>
+                                    <p><a href="/finanzlexikon/geldanlage-zinsen/">Weiterlesen</a></p>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div id="c18277" class="frame frame-0 frame-type-text   ">
+                                    <header>
+                                        <h3 class=""><a
+                                                href="/magazin/wissenswertes-zur-bekaempfung-von-geldwaesche/">Geldwäschegesetz</a>
+                                        </h3>
+                                    </header>
+                                    <p>Das in Deutschland bestehende Geldwäschegesetz (GwG) fordert unter anderem Banken
+                                        und Finanzdienstleister dazu auf, zur Geldwäschebekämpfung proaktiv beizutragen.
+                                        Insbesondere beinhaltet das die sorgfältige Identifikation von Vertragspartnern
+                                        und ggf. deren wirtschaftlich Berechtigten vor der Begründung der
+                                        Geschäftsbeziehung.&nbsp;</p>
+                                    <p><a href="/magazin/wissenswertes-zur-bekaempfung-von-geldwaesche/">Weiterlesen</a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div id="c9417" class="frame frame-0 frame-type-text   ">
+                                    <header>
+                                        <h3 class=""><a href="/finanzlexikon/girokonto/">Girokonto</a></h3>
+                                    </header>
+                                    <p>Ohne ein&nbsp;Girokonto&nbsp;könnten die meisten Menschen wohl kaum ihre
+                                        Geldgeschäfte erledigen.&nbsp;Das Girokonto ist ein von Kreditinstituten
+                                        geführtes Kontokorrentkonto, dass von Bankkunden zur Abwicklung des
+                                        Zahlungsverkehrs genutzt wird.&nbsp;</p>
+                                    <p><a href="/finanzlexikon/girokonto/">Weiterlesen</a></p>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div id="c9418" class="frame frame-0 frame-type-header   ">
+                                    <header>
+                                        <h2 class="">
+                                            I
+                                        </h2>
+                                    </header>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div id="c9419" class="frame frame-0 frame-type-text   ">
+                                    <header>
+                                        <h3 class=""><a href="/finanzlexikon/inflation/">Inflation</a></h3>
+                                    </header>
+                                    <p>Unter dem Begriff der Inflation (lateinisch: „Aufschwellen“, „Sich-Aufblasen“)
+                                        versteht man in der Volkswirtschaftslehre einen andauernden Anstieg des
+                                        Preisniveaus von Gütern. Das heißt, für das gleiche Produkt muss immer mehr
+                                        gezahlt werden und das Geld verliert somit an Wert.&nbsp;</p>
+                                    <p><a href="/finanzlexikon/inflation/">Weiterlesen</a></p>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div id="c9420" class="frame frame-0 frame-type-header   ">
+                                    <header>
+                                        <h2 class="">
+                                            K
+                                        </h2>
+                                    </header>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div id="c9421" class="frame frame-0 frame-type-text   ">
+                                    <header>
+                                        <h3 class=""><a href="/finanzlexikon/kapitalanlage/">Kapitalanlage</a></h3>
+                                    </header>
+                                    <p>Bei einer Kapitalanlage wird über einen bestimmten Zeitraum ein Geldbetrag mit
+                                        dem Ziel angelegt, Gewinn zu erwirtschaften. Die Möglichkeiten der Kapitalanlage
+                                        sind vielfältig: Investitionen in Unternehmen oder Immobilien gehören ebenso
+                                        dazu wie der Erwerb von Aktien oder die Eröffnung eines Tagesgeld- oder
+                                        Festgeldkontos. Auch hinsichtlich des mit einer Geldanlage verbundenen Risikos
+                                        können sich die einzelnen Anlageformen stark unterscheiden. Festgeldanlagen
+                                        gehören wie Tagesgeldanlagen zu den sicheren Kapitalanlagen.&nbsp;</p>
+                                    <p><a href="/finanzlexikon/kapitalanlage/">Weiterlesen</a></p>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div id="c9422" class="frame frame-0 frame-type-header   ">
+                                    <header>
+                                        <h2 class="">
+                                            L
+                                        </h2>
+                                    </header>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div id="c9423" class="frame frame-0 frame-type-text   ">
+                                    <header>
+                                        <h3 class=""><a href="/finanzlexikon/laufzeit/">Laufzeit</a></h3>
+                                    </header>
+                                    <p>Allgemein betrachtet ist die Laufzeit im wirtschaftlichen Kontext die Zeit, für
+                                        die ein geschlossener Vertrag rechtswirksam gültig ist und die Zeit, für die
+                                        Finanzprodukte angeboten werden. Bei den Finanzprodukten kann es sich um Kredite
+                                        handeln oder auch um Geldanlageprodukte.</p>
+                                    <p><a href="/finanzlexikon/laufzeit/">Weiterlesen</a></p>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div id="c9424" class="frame frame-0 frame-type-text   ">
+                                    <header>
+                                        <h3 class=""><a href="/finanzlexikon/laenderrating/">Länderrating</a></h3>
+                                    </header>
+                                    <p>Als Länderrating oder Ratingcodes werden die von verschiedenen
+                                        Kredit-Ratingagenturen vergebenen Bonitätsnoten bezeichnet, die Auskunft über
+                                        die Kreditwürdigkeit von Ländern, Banken und Wirtschaftsunternehmen geben
+                                        sollen. Neben den Bewertungen durch die marktdominierende Ratingagentur Standard
+                                        &amp; Poor’s (S&amp;P) sind auch die Ratings der Unternehmen Fitch Ratings und
+                                        DBRS von globaler Bedeutung.</p>
+                                    <p><a href="/finanzlexikon/laenderrating/">Weiterlesen</a></p>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div id="c9457" class="frame frame-0 frame-type-header   ">
+                                    <header>
+                                        <h2 class="">
+                                            M
+                                        </h2>
+                                    </header>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div id="c9459" class="frame frame-0 frame-type-text   ">
+                                    <header>
+                                        <h3 class=""><a href="/finanzlexikon/maximaleinlage/">Maximaleinlage</a></h3>
+                                    </header>
+                                    <p>Bei vielen Sparzinskonten wird der maximale Anlagebetrag durch die Bank auf eine
+                                        bestimmte Summe beschränkt. Wollen Sparer mehr veranlagen, müssen Sie ein
+                                        weiteres Konto (gegebenenfalls bei einer anderen Bank)&nbsp;eröffnen.&nbsp;</p>
+                                    <p><a href="/finanzlexikon/maximaleinlage/">Weiterlesen</a></p>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div id="c9458" class="frame frame-0 frame-type-text   ">
+                                    <header>
+                                        <h3 class=""><a href="/finanzlexikon/mindesteinlage/">Mindesteinlage</a></h3>
+                                    </header>
+                                    <p>Bei der&nbsp;Kontoeröffnung&nbsp;verlangen viele Banken für Festgelder
+                                        eine&nbsp;Mindesteinlage. Nur wenn Kunden mindestens
+                                        diesen&nbsp;Minimalbetrag&nbsp;veranlagen, können sie
+                                        ein&nbsp;Festgeldkonto&nbsp;nutzen. Banken stellen damit ihre Wirtschaftlichkeit
+                                        sicher.&nbsp;</p>
+                                    <p><a href="/finanzlexikon/mindesteinlage/">Weiterlesen</a></p>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div id="c9460" class="frame frame-0 frame-type-header   ">
+                                    <header>
+                                        <h2 class="">
+                                            N
+                                        </h2>
+                                    </header>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div id="c9461" class="frame frame-0 frame-type-text   ">
+                                    <header>
+                                        <h3 class=""><a href="/finanzlexikon/negativzinsen/">Negativzinsen</a></h3>
+                                    </header>
+                                    <p>Bei Negativzinsen handelt es sich aus der wirtschaftlichen Perspektive um
+                                        Minuszinsen oder auch Strafzinsen. Der Strafzins belastet das Guthaben des
+                                        Kapitalgebers über einen bestimmten Zeitraum zu einem gewissen Prozentsatz und
+                                        wird anschließend dem Kapitalnehmer gutgeschrieben.&nbsp;</p>
+                                    <p><a href="/finanzlexikon/negativzinsen/">Weiterlesen</a></p>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div id="c18000" class="frame frame-0 frame-type-text   ">
+                                    <header>
+                                        <h3 class=""><a
+                                                href="/magazin/was-ist-eine-nichtveranlagungsbescheinigung/">Nichtveranlagungs­bescheinigung</a>
+                                        </h3>
+                                    </header>
+                                    <p>Bei einer NV-Bescheinigung handelt es sich um ein Dokument, mit dem das Finanzamt
+                                        bestätigt, dass der Antragsteller keine Einkommensteuer abführen und keine
+                                        jährliche Einkommensteuerklärung abgeben muss. So können sich Steuerzahler,
+                                        deren Gehalt bzw. Lohn zuzüglich der Kapitalerträge unterhalb des
+                                        Grundfreibetrags liegen, von der deutschen Besteuerung befreien lassen.&nbsp;
+                                    </p>
+                                    <p><a href="/magazin/was-ist-eine-nichtveranlagungsbescheinigung/">Weiterlesen</a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div id="c9462" class="frame frame-0 frame-type-text   ">
+                                    <header>
+                                        <h3 class=""><a href="/finanzlexikon/niedrigzinspolitik/">Niedrigzinspolitik</a>
+                                        </h3>
+                                    </header>
+                                    <p>Die&nbsp;Europäische Zentralbank&nbsp;betreibt derzeit
+                                        eine&nbsp;Niedrigzinspolitik, die weitreichende Folgen für die heimische
+                                        Wirtschaft und vor allem auch die privaten Anleger hat. Durch einen niedrigen
+                                        EZB-Leitzins sollen Anreize geschaffen werden, die Wirtschaftswachstum und
+                                        Investitionen stärken.</p>
+                                    <p><a href="/finanzlexikon/niedrigzinspolitik/">Weiterlesen</a></p>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div id="c9463" class="frame frame-0 frame-type-text   ">
+                                    <header>
+                                        <h3 class=""><a href="/finanzlexikon/nominalzins/">Nominalzins</a></h3>
+                                    </header>
+                                    <p>Beim Nominalzins handelt es sich um den Zinssatz, der von Banken für Anlagen wie
+                                        Tagesgeld oder Festgeld ausgewiesen wird. In der Regel wird der Nominalzins pro
+                                        Jahr (p.a.) angegeben.&nbsp;Die Zinsen werden entsprechend meist zum Ende eines
+                                        Anlagejahres oder Kalenderjahres auf das Konto gutgeschrieben. Im Unterschied
+                                        zum Effektivzins, gibt der Nominalzins den Zinssatz ohne Zinseszinseffekt an.
+                                    </p>
+                                    <p><a href="/finanzlexikon/nominalzins/">Weiterlesen</a></p>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div id="c9507" class="frame frame-0 frame-type-header   ">
+                                    <header>
+                                        <h2 class="">
+                                            P
+                                        </h2>
+                                    </header>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div id="c9508" class="frame frame-0 frame-type-text   ">
+                                    <header>
+                                        <h3 class=""><a href="/finanzlexikon/postfilial-ident/">Postfilial-Ident</a>
+                                        </h3>
+                                    </header>
+                                    <p>Im Rahmen der Pflichten des Geldwäschegesetzes müssen Banken ihre Neukunden
+                                        eindeutig identifizieren, bevor die Eröffnung eines Kontos erfolgen kann. Ein
+                                        gesetzlich anerkanntes Identifizierungsverfahren ist das
+                                        Postfilial-Ident-Verfahren. Neben dem klassischen Postfilial-Ident-Verfahren ist
+                                        seit 2014 auch die Online-Identifizierung zur Legitimation von Neukunden
+                                        gesetzlich anerkannt.</p>
+                                    <p><a href="/finanzlexikon/postfilial-ident/">Weiterlesen</a></p>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div id="c9509" class="frame frame-0 frame-type-text   ">
+                                    <header>
+                                        <h3 class=""><a href="/finanzlexikon/prolongation/">Prolongation</a></h3>
+                                    </header>
+                                    <p>Als Prolongation wird eine Vertragsverlängerung im Kreditgeschäft bezeichnet.
+                                        Viele Darlehen werden mit einer bestimmten Vertragsdauer abgeschlossen. Endet
+                                        diese Frist, muss der Kredit vollständig zurückgezahlt werden. Die Verlängerung
+                                        können die Darlehensnehmer beantragen oder als Angebot der Bank erhalten.&nbsp;
+                                    </p>
+                                    <p><a href="/finanzlexikon/prolongation/">Weiterlesen</a></p>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div id="c9510" class="frame frame-0 frame-type-header   ">
+                                    <header>
+                                        <h2 class="">
+                                            Q
+                                        </h2>
+                                    </header>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div id="c9511" class="frame frame-0 frame-type-text   ">
+                                    <header>
+                                        <h3 class=""><a href="/steuer/quellensteuer/">Quellensteuer</a></h3>
+                                    </header>
+                                    <p>Als Quellensteuer werden alle Steuern auf Kapitalerträge (beispielsweise Zinsen
+                                        und Dividenden) bezeichnet, die von den Staaten, in denen diese Erträge
+                                        erwirtschaftet wurden (= Quellenstaaten), direkt von Steuerausländern erhoben
+                                        werden. Um eine Doppelbesteuerung ihrer Bürger zu vermeiden, haben Staaten wie
+                                        Österreich und Deutschland mit vielen Ländern sogenannte
+                                        Doppelbesteuerungsabkommen (DBA) vereinbart, nach denen sich die Quellensteuern
+                                        ganz oder zumindest deutlich reduzieren lassen. &nbsp;&nbsp;</p>
+                                    <p><a href="/steuer/quellensteuer/">Weiterlesen</a></p>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div id="c9512" class="frame frame-0 frame-type-header   ">
+                                    <header>
+                                        <h2 class="">
+                                            R
+                                        </h2>
+                                    </header>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div id="c18001" class="frame frame-0 frame-type-text   ">
+                                    <header>
+                                        <h3 class=""><a
+                                                href="/magazin/wissenswertes-zu-den-grossen-ratingagenturen/">Rating</a>
+                                        </h3>
+                                    </header>
+                                    <p>Bei einem Rating wird die Bonität von Emittenten, wie Ländern, Kreditinstituten
+                                        und Wirtschaftsunternehmen beurteilt. Diese Bewertungen werden von sogenannten
+                                        Ratingagenturen durchgeführt und meist in Form von Buchstaben ausgegeben, die
+                                        von „AAA“ bis „D“ reichen und gleichbedeutend sind mit „sehr sicher“ bis
+                                        „zahlungsunfähig“. Dementsprechend gilt, je höher das Rating ausfällt, desto
+                                        besser ist die Kreditwürdigkeit des Emittenten.</p>
+                                    <p><a href="/magazin/wissenswertes-zu-den-grossen-ratingagenturen/">Weiterlesen</a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div id="c9513" class="frame frame-0 frame-type-text   ">
+                                    <header>
+                                        <h3 class=""><a href="/finanzlexikon/referenzkonto/">Referenzkonto</a></h3>
+                                    </header>
+                                    <p>Ein Referenzkonto, auch Verrechnungskonto genannt, wird bei verschiedenen
+                                        Anlageprodukten wie zum Beispiel Tagesgeld, Festgeld oder Wertpapierdepots
+                                        benötigt. Das Referenzkonto dient dazu, Buchungen auf die oder von den
+                                        Anlagekonten durchführen zu können. Bei ZINSPILOT wird etwa im Auftrag der
+                                        Kunden bei der Sutor Bank das ZINSPILOT-Konto als deutsches Referenzkonto
+                                        eröffnet, über das Geld auf ausländische Festgeldkonten transferiert werden kann
+                                        und auf das schließlich auch der investierte Betrag einschließlich der
+                                        Zinsgewinne wieder überwiesen wird.</p>
+                                    <p><a href="/finanzlexikon/referenzkonto/">Weiterlesen</a></p>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div id="c9514" class="frame frame-0 frame-type-text   ">
+                                    <header>
+                                        <h3 class=""><a href="/finanzlexikon/rendite/">Rendite</a></h3>
+                                    </header>
+                                    <p>Der Begriff Rendite umschreibt das Verhältnis von Auszahlung und Einzahlung
+                                        beziehungsweise von Ertrag und Aufwand einer Geld- oder Kapitalanlage. Es gibt
+                                        verschiedene Arten von Renditen bei der Geldanlage, wobei der Zinssatz die
+                                        bekannteste Renditekennzahl ist.&nbsp;</p>
+                                    <p><a href="/finanzlexikon/rendite/">Weiterlesen</a></p>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div id="c9515" class="frame frame-0 frame-type-header   ">
+                                    <header>
+                                        <h2 class="">
+                                            S
+                                        </h2>
+                                    </header>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div id="c22044" class="frame frame-0 frame-type-text   ">
+                                    <header>
+                                        <h3 class=""><a href="/steuer/schenkungssteuer/">Schenkungssteuer</a></h3>
+                                    </header>
+                                    <p>Bei der Schenkungssteuer handelt es sich um eine&nbsp;<strong>Steuer, die auf
+                                            Zuwendungen erhoben wird</strong>. Die Höhe der Schenkungssteuer hängt dabei
+                                        in erster Linie von drei Steuerklassen ab, die vom Gesetzgeber zur Ermittlung
+                                        der individuellen Steuerbelastung eingeführt wurden.</p>
+                                    <p><a href="/steuer/schenkungssteuer/">Weiterlesen</a></p>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div id="c17872" class="frame frame-0 frame-type-text   ">
+                                    <header>
+                                        <h3 class=""><a href="/steuer/solidaritaetszuschlag/">Solidaritätszuschlag</a>
+                                        </h3>
+                                    </header>
+                                    <p>Als Solidaritätszuschlag bezeichnet man eine Ergänzungsabgabe zur Einkommens- und
+                                        Kapitalertragssteuer in Höhe von 5,5 Prozent. Er ist zu zahlen, wenn eine
+                                        Steuerlast entsteht, die bei der Einkommensteuer über der jährlichen Freigrenze
+                                        von derzeit 16.956 Euro pro Person und 33.912 Euro pro Ehepaar liegt
+                                        (Stand:2022)</p>
+                                    <p><a href="/steuer/solidaritaetszuschlag/">Weiterlesen</a></p>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div id="c9516" class="frame frame-0 frame-type-text   ">
+                                    <header>
+                                        <h3 class=""><a href="/finanzlexikon/sparanlage/">Sparanlage</a></h3>
+                                    </header>
+                                    <p>Unter Sparanlagen versteht man Formen der Kapitalanlage, bei denen Geld über
+                                        einen bestimmten Zeitraum gewinnbringend angelegt wird. Der Begriff Sparanlage
+                                        ist nicht eindeutig definiert, meint aber in der Regel Geldanlagen, bei denen
+                                        das Kapital vor Verlusten geschützt ist. Beispiele für Sparanlagen sind unter
+                                        anderem Festgeld und Tagesgeld.</p>
+                                    <p><a href="/finanzlexikon/sparanlage/">Weiterlesen</a></p>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div id="c9517" class="frame frame-0 frame-type-text   ">
+                                    <header>
+                                        <h3 class=""><a href="/finanzlexikon/sparbrief/">Sparbrief</a></h3>
+                                    </header>
+                                    <p>Bei einem Sparbrief handelt es sich um ein fest verzinstes Wertpapier mit einer
+                                        festen Laufzeit. Auch wenn der Sparbrief als Wertpapier bezeichnet wird, ist er
+                                        im Sinne des Depotgesetzes keiner. Das heißt unter anderem, dass der Sparbrief
+                                        keinen Kursschwankungen unterliegt und dass Sparbriefguthaben durch die
+                                        gesetzliche Einlagensicherung geschützt werden müssen. Der Sparbrief gilt
+                                        aufgrund seiner Konditionen als sichere Anlagealternative zu
+                                        Festgeldanlagen.&nbsp;</p>
+                                    <p><a href="/finanzlexikon/sparbrief/">Weiterlesen</a></p>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div id="c9518" class="frame frame-0 frame-type-text   ">
+                                    <header>
+                                        <h3 class=""><a href="/finanzlexikon/sparbuch/">Sparbuch</a></h3>
+                                    </header>
+                                    <p>Hierbei handelt es sich um das von einer Bank oder einer Sparkasse
+                                        (Sparkassenbuch) ausgegebene Buch, das dem Inhaber eines Sparkontos&nbsp;alle
+                                        Kontoveränderungen wie Einzahlungen, Auszahlungen, Zinsgutschriften oder
+                                        Gebührenabzüge anzeigt beziehungsweise quittiert.&nbsp;</p>
+                                    <p><a href="/finanzlexikon/sparbuch/">Weiterlesen</a></p>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div id="c9519" class="frame frame-0 frame-type-text   ">
+                                    <header>
+                                        <h3 class=""><a href="/finanzlexikon/spareinlage/">Spareinlage</a></h3>
+                                    </header>
+                                    <p>Bei einer Spareinlage wird über einen bestimmten Zeitraum ein Geldbetrag mit dem
+                                        Ziel angelegt, Gewinn zu erwirtschaften. Die bekanntesten und beliebtesten
+                                        Formen der Spareinlage sind Tagesgeld- oder Festgeldkonten.&nbsp;</p>
+                                    <p><a href="/finanzlexikon/spareinlage/">Weiterlesen</a></p>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div id="c9520" class="frame frame-0 frame-type-text   ">
+                                    <header>
+                                        <h3 class=""><a href="/sparkonto/">Sparkonto</a></h3>
+                                    </header>
+                                    <p>Bei Sparkonten handelt es sich um verzinste Spareinlagen, welche Banken in
+                                        unterschiedlicher Form bieten. Neben klassischen Sparbüchern sind es vor allem
+                                        Tagesgeld- und Festgeldkonten, die aktuell in Deutschland und Österreich von
+                                        vielen Menschen als Sparkonten genutzt werden.&nbsp;</p>
+                                    <p><a href="/sparkonto/">Weiterlesen</a></p>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div id="c9521" class="frame frame-0 frame-type-text   ">
+                                    <header>
+                                        <h3 class=""><a href="/sparplan/">Sparplan</a></h3>
+                                    </header>
+                                    <p>Bei einem Sparplan werden in regelmäßigen Raten Sparbeiträge gezahlt, wodurch
+                                        sich über meist lange Zeiträume Vermögen aufbauen lässt. Das Gegenteil stellen
+                                        Einmalanlagen dar. Ein wesentlicher Vorzug von Sparplänen besteht darin, dass
+                                        Sie auch mit geringen Beträgen langfristig eine ansprechende Summe erzielen
+                                        können. Deswegen eignen sich Sparpläne beispielsweise gut für die
+                                        Altersvorsorge.</p>
+                                    <p><a href="/sparplan/">Weiterlesen</a></p>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div id="c9522" class="frame frame-0 frame-type-text   ">
+                                    <header>
+                                        <h3 class=""><a href="/finanzlexikon/sparzinsen/">Sparzinsen</a></h3>
+                                    </header>
+                                    <p>Unter dem Begriff Sparzinsen&nbsp;versteht man im Allgemeinen das Entgelt, das
+                                        Sparer für ihre Kapitalanlage von einer Bank erhalten. Der aktuelle Zinssatz
+                                        orientiert sich am Zinsniveau des Geld- und Kapitalmarktes und ist damit
+                                        abhängig von Angebot und Nachfrage. Die Höhe des Zinssatzes wird in der Regel in
+                                        Prozent angegeben. Mit Hilfe eines Zinsrechners lässt sich bequem der zu
+                                        erhaltende Betrag nach Ablauf der vereinbarten Laufzeit errechnen, der den
+                                        Anlagebetrag und zusätzlich die Höhe der zu erhaltenden Zinsen aufführt.</p>
+                                    <p><a href="/finanzlexikon/sparzinsen/">Weiterlesen</a></p>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div id="c9523" class="frame frame-0 frame-type-header   ">
+                                    <header>
+                                        <h2 class="">
+                                            T
+                                        </h2>
+                                    </header>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div id="c9524" class="frame frame-0 frame-type-text   ">
+                                    <header>
+                                        <h3 class=""><a href="/tagesgeld/">Tagesgeld</a></h3>
+                                    </header>
+                                    <p>Als Tagesgeld bezeichnet man Formen der Geldanlage, bei denen Anleger über ihr
+                                        investiertes Geld einschließlich angesammelter Zinsen täglich verfügen können.
+                                        Der Zinssatz beim Tagesgeld ist grundsätzlich variabel und kann von Banken auf
+                                        Tagesbasis entsprechend veränderter Marktbedingungen angepasst werden.</p>
+                                    <p><a href="/tagesgeld/">Weiterlesen</a></p>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div id="c9525" class="frame frame-0 frame-type-text frame-space-after-small   ">
+                                    <header>
+                                        <h3 class="">
+                                            Tagesgeldkonto
+                                        </h3>
+                                    </header>
+                                    <p>Zusammen mit Festgeldkonten gehören Tagesgeldkonten zu den beliebtesten
+                                        Sparkonten deutscher Sparer. Im Unterschied zu Festgeld zeichnen sich
+                                        Tagesgeldkonten dadurch aus, dass sie an keine feste Laufzeit gebunden sind, die
+                                        Verzinsung variieren kann und die Kontoinhaber täglich über ihr Sparguthaben
+                                        frei verfügen können.&nbsp;</p>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div id="c9526" class="frame frame-0 frame-type-text frame-space-after-small   ">
+                                    <header>
+                                        <h3 class="">
+                                            Tagesgeldkonditionen
+                                        </h3>
+                                    </header>
+                                    <p>Die Tagesgeldkonditionen beschreiben die Bedingungen, zu denen das Guthaben auf
+                                        dem Tagesgeldkonto angelegt wird. Grundsätzlich handelt es sich bei einem
+                                        Tagesgeldkonto um ein variabel verzinstes Konto, das keiner vertraglich
+                                        vereinbarten Laufzeit unterliegt.&nbsp;</p>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div id="c9528" class="frame frame-0 frame-type-text   ">
+                                    <header>
+                                        <h3 class=""><a href="/festgeld/termingeld/">Termingeld</a></h3>
+                                    </header>
+                                    <p>Termingelder sind Einlagen bei Kreditinstituten, die bis zu einem bestimmten
+                                        Termin angelegt werden. Festgeldeinlagen gehören zu den bekanntesten Vertretern
+                                        der Termingelder. Hierbei wird Geld zu einem festen Zinssatz für eine vorab
+                                        vereinbarte Laufzeit angelegt. Nach Ende der Laufzeit, zu einem bestimmten
+                                        Termin, erfolgt dann die Auszahlung des Einlagebetrags plus der erwirtschafteten
+                                        Zinsen.</p>
+                                    <p><a href="/festgeld/termingeld/">Weiterlesen</a></p>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div id="c9529" class="frame frame-0 frame-type-header   ">
+                                    <header>
+                                        <h2 class="">
+                                            V
+                                        </h2>
+                                    </header>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div id="c9530" class="frame frame-0 frame-type-text   ">
+                                    <header>
+                                        <h3 class=""><a href="/finanzlexikon/verrechnungskonto/">Verrechnungskonto</a>
+                                        </h3>
+                                    </header>
+                                    <p>Ein Verrechnungskonto, auch Referenzkonto genannt, wird benötigt, um etwa ein
+                                        Festgeldkonto zu eröffnen. Da das Festgeldkonto als reines Anlagekonto genutzt
+                                        wird und nicht für den Zahlungsverkehr bestimmt ist, muss in diesem Fall ein
+                                        Verrechnungskonto zwischengeschaltet sein. In der Regel ist das
+                                        Verrechnungskonto gleichzusetzen mit einem Girokonto, über das unkompliziert
+                                        Ein- und Auszahlungen möglich sind.&nbsp;</p>
+                                    <p><a href="/finanzlexikon/verrechnungskonto/">Weiterlesen</a></p>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div id="c11588" class="frame frame-0 frame-type-text   ">
+                                    <header>
+                                        <h3 class=""><a href="/finanzlexikon/videoident/">VideoIdent</a></h3>
+                                    </header>
+                                    <p>Im Rahmen der Pflichten des Geldwäschegesetzes müssen Banken ihre Neukunden
+                                        eindeutig identifizieren, bevor die Eröffnung eines Kontos erfolgen kann. Neben
+                                        dem klassischen Postfilial-Ident-Verfahren ist seit 2014 auch das
+                                        VideoIdent-Verfahren, oft auch als Online-Identifizierung bezeichnet, zur
+                                        Legitimation von Neukunden gesetzlich anerkannt.</p>
+                                    <p><a href="/finanzlexikon/videoident/">Weiterlesen</a></p>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div id="c9542" class="frame frame-0 frame-type-header   ">
+                                    <header>
+                                        <h2 class="">
+                                            Z
+                                        </h2>
+                                    </header>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div id="c9543" class="frame frame-0 frame-type-text   ">
+                                    <header>
+                                        <h3 class=""><a href="/finanzlexikon/zinsen/">Zinsen</a></h3>
+                                    </header>
+                                    <p>Bei&nbsp;Zinsen&nbsp;handelt es sich um das Entgelt, dass der Schuldner dem
+                                        Gläubiger für die Bereitstellung von Kapital zahlt. Bei Finanzprodukten wie
+                                        Festgeld fungiert die Bank als Schuldner, der die Spareinlagen verzinst. Bei
+                                        Krediten verhält es sich andersherum: Der Kreditnehmer zahlt der Bank für das
+                                        bereitgestellte Darlehen&nbsp;Kreditzinsen.&nbsp;</p>
+                                    <p><a href="/finanzlexikon/zinsen/">Weiterlesen</a></p>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div id="c9544" class="frame frame-0 frame-type-text   ">
+                                    <header>
+                                        <h3 class=""><a href="/finanzlexikon/zinsentwicklung/">Zinsentwicklung</a></h3>
+                                    </header>
+                                    <p>Mit Blick auf die aktuell äußerst bescheidenen Zinsen, die deutsche Banken auf
+                                        Anlagen wie Tagesgeld oder Festgeld bieten, ist es lohnenswert, sich selbst auf
+                                        die Suche nach besseren Sparzinsen zu begeben. Unterstützung hierbei bieten
+                                        diverse Vergleichsportale im Internet. Hier lässt sich die Entwicklung der
+                                        Sparzinsen gut beobachten und die aktuellen Top-Sparangebote können schnell
+                                        identifiziert werden. &nbsp;</p>
+                                    <p><a href="/finanzlexikon/zinsentwicklung/">Weiterlesen</a></p>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div id="c9545" class="frame frame-0 frame-type-text   ">
+                                    <header>
+                                        <h3 class=""><a href="/finanzlexikon/zinsertrag/">Zinsertrag</a></h3>
+                                    </header>
+                                    <p>Unter dem&nbsp;Zinsertrag&nbsp;versteht man im Allgemeinen die Erträge, die einem
+                                        bestimmten zu verzinsenden Kapital hinzugerechnet werden. Der Zinsertrag richtet
+                                        sich nach der Höhe des Zinssatzes, der für eine Kapitalanlage geboten
+                                        wird.&nbsp;</p>
+                                    <p><a href="/finanzlexikon/zinsertrag/">Weiterlesen</a></p>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div id="c9546" class="frame frame-0 frame-type-text   ">
+                                    <header>
+                                        <h3 class=""><a href="/finanzlexikon/zinsrechner/">Zinsrechner</a></h3>
+                                    </header>
+                                    <p>Mit einem Zinsrechner können Anleger schnell und unkompliziert ihren persönlichen
+                                        Zinsertrag auf Spareinlagen in Abhängigkeit von der Anlagesumme und dem
+                                        ausgewiesenen Nominalzinssatz auf eine Anlage berechnen.&nbsp;</p>
+                                    <p><a href="/finanzlexikon/zinsrechner/">Weiterlesen</a></p>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div id="c9547" class="frame frame-0 frame-type-text frame-space-after-small   ">
+                                    <header>
+                                        <h3 class="">
+                                            Zinsvergleich für Festgeld
+                                        </h3>
+                                    </header>
+                                    <p>Ein Zinsvergleich ermöglicht es, verschiedene Geldanlageprodukte oder die
+                                        Sparprodukte verschiedener Anbieter miteinander zu vergleichen. Ziel des
+                                        Zinsvergleichs ist es, mithilfe einer unabhängigen Gegenüberstellung das jeweils
+                                        beste Angebot zu finden und sich so die besten Zinsen zu sichern.&nbsp;</p>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div id="c9548" class="frame frame-0 frame-type-text   ">
+                                    <header>
+                                        <h3 class=""><a href="/finanzlexikon/zinsausschuettung/">Zinsausschüttung</a>
+                                        </h3>
+                                    </header>
+                                    <p>Für Spareinlagen wie&nbsp;Festgeld&nbsp;oder Sparbriefe gibt es eine
+                                        regelmäßige&nbsp;Zinsausschüttung. Diese wird
+                                        immer&nbsp;nachschüssig&nbsp;berechnet und dem entsprechenden Konto
+                                        gutgeschrieben.</p>
+                                    <p><a href="/finanzlexikon/zinsausschuettung/">Weiterlesen</a></p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- terms and condition section ends -->
+
+    <!-- footer start  -->
+    <footer class="footer">
+        <div class="theme-container">
+            <div class="row">
+                <div class="footer_heading col-12 col-lg-3 col-xl-3">
+                    <img src="../assets/images/logo_zinspilot_footer.svg" alt="" class="footer-logo" />
+                    <p>Ringvägen 100</p>
+                    <p style="margin-bottom: 30px">SE- 118 60 Stockholm</p>
+                    <p> hello@zin-pilot.com Haben <br> Sie Fragen</p>
+                    <p>+46/ 843 737 988</p>
+                </div>
+                <div class="footer_heading footer_heading_1 col-6 col-lg-2 col-xl-2 my-5 my-lg-0 my-xl-0">
+                    <h2>Unternehmen</h2>
+                    <a href="../pages/festgeld.html">Über uns</a>
+                    <a href="../pages/tagesgeld.html">Karriere</a>
+                    <a href="../pages/top-festzinsanlagen.html">Presse</a>
+                    <a href="../pages/aboutUs.html">Auszeichnungen</a>
+                    <a href="../pages/contact-us.html">Kontakt</a>
+                    <a href="../pages/contact-us.html">Partner werden</a>
+                </div>
+                <div class="footer_heading footer_heading_2 col-6 col-lg-2 col-xl-2 my-5 my-lg-0 my-xl-0">
+                    <h2>
+                        Wissen
+                    </h2>
+                    <a href="../pages/edelmetalle.html">Finanzlexikon</a>
+                    <a href="../pages/gold-and-silber.html">Einlagensicherung</a>
+                    <a href="../pages/pelletanlagen.html">Ratingindex bei ZINSPILOT</a>
+                    <a href="../pages/aktien.html">Bankenrating</a>
+                </div>
+                <div class="footer_heading footer_heading_2 col-6 col-lg-2 col-xl-2 my-5 my-lg-0 my-xl-0">
+                    <h2>
+                        Service
+                    </h2>
+                    <a href="../pages/edelmetalle.html">Zufriedenheitsmanagement</a>
+                    <a href="../pages/gold-and-silber.html">ZINSPILOT Erfahrungen</a>
+                    <a href="../pages/pelletanlagen.html">Newsletter</a>
+                    <a href="../pages/pelletanlagen.html">Sparpläne</a>
+                </div>
+                <div class="footer_heading footer_heading_3 col-12 col-lg-3 col-xl-3">
+                    <h2>NEWSLETTER ANMELDUNG</h2>
+                    <p>Melden Sie sich bei unserem Newsletter an um immer neue Angebote zu erhalten</p>
+                    <div class="input_div">
+                        <input type="email" placeholder="Enter Your Email" />
+                        <a href="../pages/contact-us.html"><button class="more_on_btn more_on_btn_2">
+                                <img src="../assets/images/input_msg.svg" alt="" /></button></a>
+                    </div>
+                    <p>Holen Sie sich die aktuellen Angebote rein.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+    <!-- footer_bottom start  -->
+    <div class="footer_bottom">
+        <p>
+            © 2022 ins Pilot - All Rights Reserved | <a href="../pages/agbs.html">AGBs</a> | <a
+                href="../pages/impressum.html">Impressum</a> | <a
+                href="../pages/datenschutz.html">Datenschutzerklärung</a>
+        </p>
+    </div>
+    <!-- footer_bottom end -->
+    <script src="../assets/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="../assets/slick.min.js"></script>
+    <script src="../assets/core.js"></script>
+
+</body>
+
+</html>

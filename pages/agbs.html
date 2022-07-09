@@ -1,0 +1,981 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <title>AGBs</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets//cssresponsive.css">
+    <style>
+        .banner {
+            height: 400px;
+            margin-bottom: 100px;
+        }
+
+        .ft_privacy_content {
+            width: 90%;
+            height: 100%;
+            background: #fff;
+            box-shadow: 0px 0px 32px #0000001a;
+            padding: 80px;
+            border-radius: 30px;
+            text-align: justify;
+            margin-bottom: 40px;
+        }
+
+        .ft_privacy_content h1 {
+            font-size: 30px;
+            /* font-family: "Lato-Bold";*/
+            font-weight: bold;
+            line-height: 1.3;
+            color: #00223e;
+            padding-bottom: 10px;
+        }
+
+        .ft_privacy_content h6 {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .ft_privacy_content h5 {
+            font-size: 20px;
+        }
+
+        .ft_privacy_content p span span {
+            font-size: 16px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- SIDE MENU -->
+    <div class="animationload" style="display: none;">
+        <div class="loader" style="display: none;"></div>
+    </div>
+    <!-- SIDE MENU -->
+    <div class="sidebar-backdrop"></div>
+    <div class="sidebar-menu">
+        <div class="d-flex justify-content-between align-items-center head">
+            <a href="../index.html" style="color: #404040;">
+                <img src="../assets/images/logo_zinspilot_new.svg" alt="">
+            </a>
+            <img class="sidebar-close" src="../assets/images/close-dark.svg" alt="x" width="18px">
+        </div>
+        <div class="body">
+            <div class="side_bar_main">
+                <ul class="list-unstyled">
+                    <li><a href="../index.html" class="sidebar-links">Startseite</a></li>
+                    <li class="sb_submenu"><a href="javascript:void(0);"
+                            class="sidebar-links sidebar_menu">Anlageangebote<i class="fas fa-angle-down"></i></a></li>
+                    <div class="sidebar_dropdown_1">
+                        <div class="side_bar_dropdown">
+                            <a href="../pages/aboutUs.html">Festgeld</a>
+                            <a href="../pages/aboutUs.html">Tagesgeld</a>
+                        </div>
+                    </div>
+                    <li><a href="../index.html" class="sidebar-links">Banken</a></li>
+                    <li><a href="../index.html" class="sidebar-links">So funktioniert's</a></li>
+                    <li class="sb_submenu"><a href="javascript:void(0);"
+                            class="sidebar-links sidebar_menu_1">Informationen
+                            <i class="fas fa-angle-down"></i></a></li>
+                    <div class="sidebar_dropdown_2">
+                        <div class="side_bar_dropdown">
+                            <a href="../pages/festgeld.html">Aktuelle Produktinfos</a>
+                            <a href="../pages/tagesgeld.html">Zinserhöhungen</a>
+                            <a href="../pages/top-festzinsanlagen.html">Häufige Fragen</a>
+                            <a href="../pages/top-festzinsanlagen.html">Steuern</a>
+                            <a href="../pages/top-festzinsanlagen.html">Steuerbescheinigung</a>
+                            <a href="../pages/top-festzinsanlagen.html">Anlagevoraussetzung</a>
+                            <a href="../pages/top-festzinsanlagen.html">Länderrating</a>
+                            <a href="../pages/top-festzinsanlagen.html">Formularcenter</a>
+                        </div>
+                    </div>
+                    <li class="sb_submenu"><a href="javascript:void(0);"
+                            class="sidebar-links sidebar_menu_3">Finanzwissen <i class="fas fa-angle-down"></i></a></li>
+                    <div class="sidebar_dropdown_4">
+                        <div class="side_bar_dropdown">
+                            <a href="../pages/aktien.html">Geldanlage</a>
+                            <a href="../pages/gold-and-silber.html">Magazin</a>
+                        </div>
+                    </div>
+                    <li><a href="../pages/sparplan.html" class="sidebar-links">SPARPLÄNE </a></li>
+                    <li><a href="../pages/contact-us.html" class="sidebar-links">KONTAKT</a></li>
+                    <!-- <a href="#"><button></button></a> -->
+                </ul>
+                <div class="side-bar-btns">
+                    <a href="#" class="sidebar-links"><button>Login</button></a>
+                    <a href="#" class="sidebar-links"><button>Registrieren</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /SIDE MENU -->
+
+    <!-- banner start  -->
+    <div class="banner">
+        <div class="theme-container">
+            <nav>
+                <a href="../index.html"><img src="../assets/images/logo_zinspilot_new.svg" alt="" /></a>
+                <div class="menu">
+                    <img src="../assets/images/menu.svg" alt="MENU" id="nav_toggle">
+                </div>
+                <div class="links">
+                    <a href="../../index.html" class="link active">Startseite</a>
+                    <div class="about_us_link">
+                        <a href="javascript:void(0);" class="link">Anlageangebote</a>
+                        <div class="drop_down">
+                            <a href="../pages/aboutUs.html">
+                                <p>Festgeld</p>
+                            </a>
+                            <a href="../pages/aboutUs.html">
+                                <p>Tagesgeld</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="about_us_link">
+                        <a href="javascript:void(0);" class="link">Banken </a>
+                    </div>
+                    <div class="about_us_link">
+                        <a href="javascript:void(0);" class="link">So funktioniert's </a>
+                    </div>
+                    <div class="about_us_link">
+                        <a href="javascript:void(0);" class="link">Informationen</a>
+                        <div class="drop_down">
+                            <a href="../pages/festgeld.html">
+                                <p>Aktuelle Produktinfos</p>
+                            </a>
+                            <a href="../pages/festgeld.html">
+                                <p>Zinserhöhungen</p>
+                            </a>
+                            <a href="../pages/festgeld.html">
+                                <p>Häufige Fragen</p>
+                            </a>
+                            <a href="../pages/festgeld.html">
+                                <p>Steuern</p>
+                            </a>
+                            <a href="../pages/festgeld.html">
+                                <p>Steuerbescheinigung</p>
+                            </a>
+                            <a href="../pages/tagesgeld.html">
+                                <p>Anlagevoraussetzung</p>
+                            </a>
+                            <a href="../pages/top-festzinsanlagen.html">
+                                <p>Länderrating</p>
+                            </a>
+                            <a href="../pages/top-festzinsanlagen.html">
+                                <p>Formularcenter</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="about_us_link">
+                        <a href="javascript:void(0);" class="link">Finanzwissen</a>
+                        <div class="drop_down">
+                            <a href="../pages/festgeld.html">
+                                <p>Geldanlage</p>
+                            </a>
+                            <a href="../pages/festgeld.html">
+                                <p>Magazin</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="header-btns">
+                        <a href=""><button class="login-btn">Login</button></a>
+                        <a href=""><button class="register-btn">Registrieren</button></a>
+                    </div>
+                </div>
+            </nav>
+            <div class="banner_heading">
+                <h2>
+                    Allgemeine <br> Geschäftsbedingungen
+                </h2>
+                <p>
+                    Stand: 04.03.2022
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- banner end  -->
+    <!-- terms and condition section starts -->
+    <section class="my-0 my-md-4 my-lg-4 my-xl-4 mt-5">
+        <div class="ft_imprint">
+            <div class="theme-container">
+                <div class="ft_privacy_content mx-auto">
+                    <div class="col-sm-12 col-md-12">
+                        <div id="content" class="content-default">
+                            <div class="container">
+                                <div id="c2791" class="frame frame-0 frame-type-text   ">
+                                    <header>
+                                        <h2 class="">
+                                            Allgemeine Bedingungen der Raisin GmbH für die Nutzung der ZINSPILOT-Website
+                                            und der damit verbundenen Angebote
+                                        </h2>
+                                    </header>
+                                    <h4>Die Nutzung der ZINSPILOT-Website und der damit verbundenen Angebote der Raisin
+                                        GmbH (nachfolgend „ZINSPILOT“) unterliegt den nachfolgenden Regelungen:</h4>
+                                    <p><a href="/fileadmin/pdf/AGB-ZP_20220304.pdf" target="_blank">Unsere Allgemeinen
+                                            Geschäftsbedingungen zum Download</a>&nbsp;PDF: 130 KB</p>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div id="c20469" class="frame frame-0 frame-type-text   ">
+                                    <hr>
+                                    <h4>I. Allgemeine Bedingungen für die Nutzung der ZINSPILOT-Website</h4>
+                                    <hr>
+                                    <p><strong>1 Geltungsbereich</strong></p>
+                                    <p>ZINSPILOT erbringt alle Leistungen ausschließlich unter der Geltung dieser
+                                        Allgemeinen Bedingungen, soweit mit Ihnen nichts Abweichendes schriftlich
+                                        vereinbart wird. Die Geltung etwaig entgegenstehender allgemeiner
+                                        Geschäftsbedingungen ist ausgeschlossen.</p>
+                                    <p>&nbsp;</p>
+                                    <p><strong>2 Technische Voraussetzungen, Einschränkungen</strong></p>
+                                    <p>ZINSPILOT überträgt Daten im Nutzerbereich der&nbsp;ZINSPILOT-Website nur
+                                        verschlüsselt, kann für die&nbsp;Sicherheit des Datentransports außerhalb der
+                                        eigenen&nbsp;Website jedoch keine Gewährleistung übernehmen.&nbsp;ZINSPILOT
+                                        bemüht sich, im Rahmen des technisch&nbsp;und wirtschaftlich Zumutbaren
+                                        jederzeit den Zugang&nbsp;zur ZINSPILOT-Website zu ermöglichen.
+                                        ZINSPILOT&nbsp;behält sich jedoch vor, den Zugang zur
+                                        ZINSPILOTWebsite&nbsp;jederzeit vorübergehend einzuschränken
+                                        oder&nbsp;vorübergehend auszusetzen, wenn dies im Hinblick&nbsp;auf
+                                        Kapazitätsgrenzen, die Sicherheit oder Integrität&nbsp;der Server, der
+                                        Leistungen oder zur Durchführung&nbsp;technischer Maßnahmen erforderlich ist
+                                        oder dies der&nbsp;ordnungsgemäßen oder verbesserten Erbringung
+                                        der&nbsp;Leistungen von ZINSPILOT dient.</p>
+                                    <p>&nbsp;</p>
+                                    <p><strong>3 Leistungen</strong></p>
+                                    <p>Sämtliche auf der ZINSPILOT-Website eingestellten&nbsp;Informationen sind
+                                        unentgeltlich und unverbindlich.&nbsp;Die auf der Website dargestellten
+                                        Anlageangebote&nbsp;sind keine Vertragsangebote von ZINSPILOT oder
+                                        des&nbsp;jeweiligen Leistungserbringers. Jegliche Informationen&nbsp;über
+                                        Leistungen und Konditionen oder sonstige&nbsp;Informationen auf der
+                                        ZINSPILOT-Website stellen auch&nbsp;keine Beratungsleistung gegenüber dem Nutzer
+                                        dar,&nbsp;sondern sollen ausschließlich der Erleichterung des&nbsp;Nutzers
+                                        dienen, auf die ZINSPILOT keinen Einfluss nimmt&nbsp;</p>
+                                    <p>&nbsp;</p>
+                                    <p><strong>4 Inhalte</strong></p>
+                                    <p><strong>4.1 Haftung für Inhalte</strong></p>
+                                    <p>ZINSPILOT bemüht sich, die Inhalte der Website aktuell&nbsp;zu halten. Trotz
+                                        sorgfältiger Bearbeitung kann die Aktualität&nbsp;und Richtigkeit der Inhalte
+                                        jedoch nicht garantiert&nbsp;werden.&nbsp;</p>
+                                    <p>Als Diensteanbieter ist ZINSPILOT gemäß § 7 Abs. 1 TMG&nbsp;für eigene Inhalte
+                                        auf der Website nach den gesetzlichen Regelungen verantwortlich. Nach §§ 8 bis
+                                        10 TMG ist ZINSPILOT als Diensteanbieter jedoch nicht verpflichtet, übermittelte
+                                        oder gespeicherte fremde Informationen zu überwachen. Bei Bekanntwerden
+                                        von&nbsp; Rechtsverletzungen&nbsp;wird ZINSPILOT diese Inhalte umgehend
+                                        entfernen.&nbsp;Eine diesbezügliche Haftung übernimmt ZINSPILOT&nbsp;erst ab dem
+                                        Zeitpunkt der Kenntnis einer möglichen&nbsp;Rechtsverletzung und nur im Rahmen
+                                        der gesetzlichen&nbsp;Regelungen. Die Rubriken Wissen, Markt-Radar und
+                                        Blog&nbsp;sind frei zugängliche Website- Inhalte, die einen reinen
+                                        Informationsservice anbieten. Dort gelistete Produkte sind unabhängig von den
+                                        Diensten zur Darstellung von Anlageangeboten, die über den
+                                        ZINSPILOT-Anlegerservice genutzt werden können. Für die Haftung zu den Inhalten
+                                        informiert der Disclaimer, der über jede Seite<br> dieser Rubriken aufgerufen
+                                        werden kann.</p>
+                                    <p><strong>4.2 Haftung für Links</strong></p>
+                                    <p>Die Website enthält Links zu externen Websites Dritter,&nbsp;auf deren Inhalte
+                                        ZINSPILOT keinen Einfluss hat. Für die&nbsp;Inhalte der verlinkten Seiten ist
+                                        stets der jeweilige Anbieter&nbsp;oder Betreiber der verlinkten Seiten
+                                        verantwortlich. Für die Inhalte und die Richtigkeit der Informationen
+                                        verlinkter&nbsp;Websites fremder Informationsanbieter wird keine
+                                        Gewähr&nbsp;übernommen. Bei Bekanntwerden von Rechtsverletzungen&nbsp;wird
+                                        ZINSPILOT derartige Links umgehend entfernen.</p>
+                                    <p><strong>4.3 Urheberrecht</strong></p>
+                                    <p>Die durch die Seitenbetreiber erstellten Inhalte und&nbsp;Werke auf der
+                                        ZINSPILOT-Website unterliegen dem deutschen Urheberrecht. Die Vervielfältigung,
+                                        Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des
+                                        Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw.
+                                        Erstellers. Dies gilt auch für die von ZINSPILOT selbst erstellten Inhalte und
+                                        Werke.</p>
+                                    <p>&nbsp;</p>
+                                    <p><strong>5 Generelle Haftungsbeschränkung von ZINSPILOT</strong></p>
+                                    <p><strong>5.1</strong>&nbsp;ZINSPILOT haftet für Vorsatz und grobe
+                                        Fahrlässigkeit&nbsp;und für Schäden, die auf einer leicht fahrlässigen
+                                        von&nbsp;ZINSPILOT zu vertretenden Verletzung vertragswesentlicher&nbsp;von
+                                        ZINSPILOT übernommener Pflichten beruhen.&nbsp;Vertragswesentliche Pflichten
+                                        sind Verpflichtungen,&nbsp;deren Erfüllung die ordnungsgemäße
+                                        Durchführung&nbsp;des mit ZINSPILOT bestehenden Vertrages überhaupt&nbsp;erst
+                                        ermöglicht und auf deren Einhaltung der Nutzer&nbsp;regelmäßig vertraut und
+                                        vertrauen darf. Bei fahrlässig&nbsp;verursachten Schäden haftet ZINSPILOT nur
+                                        für den&nbsp;vertragstypischen und vorhersehbaren Schaden. Im&nbsp;Übrigen
+                                        haftet ZINSPILOT nicht.</p>
+                                    <p><strong>5.2</strong> Die gesetzliche Haftung für Schäden aus der Verletzung des
+                                        Lebens, des Körpers oder der Gesundheit bleibt unberührt.</p>
+                                    <p>&nbsp;</p>
+                                    <p><strong>6 Änderungen der Allgemeinen und Besonderen Bedingungen</strong></p>
+                                    <p>ZINSPILOT ist berechtigt, diese Allgemeinen Bedingungen&nbsp;dieser Ziff. I als
+                                        auch die Besonderen Bedingungen der&nbsp;Ziff. II und Ziff. III zu ändern.
+                                        Soweit solche Änderungen&nbsp;bei einer laufenden Vertragsbeziehung mit
+                                        ZINSPILOT&nbsp;nachteilig für den Nutzer sein können, wird ZINSPILOT
+                                        eine&nbsp;solche Änderung dem Nutzer über dessen E-Mail-Adresse&nbsp;oder
+                                        schriftlich rechtzeitig, mindestens aber sechs Wochen&nbsp;vor dem
+                                        beabsichtigten Inkrafttreten der Änderung,&nbsp;mitteilen. Widerspricht der
+                                        Nutzer den Änderungen nicht&nbsp;binnen der in der Änderungsmitteilung
+                                        angegebenen Frist&nbsp;von mindestens fünf Wochen nach Erhalt der
+                                        Änderungsmitteilung<br> durch E-Mail oder schriftlich an die in
+                                        der&nbsp;Änderungsmitteilung angegebene Adresse, so wird die&nbsp;Änderung
+                                        gegenüber dem Nutzer wirksam. ZINSPILOT&nbsp;wird den Nutzer in der
+                                        Änderungsmitteilung besonders auf&nbsp;die Folgen eines unterlassenen
+                                        Widerspruchs hinweisen.</p>
+                                    <p>&nbsp;</p>
+                                    <p><strong>7 Datenschutz</strong></p>
+                                    <p>Die für die Nutzung der ZINSPILOT-Website geltenden&nbsp;Datenschutzbestimmungen
+                                        entnehmen Sie den gesonderten Allgemeinen Datenschutzbestimmungen. Diese finden
+                                        Sie unter www.zinspilot.de. Für die Inanspruchnahme des ZINSPILOT-Anlegerservice
+                                        gelten besondere Datenschutzbestimmungen (s. Ziff. II. 14).</p>
+                                    <p>&nbsp;</p>
+                                    <p><strong>8 Schlussbestimmungen, anwendbares Recht</strong></p>
+                                    <p><strong>8.1</strong>&nbsp;Diese Allgemeinen Bedingungen sowie –
+                                        sofern&nbsp;anwendbar – die Besonderen Bedingungen sind abschließend&nbsp;für
+                                        die Regelung der rechtlichen Beziehungen&nbsp;zwischen ZINSPILOT und dem Nutzer
+                                        verantwortlich.</p>
+                                    <p><strong>8.2</strong>&nbsp;Sollte eine Bestimmung dieser
+                                        Allgemeinen&nbsp;Bedingungen oder der Besonderen Bedingungen oder ein Teil einer
+                                        solchen Bestimmung unwirksam sein oder werden, berührt dies nicht die
+                                        Wirksamkeit dieser Bedingungen im Ganzen.</p>
+                                    <p><strong>8.3</strong>&nbsp;Die vertraglichen Beziehungen der Parteien
+                                        sowie&nbsp;alle Ansprüche aus und im Zusammenhang mit diesen unterliegen dem
+                                        Recht der Bundesrepublik Deutschland. Insoweit durch die Rechtswahl zwingende
+                                        Verbraucherrechte anderer Mitgliedstaaten, in welchem der Verbraucher bei
+                                        Vertragsschluss seinen gewöhnlichen Aufenthalt hat, abbedungen werden würden,
+                                        bleiben diese unberührt.</p>
+                                    <p>&nbsp;</p>
+                                    <hr>
+                                    <h4><strong>II. Besondere Bedingungen für den ZINSPILOT-Anlegerservice</strong></h4>
+                                    <hr>
+                                    <p>Ergänzend zu den Allgemeinen Bedingungen für die Nutzung der ZINSPILOT-Website
+                                        (Ziff. I) gelten für den ZINSPILOT-Anlegerservice die folgenden besonderen
+                                        Bedingungen:</p>
+                                    <p><strong>1 Übersicht über die Leistungen des ZINSPILOT</strong></p>
+                                    <p>ZINSPILOT ermöglicht seinen Kunden (nachfolgend „Anleger“ die Anlage von Tages-,
+                                        Kündigungs- und Festgeldern bei ausgewählten Kreditinstituten (nachfolgend
+                                        „Anlagebanken“), ohne dass der Anleger bei der jeweiligen Anlagebank ein eigenes
+                                        Konto eröffnen muss.</p>
+                                    <p><strong>Anlegerservice</strong><br> Die Höhe der Anlage bei einer einzelnen
+                                        Anlagebank ist&nbsp;regelmäßig auf höchstens 1 Mio. € je Anleger begrenzt,
+                                        sofern diese Anlagebank keine abweichenden Bestimmungen getroffen hat. Zur
+                                        Nutzung des ZINSPILOTAnlegerservices benötigt der Anleger ein Konto bei einem
+                                        Kreditinstitut („Partnerbank“ 1), das den Anlageprozess über ZINSPILOT
+                                        unterstützt (s. Ziff. II. 2.3.). Zeitgleich&nbsp;mit der Kontoeröffnung bei
+                                        einer Partnerbank schließt&nbsp;der Anleger eine Geschäftsbesorgungsvereinbarung
+                                        zur&nbsp;Nutzung des ZINSPILOT-Anlegerservice (s. Ziff. II. 2.4)&nbsp;ab. Im
+                                        Rahmen des ZINSPILOT-Anlegerservices können&nbsp;Anleger auf der
+                                        ZINSPILOT-Website Anlageangebote&nbsp;auswählen und die Partnerbank mit der
+                                        Ausführung der&nbsp;Anlagen beauftragen. Die Partnerbank führt sodann
+                                        die&nbsp;gewünschten Anlagen gemäß den Bestimmungen
+                                        der&nbsp;Geschäftsbesorgungsvereinbarung bei der Anlagebank&nbsp;aus. Der
+                                        Anleger bleibt zu jedem Zeitpunkt alleiniger&nbsp;wirtschaftlich Berechtigter
+                                        der durch die Partnerbank für&nbsp;ihn ausgeführten Anlagen und kann alle seine
+                                        Anlagen&nbsp;bei verschiedenen Anlagebanken in seinem virtuellen Anlagedepot auf
+                                        der ZINSPILOT-Website einsehen&nbsp;(s. Ziffer II. 7). Die Leistungen des
+                                        ZINSPILOT-Anlegerservices&nbsp;sind für den Anleger gemäß diesen
+                                        besonderen&nbsp;Bestimmungen kostenlos. Für die Kundenbeziehung
+                                        des&nbsp;Anlegers zur Partnerbank gelten die Produktbedingungen&nbsp;und Preise
+                                        der Partnerbank. Nachfolgend wird der&nbsp;„Anleger“ als „Sie“ und „Ihnen“
+                                        direkt angesprochen.</p>
+                                    <p>Zur Nutzung des ZINSPILOT-Anlegerservices schließen Sie separat folgende Verträge
+                                        ab:</p>
+                                    <ul>
+                                        <li>Mit Raisin schließen Sie diese AGB&nbsp;und Datenschutzvereinbarung zur
+                                            Nutzung der&nbsp;Internet-Plattform ZINSPILOT und des
+                                            ZINSPILOT-Anlegerservices&nbsp;ab.</li>
+                                        <li>Bei der Partnerbank führen Sie ein Konto und schließen&nbsp;eine
+                                            “Geschäftsbesorgungsvereinbarung“ über die&nbsp;Nutzung des
+                                            ZINSPILOT-Anlegerservices und die Ausführung von Anlagen bei den
+                                            Anlagebanken ab.</li>
+                                    </ul>
+                                    <p>&nbsp;</p>
+                                    <p><strong>2 Leistungen von ZINSPILOT und den Partnerbanken</strong></p>
+                                    <p><strong>2.1 Grundsätze</strong></p>
+                                    <p>Im Rahmen des ZINSPILOT-Anlegerservices ermöglicht&nbsp;es ZINSPILOT Ihnen, über
+                                        Ihre ausgewählte Partnerbank und mit Hilfe der ZINSPILOT-Website Tages-,
+                                        Kündigungs- und Festgeldanlagen bei verschiedenen von&nbsp;ZINSPILOT
+                                        ausgewählten Anlagebanken vorzunehmen.&nbsp;ZINSPILOT übernimmt neben der
+                                        Vermittlung von Verträgen&nbsp;nur Verpflichtungen, die in diesen
+                                        Bedingungen&nbsp;ausdrücklich benannt werden. Insbesondere können&nbsp;bei
+                                        ZINSPILOT selbst keine Bankkonten eröffnet oder&nbsp;Einlagen entgegengenommen
+                                        werden. ZINSPILOT ist&nbsp;weder Kredit- oder Finanzdienstleistungsinstitut
+                                        nach&nbsp;dem Kreditwesengesetz (KWG), noch Zahlungsdienstleister&nbsp;oder
+                                        Zahlungsdienst nach dem Zahlungsdiensteaufsichtsgesetz&nbsp;(ZAG). Jegliche
+                                        Informationen&nbsp;über Leistungen und Konditionen oder sonstige
+                                        Informationen&nbsp;durch ZINSPILOT stellen keine Beratungsleistung&nbsp;Ihnen
+                                        gegenüber dar, sondern dienen&nbsp;ausschließlich der Erleichterung Ihrer
+                                        selbstständigen<br> Entscheidung. Ein Beratungsvertrag kommt
+                                        ausdrücklich&nbsp;nicht zustande.</p>
+                                    <p><strong>2.2 Zugang zu einem gesondert geschützten Bereich auf der
+                                            ZINSPILOT-Website</strong></p>
+                                    <p>ZINSPILOT gewährt Ihnen nach Ihrer Registrierung&nbsp;Zugang zu einem gesondert
+                                        geschützten Bereich auf der ZINSPILOT-Website (das sogenannte „Anlage-Cockpit“),
+                                        über den Sie Informationen über in der Vergangenheit durch ZINSPILOT vermittelte
+                                        Anlagen einsehen können. Das Nähere regeln Ziff. II. 4 (Registrierung) und die
+                                        nachfolgenden Bestimmungen.</p>
+                                    <p><strong>2.3 Kontoverbindungen bei einer Partnerbank</strong></p>
+                                    <p>Zur Nutzung des ZINSPILOT-Anlegerservices benötigen&nbsp;Sie ein Konto bei einer
+                                        teilnehmenden Partnerbank. Ob die Partnerbank ein Konto für Sie eröffnet oder
+                                        führt, steht im alleinigen Ermessen der Partnerbank. ZINSPILOT unterstützt den
+                                        Kunden bei den Schritten, die für die Kontoeröffnung notwendig sind,
+                                        insbesondere durch Zurverfügungstellen des PostIdent-Verfahrens.&nbsp;Des
+                                        Weiteren ermöglicht es ZINSPILOT dem Kunden&nbsp;Informationen zum
+                                        Kapitalertragssteuerabzug und&nbsp;zur Erteilung von
+                                        Freistellungsaufträgen/Abgabe von&nbsp;NV-Bescheinigungen bei den Partnerbanken
+                                        anzugeben,&nbsp;ohne dadurch finanzielle, rechtliche oder steuerliche Beratung
+                                        zu geben.</p>
+                                    <p><strong>2.4 Abschluss von Tages-, Kündigungs- und Festgeldanlagen bei
+                                            Anlagebanken</strong></p>
+                                    <p>Zur Nutzung des ZINSPILOT-Anlegerservices benötigen&nbsp;Sie zusätzlich zu einem
+                                        Konto auch eine Geschäftsbesorgungsvereinbarung über den
+                                        ZINSPILOT-Anlegerservice mit Ihrer Partnerbank. Die Partnerbank stellt Ihnen die
+                                        Geschäftsbesorgungsvereinbarung auf der ZINSPILOT-Website bereit. Es gelten für
+                                        die Beziehungen&nbsp;zwischen Ihnen und der Partnerbank entsprechend&nbsp;allein
+                                        die vertraglichen Bestimmungen und AGB der&nbsp;Partnerbank. Ob die Partnerbank
+                                        eine Geschäftsbesorgungsvereinbarung&nbsp;mit Ihnen abschließt, steht
+                                        im&nbsp;alleinigen Ermessen der Partnerbank.</p>
+                                    <p><strong>2.5 Anzeige von Tages-, Kündigungs- und Festgeldanlagen von
+                                            Anlagebanken</strong></p>
+                                    <p>ZINSPILOT stellt Ihnen auf der ZINSPILOT-Webseite&nbsp;Angebote von Konditionen
+                                        für Tages-, Kündigungs- und Festgeldanlagen von ausgewählten Anlagebanken zur
+                                        Verfügung. ZINSPILOT ist bei der Ermittlung der Angebote der Anlagebanken um
+                                        ständige Aktualität und Richtigkeit bemüht. Die leistungs- bzw.
+                                        produktbezogenen&nbsp;Informationen, insbesondere zu Leistungsumfang,
+                                        Preisen,&nbsp;Rating, Einlagensicherung und Konditionen auf
+                                        der&nbsp;ZINSPILOT-Website beruhen ausschließlich auf den&nbsp;Angaben der
+                                        jeweiligen Banken. Eine Haftung von&nbsp;ZINSPILOT für die Aktualität,
+                                        Vollständigkeit und&nbsp;Richtigkeit der von den Anlagebanken&nbsp; ZINSPILOT
+                                        mitgeteilten&nbsp;Anlagemöglichkeiten und -bedingungen ist&nbsp;daher
+                                        ausgeschlossen.</p>
+                                    <p>&nbsp;</p>
+                                    <p><strong>3 Ihre Pflichten</strong></p>
+                                    <p><strong>(1)</strong>&nbsp;Die Eingabe und Übermittlung Ihrer
+                                        persönlichen&nbsp;Daten durch Sie erfolgt online über die auf der
+                                        ZINSPILOTWebsite vorbereiteten Eingabemasken oder über andere ausdrücklich von
+                                        ZINSPILOT im Einzelfall vorgesehene Übermittlungswege. Für die Vollständigkeit
+                                        und Richtigkeit sämtlicher Ihrer in die Eingabemaske eingegebenen&nbsp;oder
+                                        sonst übermittelten Daten sind ausschließlich Sie&nbsp;selbst verantwortlich.
+                                        Für den Fall der Übermittlung von&nbsp;vorsätzlich falschen oder unwahren
+                                        persönlichen Daten&nbsp;behält sich ZINSPILOT vor, Sie von der
+                                        Inanspruchnahme&nbsp;der angebotenen bzw. zur Verfügung gestellten
+                                        Leistungen&nbsp;auszuschließen, Ihren Zugang zur ZINSPILOT-Website&nbsp;zu
+                                        sperren und Ersatz für dadurch eingetretene Schäden&nbsp;zu verlangen.</p>
+                                    <p><strong>(2)</strong> Sie sind verpflichtet, vom
+                                        Leistungserbringer&nbsp;(Partnerbank und ggf. Anlagebanken) - ggf. über
+                                        ZINSPILOT - erhaltene Vertragsunterlagen unverzüglich auf Richtigkeit,
+                                        insbesondere auf die Übereinstimmung der Konditionen im Vergleich zu den
+                                        Angeboten nach Ziff. II. 6 zu überprüfen und bei Abweichungen ZINSPILOT darüber
+                                        zu informieren.</p>
+                                    <p><strong>(3)</strong> Eine Nutzung der Leistungen im Rahmen des
+                                        ZINSPILOT-Anlegerservice zu gewerblichen Zwecken ist ausgeschlossen.</p>
+                                    <p>&nbsp;</p>
+                                    <p><strong>4 Registrierung für den ZINSPILOT-Anlegerservice</strong></p>
+                                    <p><strong>4.1 Voraussetzung der Zulassung</strong></p>
+                                    <p>Ihre Zulassung zum ZINSPILOT-Anlegerservice setzt Folgendes voraus:</p>
+                                    <ul>
+                                        <li>Ihren Registrierungsantrag, den Sie über die ZINSPILOT-Website stellen;</li>
+                                        <li>Sie müssen das 18. Lebensjahr vollendet haben;</li>
+                                        <li>Sie müssen als natürliche Person auf eigene Rechnung (gemäß § 3 Abs.1 Nr.3
+                                            Geldwäschegesetz) handeln.</li>
+                                        <li>Sie müssen eine Meldeanschrift in Deutschland besitzen und Steuerinländer
+                                            sein</li>
+                                        <li>Sie dürfen nicht US-steuerpflichtig sein (FATCA)</li>
+                                    </ul>
+                                    <p><strong>4.2 Annahme und Ablehnung Ihres Antrages auf Registrierung</strong></p>
+                                    <p><strong>(1)</strong> Nach Eingang Ihres Antrages auf Registrierung über die
+                                        ZINSPILOT-Website erhalten Sie eine Bestätigung per E-Mail an die von Ihnen in
+                                        Ihrem Antrag angegebene E- Mail-Adresse.<br><strong>(2)</strong> Die Angaben in
+                                        Ihrem Antrag müssen vollständig und korrekt sein. Diese Daten speichert
+                                        ZINSPILOT.<br><strong>(3)</strong> ZINSPILOT behält sich vor, die Angaben auf
+                                        Ihrem Antrag zu überprüfen und hierzu per E-Mail Rückfragen zu
+                                        stellen.<br><strong>(4)</strong> ZINSPILOT ist nicht verpflichtet, Ihren Antrag
+                                        auf Registrierung anzunehmen und kann diesen ohne Angabe von Gründen ablehnen.
+                                        Lehnt ZINSPILOT den Antrag ab, so erhalten Sie eine Mitteilung an die von Ihnen
+                                        in Ihrem Antrag angegebene E-Mail-Adresse. Nimmt ZINSPILOT Ihren Antrag an, so
+                                        erhalten Sie per E-Mail einen Aktivierungslink. Die endgültige Registrierung
+                                        erfolgt durch Anklicken des&nbsp; Aktivierungslink bzw. durch Eingabe des
+                                        Aktivierungscodes auf der ZINSPILOT-Website.</p>
+                                    <p>&nbsp;</p>
+                                    <p><strong>5 Nutzung des geschützten Bereichs von ZINSPILOT</strong></p>
+                                    <p><strong>(1)</strong>&nbsp;Mit Ihrer vollständigen Registrierung erhalten
+                                        Sie&nbsp;Zugang zu einem geschützten, nur Ihnen zugänglichen Bereich auf der
+                                        ZINSPILOT-Website, der alle für die Nutzung des ZINSPILOT-Anlegerservices
+                                        erforderlichen Sie betreffenden Informationen enthält, und über den Sie Ihre
+                                        Anlageentscheidungen vorbereiten können. In dem geschützten Bereich finden Sie
+                                        ferner eine&nbsp;Übersicht Ihrer über ZINSPILOT vermittelten Geldanlagen&nbsp;in
+                                        einem persönlichen virtuellen Anlagedepot&nbsp;(s. Ziffer II.
+                                        7).<br><strong>(2)</strong> Ihre persönliche Registrierung zu diesem Bereich ist
+                                        nicht übertragbar. Sie dürfen Ihr Passwort keinem anderen
+                                        überlassen.<br><strong>(3)</strong>&nbsp;Sie müssen Ihre primäre private
+                                        E-Mail-Adresse als&nbsp;Benutzernamen angeben. Im Rahmen der Registrierung
+                                        wählen Sie ein den ZINSPILOT-Passwort- Anforderungen genügendes Passwort. Sie
+                                        sind verpflichtet, Ihr Passwort geheim zu halten und unverzüglich zu ändern,
+                                        falls Sie die Vermutung haben, dass Dritte von Ihrem Passwort&nbsp;Kenntnis
+                                        erlangt haben oder erlangt haben könnten.<br><strong>(4)</strong>&nbsp;Im Rahmen
+                                        der Nutzung des Anlage-Cockpits stellt&nbsp;ZINSPILOT Ihnen für die Dauer dieses
+                                        Vertragsverhältnisses und soweit durch gesetzliche Bestimmungen vorgesehen
+                                        darüber hinaus, sämtliche Versionen der Vertragstexte, der Widerrufsbelehrungen,
+                                        der Informationsbögen für Einleger und die vorvertraglichen<br>
+                                        Informationspflichten in dem geschützten Bereich unveränderlich zur Verfügung.
+                                        Die vorgenannten Unterlagen werden dabei von ZINSPILOT so gespeichert, dass sie
+                                        nicht einseitig von ZINSPILOT geändert werden können. ZINSPILOT verpflichtet
+                                        sich überdies, den geschützten Bereich jederzeit gemäß den
+                                        zumutbaren,&nbsp;geeigneten und aktuellen
+                                        Sicherheitsstandards&nbsp;bereitzustellen.<br><strong>(5)</strong> ZINSPILOT
+                                        wird Sie niemals per E-Mail oder Telefon nach Ihrem Passwort fragen. Bitte geben
+                                        Sie deshalb auch niemals per E-Mail oder am Telefon Auskunft über Ihr Passwort,
+                                        auch wenn der Absender oder Anrufer sich als ein Mitarbeiter von ZINSPILOT oder
+                                        als ein Mitarbeiter einer Bank ausgibt.<br><strong>(6)</strong> Sie sind
+                                        verpflichtet, im Fall der Änderung der von Ihnen bei der Registrierung
+                                        angegebenen Daten diese umgehend über Ihren geschützten Bereich entsprechend zu
+                                        korrigieren.</p>
+                                    <p>&nbsp;</p>
+                                    <p><strong>6 Ausführung Ihrer Anlagen</strong></p>
+                                    <p><strong>6.1 Auswahl Ihrer Anlagen</strong></p>
+                                    <p>Auf der ZINSPILOT-Website können Sie die aktuell verfügbaren Anlageangebote der
+                                        Anlagebanken einsehen und die Einzahlungsdetails abrufen.</p>
+                                    <p><strong>6.2 Ausführung Ihrer Anlageentscheidung</strong></p>
+                                    <p>Die Partnerbank führt Ihre verbindliche Anlageentscheidung&nbsp;im Rahmen der
+                                        banküblichen Bearbeitungszeiten&nbsp;sowie gemäß der jeweiligen
+                                        Produktbedingungen der&nbsp;gewählten Anlage und Ihrer Nutzungsvereinbarung
+                                        mit&nbsp;der Partnerbank bei der Anlagebank aus, wenn ihr nicht&nbsp;nach Ziff.
+                                        II. widersprochen wird. Die&nbsp; Anlageangebote&nbsp;der Anlagebanken sind
+                                        limitiert. Anlageangebote können&nbsp;bis zum Eingang Ihres Anlagebetrages
+                                        bereits von der&nbsp;Anlagebank geschlossen sein. Die Partnerbank ist
+                                        nicht&nbsp;verpflichtet, Ihre Anlageentscheidung nach Schließung&nbsp;des
+                                        Anlageangebots durch die Anlagebank nachträglich&nbsp;ganz oder teilweise
+                                        auszuführen.</p>
+                                    <p><strong>6.3 Nichtausführung Ihrer Anlageentscheidung</strong></p>
+                                    <p>Die Partnerbank ist berechtigt, Ihre Anlageentscheidungen gemäß ihrer
+                                        Bestimmungen zurückzuweisen.</p>
+                                    <p><strong>6.4 Zinsen</strong></p>
+                                    <p>Zinsen für Ihre investierten Beträge werden gemäß den&nbsp;Produktbedingungen des
+                                        jeweiligen Anlageangebots der Anlagebank durch Ihre Partnerbank auf Ihrem Konto
+                                        bei der Partnerbank gemäß den Bestimmungen der Geschäftsbesorgungsvereibarung
+                                        gutgeschrieben. Zinsen werden auch dann, wenn Ihre Kundenbeziehung
+                                        zu&nbsp;ZINSPILOT bereits vor dem Zinsfälligkeitstermin beendet&nbsp;wurde
+                                        gutgeschrieben. Für die Gutschrift von Zinserträgen&nbsp;gelten ausschließlich
+                                        die Bedingungen, die Sie&nbsp;in der Geschäftsbesorgungsvereinbarung mit
+                                        Ihrer&nbsp;Partnerbank geschlossen haben. Jede Partnerbank&nbsp;kann im Rahmen
+                                        der Geschäftsbesorgungsvereinbarung&nbsp;individuelle Auszahlungsprozesse mit
+                                        den Anlegern&nbsp;vereinbaren (z.B. Auszahlung auf ein vom
+                                        Kunden&nbsp;vorgegebenes Referenzkonto).</p>
+                                    <p><strong>6.5 Kündigung laufender Anlagen und Auszahlungen Ihrer
+                                            Anlagebeträge</strong></p>
+                                    <p>Über Ihren geschlossenen Bereich auf der ZINSPILOTWebsite&nbsp;(Anlage-Cockpit)
+                                        oder durch eine E-Mail an service@zinspilot.de teilen Sie ZINSPILOT als Botin
+                                        mit, wenn Sie eine laufende Geldanlage kündigen möchten. Ihre Anlagen wird zum
+                                        Laufzeitende an Sie zurückgeführt. Für die Gutschrift von Anlagebeträgen gelten
+                                        ausschließlich die Bedingungen, die Sie in der Geschäftsbesorgung&nbsp;mit Ihrer
+                                        Partnerbank geschlossen haben.&nbsp;Jede Partnerbank kann im Rahmen der
+                                        Geschäftsbesorgungsvereinbarung&nbsp;individuelle
+                                        Auszahlungsprozesse&nbsp;festlegen (z.B. Auszahlung auf ein
+                                        festgelegtes&nbsp;Referenzkonto oder auf das Verrechnungskonto bei der<br>
+                                        Partnerbank).</p>
+                                    <p>&nbsp;</p>
+                                    <p><strong>7 Virtuelles Anlagedepot</strong></p>
+                                    <p>ZINSPILOT wird für Sie im Anlage-Cockpit virtuelle&nbsp;Kontoübersichten zur
+                                        Verfügung stellen, in dem Ihre&nbsp;jeweiligen Anlagebeträge und evtl.
+                                        aufgelaufene Zinsen&nbsp;bei den jeweiligen Anlagebanken angezeigt
+                                        werden.&nbsp;ZINSPILOT kann nur diejenigen Transaktionen
+                                        berücksichtigen,&nbsp;welche ihr bekannt sind. Die im geschützten<br> Bereich
+                                        der ZINSPILOT-Website dargestellten Inhalte&nbsp;der virtuellen Kontoübersicht
+                                        beruhen ausschließlich&nbsp;auf den Angaben der jeweiligen Banken. Eine
+                                        Haftung&nbsp;von ZINSPILOT für die Aktualität, Vollständigkeit
+                                        und&nbsp;Richtigkeit der von den Partnerbanken an ZINSPILOT&nbsp;mitgeteilten
+                                        Inhalte ist ausgeschlossen.</p>
+                                    <p>&nbsp;</p>
+                                    <p><strong>8 Gebühren und Vergütung</strong></p>
+                                    <p><strong>(1)</strong>&nbsp;Die Nutzung des ZINSPILOT-Anlegerservices ist&nbsp;für
+                                        den Anleger kostenfrei. Sollte eine Partnerbank Gebühren für die Führung eines
+                                        Kontos im Rahmen des ZINSPILOT-Anlegerservices erheben, so übernimmt ZINSPILOT
+                                        diese Gebühren für den Anleger und für die Dauer von dessen Vertragsbeziehung
+                                        vollständig.<br><strong>(2)</strong>&nbsp;Für die Anzeige der Anlageangebote und
+                                        die Bereitstellung&nbsp;des ZINSPILOT-Anlegerservices erhält ZINSPILOT&nbsp;von
+                                        den teilnehmenden Anlagebanken eine Vergütung.&nbsp;Der Anleger agiert bei
+                                        ZINSPILOT ausschließlich als&nbsp;Selbstentscheider. Beratung oder Empfehlung zu
+                                        Anlageprodukten&nbsp;erfolgt nicht. Die Vergütung gegenüber&nbsp;ZINSPILOT
+                                        erfolgt, um den ZINSPILOT-Anlegerservice&nbsp;kostenfrei für den Anleger
+                                        anbieten zu können.</p>
+                                    <p>&nbsp;</p>
+                                    <p><strong>9 Beschwerden</strong></p>
+                                    <p>Ihre Beschwerden über die Ausführung Ihrer Anlageentscheidungen&nbsp;und
+                                        sonstigen Weisungen durch ZINSPILOT, die eine Partnerbank oder eine Anlagebank
+                                        betreffen, richten Sie ausschließlich an ZINSPILOT unter service@zinspilot.de.
+                                        ZINSPILOT wird Ihren Beschwerden nachgehen und Sie über das Ergebnis per E-Mail
+                                        oder&nbsp;telefonisch unterrichten.</p>
+                                    <p>&nbsp;</p>
+                                    <p><strong>10 Ausscheiden einer Partnerbank</strong></p>
+                                    <p>ZINSPILOT ist berechtigt, die Geschäftsbeziehung zu&nbsp;bisherigen Partnerbanken
+                                        zu beenden. Gleichfalls ist&nbsp;eine Partnerbank berechtigt, ihre
+                                        Geschäftsbeziehung zu&nbsp;ZINSPILOT zu beenden. In beiden Fällen bleiben Sie
+                                        nach&nbsp;wie vor Kunde der Partnerbank und Ihre bisherigen&nbsp;Anlagen werden
+                                        von der Partnerbank und ZINSPILOT&nbsp;weiterhin vertragsgemäß abgewickelt. Sie
+                                        können jedoch&nbsp;keine neuen Anlageentscheidungen zur Ausführung&nbsp;durch
+                                        die betroffene Partnerbank über die ZINSPILOTWebsite&nbsp;vornehmen. Ihre
+                                        virtuelle Kontoübersicht bei&nbsp;ZINSPILOT bildet Ihre bestehenden Anlagen
+                                        weiterhin&nbsp;ab. Für Neuanlagen müssen Sie eine neue Kundenbeziehung&nbsp;mit
+                                        einer anderen ZINSPILOT-Partnerbank eingehen oder eine andere Partnerbank tritt
+                                        in den Vertrag zwischen Ihnen und der Partnerbank ein und übernimmt alle
+                                        vertraglichen Pflichten von Ihrer bisherigen Partnerbank. Über das Ausscheiden
+                                        einer Partnerbank und den möglichen Eintritt einer anderen Partnerbank in das
+                                        Vertragsverhältnis werden wir Sie per E-Mail oder postalisch unterrichten, wenn
+                                        Sie Kunde bei der entsprechenden Partnerbank sind.</p>
+                                    <p>&nbsp;</p>
+                                    <p><strong>11 Kündigung des Vertrages mit ZINSPILOT</strong></p>
+                                    <p><strong>11.1 Ordentliche Kündigung</strong></p>
+                                    <p>ZINSPILOT und Sie sind berechtigt, diesen Vertrag jederzeit&nbsp;mit einer Frist
+                                        von acht Wochen zum Quartalsende (31.03., 30.06., 30.09., 31.12.) zu kündigen.
+                                        Ihre Kündigung richten Sie in Textform an die im Impressum auf der
+                                        ZINSPILOT-Website angegebenen Kontaktmöglichkeiten. Bei einer Kündigung sollten
+                                        Sie darauf achten, dass alle über den ZINSPILOT-Anlegerservice vermittelte
+                                        Anlagen abgeschlossen sind, weil die Kündigungsfolgen nach Ziff. II. 11.3
+                                        eintreten.</p>
+                                    <p><strong>11.2 Außerordentliche Kündigung</strong></p>
+                                    <p>Sie sind berechtigt, diesen Vertrag mit sofortiger Wirkung&nbsp;schriftlich aus
+                                        wichtigem Grund zu kündigen, wenn Ihnen ein Festhalten an dem Vertrag mit
+                                        ZINSPILOT nicht mehr zuzumuten ist. Es gilt § 314 BGB. ZINSPILOT kann Ihnen aus
+                                        dem gleichen Grund diesen Vertrag mit sofortiger Wirkung kündigen.</p>
+                                    <p><strong>11.3 Folgen einer Kündigung</strong></p>
+                                    <p>Wird dieser Vertrag gekündigt, so gilt ab der Wirksamkeit der Kündigung
+                                        Folgendes:<br><strong>(1)</strong> Ihre bestehenden Anlagen bestehen unabhängig
+                                        von der Kündigung weiter.<br><strong>(2)</strong> Mit Eingang der Kündigung
+                                        können Sie keine neuen Einlageprodukte über ZINSPILOT
+                                        abschließen.<br><strong>(3)</strong> Sie können ab der Wirksamkeit der Kündigung
+                                        das Anlage-Cockpit auf der ZINSPILOT-Website nicht mehr nutzen, d. h. unter
+                                        anderem Sie können keine Anlageangebote mehr einsehen und Sie haben keinen
+                                        weiteren Zugang zu Ihrer virtuellen Kontoübersicht. Ausstehende
+                                        Steuermitteilungen oder Benachrichtigung über die Ausschüttung ausstehender
+                                        Zinszahlungen erhalten Sie ggf.&nbsp; kostenpflichtig durch schriftliche
+                                        Beauftragung von ZINSPILOT.<br><strong>(4)</strong> Etwaige Vereinbarungen und
+                                        Verträge, die Sie mit der Partnerbank geschlossen haben, bleiben unberührt.</p>
+                                    <p><strong>12 Besondere Bestimmungen zur Gewährleistung und Haftung von
+                                            ZINSPILOT</strong></p>
+                                    <p><strong>(1)</strong>&nbsp;ZINSPILOT gibt keinerlei Zusicherung über
+                                        die&nbsp;Eignung, Verfügbarkeit oder Qualität der dargestellten Angebote der
+                                        Anlagebanken und übernimmt keinerlei Haftung für die Verfügbarkeit der
+                                        dargestellten Leistungen der Anlagebanken. Keine der Informationen ist eine
+                                        Zusage, eine Garantie oder Zusicherung<br> durch
+                                        ZINSPILOT.<br><strong>(2)</strong>&nbsp;ZINSPILOT vermittelt nur die angebotenen
+                                        Leistungen&nbsp;der Partner- und Anlagebanken; überwacht und&nbsp;kontrolliert
+                                        auch ausdrücklich nicht während der&nbsp;Laufzeit der Anlage die Bonität der
+                                        Partner- und&nbsp;Anlagebanken. ZINSPILOT haftet daher nicht für
+                                        deren&nbsp;Verhalten und Bonität.</p>
+                                    <p>&nbsp;</p>
+                                    <p><strong>13 Widerrufsrecht</strong></p>
+                                    <p>Sie können als Verbraucher den Abschluss dieses Vertrages gemäß nachfolgenden
+                                        Bestimmungen widerrufen:</p>
+                                    <hr>
+                                    <h4>Widerrufsbelehrung&nbsp;</h4>
+                                    <hr>
+                                    <p><strong>Abschnitt 1</strong></p>
+                                    <p><strong>Widerrufsrecht</strong><br> Sie können Ihre Vertragserklärung innerhalb
+                                        von&nbsp;14 Tagen ohne Angabe von Gründen mittels einer&nbsp;eindeutigen
+                                        Erklärung widerrufen. Die Frist beginnt&nbsp;nach Abschluss des Vertrags und
+                                        nachdem Sie die&nbsp;Vertragsbestimmungen einschließlich der
+                                        Allgemeinen&nbsp;Geschäftsbedingungen sowie alle nachstehend&nbsp;unter
+                                        Abschnitt 2 aufgeführten Informationen&nbsp;auf einem dauerhaften Datenträger
+                                        (z. B. Brief,&nbsp;Telefax, E-Mail) erhalten haben. Zur Wahrung
+                                        der&nbsp;Widerrufsfrist genügt die rechtzeitige Absendung des&nbsp;Widerrufs,
+                                        wenn die Erklärung auf einem dauerhaften&nbsp;Datenträger erfolgt.</p>
+                                    <p>Der Widerruf ist zu richten an:</p>
+                                    <p>Raisin GmbH<br> c/o ZINSPILOT Kundenservice<br> Drehbahn 9<br> 20354 Hamburg</p>
+                                    <p>service@zinspilot.de</p>
+                                    <p><strong>Abschnitt 2</strong></p>
+                                    <p><strong>Für den Beginn der Widerrufsfrist
+                                            erforderliche&nbsp;Informationen</strong></p>
+                                    <p>1. die Identität des Unternehmers; anzugeben ist&nbsp;auch das öff entliche
+                                        Unternehmensregister, bei dem der Rechtsträger eingetragen ist, und die
+                                        zugehörige Registernummer oder gleichwertige Kennung;<br> 2. die
+                                        Hauptgeschäftstätigkeit des Unternehmers&nbsp;und die für seine Zulassung
+                                        zuständige Aufsichtsbehörde;&nbsp;<br> 3. ladungsfähige Anschrift des
+                                        Unternehmers und jede andere Anschrift, die für die Geschäftsbeziehung zwischen
+                                        dem Unternehmer und dem Verbraucher maßgeblich ist, bei juristischen Personen,
+                                        Personenvereinigungen&nbsp;oder Personengruppen auch den Namen&nbsp;des
+                                        Vertretungsberechtigten;<br> 4. die wesentlichen Merkmale der
+                                        Finanzdienstleistung&nbsp;sowie Informationen darüber, wie der Vertrag zustande
+                                        kommt;<br> 5. den Gesamtpreis der Finanzdienstleistung einschließlich&nbsp;aller
+                                        damit verbundenen Preisbestandteile&nbsp;sowie alle über den Unternehmer
+                                        abgeführten&nbsp;Steuern oder, wenn kein genauer Preis angegeben&nbsp;werden
+                                        kann, seine Berechnungsgrundlage, die dem&nbsp;Verbraucher eine Überprüfung des
+                                        Preises ermöglicht;<br> 6. Einzelheiten hinsichtlich der Zahlung und der
+                                        Erfüllung;<br> 7. das Bestehen oder Nichtbestehen eines
+                                        Widerrufsrechts&nbsp;sowie die Bedingungen, Einzelheiten der
+                                        Ausübung,&nbsp;insbesondere Name und Anschrift desjenigen,&nbsp;gegenüber dem
+                                        der Widerruf zu erklären ist, und die&nbsp;Rechtsfolgen des Widerrufs
+                                        einschließlich Informationen&nbsp;über den Betrag, den der Verbraucher im Fall
+                                        des&nbsp;Widerrufs für die erbrachte Leistung zu zahlen hat,&nbsp;sofern er zur
+                                        Zahlung von Wertersatz verpfl ichtet ist&nbsp;(zugrunde liegende Vorschrift: §
+                                        357a des Bürgerlichen Gesetzbuchs);<br> 8. die Mitgliedstaaten der Europäischen
+                                        Union,&nbsp;deren Recht der Unternehmer der Aufnahme von&nbsp;Beziehungen zum
+                                        Verbraucher vor Abschluss des Vertrags zugrunde legt;<br> 9. die Sprachen, in
+                                        denen die Vertragsbedingungen und die in dieser Widerrufsbelehrung genannten
+                                        Vorabinformationen mitgeteilt werden, sowie die Sprachen, in denen sich der
+                                        Unternehmer verpfl ichtet, mit Zustimmung des Verbrauchers die
+                                        Kommunikation&nbsp;während der Laufzeit dieses Vertrags zu führen;<br> 10. den
+                                        Hinweis, ob der Verbraucher ein außergerichtliches&nbsp;Beschwerde- und
+                                        Rechtsbehelfsverfahren, dem der Unternehmer unterworfen ist, nutzen kann, und
+                                        gegebenenfalls dessen Zugangsvoraussetzungen;<br> 11. das Bestehen eines
+                                        Garantiefonds oder anderer&nbsp;Entschädigungsregelungen, die weder unter die
+                                        gemäß der Richtlinie 2014/49/EU des Europäischen Parlaments und des Rates vom
+                                        16. April 2014 über Einlagensicherungssysteme&nbsp;(ABl. L 173 vom 12.6.2014, S.
+                                        149;&nbsp;L 212 vom 18.7.2014, S. 47; L 309 vom 30.10.2014,&nbsp;S. 37) geschaff
+                                        enen Einlagensicherungssysteme noch&nbsp;unter die gemäß der Richtlinie 97/9/EG
+                                        des Europäischen Parlaments und des Rates vom 3. März 1997 über Systeme für die
+                                        Entschädigung der Anleger (ABl. L 84 vom 26.3.1997, S. 22) geschaff enen
+                                        Anlegerentschädigungssysteme&nbsp;fallen.</p>
+                                    <p><strong>Abschnitt 3</strong></p>
+                                    <p><strong>Widerrufsfolgen</strong></p>
+                                    <p>Im Fall eines wirksamen Widerrufs sind die beiderseits&nbsp;empfangenen
+                                        Leistungen zurückzugewähren.&nbsp;Sie sind zur Zahlung von Wertersatz für die
+                                        bis zum&nbsp;Widerruf erbrachte Dienstleistung verpfl ichtet, wenn&nbsp;Sie vor
+                                        Abgabe Ihrer Vertragserklärung auf diese&nbsp;Rechtsfolge hingewiesen wurden und
+                                        ausdrücklich&nbsp;zugestimmt haben, dass vor dem Ende der
+                                        Widerrufsfrist&nbsp;mit der Ausführung der Gegenleistung begonnen&nbsp;werden
+                                        kann. Besteht eine Verpfl ichtung zur&nbsp;Zahlung von Wertersatz, kann dies
+                                        dazu führen, dass&nbsp;Sie die vertraglichen Zahlungsverpfl ichtungen für
+                                        den&nbsp;Zeitraum bis zum Widerruf dennoch erfüllen müssen.&nbsp;Ihr
+                                        Widerrufsrecht erlischt vorzeitig, wenn der Vertrag&nbsp;von beiden Seiten auf
+                                        Ihren ausdrücklichen Wunsch&nbsp;vollständig erfüllt ist, bevor Sie Ihr
+                                        Widerrufsrecht&nbsp;ausgeübt haben. Verpfl ichtungen zur Erstattung
+                                        von&nbsp;Zahlungen müssen innerhalb von 30 Tagen erfüllt werden. Diese Frist
+                                        beginnt für Sie mit der Absendung&nbsp;Ihrer Widerrufserklärung, für uns mit
+                                        deren Empfang.&nbsp;</p>
+                                    <hr>
+                                    <h4>Ende der Widerrufsbelehrung</h4>
+                                    <hr>
+                                    <p><br><strong>14 Besondere Datenschutzbestimmungen</strong></p>
+                                    <p><strong>14.1 Nutzung Zinspilot-Anlegerservice</strong></p>
+                                    <p>Für die Nutzung des ZINSPILOT-Anlegerservice handeln wir gemäß den folgenden
+                                        Datenschutzinformationen:<br><strong>(1)</strong>&nbsp;Die zur Ausführung der
+                                        Leistungen und Verpflichtungen&nbsp;nach diesen Bedingungen erforderlichen
+                                        personenbezogenen Daten werden in dem erforderlichen Umfang gespeichert,
+                                        genutzt, verarbeitet und an die beteiligten Leistungsträger übermittelt.
+                                        Insbesondere gilt dies für folgende Übermittlungsvorgänge:</p>
+                                    <ul>
+                                        <li>Die Nutzung des ZINSPILOT-Anlegerservice setzt&nbsp;voraus, dass ZINSPILOT
+                                            der Partnerbank sämtliche Daten übermittelt, die diese Ausführung Ihrer
+                                            Anlageentscheidungen benötigt.</li>
+                                        <li>Zur Führung und Aktualisierung der virtuellen&nbsp;Kontoübersichten und von
+                                            Kundenlisten wird die Partnerbank ZINSPILOT sämtliche erforderlichen Daten
+                                            übermitteln. Die Partnerbank und ZINSPILOT sind ferner berechtigt, ihre
+                                            personenbezogenen Daten in dem erforderlichen Umfang den jeweiligen&nbsp;von
+                                            Ihnen&nbsp; gewählten Anlagebanken zu übermitteln.&nbsp;Dies geschieht
+                                            ausschließlich im durch das Gesetz&nbsp;vorgegebenen Rahmen (insbesondere
+                                            des Geldwäschegesetzes (GWG). Eine Verwendung dieser Daten&nbsp;durch die
+                                            Anlagebank zu anderen Zwecken ist der&nbsp;Anlagebank nicht gestattet.</li>
+                                    </ul>
+                                    <p><strong>(2)</strong>&nbsp;Ihre personenbezogenen Daten werden
+                                        ausschließlich&nbsp;in dem für die Erbringung der Leistungen erforderlichen
+                                        Umfang gespeichert, genutzt und verarbeitet. Eine Weitergabe oder eine Nutzung
+                                        zu anderen Zwecken ist ausgeschlossen, es sei denn, dies ist aus gesetzlichen
+                                        Gründen zwingend erforderlich oder Sie haben ZINSPILOT&nbsp;ausdrücklich das
+                                        Recht eingeräumt, diese zu werblichen Zwecken zu nutzen oder es besteht ein
+                                        konkreter Missbrauchsverdacht. Die Nutzung Ihrer Kundendaten durch die
+                                        Partnerbanken werden zwischen Ihnen und der Partnerbank direkt geregelt.</p>
+                                    <p><strong>(3)</strong>&nbsp;Sie können den vorgenannten
+                                        Datenverarbeitungsvorgängen&nbsp;jederzeit für die Zukunft durch eine
+                                        E-Mail&nbsp;an datenschutz@zinspilot.de widersprechen. Allerdings&nbsp;können
+                                        Sie dann die Leistungen von ZINSPILOT nicht&nbsp;mehr oder nur noch teilweise in
+                                        Anspruch nehmen.&nbsp;Die erforderliche Verarbeitung zur Abwicklung Ihrer<br>
+                                        Anlagen bleibt von Ihrem Widerspruch unberührt.</p>
+                                    <p><strong>(4)</strong> Vorstehende Regelungen gelten für dem Bankgeheimnis
+                                        unterliegende Daten entsprechend.</p>
+                                    <p><strong>14.2 Digitale Kontoeröffnung Sutor Bank</strong></p>
+                                    <p><strong>(1)</strong> Digitale Legitimation (Video-Identifikation)<br> Die Sutor
+                                        Bank ermöglicht dem Kunden eine digitale Identifikationsmöglichkeit. Hierfür
+                                        nutzen die Sutor Bank folgende Dienstleister: Deutsche Post AG. Hierbei gelten
+                                        ergänzend die Allgemeinen Geschäftsbedingungen und Datenschutzbestimmungen der
+                                        jeweiligen Dienstleister. Diese werden dem Kunden vor Nutzung bereitgestellt.
+                                    </p>
+                                    <p>Die Nutzung dieses Service ist für den Kunden freiwillig&nbsp;und kostenlos.
+                                        Nutzt der Kunde den Service, übermittelt der ZINSPILOT-Anlegerservice die für
+                                        die digitale Legitimation erforderlichen Daten an den jeweiligen Dienstleister.
+                                        Der ZINSPILOT-Anlegerservice speichert das Ergebnis der Legitimation
+                                        (erfolgreich/nicht erfolgreich)&nbsp;für Zwecke des zugehörigen
+                                        Produktabschlusses.&nbsp;Die Prüfung findet mittels eines Videogesprächs
+                                        (Telefonanruf&nbsp;mit Videoübertragung) statt. Voraussetzung&nbsp;für die
+                                        Video-Identifikation ist, dass der Kunde über ein&nbsp;geeignetes Endgerät, eine
+                                        Internetverbindung und ein&nbsp;zulässiges, gültiges Ausweisdokument verfügt.
+                                        Während&nbsp;des Gesprächs werden der Ausweis und die sichtbare&nbsp;Person
+                                        geprüft und dies wird durch die Erstellung&nbsp;von Fotos dokumentiert. Bei
+                                        erfolgreicher Prüfung wird&nbsp;ein Legitimationsnachweis erstellt, der
+                                        ausschließlich&nbsp;an die Bank übermittelt wird.</p>
+                                    <p><strong>(2)</strong> Qualifizierte elektronische Signatur (QES)<br> Die Sutor
+                                        Bank bietet an, den Kontoeröffnungsantrag mit Hilfe einer qualifizierten
+                                        elektronischen Signatur (QES) zu unterzeichnen. Dies erfolgt nach dem deutschen
+                                        Signaturgesetz.</p>
+                                    <p>Dieser Service ist für den Kunden freiwillig und kostenlos. Bei Nutzung
+                                        übermittelt der ZINSPILOT-Anlegerservice die notwendigen Daten an die Sutor
+                                        Bank bzw. den jeweiligen Dienstleister und speichert das Ergebnis der Signatur
+                                        (erfolgreich/nicht erfolgreich).</p>
+                                    <p>Zur Unterschrift mittels QES wird nach einer erfolgreichen digitalen Legitimation
+                                        (vgl. oben) ein elektronisches Zertifikat erstellt.</p>
+                                    <p>Der Kunde kann ein verbindliches Angebot zur Vermittlung bzw. zum
+                                        Vertragsabschluss mit Anklicken des vorgesehenen Buttons abgeben. Dabei werden
+                                        alle in der Online-Antragsstrecke eingegebenen Daten an die Sutor Bank zur
+                                        Bearbeitung und Entscheidung des Antrags übermittelt. Die Versendung des
+                                        sogenannten Willkommensbriefes seitens der Sutor Bank stellt die Angebotsannahme
+                                        dar.</p>
+                                    <p>&nbsp;</p>
+                                    <hr>
+                                    <h4>III. Besondere Bestimmungen für den Service ZINSPILOT-Marktradar</h4>
+                                    <hr>
+                                    <p>Ergänzend zu den Allgemeinen Bedingungen für die Nutzung der ZINSPILOT-Webseite
+                                        (Ziff. I) gelten für ZINSPILOT-Marktradar die folgenden besonderen Bedingungen:
+                                    </p>
+                                    <p>&nbsp;</p>
+                                    <p><strong>1 Geltungsbereich und Leistungen</strong></p>
+                                    <p>Die nachstehenden Bedingungen gelten für ZINSPILOT-Marktradar, bei welchem es
+                                        sich um einen Informationsdienst handelt, über den sich interessierte Nutzer
+                                        unserer Website, zu unterschiedlichen Arten von Bank- und Anlageprodukten (u.a.
+                                        Konten, Depots, Vermögensverwaltungen, Fonds, Spar- und Investmentprodukte)
+                                        informieren können. Jegliche Informationen über Leistungen und Konditionen oder
+                                        sonstige Informationen auf ZINSPILOTMarktradar stellen keine Beratungsleistung
+                                        gegenüber Nutzern dar. Alle Nutzer agieren als Selbstentscheider. Bei
+                                        ZINSPILOT-Marktradar handelt ZINSPILOT lediglich als sogenannter Tippgeber,
+                                        dessen Tätigkeit darin besteht, Kundendaten von Nutzern zu erfassen und den
+                                        Kontakt mit den auf der Plattform aufgeführten Leistungserbringern oder dessen
+                                        Vermittlern herzustellen. ZINSPILOT ist dabei nicht an der Leistungserbringung
+                                        beteiligt und handelt nicht als Vermittler. Vertragsabschlüsse und Kundenservice
+                                        erfolgen durch die Leistungserbringer selbst. Die dargestellten Anlageprodukte
+                                        sind deutlich als Angebote der jeweiligen Leistungserbringer gekennzeichnet.
+                                        Sofern Sie sich für ein auf ZINSPILOT- Marktradar dargestelltes Anlageprodukt
+                                        entscheiden, kommt ein Vertrag ausschließlich zwischen Ihnen als Leistungsnehmer
+                                        und dem von Ihnen gewählten Leistungserbringer zustande. Hierzu erhalten Sie
+                                        gesonderte Unterlagen der Leistungserbringer. Dabei gelten die
+                                        Vertragsbedingungen und Allgemeinen Geschäftsbedingungen des jeweiligen
+                                        Leistungserbringers. Alle nach dem Gesetz im Zusammenhang mit dem
+                                        Vertragsabschluss erforderlichen Informationen, werden Ihnen durch den
+                                        Leistungserbringer zur Verfügung gestellt. Der Service ZINSPILOT-Marktradar ist
+                                        unabhängig von unserem&nbsp; ZINSPILOT-Anlegerservice. Sämtliche unter
+                                        ZINSPILOT-Marktradar aufgeführten Informationen sind unentgeltlich und
+                                        unverbindlich.</p>
+                                    <p>&nbsp;</p>
+                                    <p><strong>2 Haftung</strong></p>
+                                    <p>Die auf ZINSPILOT-Marktradar zur Verfügung gestellten Informationen zu
+                                        Anlageprodukten, insbesondere zu Leistungsumfang, Preisen und Konditionen,
+                                        beruhen auf den Angaben der jeweiligen Leistungserbringer. Eine Haftung durch
+                                        ZINSPILOT für die Aktualität, Vollständigkeit und Richtigkeit der dargestellten
+                                        Angebote sowie für die zeitnahe, vollständige und richtige Weiterleitung der
+                                        Informationen ist ausgeschlossen. ZINSPILOT gibt keinerlei Zusicherung über die
+                                        Eignung, Verfügbarkeit oder Qualität der dargestellten Angebote und übernimmt
+                                        auch keinerlei Haftung für die Verfügbarkeit. Keine Information ist als
+                                        Garantiezusage von ZINSPILOT zu verstehen. Im Übrigen gilt die
+                                        Haftungsbeschränkung aus den allgemeinen Bedingungen für die Nutzung der
+                                        ZINSPILOT- Website (I. 5) entsprechend.</p>
+                                    <p>&nbsp;</p>
+                                    <p><strong>3 Besondere Bestimmungen zum Datenschutz</strong></p>
+                                    <p>Über die allgemeinen Bestimmungen zum Datenschutz bei der Nutzung der
+                                        ZINSPILOT-Website hinaus, die Sie unter <a
+                                            href="/datenschutz/">www.zinspilot.de</a> finden, gelten für den
+                                        ZINSPILOT-Marktradar die folgenden Bestimmungen:<br><strong>(1)</strong> Für die
+                                        Antragstellung beim jeweiligen Leistungserbringer werden über
+                                        ZINSPILOT-Marktradar personenbezogene Kundendaten im erforderlichen Umfang
+                                        erhoben und an die beteiligten Leistungserbringer oder dessen Vermittler
+                                        weitergeleitet. ZINSPILOT wird diese Informationen nicht für eigene Zwecke
+                                        verwenden, es sei denn, Sie haben Ihre ausdrückliche Einwilligung (z.B.
+                                        E-Mail-Newsletter) erteilt. Im Übrigen werden die Daten nach Übermittlung
+                                        gelöscht.<br><strong>(2)</strong> Eine Weitergabe oder eine Nutzung zu anderen
+                                        Zwecken ist ausgeschlossen, es sei denn, dies ist aus gesetzlichen Gründen
+                                        zwingend notwendig oder es besteht ein konkreter
+                                        Missbrauchsverdacht.<br><strong>(3)</strong> Soweit Sie Ihre gesonderte
+                                        Einwilligung die Nutzung der Daten für Werbezwecke gegenüber ZINSPILOT erteilt
+                                        haben, können Sie diese Einwilligung jederzeit für die Zukunft durch eine E-Mail
+                                        an datenschutz@zinspilot.de widersprechen. Hinsichtlich der übermittelten
+                                        Kontaktdaten aus Ihren Anträgen wenden Sie sich bitte an den jeweiligen
+                                        Leistungserbringer, um dort Ihre Rechte auf Auskunft, Berichtung oder Löschung
+                                        geltend zu machen.</p>
+                                    <p>&nbsp;</p>
+                                    <p><strong>4 Gewerbliche Nutzung</strong></p>
+                                    <p>Eine Nutzung der Leistungen im Rahmen von ZINSPILOT-Marktradar zu gewerblichen
+                                        Zwecken ist ausgeschlossen.</p>
+                                    <p>¹ Aufgrund einer in Umsetzung befindlichen Formulierungsanpassung wird an anderer
+                                        Stelle dieses Portals der Begriff „Servicebank“ verwendet. Der hier genannte
+                                        Begriff „Partnerbank“ ist mit dem Begriff „Servicebank“ synonym austauschbar.“
+                                    </p>
+                                    <p>&nbsp;</p>
+                                    <hr>
+                                    <p>ZINSPILOT<br> Raisin GmbH - Sitz Berlin<br> Amtsgericht Charlottenburg - HRB
+                                        146726 B<br> Geschäftsführer:&nbsp;Dr. Frank Freund, Dr. Tamaz Georgadze,
+                                        Katharina Lüth, Michael Stephan<br> Umsatzsteueridentifikationsnummer: DE
+                                        277263511</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- terms and condition section ends -->
+
+    <!-- footer start  -->
+    <footer class="footer">
+        <div class="theme-container">
+            <div class="row">
+                <div class="footer_heading col-12 col-lg-3 col-xl-3">
+                    <img src="../assets/images/logo_zinspilot_footer.svg" alt="" class="footer-logo" />
+                    <p>Ringvägen 100</p>
+                    <p style="margin-bottom: 30px">SE- 118 60 Stockholm</p>
+                    <p> hello@zin-pilot.com Haben <br> Sie Fragen</p>
+                    <p>+46/ 843 737 988</p>
+                </div>
+                <div class="footer_heading footer_heading_1 col-6 col-lg-2 col-xl-2 my-5 my-lg-0 my-xl-0">
+                    <h2>Unternehmen</h2>
+                    <a href="../pages/festgeld.html">Über uns</a>
+                    <a href="../pages/tagesgeld.html">Karriere</a>
+                    <a href="../pages/top-festzinsanlagen.html">Presse</a>
+                    <a href="../pages/aboutUs.html">Auszeichnungen</a>
+                    <a href="../pages/contact-us.html">Kontakt</a>
+                    <a href="../pages/contact-us.html">Partner werden</a>
+                </div>
+                <div class="footer_heading footer_heading_2 col-6 col-lg-2 col-xl-2 my-5 my-lg-0 my-xl-0">
+                    <h2>
+                        Wissen
+                    </h2>
+                    <a href="../pages/edelmetalle.html">Finanzlexikon</a>
+                    <a href="../pages/gold-and-silber.html">Einlagensicherung</a>
+                    <a href="../pages/pelletanlagen.html">Ratingindex bei ZINSPILOT</a>
+                    <a href="../pages/aktien.html">Bankenrating</a>
+                </div>
+                <div class="footer_heading footer_heading_2 col-6 col-lg-2 col-xl-2 my-5 my-lg-0 my-xl-0">
+                    <h2>
+                        Service
+                    </h2>
+                    <a href="../pages/edelmetalle.html">Zufriedenheitsmanagement</a>
+                    <a href="../pages/gold-and-silber.html">ZINSPILOT Erfahrungen</a>
+                    <a href="../pages/pelletanlagen.html">Newsletter</a>
+                    <a href="../pages/pelletanlagen.html">Sparpläne</a>
+                </div>
+                <div class="footer_heading footer_heading_3 col-12 col-lg-3 col-xl-3">
+                    <h2>NEWSLETTER ANMELDUNG</h2>
+                    <p>Melden Sie sich bei unserem Newsletter an um immer neue Angebote zu erhalten</p>
+                    <div class="input_div">
+                        <input type="email" placeholder="Enter Your Email" />
+                        <a href="../pages/contact-us.html"><button class="more_on_btn more_on_btn_2">
+                                <img src="../assets/images/input_msg.svg" alt="" /></button></a>
+                    </div>
+                    <p>Holen Sie sich die aktuellen Angebote rein.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+    <!-- footer_bottom start  -->
+    <div class="footer_bottom">
+        <p>
+            © 2022 ins Pilot - All Rights Reserved | <a href="../pages/agbs.html">AGBs</a> | <a
+                href="../pages/impressum.html">Impressum</a> | <a
+                href="../pages/datenschutz.html">Datenschutzerklärung</a>
+        </p>
+    </div>
+    <!-- footer_bottom end -->
+    <script src="../assets/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="../assets/slick.min.js"></script>
+    <script src="../assets/core.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <title>Bankenrating</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets//cssresponsive.css">
+    <style>
+        .banner {
+            height: 400px;
+        }
+
+        .about_us_card_main>h4 {
+            margin-bottom: 35px;
+            font-size: 50px;
+            line-height: 60px;
+            font-family: DMSans-bold;
+        }
+
+        .ft_privacy_content {
+            width: 90%;
+            height: 100%;
+            background: #fff;
+            box-shadow: 0px 0px 32px #0000001a;
+            padding: 80px;
+            border-radius: 30px;
+            text-align: justify;
+            margin-bottom: 40px;
+        }
+
+        .ft_privacy_content h6 {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .ft_privacy_content h5 {
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- SIDE MENU -->
+    <div class="animationload" style="display: none;">
+        <div class="loader" style="display: none;"></div>
+    </div>
+    <div class="sidebar-backdrop"></div>
+    <div class="sidebar-menu">
+        <div class="d-flex justify-content-between align-items-center head">
+            <a href="../index.html" style="color: #404040;">
+                <img src="../assets/images/logo_zinspilot_new.svg" alt="">
+            </a>
+            <img class="sidebar-close" src="../assets/images/close-dark.svg" alt="x" width="18px">
+        </div>
+        <div class="body">
+            <div class="side_bar_main">
+                <ul class="list-unstyled">
+                    <li><a href="../index.html" class="sidebar-links">Startseite</a></li>
+                    <li class="sb_submenu"><a href="javascript:void(0);"
+                            class="sidebar-links sidebar_menu">Anlageangebote<i class="fas fa-angle-down"></i></a></li>
+                    <div class="sidebar_dropdown_1">
+                        <div class="side_bar_dropdown">
+                            <a href="../pages/aboutUs.html">Festgeld</a>
+                            <a href="../pages/aboutUs.html">Tagesgeld</a>
+                        </div>
+                    </div>
+                    <li><a href="../index.html" class="sidebar-links">Banken</a></li>
+                    <li><a href="../index.html" class="sidebar-links">So funktioniert's</a></li>
+                    <li class="sb_submenu"><a href="javascript:void(0);"
+                            class="sidebar-links sidebar_menu_1">Informationen
+                            <i class="fas fa-angle-down"></i></a></li>
+                    <div class="sidebar_dropdown_2">
+                        <div class="side_bar_dropdown">
+                            <a href="../pages/festgeld.html">Aktuelle Produktinfos</a>
+                            <a href="../pages/tagesgeld.html">Zinserhöhungen</a>
+                            <a href="../pages/top-festzinsanlagen.html">Häufige Fragen</a>
+                            <a href="../pages/top-festzinsanlagen.html">Steuern</a>
+                            <a href="../pages/top-festzinsanlagen.html">Steuerbescheinigung</a>
+                            <a href="../pages/top-festzinsanlagen.html">Anlagevoraussetzung</a>
+                            <a href="../pages/top-festzinsanlagen.html">Länderrating</a>
+                            <a href="../pages/top-festzinsanlagen.html">Formularcenter</a>
+                        </div>
+                    </div>
+                    <li class="sb_submenu"><a href="javascript:void(0);"
+                            class="sidebar-links sidebar_menu_3">Finanzwissen <i class="fas fa-angle-down"></i></a></li>
+                    <div class="sidebar_dropdown_4">
+                        <div class="side_bar_dropdown">
+                            <a href="../pages/aktien.html">Geldanlage</a>
+                            <a href="../pages/gold-and-silber.html">Magazin</a>
+                        </div>
+                    </div>
+                    <li><a href="../pages/sparplan.html" class="sidebar-links">SPARPLÄNE </a></li>
+                    <li><a href="../pages/contact-us.html" class="sidebar-links">KONTAKT</a></li>
+                    <!-- <a href="#"><button></button></a> -->
+                </ul>
+                <div class="side-bar-btns">
+                    <a href="#" class="sidebar-links"><button>Login</button></a>
+                    <a href="#" class="sidebar-links"><button>Registrieren</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /SIDE MENU -->
+
+    <!-- banner start  -->
+    <div class="banner">
+        <div class="theme-container">
+            <nav>
+                <a href="../index.html"><img src="../assets/images/logo_zinspilot_new.svg" alt="" /></a>
+                <div class="menu">
+                    <img src="../assets/images/menu.svg" alt="MENU" id="nav_toggle">
+                </div>
+                <div class="links">
+                    <a href="../../index.html" class="link active">Startseite</a>
+                    <div class="about_us_link">
+                        <a href="javascript:void(0);" class="link">Anlageangebote</a>
+                        <div class="drop_down">
+                            <a href="../pages/aboutUs.html">
+                                <p>Festgeld</p>
+                            </a>
+                            <a href="../pages/aboutUs.html">
+                                <p>Tagesgeld</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="about_us_link">
+                        <a href="javascript:void(0);" class="link">Banken </a>
+                    </div>
+                    <div class="about_us_link">
+                        <a href="javascript:void(0);" class="link">So funktioniert's </a>
+                    </div>
+                    <div class="about_us_link">
+                        <a href="javascript:void(0);" class="link">Informationen</a>
+                        <div class="drop_down">
+                            <a href="../pages/festgeld.html">
+                                <p>Aktuelle Produktinfos</p>
+                            </a>
+                            <a href="../pages/festgeld.html">
+                                <p>Zinserhöhungen</p>
+                            </a>
+                            <a href="../pages/festgeld.html">
+                                <p>Häufige Fragen</p>
+                            </a>
+                            <a href="../pages/festgeld.html">
+                                <p>Steuern</p>
+                            </a>
+                            <a href="../pages/festgeld.html">
+                                <p>Steuerbescheinigung</p>
+                            </a>
+                            <a href="../pages/tagesgeld.html">
+                                <p>Anlagevoraussetzung</p>
+                            </a>
+                            <a href="../pages/top-festzinsanlagen.html">
+                                <p>Länderrating</p>
+                            </a>
+                            <a href="../pages/top-festzinsanlagen.html">
+                                <p>Formularcenter</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="about_us_link">
+                        <a href="javascript:void(0);" class="link">Finanzwissen</a>
+                        <div class="drop_down">
+                            <a href="../pages/festgeld.html">
+                                <p>Geldanlage</p>
+                            </a>
+                            <a href="../pages/festgeld.html">
+                                <p>Magazin</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="header-btns">
+                        <a href=""><button class="login-btn">Login</button></a>
+                        <a href=""><button class="register-btn">Registrieren</button></a>
+                    </div>
+                </div>
+            </nav>
+            <div class="banner_heading">
+                <h2>
+                    Bankenrating
+                </h2>
+            </div>
+        </div>
+    </div>
+    <!-- banner end  -->
+
+    <div class="theme-container my-5">
+        <div class="row justify-content-center">
+            <div class="tool-bar-main">
+                <div class="tool-bar my-3">
+                    <div class="tool-bar-item">
+                        <div class="tool-bar-items">
+                            <a href="../pages/festgeld.html"><button> Standard and Poor's</button></a>
+                            <a href="../pages/tagesgeld.html"><button> Fitch Ratings</button></a>
+                            <a href="../pages/top-festzinsanlagen.html"><button> DBRS Morningstar</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="my-0 my-md-4 my-lg-4 my-xl-4 mt-5">
+        <div class="ft_imprint">
+            <div class="theme-container">
+                <div class="row justify-content-center">
+                    <div class="col-12 px-0 px-sm-3 px-md-3 px-lg-3 px-xl-3">
+                        <div class="row justify-content-center">
+                            <div class="ft_privacy_content col-11 col-sm-11 col-md-12 col-lg-12 col-xl-10">
+                                <div class="center-heading text-center pt-0">
+                                    <h1>Bankenratings - Ratingagenturen und Verfahren</h1>
+                                </div>
+                                <div id="content" class="content-default">
+                                    <div class="container">
+                                        <div id="c2423" class="frame frame-0 frame-type-gridelements_pi1   ">
+                                            <div class="row row-space">
+                                                <div class="col-lg-12">
+                                                    <div id="c2369" class="frame frame-0 frame-type-text   ">
+                                                        <p>Auf unserer Bankenratingseite erhalten Sie allgemeine
+                                                            Informationen über die Ratingagenturen und ihre Verfahren.
+                                                            Konkret stellen wir Ihnen die wichtigsten Ratingagenturen
+                                                            vor. Hierzu zählen unter anderem die amerikanischen
+                                                            Ratingagenturen Standard &amp; Poor's und Fitch Ratings, die
+                                                            den Großteil des gesamten Marktes einnehmen. Außerdem die
+                                                            DBRS Morningstar, die größte kanadische Ratingagentur, die
+                                                            sich auch international einen Namen gemacht hat.</p>
+                                                    </div>
+                                                    <div id="c2370"
+                                                        class="frame frame-0 frame-type-text frame-space-before-medium   ">
+                                                        <header>
+                                                            <h2 class="">
+                                                                Was sind Ratings?
+                                                            </h2>
+                                                        </header>
+                                                        <p class="bodytext">Das Rating ist die Meinung einer
+                                                            Ratingagentur. Diese Meinung drückt das Risiko bei einer
+                                                            Investition in eine bestimmte Anlage aus, welches die
+                                                            Agentur evaluiert. Dafür greift die Agentur auf bestehende
+                                                            Daten des Emittenten zurück, der das Rating in Auftrag
+                                                            gegeben hat. Selbstständig aktiv wird die Agentur nicht. Die
+                                                            Agentur errechnet und wägt anhand der gesammelten Daten ab,
+                                                            wie hoch die Sicherheit der Anlage ist. Die Sicherheit wird
+                                                            dabei meist in Buchstaben wie etwa AAA, gleichbedeutend mit
+                                                            sehr gut/sehr sicher, angegeben. Logischerweise sinkt das
+                                                            Risiko eines Ausfalls der Anlage mit zunehmender
+                                                            Sicherheit.<br> Ratingagenturen betonen bei ihren Meinungen
+                                                            immer wieder, dass es sich dabei um eine Meinung handelt und
+                                                            nicht etwa eine Prognose oder Empfehlung darstellt. Außerdem
+                                                            achten Ratingagenturen nicht unbedingt auf genau die
+                                                            Aspekte, die für den einzelnen Anleger interessant sind.</p>
+                                                    </div>
+                                                    <div id="c18541"
+                                                        class="frame frame-0 frame-type-text frame-space-before-medium   ">
+                                                        <header>
+                                                            <h2 class="">
+                                                                Welchen Einfluss haben Ratingagenturen?
+                                                            </h2>
+                                                        </header>
+                                                        <p>Vor allem die größten Ratingagenturen Standard &amp; Poor’s,
+                                                            und Fitch haben inzwischen einen gewaltigen Einfluss. An
+                                                            diesen Agenturen, die zusammen einen Großteil der Branche
+                                                            ausmachen, orientieren sich beinahe alle
+                                                            Finanzinstitutionen. Egal ob Banken, Unternehmen oder
+                                                            Aufsichtsbehörden, die Analysen der Agenturen haben einen
+                                                            sehr hohen Stellenwert. Ein Beispiel hierfür sind immer
+                                                            wieder Länderratings. Wird durch eine Agentur beispielsweise
+                                                            verbreitet, dass Anlagen in diesem Land hoch spekulativ oder
+                                                            gänzlich nicht empfehlenswert sind, so kann dies für den
+                                                            Staat schwere Folgen haben. Denn wenn keiner mehr sein Geld
+                                                            einem Staat anvertrauen möchte, dann kann dieser auch nicht
+                                                            mehr auf ein gewisses Kapital bei eigenen Investitionen
+                                                            bauen. Der Staat kann also Pleite gehen. Ratingagenturen
+                                                            werden daher immer misstrauischer beäugt. Sie unterliegen
+                                                            keiner staatlichen oder gleichwertigen Regulierung und
+                                                            verdienen ihr Geld über Provisionen entstanden durch von
+                                                            ihnen bewertete Wertpapiere. Entsprechend häufig steht immer
+                                                            wieder der Vorwurf im Raum, dass Ratingagenturen gezielt
+                                                            gute Ratings vergeben, um höhere Provisionen einzustreichen.
+                                                        </p>
+                                                    </div>
+                                                    <div id="c18542"
+                                                        class="frame frame-0 frame-type-text frame-space-before-medium   ">
+                                                        <header>
+                                                            <h2 class="">
+                                                                Wie aussagekräftig sind Ratings?
+                                                            </h2>
+                                                        </header>
+                                                        <p>Natürlich haben die Ratings der Agenturen einen gewissen
+                                                            Wert. Das Rating kann gut als Indikator bei eigenen
+                                                            Investitionen dienen. Eine große Schwäche der Ratings liegt
+                                                            jedoch darin, dass sie bestimmte Veränderungen schlicht
+                                                            nicht vorhersehen können. Naturkatastrophen,
+                                                            Terroranschläge, Kriege und ähnliches haben auf die
+                                                            Liquidität und Zahlungsmoral eines Staates, oder eines
+                                                            Unternehmens meist größere Auswirkungen, als beispielsweise
+                                                            eine Herabstufung durch eine Ratingagentur. Entsprechend
+                                                            wichtig ist es für Anleger, sich neben dem Rating auch das
+                                                            Umfeld einer Investition anzuschauen. Ein Rating allein
+                                                            reicht selten aus.</p>
+                                                    </div>
+                                                    <div id="c7242"
+                                                        class="frame frame-0 frame-type-textpic frame-space-before-medium   ">
+                                                        <header>
+                                                            <h2 class="">
+                                                                Die Ratingagenturen
+                                                            </h2>
+                                                        </header>
+                                                        <div class="ce-textpic ce-left ce-above">
+                                                            <div class="ce-bodytext">
+                                                                <p>Wie gut es um die Bonität einer Bank bestellt ist,
+                                                                    lässt sich aus Bewertungen von Ratingagenturen
+                                                                    ermitteln. Die großen Ratingagenturen wie Standard
+                                                                    &amp; Poor's, Fitch und DBRS stellen ihre
+                                                                    Bewertungen anhand einer Notenskala dar. Diese Skala
+                                                                    setzt sich meist aus mehreren Buchstaben zusammen.
+                                                                    Zusätzlich wird die Note noch mit einem "+" oder "-"
+                                                                    versehen.</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div id="c18544"
+                                                        class="frame frame-0 frame-type-text frame-space-before-medium   ">
+                                                        <header>
+                                                            <h3 class="">
+                                                                Standard &amp; Poor's
+                                                            </h3>
+                                                        </header>
+                                                        <p>Standard &amp; Poor's ist unter den drei großen
+                                                            Ratingagenturen die Größte. Mit etwa 40% dominiert die
+                                                            Agentur den Markt. Standard &amp; Poor's entstand 1941 aus
+                                                            der Fusion zweier Unternehmen in den USA, H. V. &amp; H. W.
+                                                            Poor und Standard Statistics Bureau. Neben der
+                                                            Haupttätigkeit dem Bewerten und Analysieren von
+                                                            Wirtschaftsunternehmen, Banken und Staaten arbeitet die
+                                                            Agentur mit der amerikanischen Börse zusammen. Für diese
+                                                            erstellt Standard &amp; Poor's Aktien- und Rohstoffindices
+                                                        </p>
+                                                        <p><a href="/wissen/banken-ratings/standard-and-poors-rating/">Ausführliche
+                                                                Informationen zum&nbsp;Standard &amp; Poor's Rating</a>
+                                                        </p>
+                                                    </div>
+                                                    <div id="c18546"
+                                                        class="frame frame-0 frame-type-text frame-space-before-medium   ">
+                                                        <header>
+                                                            <h3 class="">
+                                                                Fitch Ratings
+                                                            </h3>
+                                                        </header>
+                                                        <p>1913 wurde die Ratingagentur unter dem Namen "Fitch
+                                                            Publishing Company" von John Knowles Fitch gegründet. Ab
+                                                            1924 begann die Gesellschaft dann mit der Veröffentlichung
+                                                            von Finanzstatistiken. Für den Ratinmarkt war Fitch bereits
+                                                            seit seiner Gründung bedeutend. Als erste Reatingagentur
+                                                            begann Fitch Ratings eine Bewertungsskala von AAA bis D zu
+                                                            verwenden. Diese Skala hat noch bis heute Gültigkeit. Als
+                                                            eine der "Big Three" neben Standard &amp; Poors und Moody's
+                                                            macht Fitch etwa 15% des Marktes für Ratings aus und ist
+                                                            somit die kleinste der drei größten Ratingagenturen.</p>
+                                                        <p><a href="/wissen/banken-ratings/fitch-rating/">Ausführliche
+                                                                Informationen zum Fitch Rating</a></p>
+                                                    </div>
+                                                    <div id="c18549"
+                                                        class="frame frame-0 frame-type-text frame-space-before-medium   ">
+                                                        <header>
+                                                            <h3 class="">
+                                                                DBRS Morningstar
+                                                            </h3>
+                                                        </header>
+                                                        <p>Die kanadische Ratingagentur ist Marktführer ihres Landes und
+                                                            die viertgrößte Ratingagentur der Welt. Das 1976 von Walter
+                                                            Schröder gegründete Unternehmen hat sich vor allem auf dem
+                                                            kanadischen Markt einen Namen gemacht. Die Agentur, die mit
+                                                            der Bewertung kurzlaufender Geldmarktpapiere begann,
+                                                            schaffte es sich in Kanada so zu etablieren, dass die großen
+                                                            Ratingagenturen aus den USA hier nicht Fuß fassen konnten.
+                                                            Heute verfügt DBRS Morningstar neben ihrem Hauptsitz in
+                                                            Toronto über Niederlassungen in New York, Chicago, London,
+                                                            Frankfurt am Main und Madrid.</p>
+                                                        <p><a href="/wissen/banken-ratings/dbrs-rating/">Ausführliche
+                                                                Informationen zum DBRS Rating</a></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- footer start  -->
+    <footer class="footer">
+        <div class="theme-container">
+            <div class="row">
+                <div class="footer_heading col-12 col-lg-3 col-xl-3">
+                    <img src="../assets/images/logo_zinspilot_footer.svg" alt="" class="footer-logo" />
+                    <p>Ringvägen 100</p>
+                    <p style="margin-bottom: 30px">SE- 118 60 Stockholm</p>
+                    <p> hello@zin-pilot.com Haben <br> Sie Fragen</p>
+                    <p>+46/ 843 737 988</p>
+                </div>
+                <div class="footer_heading footer_heading_1 col-6 col-lg-2 col-xl-2 my-5 my-lg-0 my-xl-0">
+                    <h2>Unternehmen</h2>
+                    <a href="../pages/festgeld.html">Über uns</a>
+                    <a href="../pages/tagesgeld.html">Karriere</a>
+                    <a href="../pages/top-festzinsanlagen.html">Presse</a>
+                    <a href="../pages/aboutUs.html">Auszeichnungen</a>
+                    <a href="../pages/contact-us.html">Kontakt</a>
+                    <a href="../pages/contact-us.html">Partner werden</a>
+                </div>
+                <div class="footer_heading footer_heading_2 col-6 col-lg-2 col-xl-2 my-5 my-lg-0 my-xl-0">
+                    <h2>
+                        Wissen
+                    </h2>
+                    <a href="../pages/edelmetalle.html">Finanzlexikon</a>
+                    <a href="../pages/gold-and-silber.html">Einlagensicherung</a>
+                    <a href="../pages/pelletanlagen.html">Ratingindex bei ZINSPILOT</a>
+                    <a href="../pages/aktien.html">Bankenrating</a>
+                </div>
+                <div class="footer_heading footer_heading_2 col-6 col-lg-2 col-xl-2 my-5 my-lg-0 my-xl-0">
+                    <h2>
+                        Service
+                    </h2>
+                    <a href="../pages/edelmetalle.html">Zufriedenheitsmanagement</a>
+                    <a href="../pages/gold-and-silber.html">ZINSPILOT Erfahrungen</a>
+                    <a href="../pages/pelletanlagen.html">Newsletter</a>
+                    <a href="../pages/pelletanlagen.html">Sparpläne</a>
+                </div>
+                <div class="footer_heading footer_heading_3 col-12 col-lg-3 col-xl-3">
+                    <h2>NEWSLETTER ANMELDUNG</h2>
+                    <p>Melden Sie sich bei unserem Newsletter an um immer neue Angebote zu erhalten</p>
+                    <div class="input_div">
+                        <input type="email" placeholder="Enter Your Email" />
+                        <a href="../pages/contact-us.html"><button class="more_on_btn more_on_btn_2">
+                                <img src="../assets/images/input_msg.svg" alt="" /></button></a>
+                    </div>
+                    <p>Holen Sie sich die aktuellen Angebote rein.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+    <!-- footer_bottom start  -->
+    <div class="footer_bottom">
+        <p>
+            © 2022 ins Pilot - All Rights Reserved | <a href="../pages/agbs.html">AGBs</a> | <a
+                href="../pages/impressum.html">Impressum</a> | <a
+                href="../pages/datenschutz.html">Datenschutzerklärung</a>
+        </p>
+    </div>
+    <!-- footer_bottom end -->
+    <script src="../assets/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="../assets/slick.min.js"></script>
+    <script src="../assets/core.js"></script>
+</body>
+
+</html>

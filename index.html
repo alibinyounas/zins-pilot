@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="icon" href="">
+    <title>Zins Pilot</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/slick.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/slick-theme.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <style>
+        .animationload {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 999999;
+            background-color: #fff;
+        }
+
+        .loader {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin: -100px 0 0 -100px;
+            width: 200px;
+            height: 200px;
+            background-image: url(assets/images/apple-touch-icon.png);
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="animationload" style="display: none;">
+        <div class="loader" style="display: none;"></div>
+    </div>
+    <!-- SIDE MENU -->
+    <div class="sidebar-backdrop"></div>
+    <div class="sidebar-menu">
+        <div class="d-flex justify-content-between align-items-center head">
+            <a href="index.html" style="color: #404040;">
+                <img src="assets/images/logo_zinspilot_new.svg" alt="">
+            </a>
+            <img class="sidebar-close" src="assets/images/close-dark.svg" alt="x" width="18px">
+        </div>
+        <div class="body">
+            <div class="side_bar_main">
+                <ul class="list-unstyled">
+                    <li><a href="index.html" class="sidebar-links">Startseite</a></li>
+                    <li class="sb_submenu"><a href="javascript:void(0);"
+                            class="sidebar-links sidebar_menu">Anlageangebote<i class="fas fa-angle-down"></i></a></li>
+                    <div class="sidebar_dropdown_1">
+                        <div class="side_bar_dropdown">
+                            <a href="pages/aboutUs.html">Festgeld</a>
+                            <a href="pages/aboutUs.html">Tagesgeld</a>
+                        </div>
+                    </div>
+                    <li><a href="index.html" class="sidebar-links">Banken</a></li>
+                    <li><a href="index.html" class="sidebar-links">So funktioniert's</a></li>
+                    <li class="sb_submenu"><a href="javascript:void(0);"
+                            class="sidebar-links sidebar_menu_1">Informationen
+                            <i class="fas fa-angle-down"></i></a></li>
+                    <div class="sidebar_dropdown_2">
+                        <div class="side_bar_dropdown">
+                            <a href="pages/festgeld.html">Aktuelle Produktinfos</a>
+                            <a href="pages/tagesgeld.html">Zinserhöhungen</a>
+                            <a href="pages/top-festzinsanlagen.html">Häufige Fragen</a>
+                            <a href="pages/top-festzinsanlagen.html">Steuern</a>
+                            <a href="pages/top-festzinsanlagen.html">Steuerbescheinigung</a>
+                            <a href="pages/top-festzinsanlagen.html">Anlagevoraussetzung</a>
+                            <a href="pages/top-festzinsanlagen.html">Länderrating</a>
+                            <a href="pages/top-festzinsanlagen.html">Formularcenter</a>
+                        </div>
+                    </div>
+                    <li class="sb_submenu"><a href="javascript:void(0);"
+                            class="sidebar-links sidebar_menu_3">Finanzwissen <i class="fas fa-angle-down"></i></a></li>
+                    <div class="sidebar_dropdown_4">
+                        <div class="side_bar_dropdown">
+                            <a href="pages/aktien.html">Geldanlage</a>
+                            <a href="pages/gold-and-silber.html">Magazin</a>
+                        </div>
+                    </div>
+                    <li><a href="pages/sparplan.html" class="sidebar-links">SPARPLÄNE </a></li>
+                    <li><a href="pages/contact-us.html" class="sidebar-links">KONTAKT</a></li>
+                    <!-- <a href="#"><button></button></a> -->
+                </ul>
+                <div class="side-bar-btns">
+                    <a href="#" class="sidebar-links"><button>Login</button></a>
+                    <a href="#" class="sidebar-links"><button>Registrieren</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /SIDE MENU -->
+
+    <!-- banner start  -->
+    <div class="banner">
+        <div class="theme-container">
+            <nav>
+                <a href="index.html"><img src="assets/images/logo_zinspilot_new.svg" alt="" /></a>
+                <div class="menu">
+                    <img src="assets/images/menu.svg" alt="MENU" id="nav_toggle">
+                </div>
+                <div class="links">
+                    <a href="index.html" class="link active">Startseite</a>
+                    <div class="about_us_link">
+                        <a href="javascript:void(0);" class="link">Anlageangebote</a>
+                        <div class="drop_down">
+                            <a href="pages/aboutUs.html">
+                                <p>Festgeld</p>
+                            </a>
+                            <a href="pages/aboutUs.html">
+                                <p>Tagesgeld</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="about_us_link">
+                        <a href="javascript:void(0);" class="link">Banken </a>
+                    </div>
+                    <div class="about_us_link">
+                        <a href="javascript:void(0);" class="link">So funktioniert's </a>
+                    </div>
+                    <div class="about_us_link">
+                        <a href="javascript:void(0);" class="link">Informationen</a>
+                        <div class="drop_down">
+                            <a href="pages/festgeld.html">
+                                <p>Aktuelle Produktinfos</p>
+                            </a>
+                            <a href="pages/festgeld.html">
+                                <p>Zinserhöhungen</p>
+                            </a>
+                            <a href="pages/festgeld.html">
+                                <p>Häufige Fragen</p>
+                            </a>
+                            <a href="pages/festgeld.html">
+                                <p>Steuern</p>
+                            </a>
+                            <a href="pages/festgeld.html">
+                                <p>Steuerbescheinigung</p>
+                            </a>
+                            <a href="pages/tagesgeld.html">
+                                <p>Anlagevoraussetzung</p>
+                            </a>
+                            <a href="pages/top-festzinsanlagen.html">
+                                <p>Länderrating</p>
+                            </a>
+                            <a href="pages/top-festzinsanlagen.html">
+                                <p>Formularcenter</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="about_us_link">
+                        <a href="javascript:void(0);" class="link">Finanzwissen</a>
+                        <div class="drop_down">
+                            <a href="pages/festgeld.html">
+                                <p>Geldanlage</p>
+                            </a>
+                            <a href="pages/festgeld.html">
+                                <p>Magazin</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="header-btns">
+                        <a href=""><button class="login-btn">Login</button></a>
+                        <a href=""><button class="register-btn">Registrieren</button></a>
+                    </div>
+                </div>
+            </nav>
+            <div class="banner_heading">
+                <h2>
+                    Beste Zinsen <br> in Deutschland
+                </h2>
+                <p>
+                    6 Monate lang zu attraktiven 0,95 % pa investieren und profitieren!
+                </p>
+            </div>
+            <div class="banner-btn">
+                <a href=""><button>Anbieten</button></a>
+            </div>
+        </div>
+    </div>
+    <!-- banner end  -->
+
+    <!-- center heading starts -->
+    <div class="center-heading text-center">
+        <h1>Attraktive Partnerangebote <br> bei WeltSparen sichern</h1>
+    </div>
+    <!-- center heading ends -->
+
+    <!-- Services start  -->
+    <section class="services">
+        <div class="theme-container">
+            <div class="services_card_main">
+                <div class="services_card">
+                    <img src="assets/images/WS-by-raisin_logo.png" alt="">
+                    <h6>Geldanlage in <br> Festgeld</h6>
+                    <p>
+                        Bis zu 2,00 % Zinsen
+                    </p>
+                    <a href="pages/festgeld.html"><button class="more_on_btn">Jetzt informieren </button></a>
+                </div>
+                <div class="services_card">
+                    <img src="assets/images/WS-by-raisin_logo.png" alt="">
+                    <h6>Geldanlage in <br> Tagesgeld</h6>
+                    <p>
+                        Bis zu 0,20 % Zinsen
+                    </p>
+                    <a href="pages/tagesgeld.html"><button class="more_on_btn">Jetzt informieren </button></a>
+                </div>
+                <div class="services_card">
+                    <img src="assets/images/Raisin_invest-logo.png" alt="">
+                    <h6>Investments <br> mit ETFs</h6>
+                    <p>
+                        Individuelle Portfolios entwickelt von <br> Experten
+                    </p>
+                    <a href="pages/gold-and-silber.html"><button class="more_on_btn">Jetzt informieren </button></a>
+                </div>
+                <div class="services_card">
+                    <img src="assets/images/Raisin_invest-logo.png" alt="">
+                    <h6>Altersvorsorge <br> mit ETFs</h6>
+                    <p>
+                        Steuervorteile und freie <br> Fondsauswahl
+                    </p>
+                    <a href="pages/gold-and-silber.html"><button class="more_on_btn">Jetzt informieren </button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Services end -->
+
+    <!-- Services start  -->
+    <section class="services services1">
+        <div class="theme-container">
+            <!-- center heading starts -->
+            <div class="center-heading text-center">
+                <h1>Tagesgeld und Festgeld <br> bei ZINSPILOT</h1>
+            </div>
+            <!-- center heading ends -->
+            <div class="services_card_main allowance-slider">
+                <div class="services_card">
+                    <img src="assets/images/MMBA.svg" alt="">
+                    <h6>0.24%</h6>
+                    <p>
+                        Daily allowance / Flexgeld24
+                    </p>
+                    <a href="">
+                        <button class="more_on_btn more_on_btn1">
+                            Zum Angebot
+                        </button>
+                    </a>
+                </div>
+                <div class="services_card">
+                    <img src="assets/images/fimbank.svg" alt="">
+                    <h6>1.30%</h6>
+                    <p>
+                        12 months
+                    </p>
+                    <a href="">
+                        <button class="more_on_btn more_on_btn1">
+                            Zum Angebot
+                        </button>
+                    </a>
+                </div>
+                <div class="services_card">
+                    <img src="assets/images/Logo_Banca_Progetto.svg" alt="">
+                    <h6>0.45 %</h6>
+                    <p>
+                        3 Months
+                    </p>
+                    <a href="">
+                        <button class="more_on_btn more_on_btn1">
+                            Zum Angebot
+                        </button>
+                    </a>
+                </div>
+                <div class="services_card">
+                    <img src="assets/images/fimbank.svg" alt="">
+                    <h6>0.90 %</h6>
+                    <p>
+                        6 Months
+                    </p>
+                    <a href="">
+                        <button class="more_on_btn more_on_btn1">
+                            Zum Angebot
+                        </button>
+                    </a>
+                </div>
+                <div class="services_card">
+                    <img src="assets/images/MMBA.svg" alt="">
+                    <h6>0.24%</h6>
+                    <p>
+                        Daily allowance / Flexgeld24
+                    </p>
+                    <a href="">
+                        <button class="more_on_btn more_on_btn1">
+                            Zum Angebot
+                        </button>
+                    </a>
+                </div>
+                <div class="services_card">
+                    <img src="assets/images/fimbank.svg" alt="">
+                    <h6>1.30%</h6>
+                    <p>
+                        12 months
+                    </p>
+                    <a href="">
+                        <button class="more_on_btn more_on_btn1">
+                            Zum Angebot
+                        </button>
+                    </a>
+                </div>
+                <div class="services_card">
+                    <img src="assets/images/Logo_Banca_Progetto.svg" alt="">
+                    <h6>0.45 %</h6>
+                    <p>
+                        3 Months
+                    </p>
+                    <a href="">
+                        <button class="more_on_btn more_on_btn1">
+                            Zum Angebot
+                        </button>
+                    </a>
+                </div>
+                <div class="services_card">
+                    <img src="assets/images/fimbank.svg" alt="">
+                    <h6>0.90 %</h6>
+                    <p>
+                        6 Months
+                    </p>
+                    <a href="">
+                        <button class="more_on_btn more_on_btn1">
+                            Zum Angebot
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div class="centered-btn">
+                <a href=""><button>Alle Angebote bis 2,00 % p.a.</button></a>
+            </div>
+        </div>
+    </section>
+    <!-- Services end -->
+    <!-- Don't hesitate start   -->
+    <section class="hesitate">
+        <div class="theme-container">
+            <div class="row justify-content-between">
+                <div class="hesitate_card">
+                    <img src="assets/images/authorize.svg" alt="" />
+                    <h6>Einmal legitimieren für alle Banken</h6>
+                    <p>Nach einmaliger Legitimierung per Video-Ident oder Identifizierung in der Postfiliale können Sie
+                        jedes Tagesgeld und Festgeld nutzen.</p>
+                </div>
+                <div class="hesitate_card">
+                    <img src="assets/images/central-building.svg" alt="" />
+                    <h6>Ein zentrales ZINSPILOT-Konto</h6>
+                    <p>Bei ZINSPILOT können Sie über nur ein Konto von den attraktiven Tagesgeld- und Festgeldzinsen
+                        vieler europäischer Banken profitieren.</p>
+                </div>
+                <div class="hesitate_card">
+                    <img src="assets/images/Deposit-Insurance.svg" alt="" />
+                    <h6>Gesetzliche Einlagensicherung</h6>
+                    <p>Die über ZINSPILOT angelegten Gelder sind dank der EU-weit harmonisierten Einlagensicherung bis
+                        100.000 Euro je Anleger und Bank gesetzlich abgesichert.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Don't hesitate end   -->
+
+    <!-- video section starts -->
+    <section class="video-sec">
+        <div class="theme-container">
+            <div class="center-heading text-center">
+                <h1>So funktioniert ZINSPILOT</h1>
+            </div>
+            <div class="video-div">
+                <video src="assets/images/zins-pilot.mp4" controls></video>
+            </div>
+        </div>
+    </section>
+    <!-- video section ends -->
+
+    <!-- open account section starts-->
+    <section class="open-account-sec">
+        <div class="theme-container">
+            <div class="open-account">
+                <h1>Jetzt Ihr kostenloses <br> ZINSPILOT-Konto eröffnen!</h1>
+                <p>Sie sind schon ZINSPILOT-Kunde? <a href="">Hier anmelden.</a></p>
+                <a href=""><button>Kostenloses Konto eröffnen</button></a>
+            </div>
+        </div>
+    </section>
+    <!-- open account section ends-->
+
+    <!-- LATEST NEWS start  -->
+    <section class="latest_news">
+        <div class="theme-container">
+            <div class="center-heading text-center">
+                <h1>ZINSPILOT Magazin</h1>
+            </div>
+            <div class="row justify-content-center">
+                <div class="moody_card ml-0 mx-md-0">
+                    <img src="assets/images/card1.png" alt="" />
+                    <div class="moody_card_main">
+                        <p>10 Jan 2022</p>
+                        <h6>Festgeld anlegen bei der italienischen Banca CF+</h6>
+                        <p>
+                            Die Banca CF+ ist eine italienische Challenger-Bank, die 1898 unter dem Namen Credito
+                            Fondiario Sardo gegründet wurde.</p>
+                    </div>
+                </div>
+                <div class="moody_card">
+                    <img src="assets/images/card2.png" alt="" />
+                    <div class="moody_card_main">
+                        <p>Jun 18, 2020</p>
+                        <h6>WeltSparen und ZINSPILOT – zwei Plattformen, ein Unternehmen!</h6>
+                        <p>
+                            Die beiden Fintech-Unternehmen Raisin und Deposit Solutions, die hinter den Marken
+                            WeltSparen und ZINSPILOT stehen, wurden im Juni 2021 zur Raisin GmbH.</p>
+                    </div>
+                </div>
+                <div class="moody_card mr-0 mx-md-0">
+                    <img src="assets/images/card2.png" alt="" />
+                    <div class="moody_card_main">
+                        <p>Jun 18, 2020</p>
+                        <h6>WeltSparen und ZINSPILOT – zwei Plattformen, ein Unternehmen!</h6>
+                        <p>Die beiden Fintech-Unternehmen Raisin und Deposit Solutions, die hinter den Marken WeltSparen
+                            und ZINSPILOT stehen, wurden im Juni 2021 zur Raisin GmbH.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- LATEST NEWS end  -->
+
+    <!-- eur section starts  -->
+    <section class="eur-sec">
+        <div class="theme-container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="eur-main">
+                        <img src="assets/images/saving-deposits.png" alt="">
+                        <div class="eur-text">
+                            <h1>30 Mrd. € vermittelte Spareinlagen</h1>
+                            <p>ZINSPILOT ist eine Marke der Raisin GmbH. Über die Zinsplattformen des Unternehmens
+                                wurden bislang über 30 Milliarden Euro an Spareinlagen vermittelt. Mehr als 200.000
+                                Kunden vertrauen unserem marktführenden Anlageservice.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="eur-main">
+                        <img src="assets/images/service-tested.png" alt="">
+                        <div class="eur-text">
+                            <h1>TÜV Siegel „Service tested" mit Note 1,8</h1>
+                            <p>Geprüft und zertifiziert durch den TÜV: ZINSPILOT wurde vom TÜV Saarland mit dem Siegel
+                                „Service tested" mit der Note 1,8 ausgezeichnet.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- eur section ends  -->
+
+    <!-- awards sec starts  -->
+    <section>
+        <div class="theme-container">
+            <div class="center-heading text-center">
+                <h1>Auszeichnungen</h1>
+            </div>
+            <div class="awards-slider">
+                <div class="award-slide">
+                    <img src="assets/images/awd1.svg" alt="">
+                    <h5>Platz Deutschlands beste</h5>
+                    <p>Finanzdienstleister 2021 in der Kategorie Digitale Finanzexperten <br>
+                        Handelsblatt <br>
+                        Juli 2021</p>
+                </div>
+                <div class="award-slide">
+                    <img src="assets/images/awd2.svg" alt="">
+                    <h5>Platz Deutschlands beste</h5>
+                    <p>Finanzdienstleister 2021 Focus Money <br> Juni 2021</p>
+                </div>
+                <div class="award-slide">
+                    <img src="assets/images/awd3.svg" alt="">
+                    <h5>Höchste Kundenzufriedenheit</h5>
+                    <p> in der Kategorie Digitale Finanzexperten Die Welt <br> Oktober 2020</p>
+                </div>
+                <div class="award-slide">
+                    <img src="assets/images/awd4.svg" alt="">
+                    <h5>Bester Vermittler EU-Tagesgeld</h5>
+                    <p>FMH/n-tv/DISQ</p>
+                </div>
+                <div class="award-slide">
+                    <img src="assets/images/awd1.svg" alt="">
+                    <h5>Platz Deutschlands beste <br></h5>
+                    <p>Finanzdienstleister 2021 in der Kategorie Digitale Finanzexperten Handelsblatt <br> Juli 2021</p>
+                </div>
+                <div class="award-slide">
+                    <img src="assets/images/awd2.svg" alt="">
+                    <h5>Platz Deutschlands beste</h5>
+                    <p>Finanzdienstleister 2021 Focus Money <br> Juni 2021</p>
+                </div>
+                <div class="award-slide">
+                    <img src="assets/images/awd3.svg" alt="">
+                    <h5>Höchste Kundenzufriedenheit</h5>
+                    <p> in der Kategorie Digitale Finanzexperten Die Welt <br> Oktober 2020</p>
+                </div>
+                <div class="award-slide">
+                    <img src="assets/images/awd4.svg" alt="">
+                    <h5>Bester Vermittler EU-Tagesgeld</h5>
+                    <p>FMH/n-tv/DISQ</p>
+                </div>
+                <div class="award-slide">
+                    <img src="assets/images/awd1.svg" alt="">
+                    <h5>Platz Deutschlands beste <br></h5>
+                    <p>Finanzdienstleister 2021 in der Kategorie Digitale Finanzexperten Handelsblatt <br> Juli 2021</p>
+                </div>
+                <div class="award-slide">
+                    <img src="assets/images/awd2.svg" alt="">
+                    <h5>Platz Deutschlands beste</h5>
+                    <p>Finanzdienstleister 2021 Focus Money <br> Juni 2021</p>
+                </div>
+                <div class="award-slide">
+                    <img src="assets/images/awd3.svg" alt="">
+                    <h5>Höchste Kundenzufriedenheit</h5>
+                    <p> in der Kategorie Digitale Finanzexperten Die Welt <br> Oktober 2020</p>
+                </div>
+                <div class="award-slide">
+                    <img src="assets/images/awd4.svg" alt="">
+                    <h5>Bester Vermittler EU-Tagesgeld</h5>
+                    <p>FMH/n-tv/DISQ</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- awards sec ends -->
+    <section class="any_questions_sec">
+        <div class="theme-container">
+            <div class="have_questions">
+                <h1>Haben Sie Fragen?</h1>
+                <p>Die Antworten auf Ihre Fragen finden Sie in unserem Hilfebereich!</p>
+                <a href=""><button>Häufige Fragen</button></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer start  -->
+    <footer class="footer">
+        <div class="theme-container">
+            <div class="row">
+                <div class="footer_heading col-12 col-lg-3 col-xl-3">
+                    <img src="assets/images/logo_zinspilot_footer.svg" alt="" class="footer-logo" />
+                    <p>Ringvägen 100</p>
+                    <p style="margin-bottom: 30px">SE- 118 60 Stockholm</p>
+                    <p> hello@zin-pilot.com Haben <br> Sie Fragen</p>
+                    <p>+46/ 843 737 988</p>
+                </div>
+                <div class="footer_heading footer_heading_1 col-6 col-lg-2 col-xl-2 my-5 my-lg-0 my-xl-0">
+                    <h2>Unternehmen</h2>
+                    <a href="pages/festgeld.html">Über uns</a>
+                    <a href="pages/tagesgeld.html">Karriere</a>
+                    <a href="pages/top-festzinsanlagen.html">Presse</a>
+                    <a href="pages/aboutUs.html">Auszeichnungen</a>
+                    <a href="pages/contact-us.html">Kontakt</a>
+                    <a href="pages/contact-us.html">Partner werden</a>
+                </div>
+                <div class="footer_heading footer_heading_2 col-6 col-lg-2 col-xl-2 my-5 my-lg-0 my-xl-0">
+                    <h2>
+                        Wissen
+                    </h2>
+                    <a href="pages/edelmetalle.html">Finanzlexikon</a>
+                    <a href="pages/gold-and-silber.html">Einlagensicherung</a>
+                    <a href="pages/pelletanlagen.html">Ratingindex bei ZINSPILOT</a>
+                    <a href="pages/aktien.html">Bankenrating</a>
+                </div>
+                <div class="footer_heading footer_heading_2 col-6 col-lg-2 col-xl-2 my-5 my-lg-0 my-xl-0">
+                    <h2>
+                        Service
+                    </h2>
+                    <a href="pages/edelmetalle.html">Zufriedenheitsmanagement</a>
+                    <a href="pages/gold-and-silber.html">ZINSPILOT Erfahrungen</a>
+                    <a href="pages/pelletanlagen.html">Newsletter</a>
+                    <a href="pages/pelletanlagen.html">Sparpläne</a>
+                </div>
+                <div class="footer_heading footer_heading_3 col-12 col-lg-3 col-xl-3">
+                    <h2>ZINSPILOT Newsletter</h2>
+                    <p>Abonnieren Sie unseren ZINSPILOT Newsletter – und verpassen Sie keine Top-Zinsen!</p>
+                    <div class="input_div">
+                        <input type="email" placeholder="Enter Your Email" />
+                        <a href="pages/contact-us.html"><button class="more_on_btn more_on_btn_2">
+                                <img src="assets/images/input_msg.svg" alt="" /></button></a>
+                    </div>
+                    <p>Holen Sie sich die aktuellen Angebote rein.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+    <!-- footer_bottom start  -->
+    <div class="footer_bottom">
+        <p>
+            © 2022 Zins Pilot - All Rights Reserved | <a href="pages/agbs.html">AGBs</a> | <a
+                href="pages/impressum.html">Impressum</a> | <a href="pages/datenschutz.html">Datenschutzerklärung</a>
+        </p>
+    </div>
+    <!-- footer_bottom end -->
+    <script src="assets/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="assets/slick.min.js"></script>
+    <script src="assets/core.js"></script>
+</body>
+
+</html>
