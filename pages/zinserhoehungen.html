@@ -8,11 +8,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
     <title>Zinserhoehungen</title>
+    <link rel="stylesheet" href="../assets/css/merged-table.css">
     <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="stylesheet" href="../assets//cssresponsive.css">
     <style>
         .banner {
             height: 400px;
+        }
+
+        body {
+            padding: 0;
         }
 
         .about_us_card_main>h4 {
@@ -39,7 +44,7 @@
             height: 100%;
             background: #fff;
             box-shadow: 0px 0px 32px #0000001a;
-            padding: 80px 0;
+            padding: 80px;
             border-radius: 30px;
             text-align: justify;
             margin-bottom: 40px;
@@ -76,6 +81,11 @@
 
         .moody_card_main>p:first-of-type {
             line-height: 22px;
+        }
+        .product-small{
+            border: 1px solid rgba(0,0,0,0.15);
+            border-radius: 20px;
+
         }
     </style>
 </head>
@@ -149,73 +159,73 @@
             <nav>
                 <a href="../index.html"><img src="../assets/images/logo_zinspilot_new.svg" alt="" /></a>
                 <div class="menu">
-                    <img src="../assets/images/menu.svg" alt="MENU" id="nav_toggle">
+                  <img src="../assets/images/menu.svg" alt="MENU" id="nav_toggle">
                 </div>
                 <div class="links">
-                    <a href="../../index.html" class="link active">Startseite</a>
-                    <div class="about_us_link">
-                        <a href="javascript:void(0);" class="link">Anlageangebote</a>
-                        <div class="drop_down">
-                            <a href="../pages/aboutUs.html">
-                                <p>Festgeld</p>
-                            </a>
-                            <a href="../pages/aboutUs.html">
-                                <p>Tagesgeld</p>
-                            </a>
-                        </div>
+                  <a href="../index.html" class="link active">Startseite</a>
+                  <div class="about_us_link">
+                    <a href="javascript:void(0);" class="link">Anlageangebote</a>
+                    <div class="drop_down">
+                      <a href="festgeld.html">
+                        <p>Festgeld</p>
+                      </a>
+                      <a href="tagesgeld.html">
+                        <p>Tagesgeld</p>
+                      </a>
                     </div>
-                    <div class="about_us_link">
-                        <a href="javascript:void(0);" class="link">Banken </a>
+                  </div>
+                  <div class="about_us_link">
+                    <a href="banken.html" class="link">Banken </a>
+                  </div>
+                  <div class="about_us_link">
+                    <a href="so-funktionierts.html" class="link">So funktioniert's </a>
+                  </div>
+                  <div class="about_us_link">
+                    <a href="javascript:void(0);" class="link">Informationen</a>
+                    <div class="drop_down">
+                      <a href="aktuelle-produktinfos.html">
+                        <p>Aktuelle Produktinfos</p>
+                      </a>
+                      <a href="zinserhoehungen.html">
+                        <p>Zinserhöhungen</p>
+                      </a>
+                      <a href="faq.html">
+                        <p>Häufige Fragen</p>
+                      </a>
+                      <a href="steuern.html">
+                        <p>Steuern</p>
+                      </a>
+                      <a href="steuerbescheinigung.html">
+                        <p>Steuerbescheinigung</p>
+                      </a>
+                      <a href="anlagevoraussetzung.html">
+                        <p>Anlagevoraussetzung</p>
+                      </a>
+                      <a href="ratingindex.html">
+                        <p>Länderrating</p>
+                      </a>
+                      <a href="formularcenter.html">
+                        <p>Formularcenter</p>
+                      </a>
                     </div>
-                    <div class="about_us_link">
-                        <a href="javascript:void(0);" class="link">So funktioniert's </a>
+                  </div>
+                  <div class="about_us_link">
+                    <a href="javascript:void(0);" class="link">Finanzwissen</a>
+                    <div class="drop_down">
+                      <a href="geldanlage.html">
+                        <p>Geldanlage</p>
+                      </a>
+                      <a href="magazin.html">
+                        <p>Magazin</p>
+                      </a>
                     </div>
-                    <div class="about_us_link">
-                        <a href="javascript:void(0);" class="link">Informationen</a>
-                        <div class="drop_down">
-                            <a href="../pages/festgeld.html">
-                                <p>Aktuelle Produktinfos</p>
-                            </a>
-                            <a href="../pages/festgeld.html">
-                                <p>Zinserhöhungen</p>
-                            </a>
-                            <a href="../pages/festgeld.html">
-                                <p>Häufige Fragen</p>
-                            </a>
-                            <a href="../pages/festgeld.html">
-                                <p>Steuern</p>
-                            </a>
-                            <a href="../pages/festgeld.html">
-                                <p>Steuerbescheinigung</p>
-                            </a>
-                            <a href="../pages/tagesgeld.html">
-                                <p>Anlagevoraussetzung</p>
-                            </a>
-                            <a href="../pages/top-festzinsanlagen.html">
-                                <p>Länderrating</p>
-                            </a>
-                            <a href="../pages/top-festzinsanlagen.html">
-                                <p>Formularcenter</p>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="about_us_link">
-                        <a href="javascript:void(0);" class="link">Finanzwissen</a>
-                        <div class="drop_down">
-                            <a href="../pages/festgeld.html">
-                                <p>Geldanlage</p>
-                            </a>
-                            <a href="../pages/festgeld.html">
-                                <p>Magazin</p>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="header-btns">
-                        <a href=""><button class="login-btn">Login</button></a>
-                        <a href=""><button class="register-btn">Registrieren</button></a>
-                    </div>
+                  </div>
+                  <div class="header-btns">
+                    <a href="login.html"><button class="login-btn">Login</button></a>
+                    <a href="signup.html"><button class="register-btn">Registrieren</button></a>
+                  </div>
                 </div>
-            </nav>
+              </nav>
             <div class="banner_heading">
                 <h2>
                     Zinserhoehungen
@@ -245,7 +255,6 @@
             </div>
         </div>
     </div>
-
     <section class="my-0 my-md-4 my-lg-4 my-xl-4 mt-5">
         <div class="ft_imprint">
             <div class="theme-container">
@@ -253,280 +262,416 @@
                     <div class="col-12 px-0 px-sm-3 px-md-3 px-lg-3 px-xl-3">
                         <div class="row justify-content-center">
                             <div class="ft_privacy_content col-11 col-sm-11 col-md-12 col-lg-12 col-xl-10">
-                                <div class="center-heading text-center pt-0">
-                                    <h1>Einzahlungsstichtage</h1>
+                                <div class="center-heading text-center">
+                                    <h1>Neueste Zinserhöhungen für <br> Tagesgeld und Festgeld</h1>
                                 </div>
-                                <div class="center-para text-center">
-                                    <p>Einzahlungen für den nächsten Anlagestart müssen spätestens zu den unten
-                                        angegebenen Stichtagen <br> auf dem ZINSPILOT-Einzahlungskonto eingegangen sein
-                                        (es
-                                        gilt das Buchungsdatum). Bitte beachten Sie, <br> Banken behalten sich das Recht
-                                        vor,
-                                        Angebote kurzfristig zu pausieren. Alle aktuellen <br> Angebote können Sie im
-                                        Bereich
-                                        "Anlageangebote" einsehen.
-
-                                    </p>
+                                <div class="center-para text-center pt-0">
+                                    <p>Laut der Europäischen Zentralbank (EZB) soll sich die langjährige Phase der
+                                        Niedrigzinsen schon bald dem
+                                        Ende zuneigen. <br> Bereits heute können Sparer bei ZINSPILOT von den
+                                        attraktiven Zinserhöhungen
+                                        profitieren.</p>
                                 </div>
-                                <div class="col-sm-12 col-md-12 px-0 px-lg-3 px-xl-3 mt-5">
-                                    <div id="c5302" class="frame frame-0 frame-type-text frame-space-before-medium   ">
-                                        <div class="table-responsive">
-                                            <table class="table table-striped">
-                                                <thead>
-                                                    <tr>
-                                                        <td><strong>Bank</strong></td>
-                                                        <td><strong>Nächster Anlagestart</strong></td>
-                                                        <td><strong>Einzahlungsstichtag</strong></td>
-                                                    </tr>
-                                                </thead>
-                                                <tbody>
-                                                    <tr>
-                                                        <td>365.bank</td>
-                                                        <td>15.07.2022</td>
-                                                        <td>12.07.2022 vor 16 Uhr</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Aegean Baltic Bank</td>
-                                                        <td>15.07.2022</td>
-                                                        <td>13.07.2022</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Aion</td>
-                                                        <td>15.07.2022</td>
-                                                        <td>12.07.2022 vor 16 Uhr</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>AKBANK AG</td>
-                                                        <td>15.07.2022</td>
-                                                        <td>12.07.2022 vor 16 Uhr</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Alpha Bank Romania</td>
-                                                        <td>15.07.2022</td>
-                                                        <td>13.07.2022</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>APS Bank</td>
-                                                        <td>15.07.2022</td>
-                                                        <td>13.07.2022</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>BluOr Bank</td>
-                                                        <td>15.07.2022</td>
-                                                        <td>12.07.2022 vor 16 Uhr</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Austrian Anadi Bank</td>
-                                                        <td>15.07.2022</td>
-                                                        <td>13.07.2022</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Avida Finans</td>
-                                                        <td>15.07.2022</td>
-                                                        <td>13.07.2022 vor 11 Uhr</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Baltic International Bank</td>
-                                                        <td>15.07.2022</td>
-                                                        <td>12.07.2022 vor 16 Uhr</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Banca CF+</td>
-                                                        <td>15.07.2022</td>
-                                                        <td>12.07.2022 vor 16 Uhr</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Banca Progetto</td>
-                                                        <td>15.07.2022</td>
-                                                        <td>13.07.2022 vor 12 Uhr</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Banca Sistema</td>
-                                                        <td>15.07.2022</td>
-                                                        <td>13.07.2022 vor 17 Uhr</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Banca UBAE</td>
-                                                        <td>15.07.2022</td>
-                                                        <td>13.07.2022</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Banco do Brasil</td>
-                                                        <td>15.07.2022</td>
-                                                        <td>12.07.2022 vor 16 Uhr</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Banco Finantia</td>
-                                                        <td>15.07.2022</td>
-                                                        <td>12.07.2022 vor 16 Uhr</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Banka Kovanica</td>
-                                                        <td>15.07.2022</td>
-                                                        <td>12.07.2022 vor 16 Uhr</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>BGFI</td>
-                                                        <td>15.07.2022</td>
-                                                        <td>12.07.2022 vor 11 Uhr</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>BNF Bank</td>
-                                                        <td>15.07.2022</td>
-                                                        <td>13.07.2022</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>BPF Bank&nbsp;</td>
-                                                        <td>15.07.2022</td>
-                                                        <td>13.07.2022</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>CBL Bank</td>
-                                                        <td>15.07.2022</td>
-                                                        <td>12.07.2022 vor 16 Uhr</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>CKV Bank</td>
-                                                        <td>15.07.2022</td>
-                                                        <td>12.07.2022 vor 16 Uhr</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Crédit Agricole Consumer Finance</td>
-                                                        <td>15.07.2022</td>
-                                                        <td>12.07.2022 vor 16 Uhr</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Creditplus Bank</td>
-                                                        <td>15.07.2022</td>
-                                                        <td>14.07.2022</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>EBI Groupe Ecobank</td>
-                                                        <td>15.07.2022</td>
-                                                        <td>12.07.2022 vor 16 Uhr</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Erik Penser Bank AB&nbsp;</td>
-                                                        <td>15.07.2022</td>
-                                                        <td>13.07.2022 vor 16 Uhr</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>European Merchant Bank</td>
-                                                        <td>15.07.2022</td>
-                                                        <td>12.07.2022 vor 16 Uhr</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>FCM Bank</td>
-                                                        <td>15.07.2022</td>
-                                                        <td>13.07.2022</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>FIMBank</td>
-                                                        <td>15.07.2022</td>
-                                                        <td>14.07.2022</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>First Bank</td>
-                                                        <td>15.07.2022</td>
-                                                        <td>13.07.2022</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Haitong Bank Sucursal en España</td>
-                                                        <td>15.07.2022</td>
-                                                        <td>12.07.2022 vor 16 Uhr</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>IIG Bank</td>
-                                                        <td>15.07.2022</td>
-                                                        <td>13.07.2022 vor 16 Uhr</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Imprebanca</td>
-                                                        <td>15.07.2022</td>
-                                                        <td>12.07.2022 vor 16 Uhr</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Inbank</td>
-                                                        <td>15.07.2022</td>
-                                                        <td>13.07.2022 vor 16 Uhr</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Izola Bank</td>
-                                                        <td>15.07.2022</td>
-                                                        <td>13.07.2022</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>KentBank</td>
-                                                        <td>15.07.2022</td>
-                                                        <td>12.07.2022 vor 16 Uhr</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>LHV</td>
-                                                        <td>15.07.2022</td>
-                                                        <td>12.07.2022 vor 16 Uhr</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>MeDirect Bank</td>
-                                                        <td>15.07.2022</td>
-                                                        <td>13.07.2022 vor 16 Uhr</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Memo Bank</td>
-                                                        <td>15.07.2022</td>
-                                                        <td>12.07.2022 vor 16 Uhr</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>My Money Bank</td>
-                                                        <td>15.07.2022</td>
-                                                        <td>12.07.2022</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Novum Bank</td>
-                                                        <td>15.07.2022</td>
-                                                        <td>13.07.2022</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Privatbanka</td>
-                                                        <td>15.07.2022</td>
-                                                        <td>12.07.2022 vor 16 Uhr</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Qliro</td>
-                                                        <td>15.07.2022</td>
-                                                        <td>13.07.2022 vor 16 Uhr</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>RIB</td>
-                                                        <td>15.07.2022</td>
-                                                        <td>12.07.2022 vor 16 Uhr</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Rietumu Bank</td>
-                                                        <td>15.07.2022</td>
-                                                        <td>12.07.2022 vor 16 Uhr</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Signet Bank&nbsp;</td>
-                                                        <td>15.07.2022</td>
-                                                        <td>12.07.2022 vor 16 Uhr</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>SME Bank</td>
-                                                        <td>15.07.2022</td>
-                                                        <td>12.07.2022 vor 16 Uhr</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>UBAF</td>
-                                                        <td>15.07.2022</td>
-                                                        <td>11.07.2022</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Wiener Privatbank</td>
-                                                        <td>15.07.2022</td>
-                                                        <td>12.07.2022 vor 16 Uhr</td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
+                                <div class="container">
+                                    <div id="c22055"
+                                        class="frame frame-0 frame-type-gridelements_pi1 frame-space-before-medium   ">
+                                        <div class="row row-space">
+                                            <div class="col-lg-12">
+                                                <div id="c22105"
+                                                    class="frame frame-0 frame-type-list frame-space-after-medium   ">
+                                                    <header>
+                                                        <h3 class="">
+                                                            Tagesgeld
+                                                        </h3>
+                                                    </header>
+                                                    <div class="products">
+                                                        <div class="product product-small d-inline-block px-3 pt-2 mx-1 mb-3"
+                                                            data-href="/banken/credit-agricole-consumer-finance/tagesgeld/">
+                                                            <div
+                                                                class="product-bank d-flex justify-content-center align-items-center">
+                                                                <img src="/../assets/images/cacf-logo.svg"
+                                                                    class="img-fluid"
+                                                                    alt="Crédit Agricole Consumer Finance"
+                                                                    loading="lazy">
+                                                            </div>
+                                                            <div class="product-interest text-center">
+                                                                0,21 %
+                                                            </div>
+                                                            <div class="product-period text-center">
+                                                                Tagesgeld<span class="break">/</span>Flexgeld24
+                                                            </div>
+                                                            <div class="product-country text-center">
+                                                                Frankreich
+                                                            </div>
+                                                            <div class="product-button text-center">
+                                                                <a href="/banken/credit-agricole-consumer-finance/tagesgeld/"
+                                                                    class="btn btn-orange">
+                                                                    Zum Angebot
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="product product-small d-inline-block px-3 pt-2 mx-1 mb-3"
+                                                            data-href="/banken/my-money-bank/tagesgeld/">
+                                                            <div
+                                                                class="product-bank d-flex justify-content-center align-items-center">
+                                                                <img src="../assets/images/MMBA.svg"
+                                                                    class="img-fluid" alt="My Money Bank"
+                                                                    loading="lazy">
+                                                            </div>
+                                                            <div class="product-interest text-center">
+                                                                0,24 %
+                                                            </div>
+                                                            <div class="product-period text-center">
+                                                                Tagesgeld<span class="break">/</span>Flexgeld24
+                                                            </div>
+                                                            <div class="product-country text-center">
+                                                                Frankreich
+                                                            </div>
+                                                            <div class="product-button text-center">
+                                                                <a href="/banken/my-money-bank/tagesgeld/"
+                                                                    class="btn btn-orange">
+                                                                    Zum Angebot
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="product product-small d-inline-block px-3 pt-2 mx-1 mb-3"
+                                                            data-href="/banken/fim-bank/tagesgeld/">
+                                                            <div
+                                                                class="product-bank d-flex justify-content-center align-items-center">
+                                                                <img src="../assets/images/FIMB.svg"
+                                                                    class="img-fluid" alt="FIMBank" loading="lazy">
+                                                            </div>
+                                                            <div class="product-interest text-center">
+                                                                0,27 %
+                                                            </div>
+                                                            <div class="product-period text-center">
+                                                                Tagesgeld<span class="break">/</span>Flexgeld24
+                                                            </div>
+                                                            <div class="product-country text-center">
+                                                                Malta
+                                                            </div>
+                                                            <div class="product-button text-center">
+                                                                <a href="/banken/fim-bank/tagesgeld/"
+                                                                    class="btn btn-orange">
+                                                                    Zum Angebot
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div id="c22106"
+                                                    class="frame frame-0 frame-type-list frame-space-after-medium   ">
+                                                    <header>
+                                                        <h3 class="">
+                                                            Festgeld
+                                                        </h3>
+                                                    </header>
+                                                    <div class="products">
+                                                        <div class="product product-small d-inline-block px-3 pt-2 mx-1 mb-3"
+                                                            data-href="/banken/banco-finantia/festgeld/12-monate/">
+                                                            <div
+                                                                class="product-bank d-flex justify-content-center align-items-center">
+                                                                <img src="../assets/images/logo-finantia.svg"
+                                                                    class="img-fluid" alt="Banco Finantia"
+                                                                    loading="lazy">
+                                                            </div>
+                                                            <div class="product-interest text-center">
+                                                                0,80 %
+                                                            </div>
+                                                            <div class="product-period text-center">
+                                                                12 Monate
+                                                            </div>
+                                                            <div class="product-country text-center">
+                                                                Portugal
+                                                            </div>
+                                                            <div class="product-button text-center">
+                                                                <a href="/banken/banco-finantia/festgeld/12-monate/"
+                                                                    class="btn btn-orange">
+                                                                    Zum Angebot
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="product product-small d-inline-block px-3 pt-2 mx-1 mb-3"
+                                                            data-href="/banken/banco-finantia/festgeld/6-monate/">
+                                                            <div
+                                                                class="product-bank d-flex justify-content-center align-items-center">
+                                                                <img src="../assets/images/logo-finantia.svg"
+                                                                    class="img-fluid" alt="Banco Finantia"
+                                                                    loading="lazy">
+                                                            </div>
+                                                            <div class="product-interest text-center">
+                                                                0,50 %
+                                                            </div>
+                                                            <div class="product-period text-center">
+                                                                6 Monate
+                                                            </div>
+                                                            <div class="product-country text-center">
+                                                                Portugal
+                                                            </div>
+                                                            <div class="product-button text-center">
+                                                                <a href="/banken/banco-finantia/festgeld/6-monate/"
+                                                                    class="btn btn-orange">
+                                                                    Zum Angebot
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="product product-small d-inline-block px-3 pt-2 mx-1 mb-3"
+                                                            data-href="/banken/banka-kovanica/festgeld/6-monate/">
+                                                            <div
+                                                                class="product-bank d-flex justify-content-center align-items-center">
+                                                                <img src="../assets/images/banka-kovanica-logo.svg"
+                                                                    class="img-fluid" alt="Banka Kovanica"
+                                                                    loading="lazy">
+                                                            </div>
+                                                            <div class="product-interest text-center">
+                                                                1,00 %
+                                                            </div>
+                                                            <div class="product-period text-center">
+                                                                6 Monate
+                                                            </div>
+                                                            <div class="product-country text-center">
+                                                                Kroatien
+                                                            </div>
+                                                            <div class="product-button text-center">
+                                                                <a href="/banken/banka-kovanica/festgeld/6-monate/"
+                                                                    class="btn btn-orange">
+                                                                    Zum Angebot
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="product product-small d-inline-block px-3 pt-2 mx-1 mb-3"
+                                                            data-href="/banken/banka-kovanica/festgeld/12-monate/">
+                                                            <div
+                                                                class="product-bank d-flex justify-content-center align-items-center">
+                                                                <img src="../assets/images/banka-kovanica-logo.svg"
+                                                                    class="img-fluid" alt="Banka Kovanica"
+                                                                    loading="lazy">
+                                                            </div>
+                                                            <div class="product-interest text-center">
+                                                                1,45 %
+                                                            </div>
+                                                            <div class="product-period text-center">
+                                                                12 Monate
+                                                            </div>
+                                                            <div class="product-country text-center">
+                                                                Kroatien
+                                                            </div>
+                                                            <div class="product-button text-center">
+                                                                <a href="/banken/banka-kovanica/festgeld/12-monate/"
+                                                                    class="btn btn-orange">
+                                                                    Zum Angebot
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="product product-small d-inline-block px-3 pt-2 mx-1 mb-3"
+                                                            data-href="/banken/fim-bank/festgeld/6-monate/">
+                                                            <div
+                                                                class="product-bank d-flex justify-content-center align-items-center">
+                                                                <img src="../assets/images/FIMB.svg"
+                                                                    class="img-fluid" alt="FIMBank" loading="lazy">
+                                                            </div>
+                                                            <div class="product-interest text-center">
+                                                                0,95 %
+                                                            </div>
+                                                            <div class="product-period text-center">
+                                                                6 Monate
+                                                            </div>
+                                                            <div class="product-country text-center">
+                                                                Malta
+                                                            </div>
+                                                            <div class="product-button text-center">
+                                                                <a href="/banken/fim-bank/festgeld/6-monate/"
+                                                                    class="btn btn-orange">
+                                                                    Zum Angebot
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="product product-small d-inline-block px-3 pt-2 mx-1 mb-3"
+                                                            data-href="/banken/fim-bank/festgeld/12-monate/">
+                                                            <div
+                                                                class="product-bank d-flex justify-content-center align-items-center">
+                                                                <img src="../assets/images/FIMB.svg"
+                                                                    class="img-fluid" alt="FIMBank" loading="lazy">
+                                                            </div>
+                                                            <div class="product-interest text-center">
+                                                                1,30 %
+                                                            </div>
+                                                            <div class="product-period text-center">
+                                                                12 Monate
+                                                            </div>
+                                                            <div class="product-country text-center">
+                                                                Malta
+                                                            </div>
+                                                            <div class="product-button text-center">
+                                                                <a href="/banken/fim-bank/festgeld/12-monate/"
+                                                                    class="btn btn-orange">
+                                                                    Zum Angebot
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="product product-small d-inline-block px-3 pt-2 mx-1 mb-3"
+                                                            data-href="/banken/european-merchant-bank/festgeld/9-monate/">
+                                                            <div
+                                                                class="product-bank d-flex justify-content-center align-items-center">
+                                                                <img src="../assets/images/embank.svg"
+                                                                    class="img-fluid" alt="European Merchant Bank"
+                                                                    loading="lazy">
+                                                            </div>
+                                                            <div class="product-interest text-center">
+                                                                1,01 %
+                                                            </div>
+                                                            <div class="product-period text-center">
+                                                                9 Monate
+                                                            </div>
+                                                            <div class="product-country text-center">
+                                                                Litauen
+                                                            </div>
+                                                            <div class="product-button text-center">
+                                                                <a href="/banken/european-merchant-bank/festgeld/9-monate/"
+                                                                    class="btn btn-orange">
+                                                                    Zum Angebot
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="product product-small d-inline-block px-3 pt-2 mx-1 mb-3"
+                                                            data-href="/banken/banca-progetto/festgeld/12-monate/">
+                                                            <div
+                                                                class="product-bank d-flex justify-content-center align-items-center">
+                                                                <img src="../assets/images/Logo_Banca_Progetto.svg"
+                                                                    class="img-fluid" alt="Banca Progetto"
+                                                                    loading="lazy">
+                                                            </div>
+                                                            <div class="product-interest text-center">
+                                                                1,35 %
+                                                            </div>
+                                                            <div class="product-period text-center">
+                                                                12 Monate
+                                                            </div>
+                                                            <div class="product-country text-center">
+                                                                Italien
+                                                            </div>
+                                                            <div class="product-button text-center">
+                                                                <a href="/banken/banca-progetto/festgeld/12-monate/"
+                                                                    class="btn btn-orange">
+                                                                    Zum Angebot
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="product product-small d-inline-block px-3 pt-2 mx-1 mb-3"
+                                                            data-href="/banken/banca-progetto/festgeld/6-monate/">
+                                                            <div
+                                                                class="product-bank d-flex justify-content-center align-items-center">
+                                                                <img src="../assets/images/Logo_Banca_Progetto.svg"
+                                                                    class="img-fluid" alt="Banca Progetto"
+                                                                    loading="lazy">
+                                                            </div>
+                                                            <div class="product-interest text-center">
+                                                                0,90 %
+                                                            </div>
+                                                            <div class="product-period text-center">
+                                                                6 Monate
+                                                            </div>
+                                                            <div class="product-country text-center">
+                                                                Italien
+                                                            </div>
+                                                            <div class="product-button text-center">
+                                                                <a href="/banken/banca-progetto/festgeld/6-monate/"
+                                                                    class="btn btn-orange">
+                                                                    Zum Angebot
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="product product-small d-inline-block px-3 pt-2 mx-1 mb-3"
+                                                            data-href="/banken/fim-bank/festgeld/3-monate/">
+                                                            <div
+                                                                class="product-bank d-flex justify-content-center align-items-center">
+                                                                <img src="../assets/images/FIMB.svg"
+                                                                    class="img-fluid" alt="FIMBank" loading="lazy">
+                                                            </div>
+                                                            <div class="product-interest text-center">
+                                                                0,45 %
+                                                            </div>
+                                                            <div class="product-period text-center">
+                                                                3 Monate
+                                                            </div>
+                                                            <div class="product-country text-center">
+                                                                Malta
+                                                            </div>
+                                                            <div class="product-button text-center">
+                                                                <a href="/banken/fim-bank/festgeld/3-monate/"
+                                                                    class="btn btn-orange">
+                                                                    Zum Angebot
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div id="c22113"
+                                                    class="frame frame-0 frame-type-text frame-space-after-medium   ">
+                                                    <header>
+                                                        <h2 class="">
+                                                            Darum lohnt sich eine Geldanlage zu jeder Zeit
+                                                        </h2>
+                                                    </header>
+                                                    <p>In Deutschland sparen die meisten Menschen ihr&nbsp;Geld als
+                                                        finanziellen Notgroschen, für
+                                                        neue Anschaffungen oder für die private Altersvorsorge. Ein
+                                                        Großteil dieser Ersparnisse
+                                                        liegt jedoch auf derzeit unverzinsten Girokonten. Aufgrund der
+                                                        stetig steigenden Inflation
+                                                        verliert dieses Geld immer mehr an&nbsp;Wert. Mit&nbsp;<a
+                                                            href="/tagesgeld/">Tagesgeld</a>&nbsp;und&nbsp;<a
+                                                            href="/festgeld/">Festgeld&nbsp;</a>können Sparer dem
+                                                        entgegenwirken und&nbsp;attraktive
+                                                        Zinsen erzielen. Bereits jetzt können Sie bei ZINSPILOT von
+                                                        einem Zinssatz mit bis zu 2,00 %
+                                                        p.a. profitieren.</p>
+                                                    <p>&nbsp;</p>
+                                                    <p class="text-center"><a
+                                                            href="https://www.zinspilot.de/anlageangebote/"
+                                                            target="_blank" class="btn btn-orange">Jetzt Geld
+                                                            anlegen</a><br> &nbsp;</p>
+                                                </div>
+                                                <div id="c22114"
+                                                    class="frame frame-0 frame-type-text frame-space-after-medium   ">
+                                                    <header>
+                                                        <h2 class="">
+                                                            Hintergründe zur Zinserhöhung
+                                                        </h2>
+                                                    </header>
+                                                    <p>Der Leitzins ist ein geldpolitisches Instrument, das von den
+                                                        Notenbanken zur aktiven
+                                                        Steuerung der im Umlauf befindlichen Geldmenge genutzt wird.
+                                                        Durch ihn wird bestimmt, zu
+                                                        welchem Zinssatz sich Geschäftsbanken Geld bei der zuständigen
+                                                        Notenbank leihen dürfen. In
+                                                        der Eurozone ist die Europäische Zentralbank (EZB) für die
+                                                        Festlegung des Leitzinses
+                                                        verantwortlich. Ihr Ziel ist es vorrangig, die Inflationsrate
+                                                        auf einem stabilen Niveau von
+                                                        2 % zu halten.</p>
+                                                    <p>Aufgrund der anhaltenden Corona-Krise und des
+                                                        Russland-Ukraine-Krieges rückte dieses Ziel
+                                                        jedoch in weiter ferne. Im Mai 2022 hatte die EZB daher
+                                                        beschlossen, die Anleihekäufe zum 1.
+                                                        Juli 2022 zu beenden. Seit 2015 wurden die Staatsanleihen und
+                                                        weitere festverzinsliche
+                                                        Papiere von der EZB aufgekauft. Sie sollten das Zinsniveau an
+                                                        den Finanzmärkten niedrig
+                                                        halten und so die allgemeine Geldmenge erhöhen. Da das Ende der
+                                                        Anleihekäufe eine
+                                                        Voraussetzung für die Zinswende war, kündigte die EZB erste
+                                                        Zinserhöhungen für Juli 2022 an.
+                                                        Sie würden den Leitzins zunächst um 0,25 % erhöhen. Für den
+                                                        September 2022 stellte die EZB
+                                                        eine weitere Zinserhöhung in Aussicht.</p>
+                                                    <p>Für Sparer bedeutet eine solche Erhöhung des Leitzinses das Ende
+                                                        der Negativzinsen und den
+                                                        Anstieg der Zinssätze für Tagesgeld und Festgeld. Bereits seit
+                                                        Mai 2022 können Sparer ihr
+                                                        Geld zu noch höheren Zinsen anlegen.</p>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -537,83 +682,74 @@
             </div>
         </div>
     </section>
-
-    <div class="theme-container">
-        <div class="center-para text-center">
-            <p>Bitte beachten Sie, dass zu den genannten Einzahlungsstichtagen auch die Anlagevoraussetzungen erfüllt sein
-                müssen. <br> Einige Anlagebanken benötigen zusätzliche Informationen (z.B. gültige Ausweisdaten). <br> Die
-                Anlagevoraussetzungen finden Sie in den jeweiligen Produktinformationen für die gewünschte Anlage.</p>
-        </div>
-    </div>
-    <section class="open-account-sec my-5">
+    <section class="open-account-sec mb-5">
         <div class="theme-container">
             <div class="open-account">
-                <h1>Alle Angebote von ZINSPILOT <br> im Überblick</h1>
-                <a href=""><button>Alle Angebote ansehen</button></a>
+                <h1>Jetzt Ihr kostenloses <br> ZINSPILOT-Konto eröffnen!</h1>
+                <p>Sie sind schon ZINSPILOT-Kunde? <a href="">Hier anmelden.</a></p>
+                <a href=""><button>Kostenloses Konto eröffnen</button></a>
             </div>
         </div>
     </section>
-    <!-- footer start  -->
     <footer class="footer">
         <div class="theme-container">
-            <div class="row">
-                <div class="footer_heading col-12 col-lg-3 col-xl-3">
-                    <img src="../assets/images/logo_zinspilot_footer.svg" alt="" class="footer-logo" />
-                    <p>Ringvägen 100</p>
-                    <p style="margin-bottom: 30px">SE- 118 60 Stockholm</p>
-                    <p> hello@zin-pilot.com Haben <br> Sie Fragen</p>
-                    <p>+46/ 843 737 988</p>
-                </div>
-                <div class="footer_heading footer_heading_1 col-6 col-lg-2 col-xl-2 my-5 my-lg-0 my-xl-0">
-                    <h2>Unternehmen</h2>
-                    <a href="../pages/festgeld.html">Über uns</a>
-                    <a href="../pages/tagesgeld.html">Karriere</a>
-                    <a href="../pages/top-festzinsanlagen.html">Presse</a>
-                    <a href="../pages/aboutUs.html">Auszeichnungen</a>
-                    <a href="../pages/contact-us.html">Kontakt</a>
-                    <a href="../pages/contact-us.html">Partner werden</a>
-                </div>
-                <div class="footer_heading footer_heading_2 col-6 col-lg-2 col-xl-2 my-5 my-lg-0 my-xl-0">
-                    <h2>
-                        Wissen
-                    </h2>
-                    <a href="../pages/edelmetalle.html">Finanzlexikon</a>
-                    <a href="../pages/gold-and-silber.html">Einlagensicherung</a>
-                    <a href="../pages/pelletanlagen.html">Ratingindex bei ZINSPILOT</a>
-                    <a href="../pages/aktien.html">Bankenrating</a>
-                </div>
-                <div class="footer_heading footer_heading_2 col-6 col-lg-2 col-xl-2 my-5 my-lg-0 my-xl-0">
-                    <h2>
-                        Service
-                    </h2>
-                    <a href="../pages/edelmetalle.html">Zufriedenheitsmanagement</a>
-                    <a href="../pages/gold-and-silber.html">ZINSPILOT Erfahrungen</a>
-                    <a href="../pages/pelletanlagen.html">Newsletter</a>
-                    <a href="../pages/pelletanlagen.html">Sparpläne</a>
-                </div>
-                <div class="footer_heading footer_heading_3 col-12 col-lg-3 col-xl-3">
-                    <h2>NEWSLETTER ANMELDUNG</h2>
-                    <p>Melden Sie sich bei unserem Newsletter an um immer neue Angebote zu erhalten</p>
-                    <div class="input_div">
-                        <input type="email" placeholder="Enter Your Email" />
-                        <a href="../pages/contact-us.html"><button class="more_on_btn more_on_btn_2">
-                                <img src="../assets/images/input_msg.svg" alt="" /></button></a>
-                    </div>
-                    <p>Holen Sie sich die aktuellen Angebote rein.</p>
-                </div>
+          <div class="row">
+            <div class="footer_heading col-12 col-lg-3 col-xl-3">
+              <img src="../assets/images/logo_zinspilot_footer.svg" alt="" class="footer-logo" />
+              <p>Ringvägen 100</p>
+              <p style="margin-bottom: 30px">SE- 118 60 Stockholm</p>
+              <p> hello@zin-pilot.com Haben <br> Sie Fragen</p>
+              <p>+46/ 843 737 988</p>
             </div>
+            <div class="footer_heading footer_heading_1 col-6 col-lg-2 col-xl-2 my-5 my-lg-0 my-xl-0">
+              <h2>Unternehmen</h2>
+              <a href="aboutUs.html">Über uns</a>
+              <a href="https://www.raisin.com/careers/">Karriere</a>
+              <a href="presse.html">Presse</a>
+              <a href="auszeichnungen.html">Auszeichnungen</a>
+              <a href="contact-us.html">Kontakt</a>
+              <a href="partner-werden.html">Partner werden</a>
+            </div>
+            <div class="footer_heading footer_heading_2 col-6 col-lg-2 col-xl-2 my-5 my-lg-0 my-xl-0">
+              <h2>
+                Wissen
+              </h2>
+              <a href="finanzlexikon.html">Finanzlexikon</a>
+              <a href="einlagensicherung.html">Einlagensicherung</a>
+              <a href="ratingindex.html">Ratingindex bei ZINSPILOT</a>
+              <a href="bankenrating.html">Bankenrating</a>
+            </div>
+            <div class="footer_heading footer_heading_2 col-6 col-lg-2 col-xl-2 my-5 my-lg-0 my-xl-0">
+              <h2>
+                Service
+              </h2>
+              <a href="zinserhoehungen.html">Zufriedenheitsmanagement</a>
+              <a href="erfahrungen.html">ZINSPILOT Erfahrungen</a>
+              <a href="newsletter.html">Newsletter</a>
+              <a href="sparplan.html">Sparpläne</a>
+            </div>
+            <div class="footer_heading footer_heading_3 col-12 col-lg-3 col-xl-3">
+              <h2>NEWSLETTER ANMELDUNG</h2>
+              <p>Melden Sie sich bei unserem Newsletter an um immer neue Angebote zu erhalten</p>
+              <div class="input_div">
+                <input type="email" placeholder="Enter Your Email" />
+                <a href="contact-us.html"><button class="more_on_btn more_on_btn_2">
+                    <img src="../assets/images/input_msg.svg" alt="" /></button></a>
+              </div>
+              <p>Holen Sie sich die aktuellen Angebote rein.</p>
+            </div>
+          </div>
         </div>
-    </footer>
-    <!-- footer end -->
-    <!-- footer_bottom start  -->
-    <div class="footer_bottom">
+      </footer>
+      <!-- footer end -->
+      <!-- footer_bottom start  -->
+      <div class="footer_bottom">
         <p>
-            © 2022 ins Pilot - All Rights Reserved | <a href="../pages/agbs.html">AGBs</a> | <a
-                href="../pages/impressum.html">Impressum</a> | <a
-                href="../pages/datenschutz.html">Datenschutzerklärung</a>
+          © 2022 ins Pilot - All Rights Reserved | <a href="agbs.html">AGBs</a> | <a
+            href="impressum.html">Impressum</a> | <a href="datenschutz.html">Datenschutzerklärung</a>
         </p>
-    </div>
-    <!-- footer_bottom end -->
+      </div>
+      <!-- footer_bottom end -->
     <script src="../assets/jquery-3.6.0.min.js"></script>
     <script type="text/javascript" src="../assets/slick.min.js"></script>
     <script src="../assets/core.js"></script>
