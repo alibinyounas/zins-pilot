@@ -20,7 +20,7 @@
     margin-right: 25px;
   }
 
-  .hesitate_main > h4 {
+  .hesitate_main>h4 {
     font-size: 2.4rem;
     width: 100%;
   }
@@ -34,7 +34,7 @@
     height: 400px;
   }
 
-  .footer > .theme-container > .row {
+  .footer>.theme-container>.row {
     justify-content: space-between;
   }
 
@@ -42,7 +42,7 @@
     width: 30%;
   }
 
-  .about_us > .row {
+  .about_us>.row {
     justify-content: center;
   }
 
@@ -50,15 +50,15 @@
     padding: 0px !important;
   }
 
-  .fee-adv-text_1 > iframe {
+  .fee-adv-text_1>iframe {
     width: 99% !important;
   }
 
-  .tradingview-widget-container > iframe {
+  .tradingview-widget-container>iframe {
     width: 99% !important;
   }
 
-  .about_us_card > img {
+  .about_us_card>img {
     position: initial;
     margin-bottom: 40px;
   }
@@ -67,7 +67,7 @@
     margin-bottom: 40px;
   }
 
-  .about_us_card_main > h4 {
+  .about_us_card_main>h4 {
     margin-bottom: 20px;
   }
 
@@ -75,7 +75,7 @@
     width: 100%;
   }
 
-  .about_us_card > .about_us_card_main > p {
+  .about_us_card>.about_us_card_main>p {
     text-align: justify;
   }
 
@@ -83,6 +83,7 @@
     width: 75%;
     margin-left: 0px;
   }
+
   .theme-container_2 {
     padding: 0 53px;
   }
@@ -103,12 +104,13 @@
   .tool-bar-items a {
     margin-bottom: 15px;
   }
+
   .tool-bar-items a:last-of-type {
     margin-bottom: 0px;
     margin-right: 0px;
   }
 
-  .about_us_card > img {
+  .about_us_card>img {
     position: initial !important;
     width: 100% !important;
   }
@@ -128,17 +130,24 @@
     margin-bottom: 50px;
   }
 }
+
 @media (max-width: 992px) {
+  .timeline-heading h2 {
+    font-size: 1.5rem;
+  }
+  .cd-timeline-content{
+    margin-right: 0;
+  }
   .theme-container {
     padding: 0 50px;
   }
 
-  .about_us_card_main > div > input {
+  .about_us_card_main>div>input {
     width: 48%;
     margin-right: 0px;
   }
 
-  .about_us_card_main_1 > h5::before {
+  .about_us_card_main_1>h5::before {
     left: 62%;
   }
 
@@ -150,15 +159,15 @@
     padding: 64px 67px 35px 67px !important;
   }
 
-  .about_us_card_main > div {
+  .about_us_card_main>div {
     justify-content: space-between;
   }
 
-  .about_us_card_main > div > textarea {
+  .about_us_card_main>div>textarea {
     width: 100%;
   }
 
-  .about_us_card_1 > .about_us_card_main:first-of-type {
+  .about_us_card_1>.about_us_card_main:first-of-type {
     width: 100% !important;
   }
 
@@ -171,6 +180,7 @@
     margin-left: 0px;
     margin-right: 0px;
   }
+
   .services_card:nth-child(2) {
     margin-left: 20px;
     margin-right: 20px;
@@ -181,7 +191,7 @@
   }
 
   .moody_card {
-    width: 30%;
+    width: 100% !important;
   }
 
   .theme-container_1 {
@@ -201,7 +211,7 @@
     margin-right: 20px;
   }
 
-  .hesitate_main > h4 {
+  .hesitate_main>h4 {
     font-size: 1.938rem;
     width: 100%;
   }
@@ -213,20 +223,20 @@
     flex-flow: column;
   }
 
-  .about_us_card > img {
+  .about_us_card>img {
     position: initial;
   }
 
   .about_us_card_main:last-of-type {
     width: 100%;
-    margin-top: 40px;
+    /* margin-top: 40px; */
   }
 
-  .about_us > .row {
+  .about_us>.row {
     justify-content: center;
   }
 
-  .about_us_card_main > h4 {
+  .about_us_card_main>h4 {
     margin-bottom: 20px;
   }
 
@@ -254,7 +264,7 @@
   }
 
   .contact-us-form input {
-    width: 100%;
+    width: 100% !important;
     margin-left: 0px;
   }
 
@@ -293,9 +303,39 @@
     width: 100%;
     margin-top: 50px;
   }
+
+  .services_card_main {
+    flex-flow: row wrap;
+  }
+
+  .services1 .services_card_main {
+    flex-flow: row;
+  }
+
+  /* .services1 .services_card{
+    width: 6% !important;
+  } */
 }
 
 @media (max-width: 768px) {
+  .open-account button {
+    width: unset !important;
+  }
+
+  .frame-grey-light {
+    padding: 20px !important;
+  }
+
+  .ce-bank-offer {
+    text-align: center;
+  }
+
+  .faq .card-header a {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+  }
+
   .notfound .notfound-404 {
     height: 142px;
   }
@@ -322,6 +362,7 @@
     width: 100%;
     margin: 0px;
   }
+
   .hesitate_card {
     margin-left: 0px !important;
     margin-right: 0px !important;
@@ -355,7 +396,7 @@
     padding-bottom: 0px !important;
   }
 
-  .about_us_card > img {
+  .about_us_card>img {
     width: 100%;
     left: 0%;
   }
@@ -374,7 +415,7 @@
     flex-flow: column-reverse;
   }
 
-  .about_us_card_main > h4 {
+  .about_us_card_main>h4 {
     font-size: 30px;
     line-height: 35px;
   }
@@ -387,7 +428,7 @@
     margin-bottom: 30px;
   }
 
-  .footer > .theme-container > .row {
+  .footer>.theme-container>.row {
     flex-flow: row wrap;
   }
 
@@ -411,7 +452,7 @@
     margin-bottom: 20px;
   }
 
-  .interest_rate > input {
+  .interest_rate>input {
     width: 100%;
   }
 
@@ -423,7 +464,7 @@
     padding: 35px 0px 35px 0px;
   }
 
-  .about_us_card > img {
+  .about_us_card>img {
     position: initial !important;
     top: 0%;
     margin-bottom: 25px;
@@ -434,28 +475,28 @@
     width: 100% !important;
   }
 
-  .about_us_card_main_1 > h5::before {
+  .about_us_card_main_1>h5::before {
     left: 7%;
   }
 
-  .about_us_card_1 > .about_us_card_main:first-of-type {
+  .about_us_card_1>.about_us_card_main:first-of-type {
     width: 100% !important;
   }
 
-  .about_us_card_main > div > input {
+  .about_us_card_main>div>input {
     width: 100%;
     margin-right: 0px;
   }
 
-  .about_us_card_main > div > textarea {
+  .about_us_card_main>div>textarea {
     width: 100%;
   }
 
-  .about_us_card_main > div > a {
+  .about_us_card_main>div>a {
     width: 100%;
   }
 
-  .great_suc_haeding > h3 {
+  .great_suc_haeding>h3 {
     text-align: center;
   }
 
@@ -474,8 +515,8 @@
     width: 0px;
   }
 
-  .great_successes_card > img,
-  .great_successes_card_1 > img {
+  .great_successes_card>img,
+  .great_successes_card_1>img {
     margin-right: 0px;
   }
 
@@ -483,7 +524,7 @@
     width: 100%;
   }
 
-  .about_us > .row {
+  .about_us>.row {
     padding: 0px 15px;
     justify-content: center;
   }
@@ -492,7 +533,7 @@
     width: 100%;
   }
 
-  .about_us_card_main > h4 {
+  .about_us_card_main>h4 {
     margin-bottom: 30px;
   }
 
@@ -504,9 +545,9 @@
     margin-bottom: 40px;
   }
 
-  .banner {
+  /* .banner {
     margin-bottom: 540px;
-  }
+  } */
 
   .banner .fixed-div {
     bottom: -505px;
@@ -520,11 +561,12 @@
     width: 130px;
     margin-bottom: 20px;
   }
-  .latest_news_img > img {
+
+  .latest_news_img>img {
     width: 100%;
   }
 
-  .hesitate > .theme-container > .row > .hesitate_main {
+  .hesitate>.theme-container>.row>.hesitate_main {
     text-align: center !important;
     padding: 35px 15px 15px 15px;
     background-size: 100% 100%;
@@ -535,13 +577,14 @@
     width: 88%;
   }
 
-  .hesitate_main > h4 {
+  .hesitate_main>h4 {
     font-size: 20px;
     line-height: 27px;
     width: 100%;
     margin-bottom: 10px;
   }
-  .hesitate_main > a > button {
+
+  .hesitate_main>a>button {
     margin-bottom: 20px;
     width: 80%;
     height: 30px;
@@ -575,6 +618,7 @@
   .banner-vector {
     display: none;
   }
+
   .top-title-vector {
     width: 45%;
   }
@@ -590,11 +634,11 @@
     flex-flow: column;
   }
 
-  .banner > .theme-container > nav > a > img {
+  .banner>.theme-container>nav>a>img {
     width: 152px;
   }
 
-  .about_us_card_main > h5 {
+  .about_us_card_main>h5 {
     text-align: center;
   }
 
@@ -602,11 +646,11 @@
     width: 100%;
   }
 
-  .input_div > a {
+  .input_div>a {
     right: 60px;
   }
 
-  .footer > .theme-container > .row {
+  .footer>.theme-container>.row {
     justify-content: space-between;
   }
 
@@ -660,7 +704,8 @@
     align-content: center;
     align-items: center;
   }
-  .tool-bar-items > a {
+
+  .tool-bar-items>a {
     margin: 0px 0px;
     margin-bottom: 5px !important;
   }
@@ -673,7 +718,7 @@
     font-size: 14px;
   }
 
-  .about_us_card_main > h4 {
+  .about_us_card_main>h4 {
     font-size: 40px;
     line-height: 50px;
   }
@@ -700,12 +745,12 @@
     word-break: break-all;
   }
 
-  .about_us_card_main > h4 {
+  .about_us_card_main>h4 {
     font-size: 20px !important;
     line-height: 35px !important;
   }
 
-  .about_us_card > .about_us_card_main > p {
+  .about_us_card>.about_us_card_main>p {
     font-size: 14px !important;
   }
 
@@ -756,7 +801,7 @@
     word-break: break-all !important;
   }
 
-  .about_us_card > .about_us_card_main > p,
+  .about_us_card>.about_us_card_main>p,
   .fee-adv-text p,
   .timeline-heading p,
   .cd-timeline-content p,
@@ -764,7 +809,7 @@
     text-align: justify;
   }
 
-  .about_us_card > img {
+  .about_us_card>img {
     height: 100% !important;
   }
 
@@ -811,6 +856,9 @@
 @media (max-width: 576px) {
   .hesitate_card {
     width: 89%;
+    display: flex;
+    flex-flow: column wrap;
+    text-align: center;
   }
 
   .banner .fixed-div {
@@ -821,7 +869,7 @@
     width: 87%;
   }
 
-  .fee-adv-text > iframe {
+  .fee-adv-text>iframe {
     width: 100% !important;
   }
 
@@ -833,7 +881,7 @@
     width: 88% !important;
   }
 
-  .hesitate > .theme-container > .row > .hesitate_main {
+  .hesitate>.theme-container>.row>.hesitate_main {
     width: 90%;
   }
 
@@ -858,12 +906,96 @@
 
   .fee-adv-text p,
   .heading-text,
-  .fee-adv-text > iframe {
+  .fee-adv-text>iframe {
     width: 100% !important;
   }
 
   .about_us_card {
     width: 90% !important;
+  }
+
+  .center-heading h1 {
+    font-size: 30px;
+  }
+
+  .video-div video {
+    width: 100%;
+  }
+
+  .open-account {
+    width: 100%;
+    padding: 35px 25px;
+  }
+
+  .open-account h1 {
+    font-size: 27px;
+  }
+
+  .open-account button {
+    margin-top: 0;
+  }
+
+  .eur-main {
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .eur-text h1 {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .have_questions {
+    width: 100%;
+    text-align: center;
+    padding: 40px;
+    background-size: 50px;
+    background-position: bottom right;
+  }
+
+  .have_questions h1 {
+    font-size: 30px;
+  }
+
+  .banner_heading h2 {
+    line-height: normal;
+  }
+
+  .frame h2,
+  .frame h4 {
+    font-size: 20px;
+  }
+
+  .banner {
+    margin-bottom: 0 !important;
+  }
+
+  .container {
+    padding: 0;
+  }
+
+  .form-margin {
+    margin-left: 0;
+  }
+
+  .up-btns {
+    width: 100% !important;
+  }
+
+  .ce-textpic p.text-center {
+    width: 100% !important;
+  }
+
+  .open-account input {
+    width: 100% !important;
+    margin-bottom: 10px;
+  }
+
+  .table_dt {
+    padding: 25px;
   }
 }
 
@@ -872,6 +1004,7 @@
     width: 100%;
     margin: 0px;
   }
+
   .hesitate_card {
     margin-left: 0px !important;
     margin-right: 0px !important;
@@ -889,8 +1022,9 @@
   }
 
   .services_card {
-    margin-left: 0px !important;
-    margin-right: 0px !important;
+    margin-left: 0.5px !important;
+    margin-right: 0.5px !important;
+    margin-top: 30px !important;
     margin-bottom: 30px !important;
     width: 100%;
   }
@@ -904,7 +1038,7 @@
     flex-flow: column;
   }
 
-  .about_us_card > img {
+  .about_us_card>img {
     width: 100%;
     left: 0%;
   }
@@ -923,7 +1057,7 @@
     flex-flow: column-reverse;
   }
 
-  .about_us_card_main > h4 {
+  .about_us_card_main>h4 {
     font-size: 30px;
     line-height: 35px;
   }
@@ -936,7 +1070,7 @@
     margin-bottom: 30px;
   }
 
-  .footer > .theme-container > .row {
+  .footer>.theme-container>.row {
     flex-flow: row wrap;
   }
 
@@ -960,7 +1094,7 @@
     margin-bottom: 20px;
   }
 
-  .interest_rate > input {
+  .interest_rate>input {
     width: 100%;
   }
 
@@ -972,7 +1106,7 @@
     padding: 35px 0px 35px 0px;
   }
 
-  .about_us_card > img {
+  .about_us_card>img {
     position: initial !important;
     top: 0%;
     margin-bottom: 25px;
@@ -983,28 +1117,28 @@
     width: 100% !important;
   }
 
-  .about_us_card_main_1 > h5::before {
+  .about_us_card_main_1>h5::before {
     left: 7%;
   }
 
-  .about_us_card_1 > .about_us_card_main:first-of-type {
+  .about_us_card_1>.about_us_card_main:first-of-type {
     width: 100% !important;
   }
 
-  .about_us_card_main > div > input {
+  .about_us_card_main>div>input {
     width: 100%;
     margin-right: 0px;
   }
 
-  .about_us_card_main > div > textarea {
+  .about_us_card_main>div>textarea {
     width: 100%;
   }
 
-  .about_us_card_main > div > a {
+  .about_us_card_main>div>a {
     width: 100%;
   }
 
-  .great_suc_haeding > h3 {
+  .great_suc_haeding>h3 {
     text-align: center;
   }
 
@@ -1023,8 +1157,8 @@
     width: 0px;
   }
 
-  .great_successes_card > img,
-  .great_successes_card_1 > img {
+  .great_successes_card>img,
+  .great_successes_card_1>img {
     margin-right: 0px;
   }
 
@@ -1032,7 +1166,7 @@
     width: 100%;
   }
 
-  .about_us > .row {
+  .about_us>.row {
     padding: 0px 15px;
   }
 
@@ -1044,7 +1178,7 @@
     width: 100%;
   }
 
-  .about_us_card_main > h4 {
+  .about_us_card_main>h4 {
     margin-bottom: 30px;
   }
 
@@ -1056,9 +1190,9 @@
     margin-bottom: 40px;
   }
 
-  .banner {
+  /* .banner {
     margin-bottom: 540px;
-  }
+  } */
 
   .banner .fixed-div {
     bottom: -505px;
@@ -1072,23 +1206,25 @@
     width: 130px;
     margin-bottom: 20px;
   }
-  .latest_news_img > img {
+
+  .latest_news_img>img {
     width: 100%;
   }
 
-  .hesitate > .theme-container > .row > .hesitate_main {
+  .hesitate>.theme-container>.row>.hesitate_main {
     text-align: center !important;
     padding: 10px 15px 0px 15px;
     background-size: 100% 100%;
   }
 
-  .hesitate_main > h4 {
+  .hesitate_main>h4 {
     font-size: 20px;
     line-height: 27px;
     width: 100%;
     margin-bottom: 10px;
   }
-  .hesitate_main > a > button {
+
+  .hesitate_main>a>button {
     margin-bottom: 20px;
     width: 80%;
     height: 30px;
@@ -1122,6 +1258,7 @@
   .banner-vector {
     display: none;
   }
+
   .top-title-vector {
     width: 45%;
   }
@@ -1134,23 +1271,24 @@
     border-radius: 20px 20px 20px 20px;
   }
 
-  .banner > .theme-container > nav > a > img {
+  .banner>.theme-container>nav>a>img {
     width: 152px;
   }
 
-  .about_us_card_main > h5 {
+  .about_us_card_main>h5 {
     text-align: center;
   }
 
   .input_div {
-    width: 100%;
+    width: 85%;
+    margin: 0 auto;
   }
 
-  .input_div > a {
+  .input_div>a {
     right: 60px;
   }
 
-  .footer > .theme-container > .row {
+  .footer>.theme-container>.row {
     justify-content: space-between;
   }
 
@@ -1209,7 +1347,8 @@
     align-content: center;
     align-items: center;
   }
-  .tool-bar-items > a {
+
+  .tool-bar-items>a {
     margin: 0px 0px;
     margin-bottom: 5px !important;
   }
@@ -1222,7 +1361,7 @@
     font-size: 14px;
   }
 
-  .about_us_card_main > h4 {
+  .about_us_card_main>h4 {
     font-size: 40px;
     line-height: 50px;
   }
@@ -1249,12 +1388,12 @@
     word-break: break-all;
   }
 
-  .about_us_card_main > h4 {
+  .about_us_card_main>h4 {
     font-size: 20px !important;
     line-height: 35px !important;
   }
 
-  .about_us_card > .about_us_card_main > p {
+  .about_us_card>.about_us_card_main>p {
     font-size: 14px !important;
   }
 
@@ -1305,7 +1444,7 @@
     word-break: break-all !important;
   }
 
-  .about_us_card > .about_us_card_main > p,
+  .about_us_card>.about_us_card_main>p,
   .fee-adv-text p,
   .timeline-heading p,
   .cd-timeline-content p,
@@ -1313,7 +1452,7 @@
     text-align: justify;
   }
 
-  .about_us_card > img {
+  .about_us_card>img {
     height: 100% !important;
   }
 
@@ -1340,7 +1479,7 @@
     width: 100%;
   }
 
-  .hesitate > .theme-container > .row > .hesitate_main {
+  .hesitate>.theme-container>.row>.hesitate_main {
     width: 100%;
   }
 
@@ -1350,5 +1489,13 @@
 
   .moody_card {
     width: 100%;
+  }
+
+  .footer_heading_3 h2 {
+    text-align: center;
+  }
+
+  .footer_heading_3 p {
+    text-align: center;
   }
 }

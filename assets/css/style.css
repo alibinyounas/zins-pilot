@@ -216,6 +216,29 @@ a {
   padding-right: 5px;
 }
 
+.side-bar-btns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.side-bar-btns button {
+  border-radius: 8px;
+  height: 35px;
+  width: 100px;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-family: lato-r;
+}
+
+.side-bar-btns a:first-child button {
+  background-color: #F59A23;
+}
+
+.side-bar-btns a:last-child button {
+  background-color: #5BCD3E;
+}
+
 /* side-bar end */
 button,
 input,
@@ -581,6 +604,7 @@ textarea {
 
 .services_card {
   cursor: pointer;
+  min-height: 265px;
   background-color: #ffffff;
   border-radius: 20px;
   box-shadow: 0px 3px 6px #00000029;
@@ -625,7 +649,7 @@ section.hesitate {
 }
 
 .more_on_btn {
-  background-color: #F59A23;
+  background-color: #5BCD3E;
   border-radius: 8px;
   height: 35px;
   width: 128px;
@@ -634,7 +658,7 @@ section.hesitate {
 }
 
 .more_on_btn:hover {
-  background-color: #F59A23;
+  background-color: #5BCD3E;
   border-radius: 8px;
   height: 35px;
   border: 0px;
@@ -662,7 +686,6 @@ section.hesitate {
 }
 
 .video-div {
-  height: 531px;
   border-radius: 20px;
   text-align: center;
 }
@@ -672,12 +695,16 @@ section.hesitate {
   border-radius: 40px;
 }
 
+.awards-slider button {
+  display: none !important;
+}
+
 section.open-account-sec {
   margin-top: 60px;
 }
 
 .open-account {
-  width: 1138px;
+  width: 90%;
   padding: 35px 0;
   background: #005091;
   box-shadow: 0px 3px 6px #00000029;
@@ -717,6 +744,20 @@ section.open-account-sec {
   font-size: 13px;
   padding: 9px 10px 8px 15px;
   height: 35px;
+}
+
+.card-header i {
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 4px;
+}
+
+.card-body p {
+  color: var(--theme-clr);
+}
+
+ul.fc-ul {
+  color: var(--theme-clr);
 }
 
 .product-big {
@@ -1045,7 +1086,7 @@ section.any_questions_sec {
   background-image: url(../images/question-mark-bg.svg);
   background-repeat: no-repeat;
   background-position: top right 115px;
-  width: 1138px;
+  width: 90%;
   padding: 60px 50px 35px;
   background-color: #005091;
   box-shadow: 0px 3px 6px #00000029;
@@ -1369,6 +1410,7 @@ footer h2 {
 
 .frame-type-text p {
   color: var(--theme-clr);
+  word-break: break-word;
 }
 
 h1.ce-headline-center {
@@ -1428,7 +1470,7 @@ h1.ce-headline-center {
 }
 
 .drop_down>a>p:hover {
-  background-color: var(--theme-clr);
+  background-color: #5BCD3E;
   color: #fcfcfc;
 }
 

@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
   <title>Über uns</title>
   <link rel="stylesheet" href="../assets/css/style.css">
-  <link rel="stylesheet" href="../assets//cssresponsive.css">
+  <link rel="stylesheet" href="../assets/css/responsive.css">
   <style>
     .banner {
       height: 400px;
@@ -19,11 +19,23 @@
     .open-account button {
       width: 25%;
     }
-    .services_card img{
+
+    .services_card img {
       width: 200px;
     }
-    .services_card{
+
+    .services_card {
       width: 30%;
+    }
+
+    @media (max-width:575px) {
+      .services_card {
+        width: unset;
+      }
+
+      section.open-account-sec {
+        margin-top: 20px;
+      }
     }
   </style>
 </head>
@@ -50,8 +62,8 @@
                 class="fas fa-angle-down"></i></a></li>
           <div class="sidebar_dropdown_1">
             <div class="side_bar_dropdown">
-              <a href="aboutUs.html">Festgeld</a>
-              <a href="aboutUs.html">Tagesgeld</a>
+              <a href="festgeld.html">Festgeld</a>
+              <a href="tagesgeld.html">Tagesgeld</a>
             </div>
           </div>
           <li><a href="banken.html" class="sidebar-links">Banken</a></li>
@@ -179,7 +191,8 @@
   <div class="center-para text-center">
     <div class="theme-container">
       <p>ZINSPILOT steht für die einfache Ein-Konto-Lösung: Mit nur einem kostenlosen Konto ermöglicht unser
-        Anlegerservice <br> Ihnen Zugang zu verschiedenen Banken mit lukrativen Anlageprodukten aus dem europäischen Ausland. <br>
+        Anlegerservice <br> Ihnen Zugang zu verschiedenen Banken mit lukrativen Anlageprodukten aus dem europäischen
+        Ausland. <br>
         Wir machen Sparen komfortabel und garantieren unseren Kunden eine unkomplizierte Geldanlage. <br> Bei ZINSPILOT
         bieten wir Tages- und Festgeldangebote mit marktführenden Zinsen, <br> die alle durch die europäische
         Einlagensicherung abgesichert sind.</p>
@@ -280,8 +293,8 @@
   <!-- footer_bottom start  -->
   <div class="footer_bottom">
     <p>
-      © 2022 ins Pilot - All Rights Reserved | <a href="agbs.html">AGBs</a> | <a
-        href="impressum.html">Impressum</a> | <a href="datenschutz.html">Datenschutzerklärung</a>
+      © 2022 ins Pilot - All Rights Reserved | <a href="agbs.html">AGBs</a> | <a href="impressum.html">Impressum</a> |
+      <a href="datenschutz.html">Datenschutzerklärung</a>
     </p>
   </div>
   <!-- footer_bottom end -->

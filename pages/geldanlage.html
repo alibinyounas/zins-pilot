@@ -1,770 +1,887 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-    />
-    <link rel="stylesheet" href="../assets/css/bootstrap.min.css" />
-    <title>Geldanlage</title>
-    <link rel="stylesheet" href="../assets/css/merged-table.css" />
-    <link rel="stylesheet" href="../assets/css/style.css" />
-    <link rel="stylesheet" href="../assets//cssresponsive.css" />
-    <style>
-      body {
-        padding: 0;
-      }
 
-      .ft_privacy_content {
-        width: 90%;
-        /* height: 100%; */
-        background: #fff;
-        box-shadow: 0px 0px 32px #0000001a;
-        padding: 80px;
-        border-radius: 30px;
-        text-align: justify;
-        margin-bottom: 40px;
-      }
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css" />
+  <title>Geldanlage</title>
+  <link rel="stylesheet" href="../assets/css/merged-table.css" />
+  <link rel="stylesheet" href="../assets/css/style.css" />
+  <link rel="stylesheet" href="../assets/css/responsive.css" />
+  <style>
+    body {
+      padding: 0;
+    }
 
-      .ft_privacy_content h1 {
-        font-size: 30px;
-        /* font-family: "Lato-Bold";*/
-        font-weight: bold;
-        line-height: 1.3;
-        color: #00223e;
-        padding-bottom: 10px;
-      }
+    .ft_privacy_content {
+      width: 90%;
+      /* height: 100%; */
+      background: #fff;
+      box-shadow: 0px 0px 32px #0000001a;
+      padding: 80px;
+      border-radius: 30px;
+      text-align: justify;
+      margin-bottom: 40px;
+    }
 
-      .ft_privacy_content h6 {
-        font-size: 20px;
-        font-weight: bold;
-      }
+    .ft_privacy_content h1 {
+      font-size: 30px;
+      /* font-family: "Lato-Bold";*/
+      font-weight: bold;
+      line-height: 1.3;
+      color: #00223e;
+      padding-bottom: 10px;
+    }
 
-      .ft_privacy_content h5 {
-        font-size: 20px;
-      }
+    .ft_privacy_content h6 {
+      font-size: 20px;
+      font-weight: bold;
+    }
 
-      p span {
-        font-size: 16px;
-      }
+    .ft_privacy_content h5 {
+      font-size: 20px;
+    }
 
-      .banner {
-        height: 400px;
-        margin-bottom: 100px;
-      }
+    p span {
+      font-size: 16px;
+    }
 
-      .open-prime {
-        width: 100%;
-        background: #fcfcfc;
-      }
+    .banner {
+      height: 400px;
+      margin-bottom: 100px;
+    }
 
-      .open-prime h1,
-      .open-prime p {
-        color: var(--theme-color);
-      }
+    .open-prime {
+      width: 100%;
+      background: #fcfcfc;
+    }
 
-      .open-prime input {
-        border: 1px solid #005091 !important;
-      }
-      .card-header{
-        background-color: #5BCD3E !important;
-        border-radius: 20px !important;
-      }
-      .faq .card-header a {
-    color: white;
-}
-    </style>
-  </head>
+    .open-prime h1,
+    .open-prime p {
+      color: var(--theme-color);
+    }
 
-  <body>
-    <!-- SIDE MENU -->
-    <div class="animationload" style="display: none">
-      <div class="loader" style="display: none"></div>
+    .open-prime input {
+      border: 1px solid #005091 !important;
+    }
+
+    .card-header {
+      background-color: #5BCD3E !important;
+      border-radius: 20px !important;
+    }
+
+    .faq .card-header a {
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- SIDE MENU -->
+  <div class="animationload" style="display: none;">
+    <div class="loader" style="display: none;"></div>
+  </div>
+  <!-- SIDE MENU -->
+  <div class="sidebar-backdrop"></div>
+  <div class="sidebar-menu">
+    <div class="d-flex justify-content-between align-items-center head">
+      <a href="../index.html" style="color: #404040;">
+        <img src="../assets/images/logo_zinspilot_new.svg" alt="">
+      </a>
+      <img class="sidebar-close" src="../assets/images/close-dark.svg" alt="x" width="18px">
     </div>
-    <div class="sidebar-backdrop"></div>
-    <div class="sidebar-menu">
-      <div class="d-flex justify-content-between align-items-center head">
-        <a href="../index.html" style="color: #404040">
-          <img src="../assets/images/logo_zinspilot_new.svg" alt="" />
-        </a>
-        <img
-          class="sidebar-close"
-          src="../assets/images/close-dark.svg"
-          alt="x"
-          width="18px"
-        />
+    <div class="body">
+      <div class="side_bar_main">
+        <ul class="list-unstyled">
+          <li><a href="../index.html" class="sidebar-links">Startseite</a></li>
+          <li class="sb_submenu"><a href="javascript:void(0);" class="sidebar-links sidebar_menu">Anlageangebote<i
+                class="fas fa-angle-down"></i></a></li>
+          <div class="sidebar_dropdown_1">
+            <div class="side_bar_dropdown">
+              <a href="festgeld.html">Festgeld</a>
+              <a href="tagesgeld.html">Tagesgeld</a>
+            </div>
+          </div>
+          <li><a href="banken.html" class="sidebar-links">Banken</a></li>
+          <li><a href="so-funktionierts.html" class="sidebar-links">So funktioniert's</a></li>
+          <li class="sb_submenu"><a href="javascript:void(0);" class="sidebar-links sidebar_menu_1">Informationen
+              <i class="fas fa-angle-down"></i></a></li>
+          <div class="sidebar_dropdown_2">
+            <div class="side_bar_dropdown">
+              <a href="aktuelle-produktinfos.html">Aktuelle Produktinfos</a>
+              <a href="zinserhoehungen.html">Zinserhöhungen</a>
+              <a href="faq.html">Häufige Fragen</a>
+              <a href="steuern.html">Steuern</a>
+              <a href="steuerbescheinigung.html">Steuerbescheinigung</a>
+              <a href="anlagevoraussetzung.html">Anlagevoraussetzung</a>
+              <a href="ratingindex.html">Länderrating</a>
+              <a href="formularcenter.html">Formularcenter</a>
+            </div>
+          </div>
+          <li class="sb_submenu"><a href="javascript:void(0);" class="sidebar-links sidebar_menu_3">Finanzwissen <i
+                class="fas fa-angle-down"></i></a></li>
+          <div class="sidebar_dropdown_4">
+            <div class="side_bar_dropdown">
+              <a href="geldanlage.html">Geldanlage</a>
+              <a href="magazin.html">Magazin</a>
+            </div>
+          </div>
+          <li><a href="sparplan.html" class="sidebar-links">SPARPLÄNE </a></li>
+          <li><a href="contact-us.html" class="sidebar-links">KONTAKT</a></li>
+          <!-- <a href="#"><button></button></a> -->
+        </ul>
+        <div class="side-bar-btns">
+          <a href="login.html" class="sidebar-links"><button>Login</button></a>
+          <a href="signup.html" class="sidebar-links"><button>Registrieren</button></a>
+        </div>
       </div>
-      <div class="body">
-        <div class="side_bar_main">
-          <ul class="list-unstyled">
-            <li>
-              <a href="../index.html" class="sidebar-links">Startseite</a>
-            </li>
-            <li class="sb_submenu">
-              <a href="javascript:void(0);" class="sidebar-links sidebar_menu"
-                >Anlageangebote<i class="fas fa-angle-down"></i
-              ></a>
-            </li>
-            <div class="sidebar_dropdown_1">
-              <div class="side_bar_dropdown">
-                <a href="../pages/aboutUs.html">Festgeld</a>
-                <a href="../pages/aboutUs.html">Tagesgeld</a>
-              </div>
-            </div>
-            <li><a href="../index.html" class="sidebar-links">Banken</a></li>
-            <li>
-              <a href="../index.html" class="sidebar-links"
-                >So funktioniert's</a
-              >
-            </li>
-            <li class="sb_submenu">
-              <a href="javascript:void(0);" class="sidebar-links sidebar_menu_1"
-                >Informationen <i class="fas fa-angle-down"></i
-              ></a>
-            </li>
-            <div class="sidebar_dropdown_2">
-              <div class="side_bar_dropdown">
-                <a href="../pages/festgeld.html">Aktuelle Produktinfos</a>
-                <a href="../pages/tagesgeld.html">Zinserhöhungen</a>
-                <a href="../pages/top-festzinsanlagen.html">Häufige Fragen</a>
-                <a href="../pages/top-festzinsanlagen.html">Steuern</a>
-                <a href="../pages/top-festzinsanlagen.html"
-                  >Steuerbescheinigung</a
-                >
-                <a href="../pages/top-festzinsanlagen.html"
-                  >Anlagevoraussetzung</a
-                >
-                <a href="../pages/top-festzinsanlagen.html">Länderrating</a>
-                <a href="../pages/top-festzinsanlagen.html">Formularcenter</a>
-              </div>
-            </div>
-            <li class="sb_submenu">
-              <a href="javascript:void(0);" class="sidebar-links sidebar_menu_3"
-                >Finanzwissen <i class="fas fa-angle-down"></i
-              ></a>
-            </li>
-            <div class="sidebar_dropdown_4">
-              <div class="side_bar_dropdown">
-                <a href="../pages/aktien.html">Geldanlage</a>
-                <a href="../pages/gold-and-silber.html">Magazin</a>
-              </div>
-            </div>
-            <li>
-              <a href="../pages/sparplan.html" class="sidebar-links"
-                >SPARPLÄNE
+    </div>
+  </div>
+  <!-- /SIDE MENU -->
+
+  <!-- banner start  -->
+  <div class="banner">
+    <div class="theme-container">
+      <nav>
+        <a href="../index.html"><img src="../assets/images/logo_zinspilot_new.svg" alt="" /></a>
+        <div class="menu">
+          <img src="../assets/images/menu.svg" alt="MENU" id="nav_toggle">
+        </div>
+        <div class="links">
+          <a href="../index.html" class="link">Startseite</a>
+          <div class="about_us_link">
+            <a href="javascript:void(0);" class="link">Anlageangebote</a>
+            <div class="drop_down">
+              <a href="festgeld.html">
+                <p>Festgeld</p>
               </a>
-            </li>
-            <li>
-              <a href="../pages/contact-us.html" class="sidebar-links"
-                >KONTAKT</a
-              >
-            </li>
-            <!-- <a href="#"><button></button></a> -->
-          </ul>
-          <div class="side-bar-btns">
-            <a href="#" class="sidebar-links"><button>Login</button></a>
-            <a href="#" class="sidebar-links"><button>Registrieren</button></a>
+              <a href="tagesgeld.html">
+                <p>Tagesgeld</p>
+              </a>
+            </div>
+          </div>
+          <div class="about_us_link">
+            <a href="banken.html" class="link">Banken </a>
+          </div>
+          <div class="about_us_link">
+            <a href="so-funktionierts.html" class="link">So funktioniert's </a>
+          </div>
+          <div class="about_us_link">
+            <a href="javascript:void(0);" class="link">Informationen</a>
+            <div class="drop_down">
+              <a href="aktuelle-produktinfos.html">
+                <p>Aktuelle Produktinfos</p>
+              </a>
+              <a href="zinserhoehungen.html">
+                <p>Zinserhöhungen</p>
+              </a>
+              <a href="faq.html">
+                <p>Häufige Fragen</p>
+              </a>
+              <a href="steuern.html">
+                <p>Steuern</p>
+              </a>
+              <a href="steuerbescheinigung.html">
+                <p>Steuerbescheinigung</p>
+              </a>
+              <a href="anlagevoraussetzung.html">
+                <p>Anlagevoraussetzung</p>
+              </a>
+              <a href="ratingindex.html">
+                <p>Länderrating</p>
+              </a>
+              <a href="formularcenter.html">
+                <p>Formularcenter</p>
+              </a>
+            </div>
+          </div>
+          <div class="about_us_link">
+            <a href="javascript:void(0);" class="link active">Finanzwissen</a>
+            <div class="drop_down">
+              <a href="geldanlage.html">
+                <p>Geldanlage</p>
+              </a>
+              <a href="magazin.html">
+                <p>Magazin</p>
+              </a>
+            </div>
+          </div>
+          <div class="header-btns">
+            <a href="login.html"><button class="login-btn">Login</button></a>
+            <a href="signup.html"><button class="register-btn">Registrieren</button></a>
           </div>
         </div>
+      </nav>
+      <div class="banner_heading">
+        <h2>
+          Geldanlage: Mit diesen<br />
+          Möglichkeiten Geld sinnvoll anlegen
+        </h2>
       </div>
     </div>
-    <!-- /SIDE MENU -->
-
-    <!-- banner start  -->
-    <div class="banner">
+  </div>
+  <!-- banner end  -->
+  <!-- section start >......................... -->
+  <section class="my-0 my-md-4 my-lg-4 my-xl-4 mt-5">
+    <div class="ft_imprint">
       <div class="theme-container">
-        <nav>
-          <a href="../index.html"><img src="../assets/images/logo_zinspilot_new.svg" alt="" /></a>
-          <div class="menu">
-            <img src="../assets/images/menu.svg" alt="MENU" id="nav_toggle">
+        <div class="row justify-content-center">
+          <div class="col-12 px-0 px-sm-3 px-md-3 px-lg-3 px-xl-3">
+            <div class="row justify-content-center">
+              <div class="ft_privacy_content col-12 col-sm-12 col-md-12 col-lg-12 col-xl-10">
+                <div class="col-sm-12 col-md-12 px-0 px-lg-3 px-xl-3">
+                  <div class="container">
+                    <div id="c21614" class="frame frame-0 frame-type-menu_section frame-space-before-extra-large mt-0">
+                      <ul class="mb-5 pl-0 list-unstyled">
+                        <li>
+                          ✔ Erklärung: Als Geldanlage werden alle Aktivitäten
+                          bezeichnet, deren Ziel es ist, Geld zu vermehren.
+                        </li>
+                        <li>
+                          ✔ Anlagemöglichkeiten: Es gibt viele verschiedene
+                          Möglichkeiten zur Geldanlage.
+                        </li>
+                        <li>
+                          ✔ Sicherheit: Jede Geldanlage ist mit
+                          unterschiedlichen Risiken verbunden.
+                        </li>
+                        <li>
+                          ✔ Rendite: Bei Geldanlagen gilt als Faustregel: Je
+                          höher das Risiko, desto höher die Rendite.
+                          Seitenübersicht
+                        </li>
+                      </ul>
+                      <header>
+                        <h2 class="">Seitenübersicht</h2>
+                      </header>
+                      <div class="mt-1">
+                        <a href="#c21613" title="Wie funktioniert ein Tagesgeld-Sparplan?" class="scroll">
+                          Wie funktioniert ein Tagesgeld-Sparplan?
+                        </a>
+                      </div>
+                      <div class="mt-1">
+                        <a href="#c21606" title="Welche Vorteile bringt ein Tagesgeld-Sparplan?" class="scroll">
+                          Welche Vorteile bringt ein Tagesgeld-Sparplan?
+                        </a>
+                      </div>
+                      <div class="mt-1">
+                        <a href="#c21605" title="Tagesgeld-Sparplan bei ZINSPILOT erstellen" class="scroll">
+                          Tagesgeld-Sparplan bei ZINSPILOT erstellen
+                        </a>
+                      </div>
+                      <div class="mt-1">
+                        <a href="#c21603" title="Zusammenfassung: So sparen Sie mit einem Tagesgeld-Sparplan"
+                          class="scroll">
+                          Zusammenfassung: So sparen Sie mit einem
+                          Tagesgeld-Sparplan
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="container">
+                    <div id="c21613" class="frame frame-0 frame-type-textpic frame-space-before-medium">
+                      <header>
+                        <h2 class="">Was ist eine Geldanlage?</h2>
+                      </header>
+                      <div class="ce-textpic ce-center ce-below">
+                        <div class="ce-bodytext">
+                          <p>
+                            Geldanlage bedeutet, Geld mit dem Ziel anzulegen,
+                            eine Rendite zu erwirtschaften. Die Möglichkeiten
+                            dafür sind vielfältig: Kapitalanlagen in Sachwerte
+                            wie Immobilien oder Edelmetalle zählen genauso zur
+                            Geldanlage wie die Anlage in Tagesgeld oder
+                            Festgeld und das Investieren in Wertpapiere. So
+                            unterschiedlich wie die Anlageformen selbst ist
+                            auch deren Risiko. Während Spareinlagen auf
+                            Sparbüchern, Festgeld- und Tagesgeldkonten durch
+                            die gesetzliche Einlagensicherung abgesichert
+                            sind, unterliegen Aktien, Fonds, ETFs und andere
+                            Wertpapiere den Kursschwankungen an der Börse.
+                            Auch der Wert von Immobilien, Gold, Silber und
+                            weiteren Sachwerten ist von Marktschwankungen
+                            abhängig.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="container">
+                    <div id="c21610" class="frame frame-0 frame-type-text frame-space-before-medium">
+                      <header>
+                        <h3 class="">
+                          Informationen rund um das Thema Geldanlage
+                        </h3>
+                      </header>
+                      <p class="my-4">
+                        <img style="border-radius:20px ;" src="../assets/images/EFT.jpg" alt="" />
+                      </p>
+                      <h3 class="">
+                        <a href="">
+                          ETFs: Die wichtigsten Fakten zur Geldanlage mit
+                          ETFs</a>
+                      </h3>
+                    </div>
+                  </div>
+                  <div class="container">
+                    <div id="c21609" class="frame frame-0 frame-type-text frame-space-before-extra-large">
+                      <header>
+                        <h3 class="">
+                          Was gibt es vor einer Geldanlage zu beachten?
+                        </h3>
+                      </header>
+                      <p>
+                        Sparer können selbstverständlich frei entscheiden, wo
+                        sie ihr Geld anlegen möchten. Entscheidend für die
+                        Auswahl sind das Sparziel, der Wunsch auf
+                        Verfügbarkeit und die Risikobereitschaft. Zusätzlich
+                        kann es von Vorteil sein, sich einen Überblick über
+                        die aktuelle finanzielle Lage zu verschaffen. Dadurch
+                        kann beispielsweise festgestellt werden, wie viel
+                        Kapital zukünftig zur Deckung der laufenden Kosten und
+                        für mögliche Notfälle wie beispielsweise Reparaturen
+                        oder Neuanschaffungen benötigt wird. Für eine noch
+                        einfachere Entscheidung können folgende Fragen vor der
+                        Entscheidung für eine Geldanlage hilfreich sein:
+                      </p>
+                      <ul>
+                        <li>
+                          <strong>Sind noch Kredite oder andere Verbindlichkeiten
+                            offen?</strong>
+                          <p>
+                            Oftmals sind die Zinsen für Kredite und Co. höher
+                            als die Zinsen und Renditen, die mit Geldanlagen
+                            über kurze Zeit erzielt werden können. Daher kann
+                            es sich lohnen, erst einmal alle offenen
+                            Verbindlichkeiten zu tilgen, bevor die
+                            Entscheidung zur Geldanlage getroffen wird
+                          </p>
+                        </li>
+                        <li>
+                          <strong>Welches Sparziel ist angesetzt?</strong>
+                          <p>
+                            Je nachdem, ob auf eine größere Anschaffung wie
+                            ein Auto oder ein Haus, eine lange Fernreise oder
+                            allgemein auf den Aufbau von Vermögen hin gespart
+                            wird, ist das Sparziel unterschiedlich hoch.
+                          </p>
+                        </li>
+                        <li>
+                          <strong>Wie lange kann auf das angelegte Geld verzichtet
+                            werden?</strong>
+                          <p>
+                            Bei einigen Geldanlagen ist das Vermögen längere
+                            Zeit nicht verfügbar oder kann nicht bzw. nur
+                            schwer innerhalb kurzer Zeit in Geld umgewandelt
+                            werden. Das trifft beispielsweise auf Festgeld,
+                            Immobilien, Gold oder andere Sachwerte zu. Der
+                            Anlagezeitraum ist daher ein wichtiger Faktor bei
+                            der Entscheidung für eine oder mehrere
+                            Anlagemöglichkeiten. Der Vorteil bei einem
+                            längeren Anlagehorizont ist, dass beispielsweise
+                            Schwankungen von an der Börse gehandelte Anlagen
+                            besser ausgeglichen werden können, beziehungsweise
+                            Geldanlagen wie Festgeld über diesen Zeitraum
+                            keinen Schwankungen unterliegen.
+                          </p>
+                        </li>
+                        <li>
+                          <strong>
+                            Sind mögliche Verluste finanziell
+                            verkraftbar?</strong>
+                          <p>
+                            Jede Geldanlage ist mit einem Risiko verbunden und
+                            es kann zu Verlusten kommen. Allerdings
+                            unterscheidet sich das Risiko je nach Geldanlage.
+                            <a href=""> Tagesgeld</a> und
+                            <a href=""> Festgeld </a>gehören zu den eher
+                            sicheren Geldanlagen, wohingegen beispielsweise
+                            Aktien ein vergleichsweise höheres Risiko
+                            aufweisen.
+                          </p>
+                        </li>
+                        <li>
+                          <strong>
+                            Wie hoch ist die Risikobereitschaft?</strong>
+                          <p>
+                            Hohe Renditen sind oftmals mit einem hohen Risiko
+                            verbunden. Mit der Verteilung des Vermögens auf
+                            mehrere Geldanlagen (Diversifikation) können
+                            Sparer ihr Risiko jedoch breit streuen.
+                          </p>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <!-- Newsletter start .......................... -->
+                  <section class="open-account-sec mb-5 ">
+                    <div class="open-account open-prime">
+                      <h1>
+                        Abonnieren Sie unseren <br />
+                        ZINSPILOT Newsletter
+                      </h1>
+                      <p>
+                        <strong>– und verpassen Sie keine Top-Zinsen!
+                        </strong>
+                      </p>
+                      <input type="text" placeholder="E-Mail" /> <br />
+                      <a href=""><button>Newsletter abonnieren</button></a>
+                    </div>
+                  </section>
+                  <!-- Newsletter end .......................... -->
+                  <div class="container">
+                    <div id="c21607" class="frame frame-0 frame-type-text frame-space-before-medium">
+                      <header>
+                        <h3 class="">Welche Geldanlagen gibt es?</h3>
+                      </header>
+                      <p>
+                        Zu den bekanntesten Geldanlagen zählen das Sparbuch,
+                        Tagesgeld, Festgeld, Aktien, Anleihen, Investmentfonds
+                        wie Aktienfonds, Immobilienfonds oder Rentenfonds,
+                        ETFs und seit einiger Zeit auch Kryptowährungen. Aber
+                        auch Investitionen in Immobilien, Oldtimer,
+                        Edelmetalle oder andere Wertgegenstände werden von
+                        Sparern zum Anlegen von Geld getätigt. Die
+                        vielfältigen Anlageformen bieten die Möglichkeit zur
+                        breiten Streuung des Risikos auf mehrere voneinander
+                        unabhängige Geldanlagen.
+                      </p>
+                      <p>
+                        Laut einer Studie legten Ende des Jahres 2020 noch
+                        immer über die Hälfte der Deutschen ihr Geld auf einem
+                        Sparbuch an. Wirklich lohnenswert ist diese Geldanlage
+                        aufgrund der niedrigen Zinsen jedoch bereits seit
+                        einigen Jahren nicht mehr. Der durchschnittliche
+                        Zinssatz auf Sparbüchern lag 2020 bei 0,07 Prozent pro
+                        Jahr. Ein merklicher Anstieg der Zinsen auf
+                        Spareinlagen ist bisher nicht zu verzeichnen. Daher
+                        kann sich für Sparer der Blick auf alternative
+                        Geldanlagen wie beispielsweise Tagesgeld, Festgeld
+                        oder ETFs lohnen.
+                      </p>
+                      <p>
+                        Der Zusammenschluss der Unternehmen Raisin und Deposit
+                        Solutions, die hinter den Plattformen ZINSPILOT und
+                        WeltSparen stehen, eröffnet Sparern seit Juni 2021
+                        eine noch größere Produktvielfalt – auch im
+                        Investmentbereich. So erhalten Sie sowohl
+                        Informationen über die attraktiven Sparangebote bei
+                        ZINSPILOT, als auch über die global diversifizierten
+                        und kostengünstigen Angebote von WeltSparen - darunter
+                        ETF-Portfolios, um Vermögen aufzubauen und Sparziele
+                        zu erreichen. Informieren Sie sich jetzt über die
+                        Sparmöglichkeiten mit Tagesgeld, Festgeld und ETFs von
+                        WeltSparen. Auch Ihre Altersvorsorge können Sie mit
+                        unseren ETFs abdecken.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="container">
+                    <div id="c21605" class="frame frame-0 frame-type-text frame-space-before-medium">
+                      <header>
+                        <h2 class="">Tagesgeld</h2>
+                      </header>
+                      <p>
+                        Tagesgeld zählt zu den Geldanlagen mit hoher
+                        Flexibilität, Verfügbarkeit und Sicherheit. Es bietet
+                        eine gute Möglichkeit, die eiserne Reserve anzulegen.
+                        Denn ein bisschen Geld auf der hohen Kante zu haben
+                        ist wichtig, um unvorhergesehene Kosten wie
+                        beispielsweise eine neue Waschmaschine, einen neuen
+                        Kühlschrank oder eine größere Reparatur am Auto
+                        stemmen zu können. Da Tagesgeld täglich verfügbar ist,
+                        können Sparer darauf zugreifen, sobald sie
+                        zusätzliches Geld brauchen. Zudem sind Beträge bis zu
+                        100.000 Euro je Kunde und Bank durch die gesetzliche
+                        Einlagensicherung abgesichert. Einige Banken bieten
+                        darüber hinaus eine freiwillige Einlagensicherung,
+                        wodurch noch höhere Summen abgesichert sind.
+                      </p>
+
+
+
+                      </ol>
+                      <p class="text-center">
+                        <a href="/tagesgeld/tagesgeld-sparplan/#c21619" class="btn btn-orange">Jetzt Tagesgeldkonto
+                          eröffnen</a>
+                      </p>
+                      <p>&nbsp;</p>
+                      <p>
+                        Die Eigenschaften der Verfügbarkeit und Sicherheit treffen auch auf ein Girokonto zu, allerdings
+                        gibt es dort aktuell keine Zinsen. Mit einem Tagesgeldkonto bei ZINSPILOT können Sie bis zu 0,27
+                        % Zinsen erzielen.
+                      </p>
+                    </div>
+                    <div id="c21605" class="frame frame-0 frame-type-text frame-space-before-medium">
+                      <header>
+                        <h2 class="">Festgeld</h2>
+                      </header>
+                      <p>
+                        Festgeld zählt wie Tagesgeld zu den Bankeinlagen und ist über die gesetzliche Einlagensicherung
+                        und mögliche freiwillige Einlagensicherungen der Banken abgesichert. Allerdings ist Festgeld
+                        weniger flexibel, denn, wie der Name schon sagt, wird das Geld für einen bestimmten Zeitraum
+                        fest angelegt.
+                      </p>
+
+
+
+                      </ol>
+                      <p class="text-center">
+                        <a href="/tagesgeld/tagesgeld-sparplan/#c21619" class="btn btn-orange">Jetzt Festgeld
+                          anlegen</a>
+                      </p>
+                      <p>&nbsp;</p>
+                      <p>
+                        Zu Beginn der Geldanlage wird ein Festzins vereinbart. Das hat den Vorteil, dass Festgeld
+                        während der Laufzeit keinen Kursschwankungen unterliegt und auch nicht von Veränderungen der
+                        Zinsentwicklung betroffen ist. Das macht diese Anlageform planbar. Jedoch steht das Geld erst am
+                        Ende der Laufzeit wieder zur Verfügung, denn das vorzeitige Kündigen von Festgeld ist in der
+                        Regel nicht möglich. Dafür bietet Festgeld meist einen höheren Zins als Tagesgeld.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="container">
+                    <div id="c21603" class="frame frame-0 frame-type-text frame-space-before-extra-large">
+                      <header>
+                        <h2 class="">
+                          Aktien
+                        </h2>
+                      </header>
+                      <p>
+                        Aktien gehören zu den risikoreichen Geldanlagen, bei denen die Rendite vom Marktgeschehen und
+                        den Kursentwicklungen an der Börse abhängig sind. Mit dem Kauf einer Aktie werden Anleger zu
+                        Miteigentümern des Unternehmens, das die Aktie ausgegeben hat. Denn sie kaufen damit einen
+                        Anteil am Unternehmen und stellen im Gegenzug ihr Kapital zur Verfügung. Anders als bei
+                        Bankeinlagen sind Aktien und andere Wertpapiere nicht durch die gesetzliche Einlagensicherung
+                        abgesichert. Neben den üblichen Wertschwankungen an der Börse besteht dadurch auch das Risiko
+                        eines Totalverlusts.
+                      </p>
+
+                    </div>
+                  </div>
+                  <div class="container">
+                    <div id="c21045" class="frame frame-0 frame-type-text frame-space-before-medium   ">
+                      <header>
+                        <h3 class="">
+                          Anleihen
+                        </h3>
+                      </header>
+                      <p class="MsoCommentText">Bei Anleihen handelt es sich um<strong> festverzinste Darlehen</strong>,
+                        die in der Regel an Unternehmen und Staaten vergeben werden. Die Laufzeit bestimmt der
+                        Darlehensnehmer, also derjenige, der das Geld erhält. Wie bei jedem Darlehen besteht auch bei
+                        Anleihen das Risiko des Zahlungsausfalls oder -verzugs. Wird das Unternehmen zahlungsunfähig
+                        oder gerät in finanzielle Schwierigkeiten, erhalten Anleger ihr Geld entweder gar nicht oder
+                        verspätet zurück. Die <strong>Bonität eines Unternehmens gibt</strong> Anlegern einen
+                        <strong>Hinweis auf das Risiko</strong>. Je höher die Bonität, desto geringer ist in der Regel
+                        das Risiko. Jedoch bieten verhältnismäßig sichere Anleihen eine niedrigere Rendite als
+                        riskantere Anleihen.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="container">
+                    <div id="c21044" class="frame frame-0 frame-type-text frame-space-before-medium   ">
+                      <header>
+                        <h3 class="">
+                          Fonds
+                        </h3>
+                      </header>
+                      <p class="MsoCommentText">Ein Investmentfonds, kurz Fonds, wird an der Börse gehandelt und
+                        <strong>besteht aus verschiedenen Anlagewerten</strong> wie beispielsweise Aktien, Anleihen oder
+                        Immobilien. Auch andere Wertpapiere oder Sachwerte können enthalten sein. Welche Werte enthalten
+                        sind, lässt oftmals bereits der Name des Fonds verlauten. So enthalten beispielsweise
+                        Aktienfonds Aktien und Immobilienfonds hauptsächlich Immobilien.
+                      </p>
+                      <p class="MsoCommentText">Viele Anleger investieren in einen Fonds, dessen aktives Fondsmanagement
+                        das Geld auf die verschiedenen enthaltenen Anlagen verteilt. Das hat den Vorteil, dass die
+                        Rendite der Geldanlage nicht von einem Einzelerfolg abhängig ist. Das Risiko ist <strong>auf
+                          mehrere Anlagewerte verteilt</strong> und bietet so ein hohes Maß an Streuung. Auch hier gilt:
+                        Je höher das Risiko, desto größer sind die Renditechancen. Durch das aktive Fondsmanagement, das
+                        den Fonds verwaltet, können bei dieser Geldanlage jedoch verhältnismäßig hohe Gebühren
+                        entstehen. Hierzu zählen Verwaltungsgebühren, die durchschnittlich bei 1,5 Prozent liegen, und
+                        Ausgabeaufschläge (Provisionen) von 2 bis 5 Prozent.</p>
+                    </div>
+                  </div>
+                  <div class="container">
+                    <div id="c21046" class="frame frame-0 frame-type-text frame-space-before-medium   ">
+                      <header>
+                        <h3 class="">
+                          ETFs
+                        </h3>
+                      </header>
+                      <p class="MsoCommentText">ETFs sind eine<strong> kostengünstige Alternative</strong> zu Fonds.
+                        Exchange Traded Funds, abgekürzt ETFs, werden ebenfalls an der Börse gehandelt, jedoch nicht von
+                        einem aktiven Fondsmanagement verwaltet. Dadurch fallen die Gebühren deutlich geringer aus als
+                        bei Fonds.</p>
+                      <p class="MsoCommentText"><strong>ETFs bilden einen bereits bestehenden Index</strong> wie
+                        beispielsweise den MSCI World oder den DAX nach. Dadurch orientiert sich auch die zu erwartende
+                        Rendite an der des nachgebildeten Index. Um einen Index so exakt wie möglich abzubilden,
+                        enthalten die meisten ETFs dieselben Anlagenwerte wie der Index (physische Replikation).</p>
+                      <p class="MsoCommentText">Die durchschnittlichen Kosten für ETFs liegen bei bis zu 0,5 Prozent.
+                        Bei WeltSparen fallen lediglich Gebühren von durchschnittlich 0,48 Prozent der Anlagesumme pro
+                        Jahr bei einem vorausgewählten Portfolio des ETF Robo an. Sparer, die mit einem Sparplan Geld in
+                        ETFs anlegen möchten, können diesen kostenlos einrichten und besparen. Wer sich sein Portfolio
+                        aus bis zu 10 ETFs gerne selbst zusammenstellen möchte, kann dies über den ETF Configurator tun.
+                        Die durchschnittlichen Gebühren liegen hier bei 0,43 Prozent pro Jahr.</p>
+                    </div>
+                  </div>
+                  <div class="container">
+                    <div id="c21047" class="frame frame-0 frame-type-text frame-space-before-medium   ">
+                      <header>
+                        <h3 class="">
+                          Kryptowährung
+                        </h3>
+                      </header>
+                      <p class="MsoCommentText">Eine Kryptowährung ist ein dezentrales, digitales Zahlungsmittel.
+                        Allerdings hat sich das Bezahlen mit Kryptowährungen bisher noch nicht etabliert, sie werden
+                        vielmehr als Geldanlage genutzt. An eigens dafür geschaffenen Kryptobörsen können
+                        Kryptowährungen gekauft werden. Eine Investition in Krypto wird jedoch als hoch spekulativ
+                        angesehen, da die Kurse der digitalen Währungen sehr volatil sind.</p>
+                    </div>
+                  </div>
+                  <div class="container">
+                    <div id="c21048" class="frame frame-0 frame-type-text frame-space-before-medium   ">
+                      <header>
+                        <h3 class="">
+                          Sachwerte
+                        </h3>
+                      </header>
+                      <p class="MsoCommentText">Geldanlagen wie <strong>Immobilien, Oldtimer, Kunstgegenstände, Gold,
+                          Silber</strong> oder andere Edelmetalle haben ihren eigenen Sachwert. Dieser hängt vom Angebot
+                        und der Nachfrage ab, wodurch erhebliche Schwankungen entstehen können. Ob und wie viel Rendite
+                        mit der Anlage erzielt werden kann, ist meist unsicher. Zudem braucht es bei Sachwerten häufig
+                        etwas Zeit, um diese in Geld umzuwandeln.</p>
+                    </div>
+                  </div>
+                  <div class="container">
+                    <div id="c21022" class="frame frame-0 frame-type-text frame-space-before-medium   ">
+                      <header>
+                        <h2 class="">
+                          Wie lege ich mein Geld am besten an?
+                        </h2>
+                      </header>
+                      <p class="MsoCommentText">Das Anlegen von Geld in verschiedene Geldanlagen kann sinnvoll sein. Mit
+                        der Wahl von verhältnismäßig sicheren Anlagemöglichkeiten wie Tagesgeld oder Festgeld und
+                        Anlageformen mit höheren Renditechancen können Anleger eine <strong>breite Streuung des
+                          Risikos</strong> erreichen. Die <strong>perfekte Anlagestrategie, die für alle Sparer gilt,
+                          gibt es jedoch nicht</strong>. Jeder verfolgt unterschiedliche Sparziele und hat eine andere
+                        Risikobereitschaft. Doch welche Geldanlage beziehungsweise welcher Mix passt am besten zu Ihnen?
+                      </p>
+                    </div>
+                  </div>
+                  <div class="container">
+                    <div class="row mx-0 justify-content-center">
+                      <img src="../assets/images/Dreieck_final.jpg" alt="">
+                      <p class="mt-4">Bei der Entscheidung für die richtige Geldanlage hat sich das Magische Dreieck als
+                        eine gute Unterstützung etabliert. Jede Anlageform erfüllt mindestens eine der drei Kriterien,
+                        aber niemals alle drei. Das heißt, dass der Schwerpunkt im Dreieck stets unterschiedlich
+                        ausfallen kann. Legen Sparer viel Wert auf Sicherheit, verändert sich die Gewichtung der anderen
+                        beiden Kriterien. Eine hohe Sicherheit bedeutet meist eine geringe Rendite. Ist dann zusätzlich
+                        auch die Verfügbarkeit ein wichtiger Punkt, sinkt die Rendite weiter. Genauso kann sich das
+                        Dreieck aber auch in eine andere Richtung verzerren, wenn das Hauptaugenmerk auf einer hohen
+                        Rendite liegt. Um zu entscheiden, wie Sie Ihr Geld anlegen möchten, kann das Festlegen Ihres
+                        persönlichen Schwerpunkts hilfreich sein.</p>
+                    </div>
+                  </div>
+                  <div class="container">
+                    <div id="c21074" class="frame frame-0 frame-type-text frame-space-before-medium   ">
+                      <header>
+                        <h3 class="">
+                          Mit Diversifikation und Teilbeträgen das Risiko streuen
+                        </h3>
+                      </header>
+                      <p class="MsoCommentText">Um das Sparziel zu erreichen und gleichzeitig das Risiko eines Verlustes
+                        zu minimieren, ist <strong>Diversifikation das Stichwort</strong>. Anleger können
+                        <strong>mehrere Geldanlagen nutzen</strong> und so von hohen Renditechancen und gleichzeitig von
+                        Sicherheit profitieren. Setzen Anleger ihr Geld also nicht nur auf eine Karte, sondern auf viele
+                        verschiedene Geldanlagen, kann das Risiko minimiert und das Sparziel langfristig erreicht
+                        werden. Mit ZINSPILOT und WeltSparen können Sie gleich drei Anlageformen besparen und
+                        gleichzeitig in Ihre Altersvorsorge investieren.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="container">
+                    <div id="c21075" class="frame frame-0 frame-type-list frame-space-before-medium   ">
+                      <div class="faq" id="accordion-21075">
+                        <div class="card">
+                          <div class="card-header" role="tab" id="heading-3410"><a data-toggle="collapse"
+                              href="#collapse-3410" aria-expanded="true" aria-controls="collapse-3410"
+                              class="d-block"><span class="float-left">Tagesgeld &amp; Festgeld</span><i
+                                class="far fa-plus float-right" aria-hidden="true"></i></a></div>
+                          <div id="collapse-3410" class="collapse" role="tabpanel" aria-labelledby="heading-3410">
+                            <div class="card-body">
+                              <p>Ein Tagesgeldkonto bietet sich zum Beispiel für die Notreserve an, denn das Geld ist
+                                täglich verfügbar und wird dennoch verzinst. Ein Teilbetrag des restlichen Vermögens
+                                kann in Festgeld investiert werden. Durch den Festzins ist die Rendite planbar. Beide
+                                Geldanlagen sind über die gesetzliche Einlagensicherung bis zu 100.000 Euro je Kunde und
+                                Bank abgesichert. Durch die feste Laufzeit von Festgeld erzielt es in der Regel höhere
+                                Zinsen als Tagesgeld.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card">
+                          <div class="card-header" role="tab" id="heading-3411"><a data-toggle="collapse"
+                              href="#collapse-3411" aria-expanded="true" aria-controls="collapse-3411"
+                              class="d-block"><span class="float-left">Fonds &amp; ETFs</span><i
+                                class="far fa-plus float-right" aria-hidden="true"></i></a></div>
+                          <div id="collapse-3411" class="collapse" role="tabpanel" aria-labelledby="heading-3411">
+                            <div class="card-body">
+                              <p>Um die Renditechancen zu erhöhen, kann das Anlegen von Geld in Fonds oder ETFs sinnvoll
+                                sein. Bei diesen Geldanlagen können Anleger zwischen unterschiedlichen Risikoprofilen
+                                wählen. Das bedeutet, dass eine Anlage in Fonds oder ETFs nicht automatisch ein hohes
+                                Risiko bedeutet. So können beispielsweise mehrere Teilbeträge auf verschiedene Fonds
+                                oder ETFs aufgeteilt werden. Anleger können so ihr Risiko nicht nur durch verschiedene
+                                Anlageklassen streuen, sondern auch innerhalb einer Anlageform. Ein Teilbetrag kann
+                                beispielsweise in einen Aktienfonds investiert werden, ein anderer in einen risikoarmen
+                                Anleihenfonds. Im Vergleich der beiden Geldanlagen sind ETFs kosteneffizienter. Sie
+                                werden nicht aktiv gemanagt, wodurch weniger Verwaltungsgebühren und kein
+                                Ausgabeaufschlag anfallen.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card">
+                          <div class="card-header" role="tab" id="heading-3412"><a data-toggle="collapse"
+                              href="#collapse-3412" aria-expanded="true" aria-controls="collapse-3412"
+                              class="d-block"><span class="float-left">Aktien &amp; Krypto</span><i
+                                class="far fa-plus float-right" aria-hidden="true"></i></a></div>
+                          <div id="collapse-3412" class="collapse" role="tabpanel" aria-labelledby="heading-3412">
+                            <div class="card-body">
+                              <p>Einzelne Aktien können risikoreich sein. Als Bestandteil in einem breit aufgestellten
+                                Portfolio können sie jedoch die Renditechancen deutlich steigern. Dasselbe gilt für
+                                Kryptowährungen. Sie sind aufgrund ihrer volatilen Kurse hochspekulativ. Wer jedoch
+                                einen kleinen Teil seines Vermögens darin investiert, kann die Chancen auf Rendite
+                                nutzen und gleichzeitig das persönliche Risiko minimieren.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card">
+                          <div class="card-header" role="tab" id="heading-3413"><a data-toggle="collapse"
+                              href="#collapse-3413" aria-expanded="true" aria-controls="collapse-3413"
+                              class="d-block"><span class="float-left">Breit diversifiziertes Portfolio</span><i
+                                class="far fa-plus float-right" aria-hidden="true"></i></a></div>
+                          <div id="collapse-3413" class="collapse" role="tabpanel" aria-labelledby="heading-3413">
+                            <div class="card-body">
+                              <p>Beispiel: Ein Teil des Geldes kann auf einem Tagesgeldkonto angelegt werden, um im
+                                Notfall darauf zugreifen zu können. Festgeld könnte ein weiterer Bestandteil der
+                                Geldanlage-Strategie sein. Diese beiden Geldanlagen können so das Fundament eines
+                                diversifizierten Anlageportfolios bilden. Um die Chance auf höhere Renditen
+                                wahrzunehmen, könnte darüber hinaus Geld in ETFs investiert werden. Mit einem
+                                ETF-Portfolio kommt eine weitere Anlagemöglichkeit zur Streuung des Risikos hinzu, das
+                                zudem in sich ebenfalls diversifiziert ist. Besteht ein ETF-Portfolio beispielsweise aus
+                                10 ETFs, ist das Risiko auf diese 10 Anlagen verteilt. Als weitere Bestandteile der
+                                Geldanlage-Strategie kann in Aktien und Kryptowährungen investiert werden. Da diese
+                                vergleichsweise risikoreich sind, empfiehlt es sich nicht, ausschließlich in diese
+                                Geldanlagen zu investieren. Doch als geringer Teil eines breit aufgestellten Portfolios
+                                können sie zu einer höheren Chance auf Rendite beitragen.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="container">
+                    <div id="c21076" class="frame frame-0 frame-type-text frame-space-before-medium   ">
+                      <header>
+                        <h2 class="">
+                          Fazit zum Geld anlegen
+                        </h2>
+                      </header>
+                      <p class="MsoCommentText">In Zeiten der Niedrigzinsen und hohen Inflation ist das Thema Geldanlage
+                        wieder stark in den Fokus gerückt. Sparer möchten ihr Geld in der Regel möglichst sicher, aber
+                        auch mit Renditechancen anlegen und suchen daher nach einer Alternative zum klassischen
+                        Sparbuch. Wie können Sparer herausfinden, wo sie das Geld am besten anlegen?</p>
+                      <p class="MsoCommentText"><strong>Was beim Geld anlegen hilfreich sein kann:</strong></p>
+                      <ul>
+                        <li class="MsoCommentText"><strong>Diversifikation</strong>: Streuung des Risikos durch die
+                          Auswahl verschiedener Anlageformen</li>
+                        <li class="MsoCommentText"><strong>Sparziel</strong>: Je nach Sparziel können unterschiedliche
+                          Geldanlagen und verschiedene Laufzeiten sinnvoll sein.</li>
+                        <li class="MsoCommentText"><strong>Risiko</strong>: Jede Kapitalanlage ist mit einem Risiko
+                          verbunden. Daher ist es wichtig, nur Geld anzulegen, auf das im Ernstfall verzichtet werden
+                          kann.</li>
+                        <li class="MsoCommentText"><strong>Kosten</strong>: Der Vergleich verschiedener Geldanlagen
+                          ausschließlich anhand der Rendite kann sich negativ auswirken. Hohe Kosten können einen
+                          Großteil des Gewinns wieder relativieren. Daher kann es sich lohnen, auch einen Blick auf die
+                          Gebühren zu werfen.</li>
+                        <li class="MsoCommentText"><strong>Langfristigkeit</strong>: Auch die Anlagedauer ist ein
+                          entscheidender Faktor der Rendite, insbesondere an der Börse. Negative Kursschwankungen können
+                          in der Regel auf lange Sicht eher wieder ausgeglichen werden, als wenn bei einem Absinken des
+                          Kurses sofort alles verkauft wird.</li>
+                      </ul>
+                      <p class="MsoCommentText">Schlussendlich gibt es jedoch nicht die eine richtige Geldanlage, mit
+                        der alle Sparer erfolgreich Geld anlegen können. <strong>Je nach Sparziel und Risikobereitschaft
+                          eignen sich unterschiedliche Strategien und Möglichkeiten</strong>, Geld anzulegen.</p>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
           </div>
-          <div class="links">
-            <a href="../index.html" class="link active">Startseite</a>
-            <div class="about_us_link">
-              <a href="javascript:void(0);" class="link">Anlageangebote</a>
-              <div class="drop_down">
-                <a href="festgeld.html">
-                  <p>Festgeld</p>
-                </a>
-                <a href="tagesgeld.html">
-                  <p>Tagesgeld</p>
-                </a>
-              </div>
-            </div>
-            <div class="about_us_link">
-              <a href="banken.html" class="link">Banken </a>
-            </div>
-            <div class="about_us_link">
-              <a href="so-funktionierts.html" class="link">So funktioniert's </a>
-            </div>
-            <div class="about_us_link">
-              <a href="javascript:void(0);" class="link">Informationen</a>
-              <div class="drop_down">
-                <a href="aktuelle-produktinfos.html">
-                  <p>Aktuelle Produktinfos</p>
-                </a>
-                <a href="zinserhoehungen.html">
-                  <p>Zinserhöhungen</p>
-                </a>
-                <a href="faq.html">
-                  <p>Häufige Fragen</p>
-                </a>
-                <a href="steuern.html">
-                  <p>Steuern</p>
-                </a>
-                <a href="steuerbescheinigung.html">
-                  <p>Steuerbescheinigung</p>
-                </a>
-                <a href="anlagevoraussetzung.html">
-                  <p>Anlagevoraussetzung</p>
-                </a>
-                <a href="ratingindex.html">
-                  <p>Länderrating</p>
-                </a>
-                <a href="formularcenter.html">
-                  <p>Formularcenter</p>
-                </a>
-              </div>
-            </div>
-            <div class="about_us_link">
-              <a href="javascript:void(0);" class="link">Finanzwissen</a>
-              <div class="drop_down">
-                <a href="geldanlage.html">
-                  <p>Geldanlage</p>
-                </a>
-                <a href="magazin.html">
-                  <p>Magazin</p>
-                </a>
-              </div>
-            </div>
-            <div class="header-btns">
-              <a href="login.html"><button class="login-btn">Login</button></a>
-              <a href="signup.html"><button class="register-btn">Registrieren</button></a>
-            </div>
-          </div>
-        </nav>
-        <div class="banner_heading">
-          <h2>
-            Geldanlage: Mit diesen<br />
-            Möglichkeiten Geld sinnvoll anlegen
-          </h2>
         </div>
       </div>
+  </section>
+  <!-- section end >......................... -->
+  <div class="theme-container">
+    <div class="center-heading text-center">
+      <h1>
+        Weitere Angebote beim <br />
+        Partner WeltSparen sichern
+      </h1>
     </div>
-    <!-- banner end  -->
-    <!-- section start >......................... -->
-    <section class="my-0 my-md-4 my-lg-4 my-xl-4 mt-5">
-      <div class="ft_imprint">
-        <div class="theme-container">
-          <div class="row justify-content-center">
-            <div class="col-12 px-0 px-sm-3 px-md-3 px-lg-3 px-xl-3">
-              <div class="row justify-content-center">
-                <div
-                  class="ft_privacy_content col-12 col-sm-12 col-md-12 col-lg-12 col-xl-10"
-                >
-                  <div class="col-sm-12 col-md-12 px-0 px-lg-3 px-xl-3">
-                    <div class="container">
-                      <div
-                        id="c21614"
-                        class="frame frame-0 frame-type-menu_section frame-space-before-extra-large mt-0"
-                      >
-                        <ul class="mb-5 pl-0 list-unstyled">
-                          <li>
-                            ✔ Erklärung: Als Geldanlage werden alle Aktivitäten
-                            bezeichnet, deren Ziel es ist, Geld zu vermehren.
-                          </li>
-                          <li>
-                            ✔ Anlagemöglichkeiten: Es gibt viele verschiedene
-                            Möglichkeiten zur Geldanlage.
-                          </li>
-                          <li>
-                            ✔ Sicherheit: Jede Geldanlage ist mit
-                            unterschiedlichen Risiken verbunden.
-                          </li>
-                          <li>
-                            ✔ Rendite: Bei Geldanlagen gilt als Faustregel: Je
-                            höher das Risiko, desto höher die Rendite.
-                            Seitenübersicht
-                          </li>
-                        </ul>
-                        <header>
-                          <h2 class="">Seitenübersicht</h2>
-                        </header>
-                        <div class="mt-1">
-                          <a
-                            href="#c21613"
-                            title="Wie funktioniert ein Tagesgeld-Sparplan?"
-                            class="scroll"
-                          >
-                            Wie funktioniert ein Tagesgeld-Sparplan?
-                          </a>
-                        </div>
-                        <div class="mt-1">
-                          <a
-                            href="#c21606"
-                            title="Welche Vorteile bringt ein Tagesgeld-Sparplan?"
-                            class="scroll"
-                          >
-                            Welche Vorteile bringt ein Tagesgeld-Sparplan?
-                          </a>
-                        </div>
-                        <div class="mt-1">
-                          <a
-                            href="#c21605"
-                            title="Tagesgeld-Sparplan bei ZINSPILOT erstellen"
-                            class="scroll"
-                          >
-                            Tagesgeld-Sparplan bei ZINSPILOT erstellen
-                          </a>
-                        </div>
-                        <div class="mt-1">
-                          <a
-                            href="#c21603"
-                            title="Zusammenfassung: So sparen Sie mit einem Tagesgeld-Sparplan"
-                            class="scroll"
-                          >
-                            Zusammenfassung: So sparen Sie mit einem
-                            Tagesgeld-Sparplan
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="container">
-                      <div
-                        id="c21613"
-                        class="frame frame-0 frame-type-textpic frame-space-before-medium"
-                      >
-                        <header>
-                          <h2 class="">Was ist eine Geldanlage?</h2>
-                        </header>
-                        <div class="ce-textpic ce-center ce-below">
-                          <div class="ce-bodytext">
-                            <p>
-                              Geldanlage bedeutet, Geld mit dem Ziel anzulegen,
-                              eine Rendite zu erwirtschaften. Die Möglichkeiten
-                              dafür sind vielfältig: Kapitalanlagen in Sachwerte
-                              wie Immobilien oder Edelmetalle zählen genauso zur
-                              Geldanlage wie die Anlage in Tagesgeld oder
-                              Festgeld und das Investieren in Wertpapiere. So
-                              unterschiedlich wie die Anlageformen selbst ist
-                              auch deren Risiko. Während Spareinlagen auf
-                              Sparbüchern, Festgeld- und Tagesgeldkonten durch
-                              die gesetzliche Einlagensicherung abgesichert
-                              sind, unterliegen Aktien, Fonds, ETFs und andere
-                              Wertpapiere den Kursschwankungen an der Börse.
-                              Auch der Wert von Immobilien, Gold, Silber und
-                              weiteren Sachwerten ist von Marktschwankungen
-                              abhängig.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="container">
-                      <div
-                        id="c21610"
-                        class="frame frame-0 frame-type-text frame-space-before-medium"
-                      >
-                        <header>
-                          <h3 class="">
-                            Informationen rund um das Thema Geldanlage
-                          </h3>
-                        </header>
-                        <p class="my-4">
-                          <img style="border-radius:20px ;" src="../assets/images/EFT.jpg" alt="" />
-                        </p>
-                        <h3 class="">
-                          <a href="">
-                            ETFs: Die wichtigsten Fakten zur Geldanlage mit
-                            ETFs</a
-                          >
-                        </h3>
-                      </div>
-                    </div>
-                    <div class="container">
-                      <div
-                        id="c21609"
-                        class="frame frame-0 frame-type-text frame-space-before-extra-large"
-                      >
-                        <header>
-                          <h3 class="">
-                            Was gibt es vor einer Geldanlage zu beachten?
-                          </h3>
-                        </header>
-                        <p>
-                          Sparer können selbstverständlich frei entscheiden, wo
-                          sie ihr Geld anlegen möchten. Entscheidend für die
-                          Auswahl sind das Sparziel, der Wunsch auf
-                          Verfügbarkeit und die Risikobereitschaft. Zusätzlich
-                          kann es von Vorteil sein, sich einen Überblick über
-                          die aktuelle finanzielle Lage zu verschaffen. Dadurch
-                          kann beispielsweise festgestellt werden, wie viel
-                          Kapital zukünftig zur Deckung der laufenden Kosten und
-                          für mögliche Notfälle wie beispielsweise Reparaturen
-                          oder Neuanschaffungen benötigt wird. Für eine noch
-                          einfachere Entscheidung können folgende Fragen vor der
-                          Entscheidung für eine Geldanlage hilfreich sein:
-                        </p>
-                        <ul>
-                          <li>
-                            <strong
-                              >Sind noch Kredite oder andere Verbindlichkeiten
-                              offen?</strong
-                            >
-                            <p>
-                              Oftmals sind die Zinsen für Kredite und Co. höher
-                              als die Zinsen und Renditen, die mit Geldanlagen
-                              über kurze Zeit erzielt werden können. Daher kann
-                              es sich lohnen, erst einmal alle offenen
-                              Verbindlichkeiten zu tilgen, bevor die
-                              Entscheidung zur Geldanlage getroffen wird
-                            </p>
-                          </li>
-                          <li>
-                            <strong>Welches Sparziel ist angesetzt?</strong>
-                            <p>
-                              Je nachdem, ob auf eine größere Anschaffung wie
-                              ein Auto oder ein Haus, eine lange Fernreise oder
-                              allgemein auf den Aufbau von Vermögen hin gespart
-                              wird, ist das Sparziel unterschiedlich hoch.
-                            </p>
-                          </li>
-                          <li>
-                            <strong
-                              >Wie lange kann auf das angelegte Geld verzichtet
-                              werden?</strong
-                            >
-                            <p>
-                              Bei einigen Geldanlagen ist das Vermögen längere
-                              Zeit nicht verfügbar oder kann nicht bzw. nur
-                              schwer innerhalb kurzer Zeit in Geld umgewandelt
-                              werden. Das trifft beispielsweise auf Festgeld,
-                              Immobilien, Gold oder andere Sachwerte zu. Der
-                              Anlagezeitraum ist daher ein wichtiger Faktor bei
-                              der Entscheidung für eine oder mehrere
-                              Anlagemöglichkeiten. Der Vorteil bei einem
-                              längeren Anlagehorizont ist, dass beispielsweise
-                              Schwankungen von an der Börse gehandelte Anlagen
-                              besser ausgeglichen werden können, beziehungsweise
-                              Geldanlagen wie Festgeld über diesen Zeitraum
-                              keinen Schwankungen unterliegen.
-                            </p>
-                          </li>
-                          <li>
-                            <strong>
-                              Sind mögliche Verluste finanziell
-                              verkraftbar?</strong
-                            >
-                            <p>
-                              Jede Geldanlage ist mit einem Risiko verbunden und
-                              es kann zu Verlusten kommen. Allerdings
-                              unterscheidet sich das Risiko je nach Geldanlage.
-                              <a href=""> Tagesgeld</a> und
-                              <a href=""> Festgeld </a>gehören zu den eher
-                              sicheren Geldanlagen, wohingegen beispielsweise
-                              Aktien ein vergleichsweise höheres Risiko
-                              aufweisen.
-                            </p>
-                          </li>
-                          <li>
-                            <strong>
-                              Wie hoch ist die Risikobereitschaft?</strong
-                            >
-                            <p>
-                              Hohe Renditen sind oftmals mit einem hohen Risiko
-                              verbunden. Mit der Verteilung des Vermögens auf
-                              mehrere Geldanlagen (Diversifikation) können
-                              Sparer ihr Risiko jedoch breit streuen.
-                            </p>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                    <!-- Newsletter start .......................... -->
-                    <section class="open-account-sec mb-5 ">
-                      <div class="open-account open-prime">
-                        <h1>
-                          Abonnieren Sie unseren <br />
-                          ZINSPILOT Newsletter
-                        </h1>
-                        <p>
-                          <strong
-                            >– und verpassen Sie keine Top-Zinsen!
-                          </strong>
-                        </p>
-                        <input type="text" placeholder="E-Mail" /> <br />
-                        <a href=""><button>Newsletter abonnieren</button></a>
-                      </div>
-                    </section>
-                    <!-- Newsletter end .......................... -->
-                    <div class="container">
-                      <div
-                        id="c21607"
-                        class="frame frame-0 frame-type-text frame-space-before-medium"
-                      >
-                        <header>
-                          <h3 class="">Welche Geldanlagen gibt es?</h3>
-                        </header>
-                        <p>
-                          Zu den bekanntesten Geldanlagen zählen das Sparbuch,
-                          Tagesgeld, Festgeld, Aktien, Anleihen, Investmentfonds
-                          wie Aktienfonds, Immobilienfonds oder Rentenfonds,
-                          ETFs und seit einiger Zeit auch Kryptowährungen. Aber
-                          auch Investitionen in Immobilien, Oldtimer,
-                          Edelmetalle oder andere Wertgegenstände werden von
-                          Sparern zum Anlegen von Geld getätigt. Die
-                          vielfältigen Anlageformen bieten die Möglichkeit zur
-                          breiten Streuung des Risikos auf mehrere voneinander
-                          unabhängige Geldanlagen.
-                        </p>
-                        <p>
-                          Laut einer Studie legten Ende des Jahres 2020 noch
-                          immer über die Hälfte der Deutschen ihr Geld auf einem
-                          Sparbuch an. Wirklich lohnenswert ist diese Geldanlage
-                          aufgrund der niedrigen Zinsen jedoch bereits seit
-                          einigen Jahren nicht mehr. Der durchschnittliche
-                          Zinssatz auf Sparbüchern lag 2020 bei 0,07 Prozent pro
-                          Jahr. Ein merklicher Anstieg der Zinsen auf
-                          Spareinlagen ist bisher nicht zu verzeichnen. Daher
-                          kann sich für Sparer der Blick auf alternative
-                          Geldanlagen wie beispielsweise Tagesgeld, Festgeld
-                          oder ETFs lohnen.
-                        </p>
-                        <p>
-                          Der Zusammenschluss der Unternehmen Raisin und Deposit
-                          Solutions, die hinter den Plattformen ZINSPILOT und
-                          WeltSparen stehen, eröffnet Sparern seit Juni 2021
-                          eine noch größere Produktvielfalt – auch im
-                          Investmentbereich. So erhalten Sie sowohl
-                          Informationen über die attraktiven Sparangebote bei
-                          ZINSPILOT, als auch über die global diversifizierten
-                          und kostengünstigen Angebote von WeltSparen - darunter
-                          ETF-Portfolios, um Vermögen aufzubauen und Sparziele
-                          zu erreichen. Informieren Sie sich jetzt über die
-                          Sparmöglichkeiten mit Tagesgeld, Festgeld und ETFs von
-                          WeltSparen. Auch Ihre Altersvorsorge können Sie mit
-                          unseren ETFs abdecken.
-                        </p>
-                      </div>
-                    </div>
-
-                    <div class="container">
-                      <div
-                        id="c21605"
-                        class="frame frame-0 frame-type-text frame-space-before-medium"
-                      >
-                        <header>
-                          <h2 class="">Tagesgeld</h2>
-                        </header>
-                        <p>
-                          Tagesgeld zählt zu den Geldanlagen mit hoher
-                          Flexibilität, Verfügbarkeit und Sicherheit. Es bietet
-                          eine gute Möglichkeit, die eiserne Reserve anzulegen.
-                          Denn ein bisschen Geld auf der hohen Kante zu haben
-                          ist wichtig, um unvorhergesehene Kosten wie
-                          beispielsweise eine neue Waschmaschine, einen neuen
-                          Kühlschrank oder eine größere Reparatur am Auto
-                          stemmen zu können. Da Tagesgeld täglich verfügbar ist,
-                          können Sparer darauf zugreifen, sobald sie
-                          zusätzliches Geld brauchen. Zudem sind Beträge bis zu
-                          100.000 Euro je Kunde und Bank durch die gesetzliche
-                          Einlagensicherung abgesichert. Einige Banken bieten
-                          darüber hinaus eine freiwillige Einlagensicherung,
-                          wodurch noch höhere Summen abgesichert sind.
-                        </p>
-                 
-                      
-                         
-                        </ol>
-                        <p class="text-center">
-                          <a
-                            href="/tagesgeld/tagesgeld-sparplan/#c21619"
-                            class="btn btn-orange"
-                            >Jetzt Tagesgeldkonto eröffnen</a
-                          >
-                        </p>
-                        <p>&nbsp;</p>
-                        <p>
-                          Die Eigenschaften der Verfügbarkeit und Sicherheit treffen auch auf ein Girokonto zu, allerdings gibt es dort aktuell keine Zinsen. Mit einem Tagesgeldkonto bei ZINSPILOT können Sie bis zu 0,27 % Zinsen erzielen.
-                        </p>
-                      </div>
-                      <div
-                        id="c21605"
-                        class="frame frame-0 frame-type-text frame-space-before-medium"
-                      >
-                        <header>
-                          <h2 class="">Festgeld</h2>
-                        </header>
-                        <p>
-                          Festgeld zählt wie Tagesgeld zu den Bankeinlagen und ist über die gesetzliche Einlagensicherung und mögliche freiwillige Einlagensicherungen der Banken abgesichert. Allerdings ist Festgeld weniger flexibel, denn, wie der Name schon sagt, wird das Geld für einen bestimmten Zeitraum fest angelegt.
-                        </p>
-                 
-                      
-                         
-                        </ol>
-                        <p class="text-center">
-                          <a
-                            href="/tagesgeld/tagesgeld-sparplan/#c21619"
-                            class="btn btn-orange"
-                            >Jetzt Festgeld anlegen</a
-                          >
-                        </p>
-                        <p>&nbsp;</p>
-                        <p>
-                          Zu Beginn der Geldanlage wird ein Festzins vereinbart. Das hat den Vorteil, dass Festgeld während der Laufzeit keinen Kursschwankungen unterliegt und auch nicht von Veränderungen der Zinsentwicklung betroffen ist. Das macht diese Anlageform planbar. Jedoch steht das Geld erst am Ende der Laufzeit wieder zur Verfügung, denn das vorzeitige Kündigen von Festgeld ist in der Regel nicht möglich. Dafür bietet Festgeld meist einen höheren Zins als Tagesgeld.
-                        </p>
-                      </div>
-                    </div>
-                    <div class="container">
-                      <div
-                        id="c21603"
-                        class="frame frame-0 frame-type-text frame-space-before-extra-large"
-                      >
-                        <header>
-                          <h2 class="">
-                            Aktien
-                          </h2>
-                        </header>
-                        <p>
-                          Aktien gehören zu den risikoreichen Geldanlagen, bei denen die Rendite vom Marktgeschehen und den Kursentwicklungen an der Börse abhängig sind. Mit dem Kauf einer Aktie werden Anleger zu Miteigentümern des Unternehmens, das die Aktie ausgegeben hat. Denn sie kaufen damit einen Anteil am Unternehmen und stellen im Gegenzug ihr Kapital zur Verfügung. Anders als bei Bankeinlagen sind Aktien und andere Wertpapiere nicht durch die gesetzliche Einlagensicherung abgesichert. Neben den üblichen Wertschwankungen an der Börse besteht dadurch auch das Risiko eines Totalverlusts.
-                        </p>
-                      
-                      </div>
-                    </div>
-                      <div class="container">
-                        <div id="c21045" class="frame frame-0 frame-type-text frame-space-before-medium   "><header><h3 class="">
-                        Anleihen
-                        </h3></header><p class="MsoCommentText">Bei Anleihen handelt es sich um<strong> festverzinste Darlehen</strong>, die in der Regel an Unternehmen und Staaten vergeben werden. Die Laufzeit bestimmt der Darlehensnehmer, also derjenige, der das Geld erhält. Wie bei jedem Darlehen besteht auch bei Anleihen das Risiko des Zahlungsausfalls oder -verzugs. Wird das Unternehmen zahlungsunfähig oder gerät in finanzielle Schwierigkeiten, erhalten Anleger ihr Geld entweder gar nicht oder verspätet zurück. Die <strong>Bonität eines Unternehmens gibt</strong> Anlegern einen <strong>Hinweis auf das Risiko</strong>. Je höher die Bonität, desto geringer ist in der Regel das Risiko. Jedoch bieten verhältnismäßig sichere Anleihen eine niedrigere Rendite als riskantere Anleihen.</p></div>
-                        </div>
-                        <div class="container">
-                          <div id="c21044" class="frame frame-0 frame-type-text frame-space-before-medium   "><header><h3 class="">
-                          Fonds
-                          </h3></header><p class="MsoCommentText">Ein Investmentfonds, kurz Fonds, wird an der Börse gehandelt und <strong>besteht aus verschiedenen Anlagewerten</strong> wie beispielsweise Aktien, Anleihen oder Immobilien. Auch andere Wertpapiere oder Sachwerte können enthalten sein. Welche Werte enthalten sind, lässt oftmals bereits der Name des Fonds verlauten. So enthalten beispielsweise Aktienfonds Aktien und Immobilienfonds hauptsächlich Immobilien.</p><p class="MsoCommentText">Viele Anleger investieren in einen Fonds, dessen aktives Fondsmanagement das Geld auf die verschiedenen enthaltenen Anlagen verteilt. Das hat den Vorteil, dass die Rendite der Geldanlage nicht von einem Einzelerfolg abhängig ist. Das Risiko ist <strong>auf mehrere Anlagewerte verteilt</strong> und bietet so ein hohes Maß an Streuung. Auch hier gilt: Je höher das Risiko, desto größer sind die Renditechancen. Durch das aktive Fondsmanagement, das den Fonds verwaltet, können bei dieser Geldanlage jedoch verhältnismäßig hohe Gebühren entstehen. Hierzu zählen Verwaltungsgebühren, die durchschnittlich bei 1,5 Prozent liegen, und Ausgabeaufschläge (Provisionen) von 2 bis 5 Prozent.</p></div>
-                          </div>
-                          <div class="container">
-                            <div id="c21046" class="frame frame-0 frame-type-text frame-space-before-medium   "><header><h3 class="">
-                            ETFs
-                            </h3></header><p class="MsoCommentText">ETFs sind eine<strong> kostengünstige Alternative</strong> zu Fonds. Exchange Traded Funds, abgekürzt ETFs, werden ebenfalls an der Börse gehandelt, jedoch nicht von einem aktiven Fondsmanagement verwaltet. Dadurch fallen die Gebühren deutlich geringer aus als bei Fonds.</p><p class="MsoCommentText"><strong>ETFs bilden einen bereits bestehenden Index</strong> wie beispielsweise den MSCI World oder den DAX nach. Dadurch orientiert sich auch die zu erwartende Rendite an der des nachgebildeten Index. Um einen Index so exakt wie möglich abzubilden, enthalten die meisten ETFs dieselben Anlagenwerte wie der Index (physische Replikation).</p><p class="MsoCommentText">Die durchschnittlichen Kosten für ETFs liegen bei bis zu 0,5 Prozent. Bei WeltSparen fallen lediglich Gebühren von durchschnittlich 0,48 Prozent der Anlagesumme pro Jahr bei einem vorausgewählten Portfolio des ETF Robo an. Sparer, die mit einem Sparplan Geld in ETFs anlegen möchten, können diesen kostenlos einrichten und besparen. Wer sich sein Portfolio aus bis zu 10 ETFs gerne selbst zusammenstellen möchte, kann dies über den ETF Configurator tun. Die durchschnittlichen Gebühren liegen hier bei 0,43 Prozent pro Jahr.</p></div>
-                            </div>
-                            <div class="container">
-                              <div id="c21047" class="frame frame-0 frame-type-text frame-space-before-medium   "><header><h3 class="">
-                              Kryptowährung
-                              </h3></header><p class="MsoCommentText">Eine Kryptowährung ist ein dezentrales, digitales Zahlungsmittel. Allerdings hat sich das Bezahlen mit Kryptowährungen bisher noch nicht etabliert, sie werden vielmehr als Geldanlage genutzt. An eigens dafür geschaffenen Kryptobörsen können Kryptowährungen gekauft werden. Eine Investition in Krypto wird jedoch als hoch spekulativ angesehen, da die Kurse der digitalen Währungen sehr volatil sind.</p></div>
-                              </div>
-                              <div class="container">
-                                <div id="c21048" class="frame frame-0 frame-type-text frame-space-before-medium   "><header><h3 class="">
-                                Sachwerte
-                                </h3></header><p class="MsoCommentText">Geldanlagen wie <strong>Immobilien, Oldtimer, Kunstgegenstände, Gold, Silber</strong> oder andere Edelmetalle haben ihren eigenen Sachwert. Dieser hängt vom Angebot und der Nachfrage ab, wodurch erhebliche Schwankungen entstehen können. Ob und wie viel Rendite mit der Anlage erzielt werden kann, ist meist unsicher. Zudem braucht es bei Sachwerten häufig etwas Zeit, um diese in Geld umzuwandeln.</p></div>
-                                </div>
-                                <div class="container">
-                                  <div id="c21022" class="frame frame-0 frame-type-text frame-space-before-medium   "><header><h2 class="">
-                                  Wie lege ich mein Geld am besten an?
-                                  </h2></header><p class="MsoCommentText">Das Anlegen von Geld in verschiedene Geldanlagen kann sinnvoll sein. Mit der Wahl von verhältnismäßig sicheren Anlagemöglichkeiten wie Tagesgeld oder Festgeld und Anlageformen mit höheren Renditechancen können Anleger eine <strong>breite Streuung des Risikos</strong> erreichen. Die <strong>perfekte Anlagestrategie, die für alle Sparer gilt, gibt es jedoch nicht</strong>. Jeder verfolgt unterschiedliche Sparziele und hat eine andere Risikobereitschaft. Doch welche Geldanlage beziehungsweise welcher Mix passt am besten zu Ihnen?</p></div>
-                                  </div>
-                                 <div class="container">
-                                  <div class="row mx-0 justify-content-center">
-                                  <img src="../assets/images/Dreieck_final.jpg" alt="">
-                                  <p class="mt-4">Bei der Entscheidung für die richtige Geldanlage hat sich das Magische Dreieck als eine gute Unterstützung etabliert. Jede Anlageform erfüllt mindestens eine der drei Kriterien, aber niemals alle drei. Das heißt, dass der Schwerpunkt im Dreieck stets unterschiedlich ausfallen kann. Legen Sparer viel Wert auf Sicherheit, verändert sich die Gewichtung der anderen beiden Kriterien. Eine hohe Sicherheit bedeutet meist eine geringe Rendite. Ist dann zusätzlich auch die Verfügbarkeit ein wichtiger Punkt, sinkt die Rendite weiter. Genauso kann sich das Dreieck aber auch in eine andere Richtung verzerren, wenn das Hauptaugenmerk auf einer hohen Rendite liegt. Um zu entscheiden, wie Sie Ihr Geld anlegen möchten, kann das Festlegen Ihres persönlichen Schwerpunkts hilfreich sein.</p>
-                                </div>
-                                 </div>
-                                 <div class="container">
-                                  <div id="c21074" class="frame frame-0 frame-type-text frame-space-before-medium   "><header><h3 class="">
-                                  Mit Diversifikation und Teilbeträgen das Risiko streuen
-                                  </h3></header><p class="MsoCommentText">Um das Sparziel zu erreichen und gleichzeitig das Risiko eines Verlustes zu minimieren, ist <strong>Diversifikation das Stichwort</strong>. Anleger können <strong>mehrere Geldanlagen nutzen</strong> und so von hohen Renditechancen und gleichzeitig von Sicherheit profitieren. Setzen Anleger ihr Geld also nicht nur auf eine Karte, sondern auf viele verschiedene Geldanlagen, kann das Risiko minimiert und das Sparziel langfristig erreicht werden. Mit ZINSPILOT und WeltSparen können Sie gleich drei Anlageformen besparen und gleichzeitig in Ihre Altersvorsorge investieren.</p></div>
-                                  </div>
-
-                                  <div class="container">
-                                    <div id="c21075" class="frame frame-0 frame-type-list frame-space-before-medium   "><div class="faq" id="accordion-21075"><div class="card"><div class="card-header" role="tab" id="heading-3410"><a data-toggle="collapse" href="#collapse-3410" aria-expanded="true" aria-controls="collapse-3410" class="d-block"><span class="float-left">Tagesgeld &amp; Festgeld</span><i class="far fa-plus float-right" aria-hidden="true"></i></a></div><div id="collapse-3410" class="collapse" role="tabpanel" aria-labelledby="heading-3410"><div class="card-body"><p>Ein Tagesgeldkonto bietet sich zum Beispiel für die Notreserve an, denn das Geld ist täglich verfügbar und wird dennoch verzinst. Ein Teilbetrag des restlichen Vermögens kann in Festgeld investiert werden. Durch den Festzins ist die Rendite planbar. Beide Geldanlagen sind über die gesetzliche Einlagensicherung bis zu 100.000 Euro je Kunde und Bank abgesichert. Durch die feste Laufzeit von Festgeld erzielt es in der Regel höhere Zinsen als Tagesgeld.</p></div></div></div><div class="card"><div class="card-header" role="tab" id="heading-3411"><a data-toggle="collapse" href="#collapse-3411" aria-expanded="true" aria-controls="collapse-3411" class="d-block"><span class="float-left">Fonds &amp; ETFs</span><i class="far fa-plus float-right" aria-hidden="true"></i></a></div><div id="collapse-3411" class="collapse" role="tabpanel" aria-labelledby="heading-3411"><div class="card-body"><p>Um die Renditechancen zu erhöhen, kann das Anlegen von Geld in Fonds oder ETFs sinnvoll sein. Bei diesen Geldanlagen können Anleger zwischen unterschiedlichen Risikoprofilen wählen. Das bedeutet, dass eine Anlage in Fonds oder ETFs nicht automatisch ein hohes Risiko bedeutet. So können beispielsweise mehrere Teilbeträge auf verschiedene Fonds oder ETFs aufgeteilt werden. Anleger können so ihr Risiko nicht nur durch verschiedene Anlageklassen streuen, sondern auch innerhalb einer Anlageform. Ein Teilbetrag kann beispielsweise in einen Aktienfonds investiert werden, ein anderer in einen risikoarmen Anleihenfonds. Im Vergleich der beiden Geldanlagen sind ETFs kosteneffizienter. Sie werden nicht aktiv gemanagt, wodurch weniger Verwaltungsgebühren und kein Ausgabeaufschlag anfallen.</p></div></div></div><div class="card"><div class="card-header" role="tab" id="heading-3412"><a data-toggle="collapse" href="#collapse-3412" aria-expanded="true" aria-controls="collapse-3412" class="d-block"><span class="float-left">Aktien &amp; Krypto</span><i class="far fa-plus float-right" aria-hidden="true"></i></a></div><div id="collapse-3412" class="collapse" role="tabpanel" aria-labelledby="heading-3412"><div class="card-body"><p>Einzelne Aktien können risikoreich sein. Als Bestandteil in einem breit aufgestellten Portfolio können sie jedoch die Renditechancen deutlich steigern. Dasselbe gilt für Kryptowährungen. Sie sind aufgrund ihrer volatilen Kurse hochspekulativ. Wer jedoch einen kleinen Teil seines Vermögens darin investiert, kann die Chancen auf Rendite nutzen und gleichzeitig das persönliche Risiko minimieren.</p></div></div></div><div class="card"><div class="card-header" role="tab" id="heading-3413"><a data-toggle="collapse" href="#collapse-3413" aria-expanded="true" aria-controls="collapse-3413" class="d-block"><span class="float-left">Breit diversifiziertes Portfolio</span><i class="far fa-plus float-right" aria-hidden="true"></i></a></div><div id="collapse-3413" class="collapse" role="tabpanel" aria-labelledby="heading-3413"><div class="card-body"><p>Beispiel: Ein Teil des Geldes kann auf einem Tagesgeldkonto angelegt werden, um im Notfall darauf zugreifen zu können. Festgeld könnte ein weiterer Bestandteil der Geldanlage-Strategie sein. Diese beiden Geldanlagen können so das Fundament eines diversifizierten Anlageportfolios bilden. Um die Chance auf höhere Renditen wahrzunehmen, könnte darüber hinaus Geld in ETFs investiert werden. Mit einem ETF-Portfolio kommt eine weitere Anlagemöglichkeit zur Streuung des Risikos hinzu, das zudem in sich ebenfalls diversifiziert ist. Besteht ein ETF-Portfolio beispielsweise aus 10 ETFs, ist das Risiko auf diese 10 Anlagen verteilt. Als weitere Bestandteile der Geldanlage-Strategie kann in Aktien und Kryptowährungen investiert werden. Da diese vergleichsweise risikoreich sind, empfiehlt es sich nicht, ausschließlich in diese Geldanlagen zu investieren. Doch als geringer Teil eines breit aufgestellten Portfolios können sie zu einer höheren Chance auf Rendite beitragen.</p></div></div></div></div></div>
-                                    </div>
-                                    <div class="container">
-                                      <div id="c21076" class="frame frame-0 frame-type-text frame-space-before-medium   "><header><h2 class="">
-                                      Fazit zum Geld anlegen
-                                      </h2></header><p class="MsoCommentText">In Zeiten der Niedrigzinsen und hohen Inflation ist das Thema Geldanlage wieder stark in den Fokus gerückt. Sparer möchten ihr Geld in der Regel möglichst sicher, aber auch mit Renditechancen anlegen und suchen daher nach einer Alternative zum klassischen Sparbuch. Wie können Sparer herausfinden, wo sie das Geld am besten anlegen?</p><p class="MsoCommentText"><strong>Was beim Geld anlegen hilfreich sein kann:</strong></p><ul><li class="MsoCommentText"><strong>Diversifikation</strong>: Streuung des Risikos durch die Auswahl verschiedener Anlageformen</li><li class="MsoCommentText"><strong>Sparziel</strong>: Je nach Sparziel können unterschiedliche Geldanlagen und verschiedene Laufzeiten sinnvoll sein.</li><li class="MsoCommentText"><strong>Risiko</strong>: Jede Kapitalanlage ist mit einem Risiko verbunden. Daher ist es wichtig, nur Geld anzulegen, auf das im Ernstfall verzichtet werden kann.</li><li class="MsoCommentText"><strong>Kosten</strong>: Der Vergleich verschiedener Geldanlagen ausschließlich anhand der Rendite kann sich negativ auswirken. Hohe Kosten können einen Großteil des Gewinns wieder relativieren. Daher kann es sich lohnen, auch einen Blick auf die Gebühren zu werfen.</li><li class="MsoCommentText"><strong>Langfristigkeit</strong>: Auch die Anlagedauer ist ein entscheidender Faktor der Rendite, insbesondere an der Börse. Negative Kursschwankungen können in der Regel auf lange Sicht eher wieder ausgeglichen werden, als wenn bei einem Absinken des Kurses sofort alles verkauft wird.</li></ul><p class="MsoCommentText">Schlussendlich gibt es jedoch nicht die eine richtige Geldanlage, mit der alle Sparer erfolgreich Geld anlegen können. <strong>Je nach Sparziel und Risikobereitschaft eignen sich unterschiedliche Strategien und Möglichkeiten</strong>, Geld anzulegen.</p></div>
-                                      </div>
-                  </div>
-          
-              </div>
-            </div>
+    <section class="services">
+      <div class="theme-container">
+        <div class="services_card_main">
+          <div class="services_card">
+            <img src="../assets/images/WS-by-raisin_logo.png" alt="">
+            <h6>Geldanlage in <br> Festgeld</h6>
+            <p>
+              Bis zu 2,00 % Zinsen
+            </p>
+            <a href="https://www.weltsparen.de/festgeld/"><button class="more_on_btn">Jetzt informieren </button></a>
+          </div>
+          <div class="services_card">
+            <img src="../assets/images/WS-by-raisin_logo.png" alt="">
+            <h6>Geldanlage in <br> Tagesgeld</h6>
+            <p>
+              Bis zu 0,20 % Zinsen
+            </p>
+            <a href="https://www.weltsparen.de/tagesgeld/"><button class="more_on_btn">Jetzt informieren </button></a>
+          </div>
+          <div class="services_card">
+            <img src="../assets/images/Raisin_invest-logo.png" alt="">
+            <h6>Investments <br> mit ETFs</h6>
+            <p>
+              Individuelle Portfolios entwickelt von <br> Experten
+            </p>
+            <a href="https://www.weltsparen.de/investieren/"><button class="more_on_btn">Jetzt informieren </button></a>
+          </div>
+          <div class="services_card">
+            <img src="../assets/images/Raisin_invest-logo.png" alt="">
+            <h6>Altersvorsorge <br> mit ETFs</h6>
+            <p>
+              Steuervorteile und freie <br> Fondsauswahl
+            </p>
+            <a href="https://www.raisin-pension.de/"><button class="more_on_btn">Jetzt informieren </button></a>
           </div>
         </div>
       </div>
     </section>
-    <!-- section end >......................... -->
+  </div>
+
+
+  <section class="open-account-sec mb-5 pb-5 ">
     <div class="theme-container">
-      <div class="center-heading text-center">
-        <h1>
-          Weitere Angebote beim <br />
-          Partner WeltSparen sichern
-        </h1>
+      <div class="open-account">
+        <h1>Jetzt Ihr kostenloses <br> ZINSPILOT-Konto eröffnen!</h1>
+        <p>Sie sind schon ZINSPILOT-Kunde? <a href="">Hier anmelden.</a></p>
+        <a href=""><button>Kostenloses Konto eröffnen</button></a>
       </div>
-      <section class="services">
-        <div class="services_card_main">
-          <div class="services_card">
-            <img src="../assets/images/WS-by-raisin_logo.png" alt="" />
-            <h6>
-              Geldanlage in <br />
-              Festgeld
-            </h6>
-            <p>Bis zu 2,00 % Zinsen</p>
-            <a href="pages/festgeld.html"
-              ><button class="more_on_btn">Jetzt informieren</button></a
-            >
-          </div>
-          <div class="services_card">
-            <img src="../assets/images/WS-by-raisin_logo.png" alt="" />
-            <h6>
-              Geldanlage in <br />
-              Tagesgeld
-            </h6>
-            <p>Bis zu 0,20 % Zinsen</p>
-            <a href="pages/tagesgeld.html"
-              ><button class="more_on_btn">Jetzt informieren</button></a
-            >
-          </div>
-          <div class="services_card">
-            <img src="../assets/images/Raisin_invest-logo.png" alt="" />
-            <h6>
-              Investments <br />
-              mit ETFs
-            </h6>
-            <p>
-              Individuelle Portfolios entwickelt von <br />
-              Experten
-            </p>
-            <a href="pages/gold-and-silber.html"
-              ><button class="more_on_btn">Jetzt informieren</button></a
-            >
-          </div>
-          <div class="services_card">
-            <img src="../assets/images/Raisin_invest-logo.png" alt="" />
-            <h6>
-              Altersvorsorge <br />
-              mit ETFs
-            </h6>
-            <p>
-              Steuervorteile und freie <br />
-              Fondsauswahl
-            </p>
-            <a href="pages/gold-and-silber.html"
-              ><button class="more_on_btn">Jetzt informieren</button></a
-            >
-          </div>
-        </div>
-      </section>
     </div>
-
-
-    <section class="open-account-sec mb-5 pb-5 " >
-      <div class="theme-container">
-          <div class="open-account">
-              <h1>Jetzt Ihr kostenloses <br> ZINSPILOT-Konto eröffnen!</h1>
-              <p>Sie sind schon ZINSPILOT-Kunde? <a href="">Hier anmelden.</a></p>
-              <a href=""><button>Kostenloses Konto eröffnen</button></a>
-          </div>
-      </div>
   </section>
   <footer class="footer">
     <div class="theme-container">
@@ -820,14 +937,15 @@
   <!-- footer_bottom start  -->
   <div class="footer_bottom">
     <p>
-      © 2022 ins Pilot - All Rights Reserved | <a href="agbs.html">AGBs</a> | <a
-        href="impressum.html">Impressum</a> | <a href="datenschutz.html">Datenschutzerklärung</a>
+      © 2022 ins Pilot - All Rights Reserved | <a href="agbs.html">AGBs</a> | <a href="impressum.html">Impressum</a> |
+      <a href="datenschutz.html">Datenschutzerklärung</a>
     </p>
   </div>
   <!-- footer_bottom end -->
-    <script src="../assets/jquery-3.6.0.min.js"></script>
-    <script type="text/javascript" src="../assets/slick.min.js"></script>
-    <script src="../assets/core.js"></script>
-    <script src="../assets/bootstrap.bundle.min.js"></script>
-  </body>
+  <script src="../assets/jquery-3.6.0.min.js"></script>
+  <script type="text/javascript" src="../assets/slick.min.js"></script>
+  <script src="../assets/core.js"></script>
+  <script src="../assets/bootstrap.bundle.min.js"></script>
+</body>
+
 </html>

@@ -10,7 +10,7 @@
   <title>Festgeld</title>
   <link rel="stylesheet" href="../assets/css/merged-table.css">
   <link rel="stylesheet" href="../assets/css/style.css">
-  <link rel="stylesheet" href="../assets//cssresponsive.css">
+  <link rel="stylesheet" href="../assets/css/responsive.css">
   <style>
     body {
       padding: 0;
@@ -75,6 +75,12 @@
     .open-account input {
       border: 1px solid #005091 !important;
     }
+
+    @media (max-width: 440px) {
+      .services_card {
+        margin-top: 0 !important;
+      }
+    }
   </style>
 </head>
 
@@ -83,6 +89,7 @@
   <div class="animationload" style="display: none;">
     <div class="loader" style="display: none;"></div>
   </div>
+  <!-- SIDE MENU -->
   <div class="sidebar-backdrop"></div>
   <div class="sidebar-menu">
     <div class="d-flex justify-content-between align-items-center head">
@@ -99,41 +106,41 @@
                 class="fas fa-angle-down"></i></a></li>
           <div class="sidebar_dropdown_1">
             <div class="side_bar_dropdown">
-              <a href="../pages/aboutUs.html">Festgeld</a>
-              <a href="../pages/aboutUs.html">Tagesgeld</a>
+              <a href="festgeld.html">Festgeld</a>
+              <a href="tagesgeld.html">Tagesgeld</a>
             </div>
           </div>
-          <li><a href="../index.html" class="sidebar-links">Banken</a></li>
-          <li><a href="../index.html" class="sidebar-links">So funktioniert's</a></li>
+          <li><a href="banken.html" class="sidebar-links">Banken</a></li>
+          <li><a href="so-funktionierts.html" class="sidebar-links">So funktioniert's</a></li>
           <li class="sb_submenu"><a href="javascript:void(0);" class="sidebar-links sidebar_menu_1">Informationen
               <i class="fas fa-angle-down"></i></a></li>
           <div class="sidebar_dropdown_2">
             <div class="side_bar_dropdown">
-              <a href="../pages/festgeld.html">Aktuelle Produktinfos</a>
-              <a href="../pages/tagesgeld.html">Zinserhöhungen</a>
-              <a href="../pages/top-festzinsanlagen.html">Häufige Fragen</a>
-              <a href="../pages/top-festzinsanlagen.html">Steuern</a>
-              <a href="../pages/top-festzinsanlagen.html">Steuerbescheinigung</a>
-              <a href="../pages/top-festzinsanlagen.html">Anlagevoraussetzung</a>
-              <a href="../pages/top-festzinsanlagen.html">Länderrating</a>
-              <a href="../pages/top-festzinsanlagen.html">Formularcenter</a>
+              <a href="aktuelle-produktinfos.html">Aktuelle Produktinfos</a>
+              <a href="zinserhoehungen.html">Zinserhöhungen</a>
+              <a href="faq.html">Häufige Fragen</a>
+              <a href="steuern.html">Steuern</a>
+              <a href="steuerbescheinigung.html">Steuerbescheinigung</a>
+              <a href="anlagevoraussetzung.html">Anlagevoraussetzung</a>
+              <a href="ratingindex.html">Länderrating</a>
+              <a href="formularcenter.html">Formularcenter</a>
             </div>
           </div>
           <li class="sb_submenu"><a href="javascript:void(0);" class="sidebar-links sidebar_menu_3">Finanzwissen <i
                 class="fas fa-angle-down"></i></a></li>
           <div class="sidebar_dropdown_4">
             <div class="side_bar_dropdown">
-              <a href="../pages/aktien.html">Geldanlage</a>
-              <a href="../pages/gold-and-silber.html">Magazin</a>
+              <a href="geldanlage.html">Geldanlage</a>
+              <a href="magazin.html">Magazin</a>
             </div>
           </div>
-          <li><a href="../pages/sparplan.html" class="sidebar-links">SPARPLÄNE </a></li>
-          <li><a href="../pages/contact-us.html" class="sidebar-links">KONTAKT</a></li>
+          <li><a href="sparplan.html" class="sidebar-links">SPARPLÄNE </a></li>
+          <li><a href="contact-us.html" class="sidebar-links">KONTAKT</a></li>
           <!-- <a href="#"><button></button></a> -->
         </ul>
         <div class="side-bar-btns">
-          <a href="#" class="sidebar-links"><button>Login</button></a>
-          <a href="#" class="sidebar-links"><button>Registrieren</button></a>
+          <a href="login.html" class="sidebar-links"><button>Login</button></a>
+          <a href="signup.html" class="sidebar-links"><button>Registrieren</button></a>
         </div>
       </div>
     </div>
@@ -149,9 +156,9 @@
           <img src="../assets/images/menu.svg" alt="MENU" id="nav_toggle">
         </div>
         <div class="links">
-          <a href="../index.html" class="link active">Startseite</a>
+          <a href="../index.html" class="link">Startseite</a>
           <div class="about_us_link">
-            <a href="javascript:void(0);" class="link">Anlageangebote</a>
+            <a href="javascript:void(0);" class="link active">Anlageangebote</a>
             <div class="drop_down">
               <a href="festgeld.html">
                 <p>Festgeld</p>
@@ -257,7 +264,7 @@
 
   <div class="theme-container">
     <div id="c21619" class="frame frame-0 frame-type-list frame-space-before-medium table_dt">
-      <div class="center-heading text-center pt-0 pb-5">
+      <div class="center-heading text-center pt-0 pb-md-5">
         <h1>Unser Festgeld-Vergleich</h1>
       </div>
       <div id="c13939" class="frame frame-0 frame-type-list frame-space-before-medium   ">
@@ -1542,9 +1549,10 @@
       </div>
     </div>
   </div>
-  <div class="container">
+  <div class="theme-container">
     <div id="c21618" class="frame frame-0 frame-type-text frame-space-before-extra-small   ">
-      <p><span class="text-small">* Bitte beachten Sie, dass es sich bei dem dargestellten Zinsertrag um einen
+      <p class="text-center"><span class="text-small">* Bitte beachten Sie, dass es sich bei dem dargestellten
+          Zinsertrag um einen
           Schätzwert zu Ihrer Orientierung handelt. Der tatsächliche Zinsertrag ist abhängig von der Berechnungsmethode
           der Anlagebank, sowie ggf. nationalen Steuern des Anlagelandes. Die spezifischen Angaben hierzu finden sich in
           den Angebotsdetails des Produktes.</span></p>
@@ -1563,7 +1571,7 @@
           <p>
             Bis zu 2,00 % Zinsen
           </p>
-          <a href="pages/festgeld.html"><button class="more_on_btn">Jetzt informieren </button></a>
+          <a href="https://www.weltsparen.de/festgeld/"><button class="more_on_btn">Jetzt informieren </button></a>
         </div>
         <div class="services_card">
           <img src="../assets/images/WS-by-raisin_logo.png" alt="">
@@ -1571,7 +1579,7 @@
           <p>
             Bis zu 0,20 % Zinsen
           </p>
-          <a href="pages/tagesgeld.html"><button class="more_on_btn">Jetzt informieren </button></a>
+          <a href="https://www.weltsparen.de/tagesgeld/"><button class="more_on_btn">Jetzt informieren </button></a>
         </div>
         <div class="services_card">
           <img src="../assets/images/Raisin_invest-logo.png" alt="">
@@ -1579,7 +1587,7 @@
           <p>
             Individuelle Portfolios entwickelt von <br> Experten
           </p>
-          <a href="pages/gold-and-silber.html"><button class="more_on_btn">Jetzt informieren </button></a>
+          <a href="https://www.weltsparen.de/investieren/"><button class="more_on_btn">Jetzt informieren </button></a>
         </div>
         <div class="services_card">
           <img src="../assets/images/Raisin_invest-logo.png" alt="">
@@ -1587,7 +1595,7 @@
           <p>
             Steuervorteile und freie <br> Fondsauswahl
           </p>
-          <a href="pages/gold-and-silber.html"><button class="more_on_btn">Jetzt informieren </button></a>
+          <a href="https://www.raisin-pension.de/"><button class="more_on_btn">Jetzt informieren </button></a>
         </div>
       </div>
     </div>
@@ -1598,7 +1606,7 @@
         <div class="row justify-content-center">
           <div class="col-12 px-0 px-sm-3 px-md-3 px-lg-3 px-xl-3">
             <div class="row justify-content-center">
-              <div class="ft_privacy_content col-11 col-sm-11 col-md-12 col-lg-12 col-xl-10">
+              <div class="ft_privacy_content col-12 col-sm-11 col-md-12 col-lg-12 col-xl-10">
                 <div class="col-sm-12 col-md-12 px-0 px-lg-3 px-xl-3">
                   <div class="container">
                     <div id="c13937" class="frame frame-0 frame-type-menu_section frame-space-before-extra-large   ">
@@ -2197,113 +2205,135 @@
                     </div>
                   </div>
                   <div class="container">
-                    <div id="c13896" class="frame frame-0 frame-type-gridelements_pi1 frame-space-before-medium   "><header><h2 class="">
-                    Länderratings
-                    </h2></header><div class="row row-space"><div class="col-md-6"><div class="container"><div id="c13895" class="frame frame-0 frame-type-list   ">
-                    <div class="products products-map" id="map-13895">
-                    <div style="max-width: 300px;" class="mx-auto">
-                    <object data="/typo3conf/ext/sd_product/Resources/Public/Img/map_europe.svg?v=18.svg" type="image/svg+xml" id="svgObject" width="100%" height="100%"></object>
-                    <script>
-                        
-                                var countries = [
-                                
-                                    {code: 'de', title: 'Deutschland', description: 'Rating Index: AAA (Fitch; Stand: 29.10.2021)'},
-                                
-                                    {code: 'fr', title: 'Frankreich', description: 'Rating Index: AA (Fitch; Stand: 05.11.2021)'},
-                                
-                                    {code: 'pt', title: 'Portugal', description: 'Rating Index: BBB (Fitch; Stand 12.11.2021)'},
-                                
-                                    {code: 'mt', title: 'Malta', description: 'Rating Index: A+ (Fitch; Stand: 19.11.2021)'},
-                                
-                                    {code: 'at', title: 'Österreich', description: 'Rating Index: AA+ (Fitch; Stand: 22.10.2021)'},
-                                
-                                    {code: 'ro', title: 'Rumänien', description: 'Rating Index: BBB- (Fitch, Stand: 22.10.2021)'},
-                                
-                                    {code: 'uk', title: 'Großbritannien', description: 'Rating Index: AA (Standard & Poor’s; Stand: 22.10.2021)'},
-                                
-                                    {code: 'se', title: 'Schweden', description: 'Rating Index: AAA (Fitch; Stand: 03.12.2021)'},
-                                
-                                    {code: 'be', title: 'Belgien', description: 'Rating Index: AA (Standard & Poor’s; Stand: 18.09.2020)'},
-                                
-                                    {code: 'ee', title: 'Estland', description: 'Rating Index: AA- (Fitch; Stand: 03.09.2021)'},
-                                
-                                    {code: 'gr', title: 'Griechenland', description: 'Rating Index: BB (Fitch; Stand: 16.07.2021)'},
-                                
-                                    {code: 'it', title: 'Italien', description: 'Rating Index: BBB (Standard & Poor’s; Stand: 22.10.2021)'},
-                                
-                                    {code: 'lt', title: 'Litauen', description: 'Rating Index: A+ (Standard & Poor’s; Stand: 14.08.2020)'},
-                                
-                                ];
-                                
-                                var svgObject = document.getElementById('svgObject');
-                                var mapElement = document.getElementById('map-13895');
-                                
-                                svgObject.addEventListener('load', function() {
-                        
-                                    var svgDoc = svgObject.contentDocument;
-                                    var base = document.createElement('tooltip');
-                                    var addWidth = 0;
-                                    document.body.appendChild(base);
-                                    
-                                    [].forEach.call(countries, function(country) {
-                                        
+                    <div id="c13896" class="frame frame-0 frame-type-gridelements_pi1 frame-space-before-medium   ">
+                      <header>
+                        <h2 class="">
+                          Länderratings
+                        </h2>
+                      </header>
+                      <div class="row row-space">
+                        <div class="col-md-6">
+                          <div class="container">
+                            <div id="c13895" class="frame frame-0 frame-type-list   ">
+                              <div class="products products-map" id="map-13895">
+                                <div style="max-width: 300px;" class="mx-auto">
+                                  <object data="/typo3conf/ext/sd_product/Resources/Public/Img/map_europe.svg?v=18.svg"
+                                    type="image/svg+xml" id="svgObject" width="100%" height="100%"></object>
+                                  <script>
+
+                                    var countries = [
+
+                                      { code: 'de', title: 'Deutschland', description: 'Rating Index: AAA (Fitch; Stand: 29.10.2021)' },
+
+                                      { code: 'fr', title: 'Frankreich', description: 'Rating Index: AA (Fitch; Stand: 05.11.2021)' },
+
+                                      { code: 'pt', title: 'Portugal', description: 'Rating Index: BBB (Fitch; Stand 12.11.2021)' },
+
+                                      { code: 'mt', title: 'Malta', description: 'Rating Index: A+ (Fitch; Stand: 19.11.2021)' },
+
+                                      { code: 'at', title: 'Österreich', description: 'Rating Index: AA+ (Fitch; Stand: 22.10.2021)' },
+
+                                      { code: 'ro', title: 'Rumänien', description: 'Rating Index: BBB- (Fitch, Stand: 22.10.2021)' },
+
+                                      { code: 'uk', title: 'Großbritannien', description: 'Rating Index: AA (Standard & Poor’s; Stand: 22.10.2021)' },
+
+                                      { code: 'se', title: 'Schweden', description: 'Rating Index: AAA (Fitch; Stand: 03.12.2021)' },
+
+                                      { code: 'be', title: 'Belgien', description: 'Rating Index: AA (Standard & Poor’s; Stand: 18.09.2020)' },
+
+                                      { code: 'ee', title: 'Estland', description: 'Rating Index: AA- (Fitch; Stand: 03.09.2021)' },
+
+                                      { code: 'gr', title: 'Griechenland', description: 'Rating Index: BB (Fitch; Stand: 16.07.2021)' },
+
+                                      { code: 'it', title: 'Italien', description: 'Rating Index: BBB (Standard & Poor’s; Stand: 22.10.2021)' },
+
+                                      { code: 'lt', title: 'Litauen', description: 'Rating Index: A+ (Standard & Poor’s; Stand: 14.08.2020)' },
+
+                                    ];
+
+                                    var svgObject = document.getElementById('svgObject');
+                                    var mapElement = document.getElementById('map-13895');
+
+                                    svgObject.addEventListener('load', function () {
+
+                                      var svgDoc = svgObject.contentDocument;
+                                      var base = document.createElement('tooltip');
+                                      var addWidth = 0;
+                                      document.body.appendChild(base);
+
+                                      [].forEach.call(countries, function (country) {
+
                                         var countryElement = svgDoc.getElementById('country_' + country.code);
-                                        
+
                                         countryElement.setAttribute('data-toggle', 'tooltip');
                                         countryElement.setAttribute('class', 'tooltip');
-                        
+
                                         var countryField = countryElement.querySelectorAll('polygon, path');
-                        
-                                        [].forEach.call(countryField, function(map) {
-                                            map.style.fill = '#005091';
+
+                                        [].forEach.call(countryField, function (map) {
+                                          map.style.fill = '#005091';
                                         });
-                        
-                                        countryElement.addEventListener('mouseenter', function(event) {
-                                            title = document.createElement('h4');
-                                            titleText = document.createTextNode(country.title);
-                                            title.appendChild(titleText);
-                        
-                                            description = document.createElement('div');
-                                            descriptionText = document.createTextNode(country.description);
-                                            description.appendChild(descriptionText);
-                                            
-                                            base.innerHTML = '';
-                                            base.appendChild(title);
-                                            base.appendChild(description);
-                                            if (document.getElementsByTagName('tooltip')[0]) {
-                                                document.getElementsByTagName('tooltip')[0].remove();
-                                            }
-                                            addWidth = 0;
-                                            if ((window.innerWidth - event.pageX) < base.offsetWidth) {
-                                                addWidth = base.offsetWidth - (window.innerWidth - event.pageX - 50);
-                                            }
-                                            base.style.left = (event.pageX + svgObject.offsetLeft + 5 - addWidth) + 'px';
-                                            base.style.top = (event.pageY + svgObject.offsetTop - base.offsetHeight - 5) + 'px';
-                                            mapElement.appendChild(base);
+
+                                        countryElement.addEventListener('mouseenter', function (event) {
+                                          title = document.createElement('h4');
+                                          titleText = document.createTextNode(country.title);
+                                          title.appendChild(titleText);
+
+                                          description = document.createElement('div');
+                                          descriptionText = document.createTextNode(country.description);
+                                          description.appendChild(descriptionText);
+
+                                          base.innerHTML = '';
+                                          base.appendChild(title);
+                                          base.appendChild(description);
+                                          if (document.getElementsByTagName('tooltip')[0]) {
+                                            document.getElementsByTagName('tooltip')[0].remove();
+                                          }
+                                          addWidth = 0;
+                                          if ((window.innerWidth - event.pageX) < base.offsetWidth) {
+                                            addWidth = base.offsetWidth - (window.innerWidth - event.pageX - 50);
+                                          }
+                                          base.style.left = (event.pageX + svgObject.offsetLeft + 5 - addWidth) + 'px';
+                                          base.style.top = (event.pageY + svgObject.offsetTop - base.offsetHeight - 5) + 'px';
+                                          mapElement.appendChild(base);
                                         }, false);
-                        
-                                        countryElement.addEventListener('mousemove', function(event) {
-                                            if ((window.innerWidth - event.pageX) < base.offsetWidth) {
-                                                addWidth = base.offsetWidth - (window.innerWidth - event.pageX - 50);
-                                            }
-                                            
-                                            base.style.left = (event.pageX + svgObject.offsetLeft + 5 - addWidth) + 'px';                            
-                                            base.style.top = (event.pageY + svgObject.offsetTop - base.offsetHeight - 5) + 'px';
+
+                                        countryElement.addEventListener('mousemove', function (event) {
+                                          if ((window.innerWidth - event.pageX) < base.offsetWidth) {
+                                            addWidth = base.offsetWidth - (window.innerWidth - event.pageX - 50);
+                                          }
+
+                                          base.style.left = (event.pageX + svgObject.offsetLeft + 5 - addWidth) + 'px';
+                                          base.style.top = (event.pageY + svgObject.offsetTop - base.offsetHeight - 5) + 'px';
                                         }, false);
-                        
-                                        countryElement.addEventListener('mouseout', function(event) {
-                                             document.getElementsByTagName('tooltip')[0].remove();
+
+                                        countryElement.addEventListener('mouseout', function (event) {
+                                          document.getElementsByTagName('tooltip')[0].remove();
                                         }, false);
-                        
-                                    });
-                        
-                                }, false);
-                                
-                            </script>
+
+                                      });
+
+                                    }, false);
+
+                                  </script>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div id="c13894" class="frame frame-0 frame-type-text frame-space-after-small   ">
+                            <p>Um die Anlageentscheidung zu unterstützen, bieten Länderratings des jeweiligen
+                              Bankenstandortes eine sehr gute Orientierung.&nbsp;Ein Länderrating ist ein Indikator
+                              dafür, wie die Solidität eines Staates zu beurteilen ist.</p>
+                            <p>Verbraucherschützer empfehlen, bei der Anlageentscheidung neben der gesetzlichen
+                              Einlagensicherung auch das Herkunftsland der Bank und dessen Bonitätsnoten bei führenden
+                              Ratingagenturen wie Fitch und Standard &amp; Poor's&nbsp;zu berücksichtigen.</p>
+                          </div>
+                        </div>
+                      </div>
                     </div>
-                    </div>
-                    </div></div></div><div class="col-md-6"><div id="c13894" class="frame frame-0 frame-type-text frame-space-after-small   "><p>Um die Anlageentscheidung zu unterstützen, bieten Länderratings des jeweiligen Bankenstandortes eine sehr gute Orientierung.&nbsp;Ein Länderrating ist ein Indikator dafür, wie die Solidität eines Staates zu beurteilen ist.</p><p>Verbraucherschützer empfehlen, bei der Anlageentscheidung neben der gesetzlichen Einlagensicherung auch das Herkunftsland der Bank und dessen Bonitätsnoten bei führenden Ratingagenturen wie Fitch und Standard &amp; Poor's&nbsp;zu berücksichtigen.</p></div></div></div></div>
-                    </div>
+                  </div>
                   <div class="container">
                     <div id="c17855" class="frame frame-0 frame-type-textpic frame-space-before-medium   ">
                       <header>
@@ -2505,15 +2535,16 @@
   <!-- footer_bottom start  -->
   <div class="footer_bottom">
     <p>
-      © 2022 ins Pilot - All Rights Reserved | <a href="agbs.html">AGBs</a> | <a
-        href="impressum.html">Impressum</a> | <a href="datenschutz.html">Datenschutzerklärung</a>
+      © 2022 ins Pilot - All Rights Reserved | <a href="agbs.html">AGBs</a> | <a href="impressum.html">Impressum</a> |
+      <a href="datenschutz.html">Datenschutzerklärung</a>
     </p>
   </div>
   <!-- footer_bottom end -->
   <script src="../assets/jquery-3.6.0.min.js"></script>
   <script type="text/javascript" src="../assets/slick.min.js"></script>
   <script src="../assets/core.js"></script>
-
+  <script>
+  </script>
 </body>
 
 </html>
