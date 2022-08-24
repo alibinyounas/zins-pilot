@@ -31,7 +31,7 @@
 
 :root {
   --theme-clr: #3C3C3B;
-  --dark-clr: #005091;
+  --dark-clr: #1e90ff;
 }
 
 body {
@@ -39,7 +39,7 @@ body {
   background-color: #F5F8F9;
   font-size: 15px;
   font-weight: 400;
-  color: var(--dark-clr);
+  color: #3C3C3B;
 }
 
 a {
@@ -232,11 +232,11 @@ a {
 }
 
 .side-bar-btns a:first-child button {
-  background-color: #F59A23;
+  background-color: #FFBF00;
 }
 
 .side-bar-btns a:last-child button {
-  background-color: #5BCD3E;
+  background-color: #1e90ff;
 }
 
 /* side-bar end */
@@ -274,10 +274,14 @@ textarea {
 
 .banner nav {
   display: flex;
-  align-items: center;
+  align-items: baseline;
   justify-content: space-between;
   padding-top: 30px;
   margin-bottom: 115px;
+}
+
+.banner nav img.site-logo {
+  width: 157px;
 }
 
 .banner nav .links {
@@ -337,12 +341,12 @@ textarea {
 }
 
 .header-btns a button.login-btn {
-  background: #F59A23;
+  background: #FFBF00;
   margin-right: 22px;
 }
 
 .header-btns a button.register-btn {
-  background: #5BCD3E;
+  background: #1e90ff;
 }
 
 .banner_heading h2 {
@@ -367,7 +371,7 @@ textarea {
 .banner-btn a button {
   width: 209px;
   height: 45px;
-  background: #F59A23 0% 0% no-repeat padding-box;
+  background: #FFBF00 0% 0% no-repeat padding-box;
   border-radius: 8px;
   opacity: 1;
   outline: none;
@@ -649,7 +653,7 @@ section.hesitate {
 }
 
 .more_on_btn {
-  background-color: #5BCD3E;
+  background-color: #1e90ff;
   border-radius: 8px;
   height: 35px;
   width: 128px;
@@ -658,7 +662,7 @@ section.hesitate {
 }
 
 .more_on_btn:hover {
-  background-color: #5BCD3E;
+  background-color: #1e90ff;
   border-radius: 8px;
   height: 35px;
   border: 0px;
@@ -666,7 +670,7 @@ section.hesitate {
 }
 
 .more_on_btn1 {
-  background-color: #F59A23;
+  background-color: #FFBF00;
 }
 
 .more_on_btn1:hover {
@@ -706,7 +710,7 @@ section.open-account-sec {
 .open-account {
   width: 90%;
   padding: 35px 0;
-  background: #005091;
+  background: #1e90ff;
   box-shadow: 0px 3px 6px #00000029;
   border-radius: 20px;
   opacity: 1;
@@ -733,7 +737,7 @@ section.open-account-sec {
 }
 
 .open-account p a {
-  color: #5BCD3E;
+  color: #ffbf00;
 }
 
 .open-account input {
@@ -768,7 +772,7 @@ ul.fc-ul {
 .open-account button {
   width: 209px;
   height: 45px;
-  background: #F59A23;
+  background: #FFBF00;
   border-radius: 8px;
   opacity: 1;
   border: none;
@@ -787,7 +791,7 @@ ul.fc-ul {
 .centered-btn a button {
   width: 209px;
   height: 45px;
-  background: #5BCD3E;
+  background: #1e90ff;
   border-radius: 8px;
   opacity: 1;
   border: none;
@@ -1088,7 +1092,7 @@ section.any_questions_sec {
   background-position: top right 115px;
   width: 90%;
   padding: 60px 50px 35px;
-  background-color: #005091;
+  background-color: #1e90ff;
   box-shadow: 0px 3px 6px #00000029;
   border-radius: 20px;
   opacity: 1;
@@ -1110,7 +1114,7 @@ section.any_questions_sec {
 .have_questions a button {
   width: 255px;
   height: 45px;
-  background: #F59A23;
+  background: #FFBF00;
   border: none;
   outline: none;
   border-radius: 8px;
@@ -1306,6 +1310,10 @@ section.eur-sec {
   margin-bottom: 45px;
 }
 
+img.footer-logo {
+  width: 157px;
+}
+
 .slick-dots li.slick-active button:before {
   color: #005091;
 }
@@ -1322,7 +1330,7 @@ footer a {
 }
 
 footer a:hover {
-  color: #5BCD3E !important;
+  color: #1e90ff !important;
 }
 
 footer h2 {
@@ -1425,15 +1433,15 @@ h1.ce-headline-center {
 }
 
 /* drop_down start  */
-.menu_bar_clr {
+/* .menu_bar_clr {
   color: #039244 !important;
   border-bottom: 2px solid #039244 !important;
-}
+} */
 
 .drop_down {
   display: none;
   position: absolute;
-  top: 100%;
+  top: 105%;
   left: -4%;
   background: white;
   border-radius: 10px;
@@ -1470,7 +1478,7 @@ h1.ce-headline-center {
 }
 
 .drop_down>a>p:hover {
-  background-color: #5BCD3E;
+  background-color: #1e90ff;
   color: #fcfcfc;
 }
 
@@ -1651,7 +1659,7 @@ h1.ce-headline-center {
   left: 25px;
   height: 100%;
   width: 4px;
-  background: #039244;
+  background: #ffbf00;
 }
 
 .ce-bank {
@@ -1719,12 +1727,12 @@ h1.ce-headline-center {
   height: 51px !important;
   color: white;
   border-radius: 50%;
-  box-shadow: 0 0 0 4px #11a956, inset 0 2px 0 rgb(0 0 0 / 8%),
+  box-shadow: 0 0 0 4px #1e90ff, inset 0 2px 0 rgb(0 0 0 / 8%),
     0 3px 0 4px rgb(0 0 0 / 5%);
 }
 
 .cd-timeline-img {
-  background: #039244;
+  background: #1e90ff;
 }
 
 .cd-timeline-content img {
@@ -2005,7 +2013,7 @@ iframe {
 .tool-bar-items a button {
   background: transparent;
   padding: 10px;
-  color: #5bcd3e;
+  color: #1e90ff;
   border-radius: 10px;
   border: none;
 }
@@ -2016,13 +2024,13 @@ iframe {
 }
 
 .tool-bar-items a button:hover {
-  background-color: #5bcd3e;
+  background-color: #1e90ff;
   color: white;
   transition: background-color 0.2s ease;
 }
 
 .tool-bar-items a button.active {
-  background-color: #5bcd3e;
+  background-color: #1e90ff;
   color: white;
   transition: background-color 0.2s ease;
 }
@@ -2038,7 +2046,7 @@ iframe {
 .tool-bar-main {
   margin-bottom: 10px;
   padding: 20px;
-  border-bottom: 2px solid #039244;
+  border-bottom: 2px solid #1e90ff;
 }
 
 .fee-av-card {

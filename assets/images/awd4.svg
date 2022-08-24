@@ -1,18 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="63.207" height="64.834" viewBox="0 0 63.207 64.834">
   <g id="Auszeichnung_Produkt" transform="translate(-1.5 -1.789)">
     <g id="Group_78" data-name="Group 78" transform="translate(1.5 19.19)">
-      <rect id="Rectangle_67" data-name="Rectangle 67" width="63.207" height="8.83" rx="2" transform="translate(0 38.603)" fill="#005091"/>
-      <path id="Path_88" data-name="Path 88" d="M0,0H18.09V23.581H0Z" transform="translate(0 11.791)" fill="#005091"/>
-      <rect id="Rectangle_69" data-name="Rectangle 69" width="17.767" height="14.698" rx="2" transform="translate(45.44 20.674)" fill="#005091"/>
-      <rect id="Rectangle_70" data-name="Rectangle 70" width="21.051" height="35.372" rx="2" transform="translate(21.159)" fill="#f28800"/>
+      <rect id="Rectangle_67" data-name="Rectangle 67" width="63.207" height="8.83" rx="2" transform="translate(0 38.603)" fill="#1e90ff"/>
+      <path id="Path_88" data-name="Path 88" d="M0,0H18.09V23.581H0Z" transform="translate(0 11.791)" fill="#1e90ff"/>
+      <rect id="Rectangle_69" data-name="Rectangle 69" width="17.767" height="14.698" rx="2" transform="translate(45.44 20.674)" fill="#1e90ff"/>
+      <rect id="Rectangle_70" data-name="Rectangle 70" width="21.051" height="35.372" rx="2" transform="translate(21.159)" fill="#ffbf00"/>
     </g>
     <path id="Path_64" data-name="Path 64" d="M18.376,75.907H13.8a7.587,7.587,0,0,1,.108-1.238,2.57,2.57,0,0,1,.861-1.4,4.7,4.7,0,0,1,1.454-.7c.431-.108,1.884-.754,1.777-2.046A1.76,1.76,0,0,0,16.169,68.8a2.045,2.045,0,0,0-1.884,1.131" transform="translate(-5.678 -30.282)" fill="none" stroke="#f5f8f9" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
     <path id="Path_65" data-name="Path 65" d="M56,50.584,59.284,48v9.26" transform="translate(-25.158 -20.68)" fill="none" stroke="#f5f8f9" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
     <path id="Path_66" data-name="Path 66" d="M97.7,84.168a2.155,2.155,0,0,0,2.046,1.238,1.879,1.879,0,0,0,2.1-1.669c.215-2.1-2.046-2.154-2.046-2.154s1.777,0,1.884-1.561A1.666,1.666,0,0,0,99.854,78.3a2.045,2.045,0,0,0-1.884,1.131" transform="translate(-44.407 -34.667)" fill="none" stroke="#f5f8f9" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
     <g id="Group_79" data-name="Group 79" transform="translate(26.643 3.2)">
-      <line id="Line_1" data-name="Line 1" y1="13.083" x2="11.575" transform="translate(0.754)" fill="none" stroke="#f28800" stroke-linecap="round" stroke-width="2"/>
-      <ellipse id="Ellipse_1" data-name="Ellipse 1" cx="2.692" cy="2.746" rx="2.692" ry="2.746" fill="none" stroke="#f28800" stroke-linecap="round" stroke-width="2"/>
-      <ellipse id="Ellipse_2" data-name="Ellipse 2" cx="2.692" cy="2.746" rx="2.692" ry="2.746" transform="translate(7.86 7.591)" fill="none" stroke="#f28800" stroke-linecap="round" stroke-width="2"/>
+      <line id="Line_1" data-name="Line 1" y1="13.083" x2="11.575" transform="translate(0.754)" fill="none" stroke="#ffbf00" stroke-linecap="round" stroke-width="2"/>
+      <ellipse id="Ellipse_1" data-name="Ellipse 1" cx="2.692" cy="2.746" rx="2.692" ry="2.746" fill="none" stroke="#ffbf00" stroke-linecap="round" stroke-width="2"/>
+      <ellipse id="Ellipse_2" data-name="Ellipse 2" cx="2.692" cy="2.746" rx="2.692" ry="2.746" transform="translate(7.86 7.591)" fill="none" stroke="#ffbf00" stroke-linecap="round" stroke-width="2"/>
     </g>
   </g>
 </svg>
